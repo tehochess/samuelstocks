@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Samuel Stocks — DJIA Dashboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0a0e13;
+    --surface: #111720;
+    --surface2: #171f2b;
+    --border: rgba(255,255,255,0.07);
+    --border2: rgba(255,255,255,0.12);
+    --text: #e8edf5;
+    --muted: #6b7a94;
+    --accent: #3b82f6;
+    --green: #22c55e;
+    --red: #ef4444;
+    --amber: #f59e0b;
+    --green-dim: rgba(34,197,94,0.12);
+    --red-dim: rgba(239,68,68,0.12);
+    --amber-dim: rgba(245,158,11,0.12);
+    --blue-dim: rgba(59,130,246,0.12);
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--bg); color: var(--text); font-family: 'IBM Plex Sans', sans-serif; font-size: 14px; min-height: 100vh; }
+  
+  /* Header */
+  header { border-bottom: 1px solid var(--border); padding: 0 2rem; display: flex; align-items: center; justify-content: space-between; height: 56px; position: sticky; top: 0; background: var(--bg); z-index: 100; }
+  .logo { font-family: 'IBM Plex Mono', monospace; font-size: 15px; font-weight: 500; color: var(--text); letter-spacing: -0.02em; }
+  .logo span { color: var(--accent); }
+  .header-right { display: flex; align-items: center; gap: 16px; }
+  .status-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--green); display: inline-block; margin-right: 6px; animation: pulse 2s infinite; }
+  @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.4} }
+  .status-text { font-size: 12px; color: var(--muted); font-family: 'IBM Plex Mono', monospace; }
+  .last-updated { font-size: 12px; color: var(--muted); font-family: 'IBM Plex Mono', monospace; }
+
+  /* Tabs */
+  .tabs-bar { display: flex; gap: 0; border-bottom: 1px solid var(--border); padding: 0 2rem; overflow-x: auto; }
+  .tab-btn { padding: 14px 20px; font-size: 13px; font-weight: 500; color: var(--muted); background: none; border: none; cursor: pointer; border-bottom: 2px solid transparent; margin-bottom: -1px; white-space: nowrap; transition: color 0.15s; font-family: 'IBM Plex Sans', sans-serif; }
+  .tab-btn:hover { color: var(--text); }
+  .tab-btn.active { color: var(--accent); border-bottom-color: var(--accent); }
+  .tab-count { background: var(--blue-dim); color: var(--accent); font-size: 10px; font-weight: 600; padding: 2px 6px; border-radius: 10px; margin-left: 6px; font-family: 'IBM Plex Mono', monospace; }
+  .tab-count.red { background: var(--red-dim); color: var(--red); }
+
+  /* Content */
+  .content { padding: 1.5rem 2rem; max-width: 1300px; }
+
+  /* Section */
+  .tab-panel { display: none; }
+  .tab-panel.active { display: block; }
+
+  /* Summary cards */
+  .summary-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; margin-bottom: 1.5rem; }
+  .sum-card { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 14px 16px; }
+  .sum-label { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 6px; font-family: 'IBM Plex Mono', monospace; }
+  .sum-value { font-size: 24px; font-weight: 500; color: var(--text); font-family: 'IBM Plex Mono', monospace; }
+  .sum-sub { font-size: 11px; margin-top: 4px; color: var(--muted); }
+  .sum-sub.green { color: var(--green); }
+  .sum-sub.red { color: var(--red); }
+
+  /* Tables */
+  .table-card { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; margin-bottom: 1.25rem; }
+  .table-header { padding: 14px 18px; border-bottom: 1px solid var(--border); display: flex; align-items: center; justify-content: space-between; }
+  .table-title { font-size: 13px; font-weight: 600; color: var(--text); letter-spacing: 0.01em; }
+  .table-subtitle { font-size: 12px; color: var(--muted); margin-top: 2px; }
+  table { width: 100%; border-collapse: collapse; }
+  thead th { font-size: 10px; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: 0.07em; padding: 10px 18px; text-align: left; font-family: 'IBM Plex Mono', monospace; border-bottom: 1px solid var(--border); background: rgba(255,255,255,0.02); }
+  tbody td { padding: 11px 18px; border-bottom: 1px solid var(--border); font-size: 13px; color: var(--text); vertical-align: middle; }
+  tbody tr:last-child td { border-bottom: none; }
+  tbody tr:hover { background: rgba(255,255,255,0.02); }
+
+  /* Badges */
+  .badge { display: inline-flex; align-items: center; padding: 3px 8px; border-radius: 4px; font-size: 11px; font-weight: 600; font-family: 'IBM Plex Mono', monospace; white-space: nowrap; }
+  .badge-ceo { background: rgba(59,130,246,0.18); color: #60a5fa; border: 1px solid rgba(59,130,246,0.3); }
+  .badge-cfo { background: rgba(168,85,247,0.15); color: #c084fc; border: 1px solid rgba(168,85,247,0.25); }
+  .badge-dir { background: rgba(107,114,148,0.15); color: var(--muted); border: 1px solid var(--border); }
+  .badge-squeeze { background: var(--red-dim); color: #f87171; border: 1px solid rgba(239,68,68,0.25); }
+  .badge-normal { background: var(--green-dim); color: #4ade80; border: 1px solid rgba(34,197,94,0.2); }
+  .badge-bottom { background: var(--amber-dim); color: #fbbf24; border: 1px solid rgba(245,158,11,0.25); }
+  .badge-peak { background: rgba(239,68,68,0.1); color: #f87171; border: 1px solid rgba(239,68,68,0.2); }
+
+  /* Colors */
+  .green { color: var(--green); }
+  .red { color: var(--red); }
+  .amber { color: var(--amber); }
+  .mono { font-family: 'IBM Plex Mono', monospace; }
+  .ticker { font-family: 'IBM Plex Mono', monospace; font-weight: 500; font-size: 13px; color: var(--accent); }
+
+  /* Loading / empty */
+  .loading-state { padding: 3rem; text-align: center; color: var(--muted); font-size: 13px; }
+  .loading-spinner { width: 24px; height: 24px; border: 2px solid var(--border2); border-top-color: var(--accent); border-radius: 50%; animation: spin 0.8s linear infinite; margin: 0 auto 12px; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  /* Alert banner */
+  .alert-banner { background: var(--amber-dim); border: 1px solid rgba(245,158,11,0.25); border-radius: 8px; padding: 12px 16px; margin-bottom: 1.25rem; font-size: 13px; color: #fbbf24; display: flex; align-items: center; gap: 10px; }
+
+  /* Responsive */
+  @media (max-width: 700px) {
+    header { padding: 0 1rem; }
+    .content { padding: 1rem; }
+    .tabs-bar { padding: 0 1rem; }
+    thead th, tbody td { padding: 8px 10px; font-size: 12px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">samuel<span>stocks</span></div>
+  <div class="header-right">
+    <span class="status-text"><span class="status-dot"></span>DJIA · 30 stocks</span>
+    <span class="last-updated" id="lastUpdated">Loading...</span>
+  </div>
+</header>
+
+<div class="tabs-bar">
+  <button class="tab-btn active" onclick="showTab('insider', this)">
+    Insider Trading <span class="tab-count" id="insiderCount">—</span>
+  </button>
+  <button class="tab-btn" onclick="showTab('keydates', this)">Key Dates</button>
+  <button class="tab-btn" onclick="showTab('alerts', this)">
+    Alerts <span class="tab-count red" id="alertCount">—</span>
+  </button>
+  <button class="tab-btn" onclick="showTab('movement', this)">Price Movement</button>
+</div>
+
+<div class="content">
+
+  <!-- INSIDER TRADING TAB -->
+  <div id="tab-insider" class="tab-panel active">
+    <div class="summary-row" id="insiderSummary">
+      <div class="sum-card"><div class="sum-label">Total filings (7d)</div><div class="sum-value" id="s-total">—</div></div>
+      <div class="sum-card"><div class="sum-label">Insider buys</div><div class="sum-value green" id="s-buys">—</div><div class="sum-sub green" id="s-ceo-cfo">CEO/CFO: —</div></div>
+      <div class="sum-card"><div class="sum-label">Insider sales</div><div class="sum-value red" id="s-sells">—</div></div>
+      <div class="sum-card"><div class="sum-label">Stocks with buys</div><div class="sum-value" id="s-stocks">—</div><div class="sum-sub">unique tickers</div></div>
+    </div>
+
+    <div class="table-card">
+      <div class="table-header">
+        <div>
+          <div class="table-title">Insider buys — last 7 days</div>
+          <div class="table-subtitle">CEO &amp; CFO purchases highlighted · Source: SEC EDGAR Form 4</div>
+        </div>
+      </div>
+      <div id="buysTable">
+        <div class="loading-state"><div class="loading-spinner"></div>Fetching SEC EDGAR filings...</div>
+      </div>
+    </div>
+
+    <div class="table-card">
+      <div class="table-header">
+        <div>
+          <div class="table-title">Insider sales — last 7 days</div>
+          <div class="table-subtitle">Includes shares remaining &amp; option expiry · Source: SEC EDGAR Form 4</div>
+        </div>
+      </div>
+      <div id="sellsTable">
+        <div class="loading-state"><div class="loading-spinner"></div>Fetching SEC EDGAR filings...</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- KEY DATES TAB -->
+  <div id="tab-keydates" class="tab-panel">
+    <div class="table-card">
+      <div class="table-header"><div class="table-title">Dividend dates — ex-date &amp; payout</div></div>
+      <div id="dividendTable"><div class="loading-state"><div class="loading-spinner"></div>Loading...</div></div>
+    </div>
+    <div class="table-card">
+      <div class="table-header"><div class="table-title">Upcoming earnings — short squeeze candidates flagged</div></div>
+      <div id="earningsTable"><div class="loading-state"><div class="loading-spinner"></div>Loading...</div></div>
+    </div>
+  </div>
+
+  <!-- ALERTS TAB -->
+  <div id="tab-alerts" class="tab-panel">
+    <div id="alertsList"><div class="loading-state"><div class="loading-spinner"></div>Loading alerts...</div></div>
+  </div>
+
+  <!-- MOVEMENT TAB -->
+  <div id="tab-movement" class="tab-panel">
+    <div class="table-card">
+      <div class="table-header"><div class="table-title">Stocks down 10%+ — consecutive days</div></div>
+      <div id="downTable"><div class="loading-state"><div class="loading-spinner"></div>Loading...</div></div>
+    </div>
+    <div class="table-card">
+      <div class="table-header"><div class="table-title">Stocks up 10%+ — consecutive days</div></div>
+      <div id="upTable"><div class="loading-state"><div class="loading-spinner"></div>Loading...</div></div>
+    </div>
+  </div>
+
+</div>
+
+<script>
+function showTab(name, btn) {
+  document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  document.getElementById('tab-' + name).classList.add('active');
+  btn.classList.add('active');
+}
+
+function roleBadge(role) {
+  const r = (role || '').toUpperCase();
+  if (r.includes('CEO')) return `<span class="badge badge-ceo">CEO</span>`;
+  if (r.includes('CFO')) return `<span class="badge badge-cfo">CFO</span>`;
+  return `<span class="badge badge-dir">${role || 'Insider'}</span>`;
+}
+
+function fmt(n) {
+  if (!n && n !== 0) return '—';
+  return Number(n).toLocaleString();
+}
+
+function fmtMoney(n) {
+  if (!n && n !== 0) return '—';
+  const v = Math.abs(Number(n));
+  if (v >= 1e6) return '$' + (v/1e6).toFixed(2) + 'M';
+  if (v >= 1e3) return '$' + (v/1e3).toFixed(0) + 'K';
+  return '$' + v.toFixed(0);
+}
+
+async function loadData() {
+  try {
+    const res = await fetch('data/insider.json?t=' + Date.now());
+    if (!res.ok) throw new Error('No data yet');
+    const d = await res.json();
+    renderInsider(d);
+    document.getElementById('lastUpdated').textContent = 'Updated: ' + (d.updated || 'unknown');
+  } catch(e) {
+    showFallback();
+  }
+}
+
+function renderInsider(d) {
+  const buys = d.buys || [];
+  const sells = d.sells || [];
+
+  // Summary
+  document.getElementById('s-total').textContent = buys.length + sells.length;
+  document.getElementById('s-buys').textContent = buys.length;
+  document.getElementById('s-sells').textContent = sells.length;
+  const ceoCfo = buys.filter(x => /CEO|CFO/i.test(x.role)).length;
+  document.getElementById('s-ceo-cfo').textContent = 'CEO/CFO: ' + ceoCfo;
+  const uniq = new Set([...buys, ...sells].map(x => x.ticker)).size;
+  document.getElementById('s-stocks').textContent = uniq;
+  document.getElementById('insiderCount').textContent = buys.length + sells.length;
+
+  // Buys table
+  if (buys.length === 0) {
+    document.getElementById('buysTable').innerHTML = '<div class="loading-state">No insider buys found in the last 7 days.</div>';
+  } else {
+    const rows = buys.map(b => `
+      <tr>
+        <td><span class="ticker">${b.ticker}</span></td>
+        <td>${b.company || '—'}</td>
+        <td>${b.insider || '—'}</td>
+        <td>${roleBadge(b.role)}</td>
+        <td class="mono green">${fmt(b.shares)}</td>
+        <td class="mono">${fmtMoney(b.value)}</td>
+        <td class="mono" style="color:var(--muted)">${b.date || '—'}</td>
+        <td><a href="${b.filing_url || '#'}" target="_blank" style="color:var(--accent);font-size:12px;text-decoration:none;">SEC ↗</a></td>
+      </tr>`).join('');
+    document.getElementById('buysTable').innerHTML = `
+      <table><thead><tr>
+        <th>Ticker</th><th>Company</th><th>Insider</th><th>Role</th><th>Shares bought</th><th>Value</th><th>Date</th><th>Filing</th>
+      </tr></thead><tbody>${rows}</tbody></table>`;
+  }
+
+  // Sells table
+  if (sells.length === 0) {
+    document.getElementById('sellsTable').innerHTML = '<div class="loading-state">No insider sales found in the last 7 days.</div>';
+  } else {
+    const rows = sells.map(s => `
+      <tr>
+        <td><span class="ticker">${s.ticker}</span></td>
+        <td>${s.company || '—'}</td>
+        <td>${s.insider || '—'}</td>
+        <td>${roleBadge(s.role)}</td>
+        <td class="mono red">${fmt(s.shares_sold)}</td>
+        <td class="mono">${fmt(s.shares_remaining)}</td>
+        <td class="mono" style="color:var(--muted)">${s.expiry || '—'}</td>
+        <td class="mono" style="color:var(--muted)">${s.date || '—'}</td>
+        <td><a href="${s.filing_url || '#'}" target="_blank" style="color:var(--accent);font-size:12px;text-decoration:none;">SEC ↗</a></td>
+      </tr>`).join('');
+    document.getElementById('sellsTable').innerHTML = `
+      <table><thead><tr>
+        <th>Ticker</th><th>Company</th><th>Insider</th><th>Role</th><th>Shares sold</th><th>Shares remaining</th><th>Option expiry</th><th>Date</th><th>Filing</th>
+      </tr></thead><tbody>${rows}</tbody></table>`;
+  }
+}
+
+function showFallback() {
+  document.getElementById('lastUpdated').textContent = 'Awaiting first data run';
+  const msg = '<div class="loading-state">Data not yet available — the nightly fetch runs at midnight PST.<br>Check back tomorrow morning.</div>';
+  ['buysTable','sellsTable','dividendTable','earningsTable','alertsList','downTable','upTable'].forEach(id => {
+    const el = document.getElementById(id);
+    if (el) el.innerHTML = msg;
+  });
+  document.getElementById('insiderCount').textContent = '0';
+  document.getElementById('alertCount').textContent = '0';
+}
+
+loadData();
+</script>
+</body>
+</html>
