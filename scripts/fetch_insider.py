@@ -2,7 +2,13 @@ import json, os, re, time, requests
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
-DJIA = {
+DJIA_TICKERS = [
+    "AAPL","AMGN","AXP","BA","CAT","CRM","CSCO","CVX","DIS","DOW",
+    "GS","HD","HON","IBM","INTC","JNJ","JPM","KO","MCD","MMM",
+    "MRK","MSFT","NKE","PG","TRV","UNH","V","VZ","WBA","WMT"
+]
+
+COMPANY_NAMES = {
     "AAPL":"Apple","AMGN":"Amgen","AXP":"American Express","BA":"Boeing",
     "CAT":"Caterpillar","CRM":"Salesforce","CSCO":"Cisco","CVX":"Chevron",
     "DIS":"Disney","DOW":"Dow Inc","GS":"Goldman Sachs","HD":"Home Depot",
@@ -13,221 +19,134 @@ DJIA = {
     "WBA":"Walgreens","WMT":"Walmart",
 }
 
-HEADERS = {"User-Agent": "samuelstocks-dashboard tehochess@github.com"}
 PST = ZoneInfo("America/Los_Angeles")
 
-# Hardcoded CIK map as fallback so we never fail on the SEC CIK lookup
-HARDCODED_CIKS = {
-    "AAPL":"0000320193","AMGN":"0000820081","AXP":"0000004962","BA":"0000012927",
-    "CAT":"0000018230","CRM":"0001108524","CSCO":"0000858877","CVX":"0000093410",
-    "DIS":"0001001039","DOW":"0001751788","GS":"0000886982","HD":"0000354950",
-    "HON":"0000773840","IBM":"0000051143","INTC":"0000050863","JNJ":"0000200406",
-    "JPM":"0000019617","KO":"0000021344","MCD":"0000063908","MMM":"0000066740",
-    "MRK":"0000310158","MSFT":"0000789019","NKE":"0000320187","PG":"0000080424",
-    "TRV":"0000086312","UNH":"0000731766","V":"0001403161","VZ":"0000732712",
-    "WBA":"0001141788","WMT":"0000104169",
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.5",
 }
 
-def safe_get(url, retries=3, delay=5):
-    for attempt in range(retries):
-        try:
-            r = requests.get(url, headers=HEADERS, timeout=20)
-            if r.status_code == 200 and r.text.strip():
-                return r
-            print(f"    Empty/bad response (attempt {attempt+1}/{retries}), waiting {delay}s...")
-        except Exception as e:
-            print(f"    Request error: {e} (attempt {attempt+1}/{retries}), waiting {delay}s...")
-        time.sleep(delay)
-    return None
-
-def get_cik_map():
-    print("  Fetching CIK map from SEC...")
-    r = safe_get("https://www.sec.gov/files/company_tickers.json", retries=3, delay=5)
-    if r:
-        try:
-            data = r.json()
-            result = {v["ticker"].upper(): str(v["cik_str"]).zfill(10) for v in data.values()}
-            print(f"  Loaded {len(result)} tickers from SEC")
-            return result
-        except Exception as e:
-            print(f"  Failed to parse SEC CIK map: {e}")
-    print("  Falling back to hardcoded CIK map")
-    return HARDCODED_CIKS
-
-def get_recent_form4(cik, days=30):
-    r = safe_get(f"https://data.sec.gov/submissions/CIK{cik}.json", retries=3, delay=3)
-    if not r:
-        return []
+def fetch_openinsider(ticker):
+    """Fetch insider trades from OpenInsider for a ticker."""
+    url = f"http://openinsider.com/screener?s={ticker}&o=&pl=&ph=&ll=&lh=&fd=30&fdr=&td=0&tdr=&fdlyl=&fdlyh=&daysago=30&xp=1&xs=1&vl=&vh=&ocl=&och=&sic1=-1&sicl=100&sich=9999&grp=0&nfl=&nfh=&nil=&nih=&nol=&noh=&v2l=&v2h=&oc2l=&oc2h=&sortcol=0&cnt=40&page=1"
     try:
-        rec = r.json().get("filings", {}).get("recent", {})
-        cutoff = (datetime.now(PST) - timedelta(days=days)).date()
-        out = []
-        for i, form in enumerate(rec.get("form", [])):
-            if form == "4":
-                try:
-                    d = datetime.strptime(rec["filingDate"][i], "%Y-%m-%d").date()
-                    if d >= cutoff:
-                        out.append({
-                            "date": rec["filingDate"][i],
-                            "acc": rec["accessionNumber"][i]
-                        })
-                except:
-                    pass
-        return out
+        r = requests.get(url, headers=HEADERS, timeout=15)
+        if r.status_code != 200:
+            print(f"    {ticker}: HTTP {r.status_code}")
+            return []
+        return parse_openinsider(r.text, ticker)
     except Exception as e:
-        print(f"    Error parsing filings: {e}")
+        print(f"    {ticker}: error - {e}")
         return []
 
-def get_xml(cik, acc_raw):
-    acc = acc_raw.replace("-", "")
-    pub_url = f"https://www.sec.gov/Archives/edgar/data/{int(cik)}/{acc}/{acc_raw}-index.htm"
-    base = f"https://www.sec.gov/Archives/edgar/data/{int(cik)}/{acc}/"
-
-    for candidate in [f"{acc_raw}.xml", "form4.xml"]:
-        r = safe_get(base + candidate, retries=2, delay=2)
-        if r and "ownershipDocument" in r.text:
-            return r.text, pub_url
-
-    r = safe_get(base, retries=2, delay=2)
-    if r:
-        for fname in re.findall(r'href="([^"]+\.xml)"', r.text):
-            url = f"https://www.sec.gov{fname}" if fname.startswith("/") else base + fname
-            xr = safe_get(url, retries=2, delay=2)
-            if xr and "ownershipDocument" in xr.text:
-                return xr.text, pub_url
-
-    return None, pub_url
-
-def flt(s):
-    try:
-        return float(str(s).replace(",", "").strip())
-    except:
-        return 0.0
-
-def parse_xml(xml, ticker, company, date, pub_url):
+def parse_openinsider(html, ticker):
+    """Parse OpenInsider HTML table."""
     results = []
+    company = COMPANY_NAMES.get(ticker, ticker)
 
-    name_m = re.search(r"<rptOwnerName>(.*?)</rptOwnerName>", xml, re.IGNORECASE)
-    name = name_m.group(1).strip() if name_m else "Unknown"
-
-    title_m = re.search(r"<officerTitle>(.*?)</officerTitle>", xml, re.IGNORECASE)
-    if title_m:
-        role = title_m.group(1).strip()
-    elif "<isDirector>1</isDirector>" in xml:
-        role = "Director"
+    # Find the data table
+    table_m = re.search(r'<table[^>]*class="[^"]*tinytable[^"]*"[^>]*>(.*?)</table>', html, re.DOTALL | re.IGNORECASE)
+    if not table_m:
+        # Try alternate table finding
+        table_m = re.search(r'<tbody>(.*?)</tbody>', html, re.DOTALL | re.IGNORECASE)
+        if not table_m:
+            print(f"    {ticker}: no table found")
+            return []
+        tbody = table_m.group(1)
     else:
-        role = "Insider"
+        tbody_m = re.search(r'<tbody>(.*?)</tbody>', table_m.group(1), re.DOTALL | re.IGNORECASE)
+        tbody = tbody_m.group(1) if tbody_m else table_m.group(1)
 
-    for blk in re.findall(
-        r"<nonDerivativeTransaction>(.*?)</nonDerivativeTransaction>",
-        xml, re.DOTALL | re.IGNORECASE
-    ):
-        code_m = re.search(r"<transactionCode>(.*?)</transactionCode>", blk, re.IGNORECASE)
-        code = code_m.group(1).strip() if code_m else ""
-        if code not in ("P", "S"):
+    rows = re.findall(r'<tr[^>]*>(.*?)</tr>', tbody, re.DOTALL | re.IGNORECASE)
+    print(f"    {ticker}: {len(rows)} rows found")
+
+    for row in rows:
+        cells = re.findall(r'<td[^>]*>(.*?)</td>', row, re.DOTALL | re.IGNORECASE)
+        # Strip HTML tags from cells
+        clean = [re.sub(r'<[^>]+>', '', c).strip() for c in cells]
+        if len(clean) < 10:
             continue
 
-        sh_m = re.search(r"<transactionShares>\s*<value>(.*?)</value>", blk, re.DOTALL | re.IGNORECASE)
-        px_m = re.search(r"<transactionPricePerShare>\s*<value>(.*?)</value>", blk, re.DOTALL | re.IGNORECASE)
-        rem_m = re.search(r"<sharesOwnedFollowingTransaction>\s*<value>(.*?)</value>", blk, re.DOTALL | re.IGNORECASE)
-        dir_m = re.search(r"<transactionAcquiredDisposedCode>\s*<value>(.*?)</value>", blk, re.DOTALL | re.IGNORECASE)
+        try:
+            # OpenInsider columns:
+            # 0=filing date, 1=trade date, 2=ticker, 3=company, 4=insider, 5=title,
+            # 6=type, 7=price, 8=qty, 9=owned, 10=change, 11=value
+            trade_date = clean[1] if len(clean) > 1 else ""
+            insider_name = clean[4] if len(clean) > 4 else "Unknown"
+            title = clean[5] if len(clean) > 5 else "Insider"
+            trade_type = clean[6] if len(clean) > 6 else ""
+            price_str = clean[7] if len(clean) > 7 else "0"
+            qty_str = clean[8] if len(clean) > 8 else "0"
+            owned_str = clean[9] if len(clean) > 9 else "0"
+            value_str = clean[11] if len(clean) > 11 else "0"
 
-        sh = flt(sh_m.group(1) if sh_m else 0)
-        px = flt(px_m.group(1) if px_m else 0)
-        rem = flt(rem_m.group(1) if rem_m else 0)
-        direction = dir_m.group(1).strip() if dir_m else ("A" if code == "P" else "D")
+            # Clean numbers
+            def clean_num(s):
+                try:
+                    return float(re.sub(r'[^\d.-]', '', s) or '0')
+                except:
+                    return 0.0
 
-        print(f"        {code} {direction} {int(sh)} shares @ ${px}")
-        results.append({
-            "ticker": ticker, "company": company, "insider": name, "role": role,
-            "code": code, "direction": direction, "shares": int(sh),
-            "value": round(sh * px), "shares_remaining": int(rem),
-            "date": date, "filing_url": pub_url
-        })
+            price = clean_num(price_str)
+            qty = abs(int(clean_num(qty_str)))
+            owned = abs(int(clean_num(owned_str)))
+            value = abs(int(clean_num(value_str)))
 
-    for blk in re.findall(
-        r"<derivativeTransaction>(.*?)</derivativeTransaction>",
-        xml, re.DOTALL | re.IGNORECASE
-    ):
-        code_m = re.search(r"<transactionCode>(.*?)</transactionCode>", blk, re.IGNORECASE)
-        code = code_m.group(1).strip() if code_m else ""
-        if code not in ("P", "S", "M", "X"):
+            if qty == 0:
+                continue
+
+            # P = Purchase, S = Sale
+            is_buy = "P" in trade_type or "Purchase" in trade_type
+            is_sell = "S" in trade_type or "Sale" in trade_type
+
+            if not is_buy and not is_sell:
+                print(f"      skipping type: {trade_type}")
+                continue
+
+            filing_url = f"http://openinsider.com/screener?s={ticker}"
+
+            print(f"      {trade_type} | {insider_name} | {qty:,} shares @ ${price} | {trade_date}")
+
+            record = {
+                "ticker": ticker,
+                "company": company,
+                "insider": insider_name,
+                "role": title,
+                "date": trade_date,
+                "filing_url": filing_url,
+            }
+
+            if is_buy:
+                record["shares"] = qty
+                record["value"] = value or round(qty * price)
+                results.append(("buy", record))
+            else:
+                record["shares_sold"] = qty
+                record["shares_remaining"] = owned
+                record["expiry"] = None
+                record["value"] = value or round(qty * price)
+                results.append(("sell", record))
+
+        except Exception as e:
+            print(f"      row parse error: {e}")
             continue
-
-        dir_m = re.search(r"<transactionAcquiredDisposedCode>\s*<value>(.*?)</value>", blk, re.DOTALL | re.IGNORECASE)
-        direction = dir_m.group(1).strip() if dir_m else ""
-        if direction != "D":
-            continue
-
-        sh_m = re.search(r"<transactionShares>\s*<value>(.*?)</value>", blk, re.DOTALL | re.IGNORECASE)
-        px_m = re.search(r"<transactionPricePerShare>\s*<value>(.*?)</value>", blk, re.DOTALL | re.IGNORECASE)
-        rem_m = re.search(r"<sharesOwnedFollowingTransaction>\s*<value>(.*?)</value>", blk, re.DOTALL | re.IGNORECASE)
-        exp_m = re.search(r"<expirationDate>\s*<value>(.*?)</value>", blk, re.DOTALL | re.IGNORECASE)
-
-        sh = flt(sh_m.group(1) if sh_m else 0)
-        px = flt(px_m.group(1) if px_m else 0)
-        rem = flt(rem_m.group(1) if rem_m else 0)
-
-        results.append({
-            "ticker": ticker, "company": company, "insider": name, "role": role,
-            "code": code, "direction": direction, "shares": int(sh),
-            "value": round(sh * px), "shares_remaining": int(rem),
-            "expiry": exp_m.group(1).strip() if exp_m else None,
-            "date": date, "filing_url": pub_url
-        })
 
     return results
 
 def main():
-    print("Loading SEC CIK map...")
-    cik_map = get_cik_map()
     buys = []
     sells = []
 
-    for ticker, company in DJIA.items():
-        cik = cik_map.get(ticker)
-        if not cik:
-            print(f"  {ticker}: no CIK, skipping")
-            continue
-
-        print(f"  {ticker} (CIK {cik})...", flush=True)
-        try:
-            filings = get_recent_form4(cik)
-            print(f"    {len(filings)} Form 4(s) in last 30 days")
-
-            for f in filings[:5]:
-                xml, pub_url = get_xml(cik, f["acc"])
-                if not xml:
-                    print(f"    could not get XML for {f['acc']}")
-                    time.sleep(0.5)
-                    continue
-
-                txns = parse_xml(xml, ticker, company, f["date"], pub_url)
-                for t in txns:
-                    if t["direction"] == "A" or t["code"] == "P":
-                        buys.append({
-                            "ticker": t["ticker"], "company": t["company"],
-                            "insider": t["insider"], "role": t["role"],
-                            "shares": t["shares"], "value": t["value"],
-                            "date": t["date"], "filing_url": t["filing_url"]
-                        })
-                    elif t["direction"] == "D" or t["code"] == "S":
-                        sells.append({
-                            "ticker": t["ticker"], "company": t["company"],
-                            "insider": t["insider"], "role": t["role"],
-                            "shares_sold": t["shares"],
-                            "shares_remaining": t["shares_remaining"],
-                            "expiry": t.get("expiry"),
-                            "value": t["value"],
-                            "date": t["date"],
-                            "filing_url": t["filing_url"]
-                        })
-                time.sleep(0.3)
-
-        except Exception as e:
-            print(f"    ERROR processing {ticker}: {e}")
-
-        time.sleep(0.2)
+    for ticker in DJIA_TICKERS:
+        print(f"  {ticker}...", flush=True)
+        txns = fetch_openinsider(ticker)
+        for kind, record in txns:
+            if kind == "buy":
+                buys.append(record)
+            else:
+                sells.append(record)
+        time.sleep(1.5)  # be polite to OpenInsider
 
     def sort_key(x):
         r = (x.get("role") or "").upper()
