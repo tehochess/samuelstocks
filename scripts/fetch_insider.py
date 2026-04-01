@@ -71,12 +71,12 @@ def parse_xml(xml, ticker, company, date, pub_url):
         code_m = re.search(r"<transactionCode>(.*?)</transactionCode>", blk, re.IGNORECASE)
         code = code_m.group(1).strip() if code_m else ""
         if code not in ("P","S"): continue
-        sh_m  = re.search(r"<transactionShares>\s*<value>(.*?)</value>", blk, re.DOTALL|re.IGNORECASE)
-        px_m  = re.search(r"<transactionPricePerShare>\s*<value>(.*?)</value>", blk, re.DOTALL|re.IGNORECASE)
+        sh_m = re.search(r"<transactionShares>\s*<value>(.*?)</value>", blk, re.DOTALL|re.IGNORECASE)
+        px_m = re.search(r"<transactionPricePerShare>\s*<value>(.*?)</value>", blk, re.DOTALL|re.IGNORECASE)
         rem_m = re.search(r"<sharesOwnedFollowingTransaction>\s*<value>(.*?)</value>", blk, re.DOTALL|re.IGNORECASE)
         dir_m = re.search(r"<transactionAcquiredDisposedCode>\s*<value>(.*?)</value>", blk, re.DOTALL|re.IGNORECASE)
-        sh  = flt(sh_m.group(1)  if sh_m  else 0)
-        px  = flt(px_m.group(1)  if px_m  else 0)
+        sh = flt(sh_m.group(1) if sh_m else 0)
+        px = flt(px_m.group(1) if px_m else 0)
         rem = flt(rem_m.group(1) if rem_m else 0)
         direction = dir_m.group(1).strip() if dir_m else ("A" if code=="P" else "D")
         print(f"        {code} {direction} {int(sh)} shares @ ${px}")
@@ -90,12 +90,12 @@ def parse_xml(xml, ticker, company, date, pub_url):
         dir_m = re.search(r"<transactionAcquiredDisposedCode>\s*<value>(.*?)</value>", blk, re.DOTALL|re.IGNORECASE)
         direction = dir_m.group(1).strip() if dir_m else ""
         if direction != "D": continue
-        sh_m  = re.search(r"<transactionShares>\s*<value>(.*?)</value>", blk, re.DOTALL|re.IGNORECASE)
-        px_m  = re.search(r"<transactionPricePerShare>\s*<value>(.*?)</value>", blk, re.DOTALL|re.IGNORECASE)
+        sh_m = re.search(r"<transactionShares>\s*<value>(.*?)</value>", blk, re.DOTALL|re.IGNORECASE)
+        px_m = re.search(r"<transactionPricePerShare>\s*<value>(.*?)</value>", blk, re.DOTALL|re.IGNORECASE)
         rem_m = re.search(r"<sharesOwnedFollowingTransaction>\s*<value>(.*?)</value>", blk, re.DOTALL|re.IGNORECASE)
         exp_m = re.search(r"<expirationDate>\s*<value>(.*?)</value>", blk, re.DOTALL|re.IGNORECASE)
-        sh  = flt(sh_m.group(1)  if sh_m  else 0)
-        px  = flt(px_m.group(1)  if px_m  else 0)
+        sh = flt(sh_m.group(1) if sh_m else 0)
+        px = flt(px_m.group(1) if px_m else 0)
         rem = flt(rem_m.group(1) if rem_m else 0)
         results.append({"ticker":ticker,"company":company,"insider":name,"role":role,
             "code":code,"direction":direction,"shares":int(sh),"value":round(sh*px),
@@ -126,3 +126,21 @@ def main():
                     elif t["direction"]=="D" or t["code"]=="S":
                         sells.append({"ticker":t["ticker"],"company":t["company"],"insider":t["insider"],
                             "role":t["role"],"shares_sold":t["shares"],"shares_remaining":t["shares_remaining"],
+                            "expiry":t.get("expiry"),"value":t["value"],"date":t["date"],"filing_url":t["filing_url"]})
+                time.sleep(0.2)
+        except Exception as e:
+            print(f"    ERROR: {e}")
+        time.sleep(0.15)
+    def sort_key(x):
+        r=(x.get("role")or"").upper()
+        return(0 if"CEO"in r else 1 if"CFO"in r else 2,-x.get("value",0))
+    buys.sort(key=sort_key); sells.sort(key=sort_key)
+    now = datetime.now(PST)
+    os.makedirs("data", exist_ok=True)
+    with open("data/insider.json","w") as f:
+        json.dump({"updated":now.strftime("%b %d, %Y %I:%M %p PST"),
+                   "updated_iso":now.isoformat(),"buys":buys,"sells":sells},f,indent=2)
+    print(f"\nDone: {len(buys)} buys, {len(sells)} sells -> data/insider.json")
+
+if __name__ == "__main__":
+    main()
