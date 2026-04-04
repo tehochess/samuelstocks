@@ -1,6 +1,6 @@
 {
-  "updated": "Apr 03, 2026 03:10 AM PST",
-  "updated_iso": "2026-04-03T03:10:44.928709-07:00",
+  "updated": "Apr 04, 2026 02:08 AM PST",
+  "updated_iso": "2026-04-04T02:08:25.019636-07:00",
   "buys": [
     {
       "ticker": "MSFT",
@@ -11,6 +11,16 @@
       "filing_url": "http://openinsider.com/screener?s=MSFT",
       "shares": 5000,
       "value": 1986750
+    },
+    {
+      "ticker": "BA",
+      "company": "Boeing",
+      "insider": "Buckley Mortimer J",
+      "role": "Dir",
+      "date": "2026-03-05 16:59:07",
+      "filing_url": "http://openinsider.com/screener?s=BA",
+      "shares": 2230,
+      "value": 499966
     },
     {
       "ticker": "IBM",
@@ -79,6 +89,18 @@
       "shares_remaining": 6275645,
       "expiry": null,
       "value": 21353561
+    },
+    {
+      "ticker": "KO",
+      "company": "Coca-Cola",
+      "insider": "Quincey James",
+      "role": "COB, CEO",
+      "date": "2026-03-05 12:22:39",
+      "filing_url": "http://openinsider.com/screener?s=KO",
+      "shares_sold": 250688,
+      "shares_remaining": 331777,
+      "expiry": null,
+      "value": 19839138
     },
     {
       "ticker": "MCD",
@@ -309,18 +331,6 @@
       "value": 5833934
     },
     {
-      "ticker": "CVX",
-      "company": "Chevron",
-      "insider": "Bonner Eimear P",
-      "role": "CFO",
-      "date": "2026-02-03 20:07:20",
-      "filing_url": "http://openinsider.com/screener?s=CVX",
-      "shares_sold": 32100,
-      "shares_remaining": 5792,
-      "expiry": null,
-      "value": 5617731
-    },
-    {
       "ticker": "MRK",
       "company": "Merck",
       "insider": "Litchfield Caroline",
@@ -343,6 +353,18 @@
       "shares_remaining": 27535,
       "expiry": null,
       "value": 2395960
+    },
+    {
+      "ticker": "HD",
+      "company": "Home Depot",
+      "insider": "McPhail Richard V",
+      "role": "EVP, CFO",
+      "date": "2026-03-05 17:09:03",
+      "filing_url": "http://openinsider.com/screener?s=HD",
+      "shares_sold": 2550,
+      "shares_remaining": 44566,
+      "expiry": null,
+      "value": 940670
     },
     {
       "ticker": "JPM",
@@ -427,6 +449,18 @@
       "shares_remaining": 30244,
       "expiry": null,
       "value": 26233775
+    },
+    {
+      "ticker": "AMGN",
+      "company": "Amgen",
+      "insider": "Santos Esteban",
+      "role": "EVP, Operations",
+      "date": "2026-03-02 19:20:03",
+      "filing_url": "http://openinsider.com/screener?s=AMGN",
+      "shares_sold": 54792,
+      "shares_remaining": 77522,
+      "expiry": null,
+      "value": 20772595
     },
     {
       "ticker": "CVX",
@@ -525,16 +559,16 @@
       "value": 11163150
     },
     {
-      "ticker": "CAT",
-      "company": "Caterpillar",
-      "insider": "De Lange Bob",
-      "role": "Group Pres",
-      "date": "2026-02-03 15:55:11",
-      "filing_url": "http://openinsider.com/screener?s=CAT",
-      "shares_sold": 15977,
-      "shares_remaining": 79953,
+      "ticker": "AXP",
+      "company": "American Express",
+      "insider": "Marrs Anna",
+      "role": "Group Pres, GMNS",
+      "date": "2026-02-06 16:05:22",
+      "filing_url": "http://openinsider.com/screener?s=AXP",
+      "shares_sold": 27425,
+      "shares_remaining": 20394,
       "expiry": null,
-      "value": 10912131
+      "value": 9599024
     },
     {
       "ticker": "CAT",
@@ -561,40 +595,16 @@
       "value": 9430446
     },
     {
-      "ticker": "CVX",
-      "company": "Chevron",
-      "insider": "Nelson Mark A",
-      "role": "Vice COB",
-      "date": "2026-02-03 19:54:50",
-      "filing_url": "http://openinsider.com/screener?s=CVX",
-      "shares_sold": 45800,
-      "shares_remaining": 26051,
+      "ticker": "AXP",
+      "company": "American Express",
+      "insider": "Pickett Denise",
+      "role": "Pres, Enterprise Shared Serv.",
+      "date": "2026-02-06 16:06:58",
+      "filing_url": "http://openinsider.com/screener?s=AXP",
+      "shares_sold": 23385,
+      "shares_remaining": 9574,
       "expiry": null,
-      "value": 7976844
-    },
-    {
-      "ticker": "CAT",
-      "company": "Caterpillar",
-      "insider": "Fassino Anthony D.",
-      "role": "Group Pres",
-      "date": "2026-02-03 15:56:39",
-      "filing_url": "http://openinsider.com/screener?s=CAT",
-      "shares_sold": 10671,
-      "shares_remaining": 42650,
-      "expiry": null,
-      "value": 7261082
-    },
-    {
-      "ticker": "CVX",
-      "company": "Chevron",
-      "insider": "Pate R. Hewitt",
-      "role": "GC",
-      "date": "2026-02-03 19:50:54",
-      "filing_url": "http://openinsider.com/screener?s=CVX",
-      "shares_sold": 41134,
-      "shares_remaining": 28147,
-      "expiry": null,
-      "value": 7256038
+      "value": 8346340
     },
     {
       "ticker": "CAT",
@@ -619,6 +629,42 @@
       "shares_remaining": 27560,
       "expiry": null,
       "value": 5527506
+    },
+    {
+      "ticker": "AXP",
+      "company": "American Express",
+      "insider": "Radhakrishnan Ravikumar",
+      "role": "CIO",
+      "date": "2026-02-10 16:06:09",
+      "filing_url": "http://openinsider.com/screener?s=AXP",
+      "shares_sold": 15000,
+      "shares_remaining": 8945,
+      "expiry": null,
+      "value": 5348672
+    },
+    {
+      "ticker": "AXP",
+      "company": "American Express",
+      "insider": "Joabar Raymond",
+      "role": "Grp. Pres, Global Comm. Serv.",
+      "date": "2026-02-20 16:05:01",
+      "filing_url": "http://openinsider.com/screener?s=AXP",
+      "shares_sold": 14000,
+      "shares_remaining": 10442,
+      "expiry": null,
+      "value": 4769396
+    },
+    {
+      "ticker": "AXP",
+      "company": "American Express",
+      "insider": "Seeger Laureen",
+      "role": "GC",
+      "date": "2026-02-10 16:04:28",
+      "filing_url": "http://openinsider.com/screener?s=AXP",
+      "shares_sold": 12737,
+      "shares_remaining": 9002,
+      "expiry": null,
+      "value": 4597930
     },
     {
       "ticker": "MRK",
@@ -765,6 +811,18 @@
       "value": 2931075
     },
     {
+      "ticker": "AXP",
+      "company": "American Express",
+      "insider": "Grosfield Howard",
+      "role": "Group Pres, U.S. Cons. Serv.",
+      "date": "2026-02-13 16:05:18",
+      "filing_url": "http://openinsider.com/screener?s=AXP",
+      "shares_sold": 8134,
+      "shares_remaining": 9532,
+      "expiry": null,
+      "value": 2820302
+    },
+    {
       "ticker": "WMT",
       "company": "Walmart",
       "insider": "Rainey John D",
@@ -813,18 +871,6 @@
       "value": 2456150
     },
     {
-      "ticker": "WMT",
-      "company": "Walmart",
-      "insider": "Rainey John D",
-      "role": "EVP",
-      "date": "2026-02-03 19:31:29",
-      "filing_url": "http://openinsider.com/screener?s=WMT",
-      "shares_sold": 20000,
-      "shares_remaining": 506764,
-      "expiry": null,
-      "value": 2445353
-    },
-    {
       "ticker": "MRK",
       "company": "Merck",
       "insider": "Guindo Chirfi",
@@ -837,16 +883,16 @@
       "value": 2437676
     },
     {
-      "ticker": "HON",
-      "company": "Honeywell",
-      "insider": "Mailloux Robert D.",
-      "role": "VP, Controller",
-      "date": "2026-02-03 16:18:17",
-      "filing_url": "http://openinsider.com/screener?s=HON",
-      "shares_sold": 10549,
-      "shares_remaining": 5390,
+      "ticker": "KO",
+      "company": "Coca-Cola",
+      "insider": "Pietracci Bruno",
+      "role": "President, Latin America OU",
+      "date": "2026-03-05 12:18:56",
+      "filing_url": "http://openinsider.com/screener?s=KO",
+      "shares_sold": 28765,
+      "shares_remaining": 44608,
       "expiry": null,
-      "value": 2415721
+      "value": 2284318
     },
     {
       "ticker": "CVX",
@@ -907,6 +953,18 @@
       "shares_remaining": 17862,
       "expiry": null,
       "value": 2056287
+    },
+    {
+      "ticker": "KO",
+      "company": "Coca-Cola",
+      "insider": "Quan Nancy",
+      "role": "EVP",
+      "date": "2026-03-05 13:39:56",
+      "filing_url": "http://openinsider.com/screener?s=KO",
+      "shares_sold": 23556,
+      "shares_remaining": 229070,
+      "expiry": null,
+      "value": 1872747
     },
     {
       "ticker": "MRK",
@@ -1233,18 +1291,6 @@
       "value": 1010070
     },
     {
-      "ticker": "INTC",
-      "company": "Intel",
-      "insider": "Miller Boise April",
-      "role": "EVP, GC",
-      "date": "2026-02-03 16:53:03",
-      "filing_url": "http://openinsider.com/screener?s=INTC",
-      "shares_sold": 20000,
-      "shares_remaining": 113060,
-      "expiry": null,
-      "value": 981000
-    },
-    {
       "ticker": "MMM",
       "company": "3M",
       "insider": "Reinseth Theresa E",
@@ -1315,6 +1361,18 @@
       "shares_remaining": 824,
       "expiry": null,
       "value": 742802
+    },
+    {
+      "ticker": "HD",
+      "company": "Home Depot",
+      "insider": "Deaton John A.",
+      "role": "EVP - Supply Chain, Prod. Dev",
+      "date": "2026-03-05 17:06:11",
+      "filing_url": "http://openinsider.com/screener?s=HD",
+      "shares_sold": 1793,
+      "shares_remaining": 14129,
+      "expiry": null,
+      "value": 661617
     },
     {
       "ticker": "BA",
@@ -1391,18 +1449,6 @@
     {
       "ticker": "VZ",
       "company": "Verizon",
-      "insider": "Russo Joseph J.",
-      "role": "EVP, Pres-Global Networks, Tec",
-      "date": "2026-02-03 20:09:21",
-      "filing_url": "http://openinsider.com/screener?s=VZ",
-      "shares_sold": 9579,
-      "shares_remaining": 50356,
-      "expiry": null,
-      "value": 429906
-    },
-    {
-      "ticker": "VZ",
-      "company": "Verizon",
       "insider": "Stillwell Mary-Lee",
       "role": "SVP, Controller",
       "date": "2026-03-03 14:03:02",
@@ -1411,6 +1457,18 @@
       "shares_remaining": 43782,
       "expiry": null,
       "value": 428450
+    },
+    {
+      "ticker": "AMGN",
+      "company": "Amgen",
+      "insider": "Busch Matthew C.",
+      "role": "VP, Finance, CAO",
+      "date": "2026-02-20 19:43:21",
+      "filing_url": "http://openinsider.com/screener?s=AMGN",
+      "shares_sold": 1000,
+      "shares_remaining": 3423,
+      "expiry": null,
+      "value": 375790
     },
     {
       "ticker": "BA",
