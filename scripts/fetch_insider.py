@@ -25,51 +25,41 @@ HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
     "Accept-Language": "en-US,en;q=0.5",
-    "Accept-Encoding": "gzip, deflate",
-    "Connection": "keep-alive",
 }
 
 def fetch_ticker(ticker):
     """
-    Use the OpenInsider cluster page for a specific ticker.
-    This gives us ALL recent filings sorted by filing date descending.
-    Much more reliable than the screener URL.
+    Use OpenInsider screener with a 60-day window and sort by filing date descending.
+    This reliably captures all recent transactions including S+OE (sale + option exercise).
+    xp=1 includes purchases, xs=1 includes sales, sortcol=1 sorts by filing date desc.
     """
-    # This URL fetches the dedicated ticker page — sorted by most recent first
-    url = f"http://openinsider.com/{ticker}"
+    url = (
+        f"http://openinsider.com/screener?s={ticker}&o=&pl=&ph=&ll=&lh="
+        f"&fd=60&fdr=&td=0&tdr=&fdlyl=&fdlyh=&daysago=&xp=1&xs=1"
+        f"&vl=&vh=&ocl=&och=&sic1=-1&sicl=100&sich=9999"
+        f"&grp=0&nfl=&nfh=&nil=&nih=&nol=&noh=&v2l=&v2h=&oc2l=&oc2h="
+        f"&sortcol=1&cnt=40&page=1"
+    )
     try:
         r = requests.get(url, headers=HEADERS, timeout=20)
         if r.status_code != 200:
             print(f"    {ticker}: HTTP {r.status_code}")
             return []
-        return parse_ticker_page(r.text, ticker)
+        return parse_page(r.text, ticker)
     except Exception as e:
-        print(f"    {ticker}: request error - {e}")
+        print(f"    {ticker}: error - {e}")
         return []
 
-def parse_ticker_page(html, ticker):
-    """Parse the OpenInsider ticker page — extracts all recent transactions."""
+def parse_page(html, ticker):
     company = COMPANY_NAMES.get(ticker, ticker)
     results = []
 
-    # Find all tables on the page — we want the one with transaction data
-    # OpenInsider ticker pages have a table with class "tinytable"
-    tables = re.findall(r'<table[^>]*class="[^"]*tinytable[^"]*"[^>]*>(.*?)</table>', html, re.DOTALL | re.IGNORECASE)
-
-    if not tables:
-        # fallback: find any tbody
-        tables = re.findall(r'<tbody>(.*?)</tbody>', html, re.DOTALL | re.IGNORECASE)
-
-    if not tables:
-        print(f"    {ticker}: no table found")
+    # Find the data table
+    table_m = re.search(r'<tbody>(.*?)</tbody>', html, re.DOTALL | re.IGNORECASE)
+    if not table_m:
         return []
 
-    # Use the largest table (most data)
-    table = max(tables, key=len)
-    rows = re.findall(r'<tr[^>]*>(.*?)</tr>', table, re.DOTALL | re.IGNORECASE)
-
-    # cutoff: only show last 30 days
-    cutoff = datetime.now(PST).date() - timedelta(days=30)
+    rows = re.findall(r'<tr[^>]*>(.*?)</tr>', table_m.group(1), re.DOTALL | re.IGNORECASE)
 
     for row in rows:
         cells = re.findall(r'<td[^>]*>(.*?)</td>', row, re.DOTALL | re.IGNORECASE)
@@ -79,37 +69,19 @@ def parse_ticker_page(html, ticker):
             continue
 
         try:
-            # OpenInsider ticker page columns:
-            # 0=X, 1=filing date, 2=trade date, 3=ticker, 4=company,
-            # 5=insider name, 6=title, 7=trade type, 8=price,
-            # 9=qty, 10=owned, 11=delta own%, 12=value
-
             filing_date_str = clean[1] if len(clean) > 1 else ""
             trade_date_str  = clean[2] if len(clean) > 2 else ""
-            insider_name    = clean[5] if len(clean) > 5 else "Unknown"
-            title           = clean[6] if len(clean) > 6 else "Insider"
-            trade_type      = clean[7] if len(clean) > 7 else ""
-            price_str       = clean[8] if len(clean) > 8 else "0"
-            qty_str         = clean[9] if len(clean) > 9 else "0"
-            owned_str       = clean[10] if len(clean) > 10 else "0"
-            value_str       = clean[12] if len(clean) > 12 else "0"
+            insider_name    = clean[4] if len(clean) > 4 else "Unknown"
+            title           = clean[5] if len(clean) > 5 else "Insider"
+            trade_type      = clean[6] if len(clean) > 6 else ""
+            price_str       = clean[7] if len(clean) > 7 else "0"
+            qty_str         = clean[8] if len(clean) > 8 else "0"
+            owned_str       = clean[9] if len(clean) > 9 else "0"
+            value_str       = clean[11] if len(clean) > 11 else "0"
 
-            # Parse filing date for cutoff check
-            try:
-                # Date format from OpenInsider: "2026-04-03 18:30:45" or "2026-04-03"
-                date_part = filing_date_str.split(" ")[0]
-                filing_date = datetime.strptime(date_part, "%Y-%m-%d").date()
-                if filing_date < cutoff:
-                    continue  # skip old filings
-            except Exception:
-                pass  # if we can't parse date, include it anyway
-
-            # Clean numeric strings
             def to_num(s):
-                try:
-                    return float(re.sub(r'[^\d.-]', '', s) or '0')
-                except:
-                    return 0.0
+                try: return float(re.sub(r'[^\d.-]', '', s) or '0')
+                except: return 0.0
 
             price = to_num(price_str)
             qty   = abs(int(to_num(qty_str)))
@@ -119,43 +91,36 @@ def parse_ticker_page(html, ticker):
             if qty == 0:
                 continue
 
-            # Determine buy vs sell
-            # P = Purchase, S = Sale, S+OE = Sale after option exercise
-            # We capture both pure sales AND sale+OE as sells
-            tt_upper = trade_type.upper()
-            is_buy  = tt_upper.startswith("P") or "PURCHASE" in tt_upper
-            is_sell = tt_upper.startswith("S") or "SALE" in tt_upper
+            tt = trade_type.upper()
+            # Capture P=purchase, S=sale, S-Sale+OE=sale after option exercise
+            is_buy  = tt.startswith("P") or tt == "P - PURCHASE"
+            is_sell = tt.startswith("S") or "SALE" in tt
 
             if not is_buy and not is_sell:
+                print(f"      skipping: {trade_type}")
                 continue
 
-            # Use trade date for display, filing date as fallback
             display_date = trade_date_str or filing_date_str
+            filing_url   = f"http://openinsider.com/screener?s={ticker}"
+            computed_val = value if value > 0 else round(qty * price)
 
-            filing_url = f"http://openinsider.com/{ticker}"
-
-            computed_value = value if value > 0 else round(qty * price)
-
-            print(f"      {trade_type:15} | {title:20} | {insider_name:25} | {qty:>10,} shares | ${computed_value:>12,} | {display_date}")
+            print(f"      {trade_type:20} | {title:20} | {insider_name:25} | {qty:>8,} | ${computed_val:>12,} | {display_date}")
 
             record = {
-                "ticker":  ticker,
-                "company": company,
-                "insider": insider_name,
-                "role":    title,
-                "date":    display_date,
-                "filing_url": filing_url,
+                "ticker": ticker, "company": company,
+                "insider": insider_name, "role": title,
+                "date": display_date, "filing_url": filing_url,
             }
 
             if is_buy:
                 record["shares"] = qty
-                record["value"]  = computed_value
+                record["value"]  = computed_val
                 results.append(("buy", record))
             else:
                 record["shares_sold"]      = qty
                 record["shares_remaining"] = owned
                 record["expiry"]           = None
-                record["value"]            = computed_value
+                record["value"]            = computed_val
                 results.append(("sell", record))
 
         except Exception as e:
@@ -164,21 +129,17 @@ def parse_ticker_page(html, ticker):
     return results
 
 def main():
-    buys  = []
-    sells = []
+    buys, sells = [], []
 
     for ticker in DJIA_TICKERS:
         print(f"  {ticker}...", flush=True)
         txns = fetch_ticker(ticker)
         print(f"    -> {len(txns)} transactions")
         for kind, record in txns:
-            if kind == "buy":
-                buys.append(record)
-            else:
-                sells.append(record)
-        time.sleep(1.2)  # polite delay between requests
+            if kind == "buy": buys.append(record)
+            else: sells.append(record)
+        time.sleep(1.2)
 
-    # Sort: CEO/CFO first, then by value descending
     def sort_key(x):
         r = (x.get("role") or "").upper()
         if "CEO" in r:   return (0, -x.get("value", 0))
@@ -194,8 +155,7 @@ def main():
         json.dump({
             "updated":     now.strftime("%b %d, %Y %I:%M %p PST"),
             "updated_iso": now.isoformat(),
-            "buys":  buys,
-            "sells": sells,
+            "buys": buys, "sells": sells,
         }, f, indent=2)
 
     print(f"\nDone: {len(buys)} buys, {len(sells)} sells -> data/insider.json")
