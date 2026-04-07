@@ -1,6 +1,6 @@
 {
-  "updated": "Apr 07, 2026 03:43 AM PST",
-  "updated_iso": "2026-04-07T03:43:57.352425-07:00",
+  "updated": "Apr 07, 2026 04:34 AM PST",
+  "updated_iso": "2026-04-07T04:34:58.425998-07:00",
   "buys": [
     {
       "ticker": "MSFT",
@@ -11,20 +11,76 @@
       "filing_url": "http://openinsider.com/screener?s=MSFT",
       "shares": 5000,
       "value": 1986750
+    },
+    {
+      "ticker": "IBM",
+      "company": "IBM",
+      "insider": "Miebach Michael",
+      "role": "Dir",
+      "date": "2026-02-25 16:32:44",
+      "filing_url": "http://openinsider.com/screener?s=IBM",
+      "shares": 434,
+      "value": 101264
+    },
+    {
+      "ticker": "IBM",
+      "company": "IBM",
+      "insider": "Howard Michelle J",
+      "role": "Dir",
+      "date": "2026-02-25 16:34:02",
+      "filing_url": "http://openinsider.com/screener?s=IBM",
+      "shares": 50,
+      "value": 11891
     }
   ],
   "sells": [
     {
-      "ticker": "CVX",
-      "company": "Chevron",
-      "insider": "Wirth Michael K",
+      "ticker": "JPM",
+      "company": "JPMorgan Chase",
+      "insider": "Dimon James",
       "role": "COB, CEO",
-      "date": "2026-03-04 18:09:48",
-      "filing_url": "http://openinsider.com/screener?s=CVX",
-      "shares_sold": 272624,
-      "shares_remaining": 67785,
+      "date": "2026-02-19 17:19:53",
+      "filing_url": "http://openinsider.com/screener?s=JPM",
+      "shares_sold": 69512,
+      "shares_remaining": 6275645,
       "expiry": null,
-      "value": 51622487
+      "value": 21353561
+    },
+    {
+      "ticker": "KO",
+      "company": "Coca-Cola",
+      "insider": "Quincey James",
+      "role": "COB, CEO",
+      "date": "2026-03-05 12:22:39",
+      "filing_url": "http://openinsider.com/screener?s=KO",
+      "shares_sold": 250688,
+      "shares_remaining": 331777,
+      "expiry": null,
+      "value": 19839138
+    },
+    {
+      "ticker": "MCD",
+      "company": "McDonald's",
+      "insider": "Kempczinski Christopher J",
+      "role": "COB, CEO",
+      "date": "2026-02-17 19:47:37",
+      "filing_url": "http://openinsider.com/screener?s=MCD",
+      "shares_sold": 52553,
+      "shares_remaining": 66288,
+      "expiry": null,
+      "value": 17470981
+    },
+    {
+      "ticker": "JPM",
+      "company": "JPMorgan Chase",
+      "insider": "Rohrbaugh Troy L",
+      "role": "Co-CEO CIB",
+      "date": "2026-02-19 17:33:57",
+      "filing_url": "http://openinsider.com/screener?s=JPM",
+      "shares_sold": 50000,
+      "shares_remaining": 111371,
+      "expiry": null,
+      "value": 15355670
     },
     {
       "ticker": "PG",
@@ -39,6 +95,18 @@
       "value": 5859002
     },
     {
+      "ticker": "JPM",
+      "company": "JPMorgan Chase",
+      "insider": "Erdoes Mary E.",
+      "role": "CEO Asset, Wealth Management",
+      "date": "2026-02-17 17:21:19",
+      "filing_url": "http://openinsider.com/screener?s=JPM",
+      "shares_sold": 5731,
+      "shares_remaining": 613405,
+      "expiry": null,
+      "value": 1756046
+    },
+    {
       "ticker": "WMT",
       "company": "Walmart",
       "insider": "Furner John R.",
@@ -49,6 +117,30 @@
       "shares_remaining": 729585,
       "expiry": null,
       "value": 1694479
+    },
+    {
+      "ticker": "JPM",
+      "company": "JPMorgan Chase",
+      "insider": "Lake Marianne",
+      "role": "CEO CCB",
+      "date": "2026-02-17 17:21:15",
+      "filing_url": "http://openinsider.com/screener?s=JPM",
+      "shares_sold": 3907,
+      "shares_remaining": 249587,
+      "expiry": null,
+      "value": 1197158
+    },
+    {
+      "ticker": "JPM",
+      "company": "JPMorgan Chase",
+      "insider": "Petno Douglas B",
+      "role": "Co-CEO CIB",
+      "date": "2026-02-17 17:21:20",
+      "filing_url": "http://openinsider.com/screener?s=JPM",
+      "shares_sold": 3487,
+      "shares_remaining": 435285,
+      "expiry": null,
+      "value": 1068429
     },
     {
       "ticker": "PG",
@@ -63,16 +155,76 @@
       "value": 917199
     },
     {
-      "ticker": "CVX",
-      "company": "Chevron",
-      "insider": "Bonner Eimear P",
-      "role": "CFO",
-      "date": "2026-03-03 18:25:12",
-      "filing_url": "http://openinsider.com/screener?s=CVX",
-      "shares_sold": 45800,
-      "shares_remaining": 8835,
+      "ticker": "HON",
+      "company": "Honeywell",
+      "insider": "Currier James E",
+      "role": "Pres, CEO Aero Technologies",
+      "date": "2026-03-03 16:02:53",
+      "filing_url": "http://openinsider.com/screener?s=HON",
+      "shares_sold": 2248,
+      "shares_remaining": 5372,
       "expiry": null,
-      "value": 8600515
+      "value": 547725
+    },
+    {
+      "ticker": "HON",
+      "company": "Honeywell",
+      "insider": "West Kenneth J",
+      "role": "Pres, CEO Process Technologies",
+      "date": "2026-03-03 16:02:25",
+      "filing_url": "http://openinsider.com/screener?s=HON",
+      "shares_sold": 873,
+      "shares_remaining": 4007,
+      "expiry": null,
+      "value": 211877
+    },
+    {
+      "ticker": "JNJ",
+      "company": "Johnson & Johnson",
+      "insider": "Wolk Joseph J",
+      "role": "EVP, CFO",
+      "date": "2026-02-18 21:12:14",
+      "filing_url": "http://openinsider.com/screener?s=JNJ",
+      "shares_sold": 89654,
+      "shares_remaining": 85008,
+      "expiry": null,
+      "value": 21767827
+    },
+    {
+      "ticker": "GS",
+      "company": "Goldman Sachs",
+      "insider": "Coleman Denis P.",
+      "role": "CFO",
+      "date": "2026-02-11 16:05:46",
+      "filing_url": "http://openinsider.com/screener?s=GS",
+      "shares_sold": 11623,
+      "shares_remaining": 33574,
+      "expiry": null,
+      "value": 10943892
+    },
+    {
+      "ticker": "KO",
+      "company": "Coca-Cola",
+      "insider": "Murphy John",
+      "role": "Pres, CFO",
+      "date": "2026-02-27 12:02:18",
+      "filing_url": "http://openinsider.com/screener?s=KO",
+      "shares_sold": 99437,
+      "shares_remaining": 414059,
+      "expiry": null,
+      "value": 7996535
+    },
+    {
+      "ticker": "KO",
+      "company": "Coca-Cola",
+      "insider": "Murphy John",
+      "role": "Pres, CFO",
+      "date": "2026-03-03 12:25:54",
+      "filing_url": "http://openinsider.com/screener?s=KO",
+      "shares_sold": 72449,
+      "shares_remaining": 283426,
+      "expiry": null,
+      "value": 5833934
     },
     {
       "ticker": "TRV",
@@ -85,6 +237,30 @@
       "shares_remaining": 27535,
       "expiry": null,
       "value": 2395960
+    },
+    {
+      "ticker": "HD",
+      "company": "Home Depot",
+      "insider": "McPhail Richard V",
+      "role": "EVP, CFO",
+      "date": "2026-03-05 17:09:03",
+      "filing_url": "http://openinsider.com/screener?s=HD",
+      "shares_sold": 2550,
+      "shares_remaining": 44566,
+      "expiry": null,
+      "value": 940670
+    },
+    {
+      "ticker": "JPM",
+      "company": "JPMorgan Chase",
+      "insider": "Barnum Jeremy",
+      "role": "CFO",
+      "date": "2026-02-17 17:21:16",
+      "filing_url": "http://openinsider.com/screener?s=JPM",
+      "shares_sold": 2892,
+      "shares_remaining": 23804,
+      "expiry": null,
+      "value": 886157
     },
     {
       "ticker": "WMT",
@@ -135,28 +311,52 @@
       "value": 28120121
     },
     {
-      "ticker": "CVX",
-      "company": "Chevron",
-      "insider": "Nelson Mark A",
-      "role": "Vice COB",
-      "date": "2026-03-04 18:14:46",
-      "filing_url": "http://openinsider.com/screener?s=CVX",
-      "shares_sold": 139600,
-      "shares_remaining": 30244,
+      "ticker": "GS",
+      "company": "Goldman Sachs",
+      "insider": "Rogers John F.W.",
+      "role": "EVP",
+      "date": "2026-02-13 16:23:18",
+      "filing_url": "http://openinsider.com/screener?s=GS",
+      "shares_sold": 15855,
+      "shares_remaining": 86600,
       "expiry": null,
-      "value": 26233775
+      "value": 15210754
     },
     {
-      "ticker": "CVX",
-      "company": "Chevron",
-      "insider": "Pate R. Hewitt",
-      "role": "GC",
-      "date": "2026-03-03 18:41:58",
-      "filing_url": "http://openinsider.com/screener?s=CVX",
-      "shares_sold": 93475,
-      "shares_remaining": 31209,
+      "ticker": "JNJ",
+      "company": "Johnson & Johnson",
+      "insider": "Swanson James D.",
+      "role": "EVP, CIO",
+      "date": "2026-02-18 21:12:32",
+      "filing_url": "http://openinsider.com/screener?s=JNJ",
+      "shares_sold": 62080,
+      "shares_remaining": 25698,
       "expiry": null,
-      "value": 17542418
+      "value": 15109759
+    },
+    {
+      "ticker": "MRK",
+      "company": "Merck",
+      "insider": "Zachary Jennifer",
+      "role": "EVP, GC",
+      "date": "2026-02-09 16:01:25",
+      "filing_url": "http://openinsider.com/screener?s=MRK",
+      "shares_sold": 121573,
+      "shares_remaining": 68916,
+      "expiry": null,
+      "value": 14485690
+    },
+    {
+      "ticker": "JNJ",
+      "company": "Johnson & Johnson",
+      "insider": "Reed John C",
+      "role": "EVP, Innovative Medicine, R, D",
+      "date": "2026-02-18 21:12:02",
+      "filing_url": "http://openinsider.com/screener?s=JNJ",
+      "shares_sold": 53931,
+      "shares_remaining": 10658,
+      "expiry": null,
+      "value": 13105233
     },
     {
       "ticker": "VZ",
@@ -169,6 +369,30 @@
       "shares_remaining": 478431,
       "expiry": null,
       "value": 11163150
+    },
+    {
+      "ticker": "JNJ",
+      "company": "Johnson & Johnson",
+      "insider": "Schmid Timothy",
+      "role": "EVP, WW Chair, MedTech",
+      "date": "2026-02-18 21:11:43",
+      "filing_url": "http://openinsider.com/screener?s=JNJ",
+      "shares_sold": 22623,
+      "shares_remaining": 27560,
+      "expiry": null,
+      "value": 5527506
+    },
+    {
+      "ticker": "MMM",
+      "company": "3M",
+      "insider": "Dickson Zoe L",
+      "role": "EVP, CHRO",
+      "date": "2026-02-10 16:22:21",
+      "filing_url": "http://openinsider.com/screener?s=MMM",
+      "shares_sold": 25055,
+      "shares_remaining": 21422,
+      "expiry": null,
+      "value": 4267869
     },
     {
       "ticker": "WMT",
@@ -193,6 +417,30 @@
       "shares_remaining": 18702,
       "expiry": null,
       "value": 3656984
+    },
+    {
+      "ticker": "MMM",
+      "company": "3M",
+      "insider": "Dickson Zoe L",
+      "role": "EVP, CHRO",
+      "date": "2026-02-10 16:40:16",
+      "filing_url": "http://openinsider.com/screener?s=MMM",
+      "shares_sold": 20519,
+      "shares_remaining": 21422,
+      "expiry": null,
+      "value": 3487614
+    },
+    {
+      "ticker": "MMM",
+      "company": "3M",
+      "insider": "Dickson Zoe L",
+      "role": "EVP, CHRO",
+      "date": "2026-02-10 16:00:56",
+      "filing_url": "http://openinsider.com/screener?s=MMM",
+      "shares_sold": 20519,
+      "shares_remaining": 21422,
+      "expiry": null,
+      "value": 3487614
     },
     {
       "ticker": "TRV",
@@ -231,6 +479,18 @@
       "value": 3011783
     },
     {
+      "ticker": "KO",
+      "company": "Coca-Cola",
+      "insider": "Perez Beatriz R",
+      "role": "EVP",
+      "date": "2026-02-27 12:04:39",
+      "filing_url": "http://openinsider.com/screener?s=KO",
+      "shares_sold": 36326,
+      "shares_remaining": 197928,
+      "expiry": null,
+      "value": 2931075
+    },
+    {
       "ticker": "WMT",
       "company": "Walmart",
       "insider": "Rainey John D",
@@ -267,28 +527,40 @@
       "value": 2460118
     },
     {
-      "ticker": "CVX",
-      "company": "Chevron",
-      "insider": "Booth Thomas Ryder",
-      "role": "Chief Technology, Eng Ofr",
-      "date": "2026-02-17 18:11:49",
-      "filing_url": "http://openinsider.com/screener?s=CVX",
-      "shares_sold": 12198,
-      "shares_remaining": 3175,
+      "ticker": "KO",
+      "company": "Coca-Cola",
+      "insider": "Pietracci Bruno",
+      "role": "President, Latin America OU",
+      "date": "2026-03-05 12:18:56",
+      "filing_url": "http://openinsider.com/screener?s=KO",
+      "shares_sold": 28765,
+      "shares_remaining": 44608,
       "expiry": null,
-      "value": 2246989
+      "value": 2284318
     },
     {
-      "ticker": "CVX",
-      "company": "Chevron",
-      "insider": "Walz Andrew Benjamin",
-      "role": "Pres, DM, C",
-      "date": "2026-03-04 18:08:33",
-      "filing_url": "http://openinsider.com/screener?s=CVX",
-      "shares_sold": 11600,
-      "shares_remaining": 8805,
+      "ticker": "GS",
+      "company": "Goldman Sachs",
+      "insider": "Golten Alex S",
+      "role": "CHIEF RISK OFFICER",
+      "date": "2026-02-11 16:03:17",
+      "filing_url": "http://openinsider.com/screener?s=GS",
+      "shares_sold": 2292,
+      "shares_remaining": 4809,
       "expiry": null,
-      "value": 2187517
+      "value": 2143045
+    },
+    {
+      "ticker": "MCD",
+      "company": "McDonald's",
+      "insider": "Banner Jonathan",
+      "role": "EVP - Chief Impact Officer",
+      "date": "2026-02-25 11:43:27",
+      "filing_url": "http://openinsider.com/screener?s=MCD",
+      "shares_sold": 6201,
+      "shares_remaining": 2291,
+      "expiry": null,
+      "value": 2066596
     },
     {
       "ticker": "PG",
@@ -301,6 +573,18 @@
       "shares_remaining": 17862,
       "expiry": null,
       "value": 2056287
+    },
+    {
+      "ticker": "KO",
+      "company": "Coca-Cola",
+      "insider": "Quan Nancy",
+      "role": "EVP",
+      "date": "2026-03-05 13:39:56",
+      "filing_url": "http://openinsider.com/screener?s=KO",
+      "shares_sold": 23556,
+      "shares_remaining": 229070,
+      "expiry": null,
+      "value": 1872747
     },
     {
       "ticker": "TRV",
@@ -339,6 +623,42 @@
       "value": 1737815
     },
     {
+      "ticker": "KO",
+      "company": "Coca-Cola",
+      "insider": "Perez Beatriz R",
+      "role": "EVP",
+      "date": "2026-03-03 12:28:37",
+      "filing_url": "http://openinsider.com/screener?s=KO",
+      "shares_sold": 21326,
+      "shares_remaining": 184628,
+      "expiry": null,
+      "value": 1727406
+    },
+    {
+      "ticker": "KO",
+      "company": "Coca-Cola",
+      "insider": "Douglas Monica Howard",
+      "role": "EVP",
+      "date": "2026-02-27 12:00:14",
+      "filing_url": "http://openinsider.com/screener?s=KO",
+      "shares_sold": 20000,
+      "shares_remaining": 64644,
+      "expiry": null,
+      "value": 1603210
+    },
+    {
+      "ticker": "MCD",
+      "company": "McDonald's",
+      "insider": "Flatley Edith Morgan",
+      "role": "EVP - Global CMO",
+      "date": "2026-02-17 19:47:11",
+      "filing_url": "http://openinsider.com/screener?s=MCD",
+      "shares_sold": 4692,
+      "shares_remaining": 7396,
+      "expiry": null,
+      "value": 1553052
+    },
+    {
       "ticker": "TRV",
       "company": "Travelers",
       "insider": "Heyman William H",
@@ -349,6 +669,18 @@
       "shares_remaining": 263813,
       "expiry": null,
       "value": 1533755
+    },
+    {
+      "ticker": "JNJ",
+      "company": "Johnson & Johnson",
+      "insider": "Broadhurst Vanessa",
+      "role": "EVP, Global Corp Affairs",
+      "date": "2026-02-18 21:11:31",
+      "filing_url": "http://openinsider.com/screener?s=JNJ",
+      "shares_sold": 6197,
+      "shares_remaining": 23003,
+      "expiry": null,
+      "value": 1508288
     },
     {
       "ticker": "TRV",
@@ -375,16 +707,28 @@
       "value": 1428901
     },
     {
-      "ticker": "CVX",
-      "company": "Chevron",
-      "insider": "Gustavson Jeff B",
-      "role": "Pres, New Energies",
-      "date": "2026-03-03 18:22:59",
-      "filing_url": "http://openinsider.com/screener?s=CVX",
-      "shares_sold": 6667,
-      "shares_remaining": 3719,
+      "ticker": "HON",
+      "company": "Honeywell",
+      "insider": "Lieblein Grace",
+      "role": "Dir",
+      "date": "2026-02-24 18:19:09",
+      "filing_url": "http://openinsider.com/screener?s=HON",
+      "shares_sold": 5847,
+      "shares_remaining": 15889,
       "expiry": null,
-      "value": 1240325
+      "value": 1425089
+    },
+    {
+      "ticker": "HON",
+      "company": "Honeywell",
+      "insider": "Mailloux Robert D.",
+      "role": "VP, Controller",
+      "date": "2026-02-09 16:29:47",
+      "filing_url": "http://openinsider.com/screener?s=HON",
+      "shares_sold": 5274,
+      "shares_remaining": 5390,
+      "expiry": null,
+      "value": 1260486
     },
     {
       "ticker": "WMT",
@@ -399,6 +743,42 @@
       "value": 1214630
     },
     {
+      "ticker": "MRK",
+      "company": "Merck",
+      "insider": "Guindo Chirfi",
+      "role": "CMO",
+      "date": "2026-02-12 16:02:53",
+      "filing_url": "http://openinsider.com/screener?s=MRK",
+      "shares_sold": 10000,
+      "shares_remaining": 60615,
+      "expiry": null,
+      "value": 1214562
+    },
+    {
+      "ticker": "MRK",
+      "company": "Merck",
+      "insider": "Li Dean Y",
+      "role": "EVP, Pres, MRL",
+      "date": "2026-02-10 16:04:14",
+      "filing_url": "http://openinsider.com/screener?s=MRK",
+      "shares_sold": 10235,
+      "shares_remaining": 92035,
+      "expiry": null,
+      "value": 1202844
+    },
+    {
+      "ticker": "MRK",
+      "company": "Merck",
+      "insider": "Guindo Chirfi",
+      "role": "CMO",
+      "date": "2026-02-09 16:04:59",
+      "filing_url": "http://openinsider.com/screener?s=MRK",
+      "shares_sold": 10000,
+      "shares_remaining": 70615,
+      "expiry": null,
+      "value": 1184101
+    },
+    {
       "ticker": "TRV",
       "company": "Travelers",
       "insider": "Munson Paul E.",
@@ -409,6 +789,90 @@
       "shares_remaining": 735,
       "expiry": null,
       "value": 1140611
+    },
+    {
+      "ticker": "JPM",
+      "company": "JPMorgan Chase",
+      "insider": "Friedman Stacey",
+      "role": "GC",
+      "date": "2026-02-17 17:21:12",
+      "filing_url": "http://openinsider.com/screener?s=JPM",
+      "shares_sold": 3404,
+      "shares_remaining": 125689,
+      "expiry": null,
+      "value": 1042985
+    },
+    {
+      "ticker": "JNJ",
+      "company": "Johnson & Johnson",
+      "insider": "Decker Robert J",
+      "role": "VP Corporate Controller",
+      "date": "2026-03-03 16:21:53",
+      "filing_url": "http://openinsider.com/screener?s=JNJ",
+      "shares_sold": 4075,
+      "shares_remaining": 24462,
+      "expiry": null,
+      "value": 1010070
+    },
+    {
+      "ticker": "MMM",
+      "company": "3M",
+      "insider": "Reinseth Theresa E",
+      "role": "SVP, CAO",
+      "date": "2026-02-12 16:37:12",
+      "filing_url": "http://openinsider.com/screener?s=MMM",
+      "shares_sold": 5145,
+      "shares_remaining": 3150,
+      "expiry": null,
+      "value": 888796
+    },
+    {
+      "ticker": "MCD",
+      "company": "McDonald's",
+      "insider": "Erlinger Joseph M.",
+      "role": "Pres, McDonald's USA",
+      "date": "2026-02-11 15:53:41",
+      "filing_url": "http://openinsider.com/screener?s=MCD",
+      "shares_sold": 2626,
+      "shares_remaining": 5398,
+      "expiry": null,
+      "value": 854107
+    },
+    {
+      "ticker": "HD",
+      "company": "Home Depot",
+      "insider": "Deaton John A.",
+      "role": "EVP - Supply Chain, Prod. Dev",
+      "date": "2026-03-05 17:06:11",
+      "filing_url": "http://openinsider.com/screener?s=HD",
+      "shares_sold": 1793,
+      "shares_remaining": 14129,
+      "expiry": null,
+      "value": 661617
+    },
+    {
+      "ticker": "JPM",
+      "company": "JPMorgan Chase",
+      "insider": "Beer Lori A",
+      "role": "CIO",
+      "date": "2026-02-17 17:21:18",
+      "filing_url": "http://openinsider.com/screener?s=JPM",
+      "shares_sold": 2047,
+      "shares_remaining": 60452,
+      "expiry": null,
+      "value": 627207
+    },
+    {
+      "ticker": "HON",
+      "company": "Honeywell",
+      "insider": "Davis D Scott",
+      "role": "Dir",
+      "date": "2026-02-20 18:17:46",
+      "filing_url": "http://openinsider.com/screener?s=HON",
+      "shares_sold": 2367,
+      "shares_remaining": 31081,
+      "expiry": null,
+      "value": 568080
     },
     {
       "ticker": "NKE",
@@ -423,18 +887,6 @@
       "value": 565021
     },
     {
-      "ticker": "CVX",
-      "company": "Chevron",
-      "insider": "Knowles Alana K",
-      "role": "Controller",
-      "date": "2026-02-20 16:44:53",
-      "filing_url": "http://openinsider.com/screener?s=CVX",
-      "shares_sold": 2408,
-      "shares_remaining": 7981,
-      "expiry": null,
-      "value": 441327
-    },
-    {
       "ticker": "VZ",
       "company": "Verizon",
       "insider": "Stillwell Mary-Lee",
@@ -445,6 +897,18 @@
       "shares_remaining": 43782,
       "expiry": null,
       "value": 428450
+    },
+    {
+      "ticker": "JNJ",
+      "company": "Johnson & Johnson",
+      "insider": "Schmid Timothy",
+      "role": "EVP, WW Chair, MedTech",
+      "date": "2026-02-23 17:20:21",
+      "filing_url": "http://openinsider.com/screener?s=JNJ",
+      "shares_sold": 1322,
+      "shares_remaining": 26238,
+      "expiry": null,
+      "value": 324763
     },
     {
       "ticker": "TRV",
@@ -471,16 +935,16 @@
       "value": 288454
     },
     {
-      "ticker": "CVX",
-      "company": "Chevron",
-      "insider": "Walz Andrew Benjamin",
-      "role": "Pres, DM, C",
-      "date": "2026-02-20 16:46:46",
-      "filing_url": "http://openinsider.com/screener?s=CVX",
-      "shares_sold": 1463,
-      "shares_remaining": 8802,
+      "ticker": "MMM",
+      "company": "3M",
+      "insider": "Chavez Rodriguez Beatriz Karina",
+      "role": "Group Pres",
+      "date": "2026-02-10 16:00:24",
+      "filing_url": "http://openinsider.com/screener?s=MMM",
+      "shares_sold": 1190,
+      "shares_remaining": 19859,
       "expiry": null,
-      "value": 268950
+      "value": 203645
     },
     {
       "ticker": "WMT",
@@ -495,28 +959,28 @@
       "value": 167179
     },
     {
-      "ticker": "CVX",
-      "company": "Chevron",
-      "insider": "Walz Andrew Benjamin",
-      "role": "Pres, DM, C",
-      "date": "2026-02-17 18:09:32",
-      "filing_url": "http://openinsider.com/screener?s=CVX",
-      "shares_sold": 666,
-      "shares_remaining": 10265,
+      "ticker": "JPM",
+      "company": "JPMorgan Chase",
+      "insider": "Leopold Robin",
+      "role": "Head of HR",
+      "date": "2026-02-19 17:36:59",
+      "filing_url": "http://openinsider.com/screener?s=JPM",
+      "shares_sold": 432,
+      "shares_remaining": 83755,
       "expiry": null,
-      "value": 122144
+      "value": 132684
     },
     {
-      "ticker": "CVX",
-      "company": "Chevron",
-      "insider": "Booth Thomas Ryder",
-      "role": "Chief Technology, Eng Ofr",
-      "date": "2026-02-12 17:36:58",
-      "filing_url": "http://openinsider.com/screener?s=CVX",
-      "shares_sold": 5,
-      "shares_remaining": 4773,
+      "ticker": "MCD",
+      "company": "McDonald's",
+      "insider": "Erlinger Joseph M.",
+      "role": "Pres, McDonald's USA",
+      "date": "2026-02-25 11:43:46",
+      "filing_url": "http://openinsider.com/screener?s=MCD",
+      "shares_sold": 333,
+      "shares_remaining": 8733,
       "expiry": null,
-      "value": 924
+      "value": 110033
     }
   ]
 }
