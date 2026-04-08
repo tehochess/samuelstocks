@@ -20,7 +20,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install deps
-        run: pip install requests
+        run: pip install requests yfinance
 
       - name: Fetch SEC EDGAR data
         run: python scripts/fetch_insider.py
