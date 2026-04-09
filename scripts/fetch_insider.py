@@ -44,9 +44,18 @@ def fetch_ticker(ticker):
 
         print("  " + ticker + ": " + str(len(df)) + " rows")
 
+        # DEBUG: print first row's Transaction value so we know exact format
+        if len(df) > 0:
+            first_row = df.iloc[0]
+            txn_val = first_row.get("Transaction") if hasattr(first_row, 'get') else first_row["Transaction"] if "Transaction" in first_row.index else "NO_COL"
+            print("  DEBUG Transaction sample: '" + str(txn_val) + "'")
+            date_val = first_row.get("Start Date") if hasattr(first_row, 'get') else first_row["Start Date"] if "Start Date" in first_row.index else "NO_COL"
+            print("  DEBUG Start Date sample: '" + str(date_val) + "'")
+
         for _, row in df.iterrows():
             try:
-                raw = row.get("Start Date")
+                # DATE
+                raw = row["Start Date"] if "Start Date" in row.index else None
                 if raw is None or (isinstance(raw, float) and pd.isna(raw)):
                     continue
                 d = pd.Timestamp(raw).date()
@@ -54,18 +63,23 @@ def fetch_ticker(ticker):
                     continue
                 date_str = d.strftime("%Y-%m-%d")
 
-                insider = str(row.get("Insider") or "Unknown").strip()
-                role = str(row.get("Position") or "Insider").strip()
-                shares = abs(safe_int(row.get("Shares") or 0))
+                insider = str(row["Insider"] if "Insider" in row.index else "Unknown").strip()
+                role = str(row["Position"] if "Position" in row.index else "Insider").strip()
+                shares = abs(safe_int(row["Shares"] if "Shares" in row.index else 0))
                 if shares == 0:
                     continue
-                value = abs(safe_int(row.get("Value") or 0))
+                value = abs(safe_int(row["Value"] if "Value" in row.index else 0))
 
-                transaction = str(row.get("Transaction") or "").strip().upper()
-                is_buy = "PURCHASE" in transaction or transaction == "P"
-                is_sell = "SALE" in transaction or transaction == "S"
+                # Transaction column — use exact value
+                txn = str(row["Transaction"] if "Transaction" in row.index else "").strip()
+                txn_upper = txn.upper()
+
+                # Catch all sale and purchase variants
+                is_buy = "PURCHASE" in txn_upper or txn_upper == "P" or txn_upper == "BUY"
+                is_sell = "SALE" in txn_upper or txn_upper == "S" or txn_upper == "SELL" or "SOLD" in txn_upper
 
                 if not is_buy and not is_sell:
+                    print("    UNMATCHED txn: '" + txn + "' for " + insider)
                     continue
 
                 direction = "BUY" if is_buy else "SELL"
@@ -90,7 +104,8 @@ def fetch_ticker(ticker):
                     record["value"] = value
                     sells.append(record)
 
-            except Exception:
+            except Exception as e:
+                print("    row error: " + str(e))
                 continue
 
     except Exception as e:
