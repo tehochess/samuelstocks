@@ -47,7 +47,13 @@ def fetch_ticker(ticker):
             ex_str = "N/A"
 
         div_rate = safe_float(info.get("dividendRate", 0))
-        div_yield = safe_float(info.get("dividendYield", 0))
+        div_yield_raw = safe_float(info.get("dividendYield", 0))
+        # Yahoo Finance returns yield as a decimal (e.g. 0.0589 = 5.89%)
+        # If it's already > 1, it came in as a percentage, don't multiply
+        if div_yield_raw > 1:
+            div_yield_pct = round(div_yield_raw, 2)
+        else:
+            div_yield_pct = round(div_yield_raw * 100, 2)
         price = safe_float(info.get("currentPrice") or info.get("regularMarketPrice", 0))
 
         dividend_row = {
@@ -55,7 +61,7 @@ def fetch_ticker(ticker):
             "company": company,
             "exDate": ex_str,
             "dividendRate": div_rate,
-            "dividendYield": round(div_yield * 100, 2) if div_yield else 0,
+            "dividendYield": div_yield_pct,
             "price": price,
         }
         print("  " + ticker + ": ex=" + ex_str + " rate=$" + str(div_rate))
