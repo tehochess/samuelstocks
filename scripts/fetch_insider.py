@@ -44,13 +44,11 @@ def fetch_ticker(ticker):
 
         print("  " + ticker + ": " + str(len(df)) + " rows")
 
-        # DEBUG: print first row's Transaction value so we know exact format
+        # Debug first row — print ALL column values
         if len(df) > 0:
-            first_row = df.iloc[0]
-            txn_val = first_row.get("Transaction") if hasattr(first_row, 'get') else first_row["Transaction"] if "Transaction" in first_row.index else "NO_COL"
-            print("  DEBUG Transaction sample: '" + str(txn_val) + "'")
-            date_val = first_row.get("Start Date") if hasattr(first_row, 'get') else first_row["Start Date"] if "Start Date" in first_row.index else "NO_COL"
-            print("  DEBUG Start Date sample: '" + str(date_val) + "'")
+            first = df.iloc[0]
+            for col in df.columns:
+                print("  COL [" + col + "] = '" + str(first[col]) + "'")
 
         for _, row in df.iterrows():
             try:
@@ -70,16 +68,21 @@ def fetch_ticker(ticker):
                     continue
                 value = abs(safe_int(row["Value"] if "Value" in row.index else 0))
 
-                # Transaction column — use exact value
-                txn = str(row["Transaction"] if "Transaction" in row.index else "").strip()
-                txn_upper = txn.upper()
+                # Check ALL text columns for buy/sell signal
+                text_col = str(row["Text"] if "Text" in row.index else "").strip().upper()
+                url_col = str(row["URL"] if "URL" in row.index else "").strip().upper()
+                ownership = str(row["Ownership"] if "Ownership" in row.index else "").strip().upper()
 
-                # Catch all sale and purchase variants
-                is_buy = "PURCHASE" in txn_upper or txn_upper == "P" or txn_upper == "BUY"
-                is_sell = "SALE" in txn_upper or txn_upper == "S" or txn_upper == "SELL" or "SOLD" in txn_upper
+                combined = text_col + " " + url_col + " " + ownership
 
+                is_buy = "PURCHASE" in combined or "ACQUI" in combined or "BUY" in combined
+                is_sell = "SALE" in combined or "SELL" in combined or "DISPO" in combined
+
+                # Last resort: if Ownership is "D" (direct) with shares > 0, likely a buy
+                # Use the URL which often contains transaction type
                 if not is_buy and not is_sell:
-                    print("    UNMATCHED txn: '" + txn + "' for " + insider)
+                    # Just classify everything as a buy for now and log
+                    print("    NO_SIGNAL: " + insider + " | text='" + text_col + "' url='" + url_col[:50] + "' own='" + ownership + "'")
                     continue
 
                 direction = "BUY" if is_buy else "SELL"
