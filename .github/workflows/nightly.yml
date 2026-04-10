@@ -20,11 +20,13 @@ jobs:
         run: python scripts/fetch_insider.py
       - name: Fetch key dates
         run: python scripts/fetch_key_dates.py
+      - name: Fetch price movement
+        run: python scripts/fetch_price_movement.py
       - name: Commit data files
         run: |
           git config user.name "samuelstocks-bot"
           git config user.email "actions@github.com"
-          git add data/insider.json data/key_dates.json
+          git add data/insider.json data/key_dates.json data/price_movement.json
           git diff --staged --quiet || git commit -m "data: nightly update"
           git push
       - name: Send email digest
