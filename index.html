@@ -26,8 +26,6 @@
   }
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body { background: var(--bg); color: var(--text); font-family: 'IBM Plex Sans', sans-serif; font-size: 14px; min-height: 100vh; }
-  
-  /* Header */
   header { border-bottom: 1px solid var(--border); padding: 0 2rem; display: flex; align-items: center; justify-content: space-between; height: 56px; position: sticky; top: 0; background: var(--bg); z-index: 100; }
   .logo { font-family: 'IBM Plex Mono', monospace; font-size: 15px; font-weight: 500; color: var(--text); letter-spacing: -0.02em; }
   .logo span { color: var(--accent); }
@@ -36,23 +34,16 @@
   @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.4} }
   .status-text { font-size: 12px; color: var(--muted); font-family: 'IBM Plex Mono', monospace; }
   .last-updated { font-size: 12px; color: var(--muted); font-family: 'IBM Plex Mono', monospace; }
-
-  /* Tabs */
   .tabs-bar { display: flex; gap: 0; border-bottom: 1px solid var(--border); padding: 0 2rem; overflow-x: auto; }
   .tab-btn { padding: 14px 20px; font-size: 13px; font-weight: 500; color: var(--muted); background: none; border: none; cursor: pointer; border-bottom: 2px solid transparent; margin-bottom: -1px; white-space: nowrap; transition: color 0.15s; font-family: 'IBM Plex Sans', sans-serif; }
   .tab-btn:hover { color: var(--text); }
   .tab-btn.active { color: var(--accent); border-bottom-color: var(--accent); }
   .tab-count { background: var(--blue-dim); color: var(--accent); font-size: 10px; font-weight: 600; padding: 2px 6px; border-radius: 10px; margin-left: 6px; font-family: 'IBM Plex Mono', monospace; }
   .tab-count.red { background: var(--red-dim); color: var(--red); }
-
-  /* Content */
+  .tab-count.green { background: var(--green-dim); color: var(--green); }
   .content { padding: 1.5rem 2rem; max-width: 1300px; }
-
-  /* Section */
   .tab-panel { display: none; }
   .tab-panel.active { display: block; }
-
-  /* Summary cards */
   .summary-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; margin-bottom: 1.5rem; }
   .sum-card { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 14px 16px; }
   .sum-label { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 6px; font-family: 'IBM Plex Mono', monospace; }
@@ -60,8 +51,6 @@
   .sum-sub { font-size: 11px; margin-top: 4px; color: var(--muted); }
   .sum-sub.green { color: var(--green); }
   .sum-sub.red { color: var(--red); }
-
-  /* Tables */
   .table-card { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; margin-bottom: 1.25rem; }
   .table-header { padding: 14px 18px; border-bottom: 1px solid var(--border); display: flex; align-items: center; justify-content: space-between; }
   .table-title { font-size: 13px; font-weight: 600; color: var(--text); letter-spacing: 0.01em; }
@@ -71,33 +60,25 @@
   tbody td { padding: 11px 18px; border-bottom: 1px solid var(--border); font-size: 13px; color: var(--text); vertical-align: middle; }
   tbody tr:last-child td { border-bottom: none; }
   tbody tr:hover { background: rgba(255,255,255,0.02); }
-
-  /* Badges */
   .badge { display: inline-flex; align-items: center; padding: 3px 8px; border-radius: 4px; font-size: 11px; font-weight: 600; font-family: 'IBM Plex Mono', monospace; white-space: nowrap; }
   .badge-ceo { background: rgba(59,130,246,0.18); color: #60a5fa; border: 1px solid rgba(59,130,246,0.3); }
   .badge-cfo { background: rgba(168,85,247,0.15); color: #c084fc; border: 1px solid rgba(168,85,247,0.25); }
   .badge-dir { background: rgba(107,114,148,0.15); color: var(--muted); border: 1px solid var(--border); }
   .badge-squeeze { background: var(--red-dim); color: #f87171; border: 1px solid rgba(239,68,68,0.25); }
-  .badge-normal { background: var(--green-dim); color: #4ade80; border: 1px solid rgba(34,197,94,0.2); }
   .badge-bottom { background: var(--amber-dim); color: #fbbf24; border: 1px solid rgba(245,158,11,0.25); }
   .badge-peak { background: rgba(239,68,68,0.1); color: #f87171; border: 1px solid rgba(239,68,68,0.2); }
-
-  /* Colors */
   .green { color: var(--green); }
   .red { color: var(--red); }
   .amber { color: var(--amber); }
   .mono { font-family: 'IBM Plex Mono', monospace; }
   .ticker { font-family: 'IBM Plex Mono', monospace; font-weight: 500; font-size: 13px; color: var(--accent); }
-
-  /* Loading / empty */
   .loading-state { padding: 3rem; text-align: center; color: var(--muted); font-size: 13px; }
   .loading-spinner { width: 24px; height: 24px; border: 2px solid var(--border2); border-top-color: var(--accent); border-radius: 50%; animation: spin 0.8s linear infinite; margin: 0 auto 12px; }
   @keyframes spin { to { transform: rotate(360deg); } }
-
-  /* Alert banner */
   .alert-banner { background: var(--amber-dim); border: 1px solid rgba(245,158,11,0.25); border-radius: 8px; padding: 12px 16px; margin-bottom: 1.25rem; font-size: 13px; color: #fbbf24; display: flex; align-items: center; gap: 10px; }
-
-  /* Responsive */
+  .day-cell { display: flex; flex-direction: column; gap: 2px; }
+  .day-pct { font-family: 'IBM Plex Mono', monospace; font-size: 13px; font-weight: 600; }
+  .day-date { font-size: 10px; color: var(--muted); }
   @media (max-width: 700px) {
     header { padding: 0 1rem; }
     .content { padding: 1rem; }
@@ -126,7 +107,9 @@
   <button class="tab-btn" onclick="showTab('alerts', this)">
     Alerts <span class="tab-count red" id="alertCount">—</span>
   </button>
-  <button class="tab-btn" onclick="showTab('movement', this)">Price Movement</button>
+  <button class="tab-btn" onclick="showTab('movement', this); loadPriceMovement();">
+    Price Movement <span class="tab-count red" id="downCount">—</span><span class="tab-count green" id="upCount">—</span>
+  </button>
 </div>
 
 <div class="content">
@@ -139,7 +122,6 @@
       <div class="sum-card"><div class="sum-label">Insider sales</div><div class="sum-value red" id="s-sells">—</div></div>
       <div class="sum-card"><div class="sum-label">Stocks with buys</div><div class="sum-value" id="s-stocks">—</div><div class="sum-sub">unique tickers</div></div>
     </div>
-
     <div class="table-card">
       <div class="table-header">
         <div>
@@ -147,11 +129,8 @@
           <div class="table-subtitle">CEO &amp; CFO purchases highlighted · Source: SEC EDGAR Form 4</div>
         </div>
       </div>
-      <div id="buysTable">
-        <div class="loading-state"><div class="loading-spinner"></div>Fetching SEC EDGAR filings...</div>
-      </div>
+      <div id="buysTable"><div class="loading-state"><div class="loading-spinner"></div>Fetching SEC EDGAR filings...</div></div>
     </div>
-
     <div class="table-card">
       <div class="table-header">
         <div>
@@ -159,24 +138,18 @@
           <div class="table-subtitle">Includes shares remaining &amp; option expiry · Source: SEC EDGAR Form 4</div>
         </div>
       </div>
-      <div id="sellsTable">
-        <div class="loading-state"><div class="loading-spinner"></div>Fetching SEC EDGAR filings...</div>
-      </div>
+      <div id="sellsTable"><div class="loading-state"><div class="loading-spinner"></div>Fetching SEC EDGAR filings...</div></div>
     </div>
   </div>
 
   <!-- KEY DATES TAB -->
   <div id="tab-keydates" class="tab-panel">
-
-    <!-- Dividend summary cards -->
     <div class="summary-row">
       <div class="sum-card"><div class="sum-label">Stocks paying dividends</div><div class="sum-value" id="kd-paying">—</div></div>
       <div class="sum-card"><div class="sum-label">Ex-dates this month</div><div class="sum-value amber" id="kd-upcoming">—</div></div>
       <div class="sum-card"><div class="sum-label">🔥 Squeeze candidates</div><div class="sum-value red" id="kd-squeeze">—</div><div class="sum-sub">short ratio ≥ 5</div></div>
       <div class="sum-card"><div class="sum-label">Earnings this month</div><div class="sum-value" id="kd-earnings">—</div></div>
     </div>
-
-    <!-- Dividend table -->
     <div class="table-card">
       <div class="table-header">
         <div>
@@ -184,12 +157,8 @@
           <div class="table-subtitle">Sorted by soonest ex-dividend date · Source: Yahoo Finance</div>
         </div>
       </div>
-      <div id="dividendTable">
-        <div class="loading-state"><div class="loading-spinner"></div>Loading...</div>
-      </div>
+      <div id="dividendTable"><div class="loading-state"><div class="loading-spinner"></div>Loading...</div></div>
     </div>
-
-    <!-- Earnings table -->
     <div class="table-card">
       <div class="table-header">
         <div>
@@ -197,11 +166,8 @@
           <div class="table-subtitle">Sorted by short ratio · 🔥 = short ratio ≥ 5 (squeeze candidate) · Source: Yahoo Finance</div>
         </div>
       </div>
-      <div id="earningsTable">
-        <div class="loading-state"><div class="loading-spinner"></div>Loading...</div>
-      </div>
+      <div id="earningsTable"><div class="loading-state"><div class="loading-spinner"></div>Loading...</div></div>
     </div>
-
     <div style="font-size:11px;color:var(--muted);text-align:right;margin-top:-8px;margin-bottom:1rem" id="keyDatesUpdated"></div>
   </div>
 
@@ -210,16 +176,39 @@
     <div id="alertsList"><div class="loading-state"><div class="loading-spinner"></div>Loading alerts...</div></div>
   </div>
 
-  <!-- MOVEMENT TAB -->
+  <!-- PRICE MOVEMENT TAB -->
   <div id="tab-movement" class="tab-panel">
+
+    <div class="summary-row">
+      <div class="sum-card"><div class="sum-label">Down 3 days straight</div><div class="sum-value red" id="pm-down">—</div></div>
+      <div class="sum-card"><div class="sum-label">Near bottom signal</div><div class="sum-value amber" id="pm-bottom">—</div><div class="sum-sub">down streak + light volume</div></div>
+      <div class="sum-card"><div class="sum-label">Up 3 days straight</div><div class="sum-value green" id="pm-up">—</div></div>
+      <div class="sum-card"><div class="sum-label">Near peak signal</div><div class="sum-value amber" id="pm-peak">—</div><div class="sum-sub">up streak + heavy volume</div></div>
+    </div>
+
+    <!-- Down streaks -->
     <div class="table-card">
-      <div class="table-header"><div class="table-title">Stocks down 10%+ — consecutive days</div></div>
+      <div class="table-header">
+        <div>
+          <div class="table-title">📉 Down 3 consecutive days</div>
+          <div class="table-subtitle">⚠️ Near bottom = down streak with lighter-than-average volume (sellers exhausting)</div>
+        </div>
+      </div>
       <div id="downTable"><div class="loading-state"><div class="loading-spinner"></div>Loading...</div></div>
     </div>
+
+    <!-- Up streaks -->
     <div class="table-card">
-      <div class="table-header"><div class="table-title">Stocks up 10%+ — consecutive days</div></div>
+      <div class="table-header">
+        <div>
+          <div class="table-title">📈 Up 3 consecutive days</div>
+          <div class="table-subtitle">⚠️ Near peak = up streak with heavier-than-average volume (buyers piling in)</div>
+        </div>
+      </div>
       <div id="upTable"><div class="loading-state"><div class="loading-spinner"></div>Loading...</div></div>
     </div>
+
+    <div style="font-size:11px;color:var(--muted);text-align:right;margin-top:-8px;margin-bottom:1rem" id="movementUpdated"></div>
   </div>
 
 </div>
@@ -240,12 +229,10 @@ function roleBadge(role) {
   if (r.includes('CFO')) return '<span class="badge badge-cfo">CFO</span>';
   return '<span class="badge badge-dir">' + (role || 'Insider') + '</span>';
 }
-
 function fmt(n) {
   if (!n && n !== 0) return '—';
   return Number(n).toLocaleString();
 }
-
 function fmtMoney(n) {
   if (!n && n !== 0) return '—';
   const v = Math.abs(Number(n));
@@ -253,12 +240,22 @@ function fmtMoney(n) {
   if (v >= 1e3) return '$' + (v/1e3).toFixed(0) + 'K';
   return '$' + v.toFixed(0);
 }
-
 function thisMonth(dateStr) {
   if (!dateStr || dateStr === 'N/A') return false;
   const now = new Date();
   const d = new Date(dateStr);
   return d.getFullYear() === now.getFullYear() && d.getMonth() === now.getMonth();
+}
+function pctColor(pct) {
+  return pct < 0 ? 'color:var(--red)' : 'color:var(--green)';
+}
+function pctStr(pct) {
+  return (pct > 0 ? '+' : '') + pct.toFixed(2) + '%';
+}
+function volBadge(signal) {
+  if (signal === 'light')  return '<span class="badge badge-bottom">↓ Light vol</span>';
+  if (signal === 'heavy')  return '<span class="badge badge-peak">↑ Heavy vol</span>';
+  return '<span style="color:var(--muted);font-size:12px">Normal</span>';
 }
 
 // ── Insider Trading ────────────────────────────────────────────
@@ -277,7 +274,6 @@ async function loadData() {
 function renderInsider(d) {
   const buys = d.buys || [];
   const sells = d.sells || [];
-
   document.getElementById('s-total').textContent = buys.length + sells.length;
   document.getElementById('s-buys').textContent = buys.length;
   document.getElementById('s-sells').textContent = sells.length;
@@ -329,9 +325,8 @@ function renderInsider(d) {
 
 // ── Key Dates ──────────────────────────────────────────────────
 let keyDatesLoaded = false;
-
 async function loadKeyDates() {
-  if (keyDatesLoaded) return; // don't reload if already loaded
+  if (keyDatesLoaded) return;
   try {
     const res = await fetch('data/key_dates.json?t=' + Date.now());
     if (!res.ok) throw new Error('No key dates data yet');
@@ -339,7 +334,7 @@ async function loadKeyDates() {
     renderKeyDates(data);
     keyDatesLoaded = true;
   } catch(e) {
-    const msg = '<div class="loading-state">Data not yet available — run the workflow first (Actions → Run workflow).</div>';
+    const msg = '<div class="loading-state">Data not yet available — run the workflow first.</div>';
     document.getElementById('dividendTable').innerHTML = msg;
     document.getElementById('earningsTable').innerHTML = msg;
   }
@@ -348,24 +343,21 @@ async function loadKeyDates() {
 function renderKeyDates(data) {
   const dividends = data.dividends || [];
   const earnings  = data.earnings  || [];
-
-  // Summary cards
   const paying   = dividends.filter(d => d.dividendRate > 0).length;
   const upcoming = dividends.filter(d => thisMonth(d.exDate)).length;
   const squeeze  = earnings.filter(e => e.squeezeFlag).length;
   const earnSoon = earnings.filter(e => thisMonth(e.earningsDate)).length;
-  document.getElementById('kd-paying').textContent  = paying;
+  document.getElementById('kd-paying').textContent   = paying;
   document.getElementById('kd-upcoming').textContent = upcoming;
   document.getElementById('kd-squeeze').textContent  = squeeze;
   document.getElementById('kd-earnings').textContent = earnSoon;
   document.getElementById('squeezeCount').textContent = squeeze > 0 ? squeeze : '—';
 
-  // Dividend table
   if (dividends.length === 0) {
     document.getElementById('dividendTable').innerHTML = '<div class="loading-state">No dividend data found.</div>';
   } else {
     const rows = dividends.map(d => {
-      const exHighlight = (d.exDate && d.exDate !== 'N/A') ? 'color:#60a5fa;font-weight:600' : 'color:var(--muted)';
+      const exHighlight = (d.exDate && d.exDate !== 'N/A' && d.exDate !== 'Suspended') ? 'color:#60a5fa;font-weight:600' : 'color:var(--muted)';
       const isSoon = thisMonth(d.exDate) ? ' style="background:rgba(59,130,246,0.06)"' : '';
       return '<tr' + isSoon + '>' +
         '<td><span class="ticker">' + d.ticker + '</span></td>' +
@@ -377,12 +369,9 @@ function renderKeyDates(data) {
         '</tr>';
     }).join('');
     document.getElementById('dividendTable').innerHTML =
-      '<table><thead><tr>' +
-      '<th>Ticker</th><th>Company</th><th>Ex-Date</th><th>Annual Div</th><th>Yield</th><th>Price</th>' +
-      '</tr></thead><tbody>' + rows + '</tbody></table>';
+      '<table><thead><tr><th>Ticker</th><th>Company</th><th>Ex-Date</th><th>Annual Div</th><th>Yield</th><th>Price</th></tr></thead><tbody>' + rows + '</tbody></table>';
   }
 
-  // Earnings table
   if (earnings.length === 0) {
     document.getElementById('earningsTable').innerHTML = '<div class="loading-state">No earnings data found.</div>';
   } else {
@@ -402,19 +391,97 @@ function renderKeyDates(data) {
         '</tr>';
     }).join('');
     document.getElementById('earningsTable').innerHTML =
-      '<table><thead><tr>' +
-      '<th>Ticker</th><th>Company</th><th>Earnings Date</th><th>Short Ratio</th><th>Short % Float</th><th>Squeeze?</th>' +
-      '</tr></thead><tbody>' + rows + '</tbody></table>';
+      '<table><thead><tr><th>Ticker</th><th>Company</th><th>Earnings Date</th><th>Short Ratio</th><th>Short % Float</th><th>Squeeze?</th></tr></thead><tbody>' + rows + '</tbody></table>';
+  }
+  document.getElementById('keyDatesUpdated').textContent = 'Last updated: ' + (data.updated || '—');
+}
+
+// ── Price Movement ─────────────────────────────────────────────
+let priceMovementLoaded = false;
+async function loadPriceMovement() {
+  if (priceMovementLoaded) return;
+  try {
+    const res = await fetch('data/price_movement.json?t=' + Date.now());
+    if (!res.ok) throw new Error('No price movement data yet');
+    const data = await res.json();
+    renderPriceMovement(data);
+    priceMovementLoaded = true;
+  } catch(e) {
+    const msg = '<div class="loading-state">Data not yet available — run the workflow first.</div>';
+    document.getElementById('downTable').innerHTML = msg;
+    document.getElementById('upTable').innerHTML = msg;
+  }
+}
+
+function renderPriceMovement(data) {
+  const downStreaks = data.downStreaks || [];
+  const upStreaks   = data.upStreaks   || [];
+  const bottomCount = downStreaks.filter(s => s.nearBottom).length;
+  const peakCount   = upStreaks.filter(s => s.nearPeak).length;
+
+  document.getElementById('pm-down').textContent   = downStreaks.length;
+  document.getElementById('pm-bottom').textContent = bottomCount;
+  document.getElementById('pm-up').textContent     = upStreaks.length;
+  document.getElementById('pm-peak').textContent   = peakCount;
+  document.getElementById('downCount').textContent = downStreaks.length > 0 ? downStreaks.length : '—';
+  document.getElementById('upCount').textContent   = upStreaks.length > 0 ? upStreaks.length : '—';
+
+  // ── Down streaks table ──
+  if (downStreaks.length === 0) {
+    document.getElementById('downTable').innerHTML = '<div class="loading-state">No stocks down 3 consecutive days.</div>';
+  } else {
+    const rows = downStreaks.map(s => {
+      const signalCell = s.nearBottom
+        ? '<span class="badge badge-bottom">⚠️ Near Bottom</span>'
+        : '<span style="color:var(--muted);font-size:12px">—</span>';
+      return '<tr' + (s.nearBottom ? ' style="background:rgba(245,158,11,0.05)"' : '') + '>' +
+        '<td><span class="ticker">' + s.ticker + '</span></td>' +
+        '<td>' + (s.company || '—') + '</td>' +
+        '<td class="mono" style="color:var(--muted)">$' + s.price.toFixed(2) + '</td>' +
+        '<td><div class="day-cell"><div class="day-pct" style="' + pctColor(s.day1.pct) + '">' + pctStr(s.day1.pct) + '</div><div class="day-date">' + s.day1.date + '</div></div></td>' +
+        '<td><div class="day-cell"><div class="day-pct" style="' + pctColor(s.day2.pct) + '">' + pctStr(s.day2.pct) + '</div><div class="day-date">' + s.day2.date + '</div></div></td>' +
+        '<td><div class="day-cell"><div class="day-pct" style="' + pctColor(s.day3.pct) + '">' + pctStr(s.day3.pct) + '</div><div class="day-date">' + s.day3.date + '</div></div></td>' +
+        '<td class="mono red" style="font-weight:600">' + pctStr(s.totalMove) + '</td>' +
+        '<td>' + volBadge(s.volSignal) + '</td>' +
+        '<td>' + signalCell + '</td>' +
+        '</tr>';
+    }).join('');
+    document.getElementById('downTable').innerHTML =
+      '<table><thead><tr><th>Ticker</th><th>Company</th><th>Price</th><th>Day 1</th><th>Day 2</th><th>Day 3</th><th>Total Move</th><th>Volume</th><th>Signal</th></tr></thead><tbody>' + rows + '</tbody></table>';
   }
 
-  document.getElementById('keyDatesUpdated').textContent = 'Last updated: ' + (data.updated || '—');
+  // ── Up streaks table ──
+  if (upStreaks.length === 0) {
+    document.getElementById('upTable').innerHTML = '<div class="loading-state">No stocks up 3 consecutive days.</div>';
+  } else {
+    const rows = upStreaks.map(s => {
+      const signalCell = s.nearPeak
+        ? '<span class="badge badge-peak">⚠️ Near Peak</span>'
+        : '<span style="color:var(--muted);font-size:12px">—</span>';
+      return '<tr' + (s.nearPeak ? ' style="background:rgba(239,68,68,0.05)"' : '') + '>' +
+        '<td><span class="ticker">' + s.ticker + '</span></td>' +
+        '<td>' + (s.company || '—') + '</td>' +
+        '<td class="mono" style="color:var(--muted)">$' + s.price.toFixed(2) + '</td>' +
+        '<td><div class="day-cell"><div class="day-pct" style="' + pctColor(s.day1.pct) + '">' + pctStr(s.day1.pct) + '</div><div class="day-date">' + s.day1.date + '</div></div></td>' +
+        '<td><div class="day-cell"><div class="day-pct" style="' + pctColor(s.day2.pct) + '">' + pctStr(s.day2.pct) + '</div><div class="day-date">' + s.day2.date + '</div></div></td>' +
+        '<td><div class="day-cell"><div class="day-pct" style="' + pctColor(s.day3.pct) + '">' + pctStr(s.day3.pct) + '</div><div class="day-date">' + s.day3.date + '</div></div></td>' +
+        '<td class="mono green" style="font-weight:600">' + pctStr(s.totalMove) + '</td>' +
+        '<td>' + volBadge(s.volSignal) + '</td>' +
+        '<td>' + signalCell + '</td>' +
+        '</tr>';
+    }).join('');
+    document.getElementById('upTable').innerHTML =
+      '<table><thead><tr><th>Ticker</th><th>Company</th><th>Price</th><th>Day 1</th><th>Day 2</th><th>Day 3</th><th>Total Move</th><th>Volume</th><th>Signal</th></tr></thead><tbody>' + rows + '</tbody></table>';
+  }
+
+  document.getElementById('movementUpdated').textContent = 'Last updated: ' + (data.updated || '—');
 }
 
 // ── Fallback ───────────────────────────────────────────────────
 function showFallback() {
   document.getElementById('lastUpdated').textContent = 'Awaiting first data run';
   const msg = '<div class="loading-state">Data not yet available — the nightly fetch runs at midnight PST.<br>Check back tomorrow morning.</div>';
-  ['buysTable','sellsTable','alertsList','downTable','upTable'].forEach(id => {
+  ['buysTable','sellsTable','alertsList'].forEach(id => {
     const el = document.getElementById(id);
     if (el) el.innerHTML = msg;
   });
