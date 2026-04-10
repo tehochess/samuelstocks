@@ -7,9 +7,8 @@ from zoneinfo import ZoneInfo
 PST        = ZoneInfo("America/Los_Angeles")
 SENDER     = os.environ["SENDER_GMAIL"]
 PASSWORD   = os.environ["SENDER_GMAIL_APP_PASS"]
-RECIPIENTS = ["xianghe@live.com", "lihwang@live.com", "he.samuel900@gmail.com"]
+RECIPIENTS = ["he.samuel900@gmail.com"]
 SITE_URL   = os.environ.get("SITE_URL", "https://tehochess.github.io/samuelstocks")
-
 def fmt(n):
     try: return f"{int(n):,}"
     except: return "-"
