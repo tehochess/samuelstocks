@@ -3,6 +3,7 @@ from datetime import datetime, timedelta, date
 from zoneinfo import ZoneInfo
 import yfinance as yf
 import pandas as pd
+import numpy as np
 
 DJIA_TICKERS = [
     "AAPL","AMGN","AXP","BA","CAT","CRM","CSCO","CVX","DIS","DOW",
@@ -23,67 +24,215 @@ COMPANY_NAMES = {
 
 PST = ZoneInfo("America/Los_Angeles")
 
+def compute_rsi(closes, period=14):
+    """
+    RSI (Relative Strength Index) — the industry standard momentum indicator.
+    Below 30 = oversold (potential buy signal).
+    Above 70 = overbought (potential sell signal).
+    Requires at least period+1 data points.
+    """
+    if len(closes) < period + 1:
+        return None
+    deltas = np.diff(closes)
+    gains  = np.where(deltas > 0, deltas, 0.0)
+    losses = np.where(deltas < 0, -deltas, 0.0)
+    avg_gain = np.mean(gains[:period])
+    avg_loss = np.mean(losses[:period])
+    for i in range(period, len(deltas)):
+        avg_gain = (avg_gain * (period - 1) + gains[i]) / period
+        avg_loss = (avg_loss * (period - 1) + losses[i]) / period
+    if avg_loss == 0:
+        return 100.0
+    rs  = avg_gain / avg_loss
+    rsi = 100 - (100 / (1 + rs))
+    return round(rsi, 1)
+
+def rsi_label(rsi):
+    if rsi is None:  return {"label": "N/A",        "level": "neutral"}
+    if rsi < 30:     return {"label": str(rsi),      "level": "oversold"}   # strong buy signal
+    if rsi > 70:     return {"label": str(rsi),      "level": "overbought"} # strong sell signal
+    if rsi < 45:     return {"label": str(rsi),      "level": "weak"}       # leaning bearish
+    if rsi > 55:     return {"label": str(rsi),      "level": "strong"}     # leaning bullish
+    return             {"label": str(rsi),            "level": "neutral"}
+
+def classify_signal(all_down, all_up, vol_signal, rsi, vs_200d_pct):
+    """
+    Upgraded signal logic combining 4 factors:
+      1. Price direction streak (3 days)
+      2. Volume character (light / normal / heavy)
+      3. RSI level (oversold < 30, overbought > 70)
+      4. Position vs 200-day moving average
+
+    Returns a signal dict with name, strength (1-3), and reasoning.
+    """
+    if all_down:
+        rsi_oversold  = rsi is not None and rsi < 30
+        rsi_neutral   = rsi is not None and 30 <= rsi <= 50
+        below_200d    = vs_200d_pct is not None and vs_200d_pct < -5
+
+        if vol_signal == "heavy":
+            # Heavy selling volume = institutional conviction = potential breakdown
+            return {
+                "name":     "Breakdown",
+                "strength": 3,
+                "color":    "red",
+                "icon":     "🔴",
+                "reason":   "Down streak + heavy volume = institutional selling. Floor may be lower."
+            }
+        elif vol_signal == "light" and rsi_oversold and below_200d:
+            # All three alignment = strongest bottom signal
+            return {
+                "name":     "Strong Bottom",
+                "strength": 3,
+                "color":    "green",
+                "icon":     "🟢",
+                "reason":   "Down streak + light volume + RSI oversold + below 200d MA. High-conviction reversal candidate."
+            }
+        elif vol_signal == "light" and rsi_oversold:
+            return {
+                "name":     "Near Bottom",
+                "strength": 2,
+                "color":    "amber",
+                "icon":     "🟡",
+                "reason":   "Down streak + light volume + RSI oversold. Watch for reversal."
+            }
+        elif vol_signal == "light":
+            return {
+                "name":     "Possible Bottom",
+                "strength": 1,
+                "color":    "amber",
+                "icon":     "⚠️",
+                "reason":   "Down streak + light volume. RSI not yet oversold — confirm before acting."
+            }
+        else:
+            return {
+                "name":     "Downtrend",
+                "strength": 1,
+                "color":    "muted",
+                "icon":     "—",
+                "reason":   "Down streak with normal volume. No reversal signal yet."
+            }
+
+    elif all_up:
+        rsi_overbought = rsi is not None and rsi > 70
+        above_200d     = vs_200d_pct is not None and vs_200d_pct > 10
+
+        if vol_signal == "heavy" and rsi_overbought and above_200d:
+            return {
+                "name":     "Strong Peak",
+                "strength": 3,
+                "color":    "red",
+                "icon":     "🔴",
+                "reason":   "Up streak + heavy volume + RSI overbought + extended above 200d MA. High risk of reversal."
+            }
+        elif vol_signal == "heavy" and rsi_overbought:
+            return {
+                "name":     "Near Peak",
+                "strength": 2,
+                "color":    "amber",
+                "icon":     "🟡",
+                "reason":   "Up streak + heavy volume + RSI overbought. Consider taking profits."
+            }
+        elif vol_signal == "heavy":
+            return {
+                "name":     "Momentum",
+                "strength": 1,
+                "color":    "green",
+                "icon":     "📈",
+                "reason":   "Up streak + heavy volume. Strong buying interest — RSI not yet overbought."
+            }
+        elif vol_signal == "light":
+            return {
+                "name":     "Weak Rally",
+                "strength": 1,
+                "color":    "muted",
+                "icon":     "—",
+                "reason":   "Up streak on light volume. Low conviction — may stall or reverse."
+            }
+        else:
+            return {
+                "name":     "Uptrend",
+                "strength": 1,
+                "color":    "muted",
+                "icon":     "—",
+                "reason":   "Up streak with normal volume. No strong signal yet."
+            }
+
+    return {"name": "—", "strength": 0, "color": "muted", "icon": "—", "reason": ""}
+
+
 def analyze_ticker(ticker):
     company = COMPANY_NAMES.get(ticker, ticker)
     try:
-        # Fetch last 10 trading days of data (enough to find 3 consecutive)
         stock = yf.Ticker(ticker)
-        hist = stock.history(period="10d")
 
-        if hist is None or len(hist) < 4:
+        # Fetch 1 year of daily data — needed for 200-day MA and RSI(14)
+        hist = stock.history(period="1y")
+
+        if hist is None or len(hist) < 20:
             print("  " + ticker + ": not enough data")
             return None
 
-        # Calculate daily % change and volume vs average
-        hist = hist.copy()
-        hist["pct_change"] = hist["Close"].pct_change() * 100
-        avg_volume = hist["Volume"].mean()
+        closes  = hist["Close"].values
+        volumes = hist["Volume"].values
+        dates_idx = hist.index
 
-        # Look at the last 3 trading days (index -3, -2, -1)
-        last3 = hist.iloc[-3:]
-        changes = last3["pct_change"].tolist()
-        volumes = last3["Volume"].tolist()
-        closes  = last3["Close"].tolist()
-        dates   = [str(d.date()) for d in last3.index]
+        # ── RSI (14-day) ──────────────────────────────────────────
+        rsi = compute_rsi(closes, period=14)
 
-        # Are all 3 days DOWN?
-        all_down = all(c < 0 for c in changes)
-        # Are all 3 days UP?
-        all_up   = all(c > 0 for c in changes)
+        # ── 200-day moving average ────────────────────────────────
+        if len(closes) >= 200:
+            ma200 = round(float(np.mean(closes[-200:])), 2)
+        else:
+            ma200 = round(float(np.mean(closes)), 2)  # use all available if < 200 days
+        current_price = round(float(closes[-1]), 2)
+        vs_200d_pct   = round(((current_price - ma200) / ma200) * 100, 1)
 
-        # Volume on the most recent day vs average
-        latest_vol     = volumes[-1]
-        vol_vs_avg_pct = round(((latest_vol - avg_volume) / avg_volume) * 100, 1)
-        vol_signal     = "light" if vol_vs_avg_pct < -15 else ("heavy" if vol_vs_avg_pct > 15 else "normal")
+        # ── Average volume (20-day) ───────────────────────────────
+        avg_volume_20d = float(np.mean(volumes[-20:]))
 
-        current_price  = round(closes[-1], 2)
-        total_move_pct = round(sum(changes), 2)  # total % move over 3 days
+        # ── Last 3 trading days ───────────────────────────────────
+        pct_changes = pd.Series(closes).pct_change().values * 100
+        last3_pcts  = pct_changes[-3:]
+        last3_vols  = volumes[-3:]
+        last3_closes = closes[-3:]
+        last3_dates  = [str(dates_idx[-3].date()), str(dates_idx[-2].date()), str(dates_idx[-1].date())]
+
+        all_down = all(c < 0 for c in last3_pcts)
+        all_up   = all(c > 0 for c in last3_pcts)
+
+        # Volume character of the most recent day vs 20-day average
+        latest_vol     = float(last3_vols[-1])
+        vol_vs_avg_pct = round(((latest_vol - avg_volume_20d) / avg_volume_20d) * 100, 1)
+        vol_signal     = "light" if vol_vs_avg_pct < -20 else ("heavy" if vol_vs_avg_pct > 20 else "normal")
+
+        total_move_pct = round(float(sum(last3_pcts)), 2)
+
+        # ── Signal classification ─────────────────────────────────
+        signal = classify_signal(all_down, all_up, vol_signal, rsi, vs_200d_pct)
 
         result = {
             "ticker":       ticker,
             "company":      company,
             "price":        current_price,
-            "day1":         {"date": dates[0], "pct": round(changes[0], 2), "vol": int(volumes[0])},
-            "day2":         {"date": dates[1], "pct": round(changes[1], 2), "vol": int(volumes[1])},
-            "day3":         {"date": dates[2], "pct": round(changes[2], 2), "vol": int(volumes[2])},
+            "ma200":        ma200,
+            "vs200dPct":    vs_200d_pct,
+            "rsi":          rsi,
+            "rsiLabel":     rsi_label(rsi),
+            "day1":         {"date": last3_dates[0], "pct": round(float(last3_pcts[0]), 2), "vol": int(last3_vols[0])},
+            "day2":         {"date": last3_dates[1], "pct": round(float(last3_pcts[1]), 2), "vol": int(last3_vols[1])},
+            "day3":         {"date": last3_dates[2], "pct": round(float(last3_pcts[2]), 2), "vol": int(last3_vols[2])},
             "totalMove":    total_move_pct,
             "volVsAvg":     vol_vs_avg_pct,
             "volSignal":    vol_signal,
-            "avgVolume":    int(avg_volume),
+            "avgVolume20d": int(avg_volume_20d),
             "allDown":      all_down,
             "allUp":        all_up,
+            "signal":       signal,
         }
 
-        # Bottom signal: down 3 days AND volume lighter than average today
-        # (sellers are exhausting, fewer people left to sell)
-        result["nearBottom"] = all_down and vol_signal == "light"
-
-        # Peak signal: up 3 days AND volume heavier than average today
-        # (buyers piling in, euphoria = often near the top)
-        result["nearPeak"]   = all_up and vol_signal == "heavy"
-
         direction = "DOWN" if all_down else ("UP" if all_up else "MIXED")
-        print("  " + ticker + ": " + direction + " " + str(total_move_pct) + "% | vol " + vol_signal)
+        print("  " + ticker + ": " + direction + " " + str(total_move_pct) + "% | RSI=" + str(rsi) + " | vs200d=" + str(vs_200d_pct) + "% | vol=" + vol_signal + " | signal=" + signal["name"])
         return result
 
     except Exception as e:
@@ -100,13 +249,12 @@ def main():
             all_results.append(r)
         time.sleep(0.5)
 
-    # Split into down streaks and up streaks
     down_streaks = [r for r in all_results if r["allDown"]]
     up_streaks   = [r for r in all_results if r["allUp"]]
 
-    # Sort: biggest total move first
-    down_streaks.sort(key=lambda x: x["totalMove"])          # most negative first
-    up_streaks.sort(key=lambda x: -x["totalMove"])           # most positive first
+    # Sort by signal strength first, then total move magnitude
+    down_streaks.sort(key=lambda x: (-x["signal"]["strength"], x["totalMove"]))
+    up_streaks.sort(key=lambda x:   (-x["signal"]["strength"], -x["totalMove"]))
 
     now = datetime.now(PST)
     os.makedirs("data", exist_ok=True)
