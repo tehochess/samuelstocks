@@ -1,6 +1,6 @@
 {
-  "updated": "Apr 10, 2026 05:59 PM PST",
-  "updated_iso": "2026-04-10T17:59:04.112382-07:00",
+  "updated": "Apr 10, 2026 10:56 PM PST",
+  "updated_iso": "2026-04-10T22:56:19.576388-07:00",
   "dividends": [
     {
       "ticker": "PG",
@@ -57,14 +57,6 @@
       "dividendRate": 5.2,
       "dividendYield": 2.18,
       "price": 238.46
-    },
-    {
-      "ticker": "DOW",
-      "company": "Dow Inc",
-      "exDate": "2026-02-27",
-      "dividendRate": 1.75,
-      "dividendYield": 4.49,
-      "price": 39.01
     },
     {
       "ticker": "HON",
@@ -211,6 +203,14 @@
       "price": 370.87
     },
     {
+      "ticker": "DOW",
+      "company": "Dow Inc",
+      "exDate": "2026-05-29",
+      "dividendRate": 1.4,
+      "dividendYield": 3.59,
+      "price": 39.01
+    },
+    {
       "ticker": "DIS",
       "company": "Disney",
       "exDate": "2026-06-30",
@@ -245,19 +245,19 @@
       "squeezeFlag": true
     },
     {
-      "ticker": "VZ",
-      "company": "Verizon",
+      "ticker": "IBM",
+      "company": "IBM",
       "earningsDate": "N/A",
-      "shortRatio": 3.7,
-      "shortPct": 2.3,
+      "shortRatio": 4.2,
+      "shortPct": 2.8,
       "squeezeFlag": false
     },
     {
-      "ticker": "V",
-      "company": "Visa",
+      "ticker": "VZ",
+      "company": "Verizon",
       "earningsDate": "N/A",
-      "shortRatio": 3.4,
-      "shortPct": 1.6,
+      "shortRatio": 3.3,
+      "shortPct": 2.1,
       "squeezeFlag": false
     },
     {
@@ -269,14 +269,6 @@
       "squeezeFlag": false
     },
     {
-      "ticker": "IBM",
-      "company": "IBM",
-      "earningsDate": "N/A",
-      "shortRatio": 3.2,
-      "shortPct": 2.6,
-      "squeezeFlag": false
-    },
-    {
       "ticker": "KO",
       "company": "Coca-Cola",
       "earningsDate": "N/A",
@@ -285,11 +277,27 @@
       "squeezeFlag": false
     },
     {
+      "ticker": "V",
+      "company": "Visa",
+      "earningsDate": "N/A",
+      "shortRatio": 3.2,
+      "shortPct": 1.4,
+      "squeezeFlag": false
+    },
+    {
       "ticker": "WMT",
       "company": "Walmart",
       "earningsDate": "N/A",
       "shortRatio": 3.2,
       "shortPct": 0.9,
+      "squeezeFlag": false
+    },
+    {
+      "ticker": "AXP",
+      "company": "American Express",
+      "earningsDate": "N/A",
+      "shortRatio": 3.1,
+      "shortPct": 2.3,
       "squeezeFlag": false
     },
     {
@@ -309,35 +317,51 @@
       "squeezeFlag": false
     },
     {
-      "ticker": "MCD",
-      "company": "McDonald's",
-      "earningsDate": "N/A",
-      "shortRatio": 2.8,
-      "shortPct": 1.3,
-      "squeezeFlag": false
-    },
-    {
       "ticker": "TRV",
       "company": "Travelers",
       "earningsDate": "N/A",
-      "shortRatio": 2.8,
-      "shortPct": 1.9,
-      "squeezeFlag": false
-    },
-    {
-      "ticker": "JNJ",
-      "company": "Johnson & Johnson",
-      "earningsDate": "N/A",
-      "shortRatio": 2.7,
-      "shortPct": 1.1,
+      "shortRatio": 3.0,
+      "shortPct": 2.3,
       "squeezeFlag": false
     },
     {
       "ticker": "CAT",
       "company": "Caterpillar",
       "earningsDate": "N/A",
-      "shortRatio": 2.6,
+      "shortRatio": 2.9,
       "shortPct": 1.7,
+      "squeezeFlag": false
+    },
+    {
+      "ticker": "JNJ",
+      "company": "Johnson & Johnson",
+      "earningsDate": "N/A",
+      "shortRatio": 2.9,
+      "shortPct": 1.0,
+      "squeezeFlag": false
+    },
+    {
+      "ticker": "MCD",
+      "company": "McDonald's",
+      "earningsDate": "N/A",
+      "shortRatio": 2.9,
+      "shortPct": 1.4,
+      "squeezeFlag": false
+    },
+    {
+      "ticker": "NKE",
+      "company": "Nike",
+      "earningsDate": "N/A",
+      "shortRatio": 2.8,
+      "shortPct": 4.8,
+      "squeezeFlag": false
+    },
+    {
+      "ticker": "GS",
+      "company": "Goldman Sachs",
+      "earningsDate": "N/A",
+      "shortRatio": 2.7,
+      "shortPct": 2.2,
       "squeezeFlag": false
     },
     {
@@ -357,22 +381,6 @@
       "squeezeFlag": false
     },
     {
-      "ticker": "NKE",
-      "company": "Nike",
-      "earningsDate": "N/A",
-      "shortRatio": 2.6,
-      "shortPct": 4.5,
-      "squeezeFlag": false
-    },
-    {
-      "ticker": "AXP",
-      "company": "American Express",
-      "earningsDate": "N/A",
-      "shortRatio": 2.5,
-      "shortPct": 2.1,
-      "squeezeFlag": false
-    },
-    {
       "ticker": "MSFT",
       "company": "Microsoft",
       "earningsDate": "N/A",
@@ -381,35 +389,19 @@
       "squeezeFlag": false
     },
     {
-      "ticker": "GS",
-      "company": "Goldman Sachs",
-      "earningsDate": "N/A",
-      "shortRatio": 2.4,
-      "shortPct": 2.1,
-      "squeezeFlag": false
-    },
-    {
       "ticker": "JPM",
       "company": "JPMorgan Chase",
       "earningsDate": "N/A",
       "shortRatio": 2.4,
-      "shortPct": 0.9,
-      "squeezeFlag": false
-    },
-    {
-      "ticker": "UNH",
-      "company": "UnitedHealth",
-      "earningsDate": "N/A",
-      "shortRatio": 2.3,
-      "shortPct": 2.0,
+      "shortPct": 1.0,
       "squeezeFlag": false
     },
     {
       "ticker": "PG",
       "company": "Procter & Gamble",
       "earningsDate": "N/A",
-      "shortRatio": 2.2,
-      "shortPct": 1.0,
+      "shortRatio": 2.4,
+      "shortPct": 1.2,
       "squeezeFlag": false
     },
     {
@@ -421,19 +413,27 @@
       "squeezeFlag": false
     },
     {
-      "ticker": "MMM",
-      "company": "3M",
+      "ticker": "UNH",
+      "company": "UnitedHealth",
       "earningsDate": "N/A",
-      "shortRatio": 2.1,
-      "shortPct": 1.6,
+      "shortRatio": 2.0,
+      "shortPct": 1.9,
       "squeezeFlag": false
     },
     {
       "ticker": "DIS",
       "company": "Disney",
       "earningsDate": "N/A",
-      "shortRatio": 1.9,
-      "shortPct": 1.1,
+      "shortRatio": 1.8,
+      "shortPct": 1.2,
+      "squeezeFlag": false
+    },
+    {
+      "ticker": "MMM",
+      "company": "3M",
+      "earningsDate": "N/A",
+      "shortRatio": 1.8,
+      "shortPct": 1.5,
       "squeezeFlag": false
     },
     {
@@ -464,7 +464,7 @@
       "ticker": "BA",
       "company": "Boeing",
       "earningsDate": "N/A",
-      "shortRatio": 0.3,
+      "shortRatio": 0.2,
       "shortPct": 0.2,
       "squeezeFlag": false
     }
