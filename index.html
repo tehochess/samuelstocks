@@ -146,8 +146,8 @@
     </div>
     <div class="table-card">
       <div class="table-header">
-        <div class="table-title">Dividend dates — ex-date &amp; payout</div>
-        <div class="table-subtitle">Sorted by soonest ex-dividend date · Yield calculated from price · Source: Yahoo Finance</div>
+        <div class="table-title" id="divTableTitle">Dividend dates — ex-date &amp; payout</div>
+        <div class="table-subtitle" id="divTableSubtitle">Sorted by soonest ex-dividend date · Yield calculated from price · Source: Yahoo Finance</div>
       </div>
       <div id="dividendTable"><div class="loading-state"><div class="loading-spinner"></div>Loading...</div></div>
     </div>
@@ -313,6 +313,13 @@ async function loadKeyDates() {
 }
 
 function renderKeyDates(data) {
+  const hasUpcoming = data.hasUpcoming || false;
+  document.getElementById('divTableTitle').textContent = hasUpcoming
+    ? 'Dividend dates — upcoming ex-dates'
+    : 'Dividend dates — recent ex-dates (no future dates announced yet)';
+  document.getElementById('divTableSubtitle').textContent = hasUpcoming
+    ? 'Showing upcoming ex-dividend dates · Yield calculated from price · Source: Yahoo Finance'
+    : 'All announced ex-dates have passed — next dates not yet published by Yahoo Finance · Yield calculated from price';
   const divs=data.dividends||[], earns=data.earnings||[];
   document.getElementById('kd-paying').textContent   = divs.filter(d=>d.dividendRate>0).length;
   document.getElementById('kd-upcoming').textContent = divs.filter(d=>thisMonth(d.exDate)).length;
