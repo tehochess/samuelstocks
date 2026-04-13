@@ -1,179 +1,13 @@
 {
-  "updated": "Apr 12, 2026 04:57 PM PST",
-  "updated_iso": "2026-04-12T16:57:05.669348-07:00",
+  "updated": "Apr 12, 2026 05:15 PM PST",
+  "updated_iso": "2026-04-12T17:15:29.671120-07:00",
+  "hasUpcoming": true,
   "dividends": [
-    {
-      "ticker": "PG",
-      "company": "Procter & Gamble",
-      "exDate": "2026-01-23",
-      "dividendRate": 4.23,
-      "dividendYield": 2.91,
-      "price": 145.16
-    },
-    {
-      "ticker": "AAPL",
-      "company": "Apple",
-      "exDate": "2026-02-09",
-      "dividendRate": 1.04,
-      "dividendYield": 0.4,
-      "price": 260.48
-    },
-    {
-      "ticker": "IBM",
-      "company": "IBM",
-      "exDate": "2026-02-10",
-      "dividendRate": 6.72,
-      "dividendYield": 2.91,
-      "price": 230.76
-    },
-    {
-      "ticker": "V",
-      "company": "Visa",
-      "exDate": "2026-02-10",
-      "dividendRate": 2.68,
-      "dividendYield": 0.88,
-      "price": 304.36
-    },
-    {
-      "ticker": "MMM",
-      "company": "3M",
-      "exDate": "2026-02-13",
-      "dividendRate": 3.12,
-      "dividendYield": 2.08,
-      "price": 150.32
-    },
-    {
-      "ticker": "CVX",
-      "company": "Chevron",
-      "exDate": "2026-02-17",
-      "dividendRate": 7.12,
-      "dividendYield": 3.78,
-      "price": 188.55
-    },
-    {
-      "ticker": "JNJ",
-      "company": "Johnson & Johnson",
-      "exDate": "2026-02-24",
-      "dividendRate": 5.2,
-      "dividendYield": 2.18,
-      "price": 238.46
-    },
-    {
-      "ticker": "HON",
-      "company": "Honeywell",
-      "exDate": "2026-02-27",
-      "dividendRate": 4.76,
-      "dividendYield": 2.03,
-      "price": 235.04
-    },
-    {
-      "ticker": "GS",
-      "company": "Goldman Sachs",
-      "exDate": "2026-03-02",
-      "dividendRate": 18.0,
-      "dividendYield": 1.98,
-      "price": 907.8
-    },
-    {
-      "ticker": "NKE",
-      "company": "Nike",
-      "exDate": "2026-03-02",
-      "dividendRate": 1.64,
-      "dividendYield": 3.85,
-      "price": 42.62
-    },
-    {
-      "ticker": "MCD",
-      "company": "McDonald's",
-      "exDate": "2026-03-03",
-      "dividendRate": 7.44,
-      "dividendYield": 2.43,
-      "price": 305.68
-    },
-    {
-      "ticker": "UNH",
-      "company": "UnitedHealth",
-      "exDate": "2026-03-09",
-      "dividendRate": 8.84,
-      "dividendYield": 2.9,
-      "price": 304.33
-    },
-    {
-      "ticker": "TRV",
-      "company": "Travelers",
-      "exDate": "2026-03-10",
-      "dividendRate": 4.4,
-      "dividendYield": 1.48,
-      "price": 297.26
-    },
-    {
-      "ticker": "HD",
-      "company": "Home Depot",
-      "exDate": "2026-03-12",
-      "dividendRate": 9.32,
-      "dividendYield": 2.76,
-      "price": 337.34
-    },
-    {
-      "ticker": "KO",
-      "company": "Coca-Cola",
-      "exDate": "2026-03-13",
-      "dividendRate": 2.06,
-      "dividendYield": 2.66,
-      "price": 77.47
-    },
-    {
-      "ticker": "MRK",
-      "company": "Merck",
-      "exDate": "2026-03-16",
-      "dividendRate": 3.4,
-      "dividendYield": 2.8,
-      "price": 121.42
-    },
-    {
-      "ticker": "AXP",
-      "company": "American Express",
-      "exDate": "2026-04-02",
-      "dividendRate": 3.8,
-      "dividendYield": 1.21,
-      "price": 313.5
-    },
-    {
-      "ticker": "CSCO",
-      "company": "Cisco",
-      "exDate": "2026-04-02",
-      "dividendRate": 1.68,
-      "dividendYield": 2.04,
-      "price": 82.22
-    },
-    {
-      "ticker": "JPM",
-      "company": "JPMorgan Chase",
-      "exDate": "2026-04-06",
-      "dividendRate": 6.0,
-      "dividendYield": 1.94,
-      "price": 309.87
-    },
-    {
-      "ticker": "CRM",
-      "company": "Salesforce",
-      "exDate": "2026-04-09",
-      "dividendRate": 1.76,
-      "dividendYield": 1.07,
-      "price": 164.96
-    },
-    {
-      "ticker": "VZ",
-      "company": "Verizon",
-      "exDate": "2026-04-10",
-      "dividendRate": 2.83,
-      "dividendYield": 6.15,
-      "price": 46.04
-    },
     {
       "ticker": "CAT",
       "company": "Caterpillar",
       "exDate": "2026-04-20",
+      "exStatus": "upcoming",
       "dividendRate": 6.04,
       "dividendYield": 0.76,
       "price": 790.66
@@ -182,6 +16,7 @@
       "ticker": "WMT",
       "company": "Walmart",
       "exDate": "2026-05-08",
+      "exStatus": "upcoming",
       "dividendRate": 0.99,
       "dividendYield": 0.78,
       "price": 126.77
@@ -190,6 +25,7 @@
       "ticker": "AMGN",
       "company": "Amgen",
       "exDate": "2026-05-15",
+      "exStatus": "upcoming",
       "dividendRate": 10.08,
       "dividendYield": 2.87,
       "price": 351.02
@@ -198,6 +34,7 @@
       "ticker": "MSFT",
       "company": "Microsoft",
       "exDate": "2026-05-21",
+      "exStatus": "upcoming",
       "dividendRate": 3.64,
       "dividendYield": 0.98,
       "price": 370.87
@@ -206,6 +43,7 @@
       "ticker": "DOW",
       "company": "Dow Inc",
       "exDate": "2026-05-29",
+      "exStatus": "upcoming",
       "dividendRate": 1.4,
       "dividendYield": 3.59,
       "price": 39.01
@@ -214,14 +52,205 @@
       "ticker": "DIS",
       "company": "Disney",
       "exDate": "2026-06-30",
+      "exStatus": "upcoming",
       "dividendRate": 1.5,
       "dividendYield": 1.51,
       "price": 99.17
     },
     {
+      "ticker": "PG",
+      "company": "Procter & Gamble",
+      "exDate": "2026-01-23",
+      "exStatus": "recent",
+      "dividendRate": 4.23,
+      "dividendYield": 2.91,
+      "price": 145.16
+    },
+    {
+      "ticker": "AAPL",
+      "company": "Apple",
+      "exDate": "2026-02-09",
+      "exStatus": "recent",
+      "dividendRate": 1.04,
+      "dividendYield": 0.4,
+      "price": 260.48
+    },
+    {
+      "ticker": "IBM",
+      "company": "IBM",
+      "exDate": "2026-02-10",
+      "exStatus": "recent",
+      "dividendRate": 6.72,
+      "dividendYield": 2.91,
+      "price": 230.76
+    },
+    {
+      "ticker": "V",
+      "company": "Visa",
+      "exDate": "2026-02-10",
+      "exStatus": "recent",
+      "dividendRate": 2.68,
+      "dividendYield": 0.88,
+      "price": 304.36
+    },
+    {
+      "ticker": "MMM",
+      "company": "3M",
+      "exDate": "2026-02-13",
+      "exStatus": "recent",
+      "dividendRate": 3.12,
+      "dividendYield": 2.08,
+      "price": 150.32
+    },
+    {
+      "ticker": "CVX",
+      "company": "Chevron",
+      "exDate": "2026-02-17",
+      "exStatus": "recent",
+      "dividendRate": 7.12,
+      "dividendYield": 3.78,
+      "price": 188.55
+    },
+    {
+      "ticker": "JNJ",
+      "company": "Johnson & Johnson",
+      "exDate": "2026-02-24",
+      "exStatus": "recent",
+      "dividendRate": 5.2,
+      "dividendYield": 2.18,
+      "price": 238.46
+    },
+    {
+      "ticker": "HON",
+      "company": "Honeywell",
+      "exDate": "2026-02-27",
+      "exStatus": "recent",
+      "dividendRate": 4.76,
+      "dividendYield": 2.03,
+      "price": 235.04
+    },
+    {
+      "ticker": "GS",
+      "company": "Goldman Sachs",
+      "exDate": "2026-03-02",
+      "exStatus": "recent",
+      "dividendRate": 18.0,
+      "dividendYield": 1.98,
+      "price": 907.8
+    },
+    {
+      "ticker": "NKE",
+      "company": "Nike",
+      "exDate": "2026-03-02",
+      "exStatus": "recent",
+      "dividendRate": 1.64,
+      "dividendYield": 3.85,
+      "price": 42.62
+    },
+    {
+      "ticker": "MCD",
+      "company": "McDonald's",
+      "exDate": "2026-03-03",
+      "exStatus": "recent",
+      "dividendRate": 7.44,
+      "dividendYield": 2.43,
+      "price": 305.68
+    },
+    {
+      "ticker": "UNH",
+      "company": "UnitedHealth",
+      "exDate": "2026-03-09",
+      "exStatus": "recent",
+      "dividendRate": 8.84,
+      "dividendYield": 2.9,
+      "price": 304.33
+    },
+    {
+      "ticker": "TRV",
+      "company": "Travelers",
+      "exDate": "2026-03-10",
+      "exStatus": "recent",
+      "dividendRate": 4.4,
+      "dividendYield": 1.48,
+      "price": 297.26
+    },
+    {
+      "ticker": "HD",
+      "company": "Home Depot",
+      "exDate": "2026-03-12",
+      "exStatus": "recent",
+      "dividendRate": 9.32,
+      "dividendYield": 2.76,
+      "price": 337.34
+    },
+    {
+      "ticker": "KO",
+      "company": "Coca-Cola",
+      "exDate": "2026-03-13",
+      "exStatus": "recent",
+      "dividendRate": 2.06,
+      "dividendYield": 2.66,
+      "price": 77.47
+    },
+    {
+      "ticker": "MRK",
+      "company": "Merck",
+      "exDate": "2026-03-16",
+      "exStatus": "recent",
+      "dividendRate": 3.4,
+      "dividendYield": 2.8,
+      "price": 121.42
+    },
+    {
+      "ticker": "AXP",
+      "company": "American Express",
+      "exDate": "2026-04-02",
+      "exStatus": "recent",
+      "dividendRate": 3.8,
+      "dividendYield": 1.21,
+      "price": 313.5
+    },
+    {
+      "ticker": "CSCO",
+      "company": "Cisco",
+      "exDate": "2026-04-02",
+      "exStatus": "recent",
+      "dividendRate": 1.68,
+      "dividendYield": 2.04,
+      "price": 82.22
+    },
+    {
+      "ticker": "JPM",
+      "company": "JPMorgan Chase",
+      "exDate": "2026-04-06",
+      "exStatus": "recent",
+      "dividendRate": 6.0,
+      "dividendYield": 1.94,
+      "price": 309.87
+    },
+    {
+      "ticker": "CRM",
+      "company": "Salesforce",
+      "exDate": "2026-04-09",
+      "exStatus": "recent",
+      "dividendRate": 1.76,
+      "dividendYield": 1.07,
+      "price": 164.96
+    },
+    {
+      "ticker": "VZ",
+      "company": "Verizon",
+      "exDate": "2026-04-10",
+      "exStatus": "recent",
+      "dividendRate": 2.83,
+      "dividendYield": 6.15,
+      "price": 46.04
+    },
+    {
       "ticker": "BA",
       "company": "Boeing",
       "exDate": "Suspended",
+      "exStatus": "suspended",
       "dividendRate": 0.0,
       "dividendYield": 0.0,
       "price": 217.63
@@ -230,6 +259,7 @@
       "ticker": "INTC",
       "company": "Intel",
       "exDate": "Suspended",
+      "exStatus": "suspended",
       "dividendRate": 0.0,
       "dividendYield": 0.0,
       "price": 62.38
