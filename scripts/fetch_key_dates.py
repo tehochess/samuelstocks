@@ -21,7 +21,7 @@ COMPANY_NAMES = {
     "WMT":"Walmart",
 }
 
-PST = ZoneInfo("America/Los_Angeles")
+PST   = ZoneInfo("America/Los_Angeles")
 TODAY = date.today()
 
 def safe_float(v):
@@ -38,45 +38,51 @@ def fetch_ticker(ticker):
 
     try:
         stock = yf.Ticker(ticker)
-        info = stock.info
+        info  = stock.info
 
         # ── DIVIDEND ──────────────────────────────────────────────
         ex_ts = info.get("exDividendDate")
+        ex_str = "N/A"
+        ex_status = "none"   # "upcoming" | "recent" | "suspended" | "none"
+
         if ex_ts:
-            ex_str = datetime.fromtimestamp(ex_ts).strftime("%Y-%m-%d")
-        else:
-            ex_str = "N/A"
+            ex_date_obj = datetime.fromtimestamp(ex_ts).date()
+            ex_str      = ex_date_obj.strftime("%Y-%m-%d")
+            days_ago    = (TODAY - ex_date_obj).days
+
+            if ex_date_obj >= TODAY:
+                ex_status = "upcoming"          # future — genuinely upcoming
+            elif days_ago <= 90:
+                ex_status = "recent"            # past but within 90 days — still useful context
+            elif days_ago > 365:
+                ex_str    = "Suspended"
+                ex_status = "suspended"         # Boeing, Intel etc
+            else:
+                ex_status = "recent"            # 90–365 days ago — show but label correctly
 
         div_rate = safe_float(info.get("dividendRate", 0))
         price    = safe_float(info.get("currentPrice") or info.get("regularMarketPrice", 0))
 
-        # Calculate yield directly — bypasses Yahoo's broken dividendYield field
+        # Calculate yield directly — bypasses Yahoo's inconsistent dividendYield field
         if div_rate > 0 and price > 0:
             div_yield_pct = round((div_rate / price) * 100, 2)
         else:
             div_yield_pct = 0.0
 
-        # Sanity check: no Dow 30 stock pays above 15% yield — must be a data error
+        # Sanity check: no Dow 30 stock pays above 15% yield
         if div_yield_pct > 15:
             div_yield_pct = 0.0
-
-        # Flag stale ex-dates (older than 1 year) as Suspended
-        # This correctly handles Boeing (no dividend since 2020) and Intel (suspended 2024)
-        # Note: script only tracks common stock tickers — BA-PA preferred is excluded by design
-        if ex_str != "N/A":
-            ex_date_obj = datetime.strptime(ex_str, "%Y-%m-%d").date()
-            if (TODAY - ex_date_obj).days > 365:
-                ex_str = "Suspended"
 
         dividend_row = {
             "ticker":        ticker,
             "company":       company,
             "exDate":        ex_str,
+            "exStatus":      ex_status,
             "dividendRate":  round(div_rate, 2),
             "dividendYield": div_yield_pct,
             "price":         round(price, 2),
         }
-        print("  " + ticker + ": ex=" + ex_str + " rate=$" + str(round(div_rate,2)) + " yield=" + str(div_yield_pct) + "%")
+        print("  " + ticker + ": ex=" + ex_str + " [" + ex_status + "] rate=$" + str(round(div_rate,2)) + " yield=" + str(div_yield_pct) + "%")
 
         # ── EARNINGS ──────────────────────────────────────────────
         short_ratio = safe_float(info.get("shortRatio", 0))
@@ -87,7 +93,6 @@ def fetch_ticker(ticker):
             cal = stock.calendar
             if cal is not None and not cal.empty:
                 candidates = []
-
                 if isinstance(cal, dict):
                     ed = cal.get("Earnings Date")
                     if ed:
@@ -95,7 +100,7 @@ def fetch_ticker(ticker):
                 else:
                     candidates = list(cal.columns)
 
-                # Keep only FUTURE dates (Earnings Date > today)
+                # Only keep FUTURE earnings dates
                 future_dates = []
                 for c in candidates:
                     try:
@@ -107,16 +112,11 @@ def fetch_ticker(ticker):
 
                 if future_dates:
                     future_dates.sort()
-                    earn_str = str(future_dates[0])  # soonest upcoming date
-                else:
-                    earn_str = "N/A"  # no future date found — don't show stale past dates
-
+                    earn_str = str(future_dates[0])
         except Exception as e:
             print("  " + ticker + ": calendar err - " + str(e))
 
         squeeze_flag = short_ratio >= 5.0
-
-        # shortPercentOfFloat comes as decimal (0.03 = 3%) — convert to pct
         short_pct_display = round(short_pct * 100, 1) if short_pct < 1 else round(short_pct, 1)
 
         earnings_row = {
@@ -131,7 +131,7 @@ def fetch_ticker(ticker):
 
     except Exception as e:
         print("  " + ticker + ": ERROR - " + str(e))
-        dividend_row = {"ticker": ticker, "company": company, "exDate": "N/A", "dividendRate": 0, "dividendYield": 0, "price": 0}
+        dividend_row = {"ticker": ticker, "company": company, "exDate": "N/A", "exStatus": "none", "dividendRate": 0, "dividendYield": 0, "price": 0}
         earnings_row = {"ticker": ticker, "company": company, "earningsDate": "N/A", "shortRatio": 0, "shortPct": 0, "squeezeFlag": False}
 
     return dividend_row, earnings_row
@@ -147,27 +147,35 @@ def main():
         if e: earnings.append(e)
         time.sleep(0.5)
 
-    # Sort dividends: active dates first (soonest), Suspended/N/A at bottom
+    # Sort: upcoming first, then recent (by date desc), then suspended/none
     def div_sort(x):
-        if x["exDate"] in ("N/A", "Suspended"):
-            return "9999"
-        return x["exDate"]
+        status = x.get("exStatus", "none")
+        ex     = x.get("exDate", "")
+        if status == "upcoming":   return ("0", ex)      # future dates first
+        if status == "recent":     return ("1", ex)      # recent past next
+        if status == "suspended":  return ("3", ex)      # suspended last
+        return ("4", ex)
     dividends.sort(key=div_sort)
 
-    # Sort earnings by short ratio descending (squeeze candidates first)
+    # Check if any upcoming ex-dates exist at all
+    has_upcoming = any(d.get("exStatus") == "upcoming" for d in dividends)
+
     earnings.sort(key=lambda x: -x["shortRatio"])
 
     now = datetime.now(PST)
     os.makedirs("data", exist_ok=True)
     with open("data/key_dates.json", "w") as f:
         json.dump({
-            "updated":     now.strftime("%b %d, %Y %I:%M %p PST"),
-            "updated_iso": now.isoformat(),
-            "dividends":   dividends,
-            "earnings":    earnings,
+            "updated":      now.strftime("%b %d, %Y %I:%M %p PST"),
+            "updated_iso":  now.isoformat(),
+            "hasUpcoming":  has_upcoming,   # tells email/website whether dates are future or recent
+            "dividends":    dividends,
+            "earnings":     earnings,
         }, f, indent=2)
 
-    print("Done: " + str(len(dividends)) + " dividend rows, " + str(len(earnings)) + " earnings rows")
+    upcoming_count = sum(1 for d in dividends if d.get("exStatus") == "upcoming")
+    recent_count   = sum(1 for d in dividends if d.get("exStatus") == "recent")
+    print("Done: " + str(upcoming_count) + " upcoming, " + str(recent_count) + " recent, " + str(len(earnings)) + " earnings rows")
 
 
 if __name__ == "__main__":
