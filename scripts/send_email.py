@@ -177,7 +177,15 @@ def build_key_dates_section(kd):
     squeeze_candidates = [e for e in earnings if e.get("squeezeFlag")]
 
     # Dividend rows — only show upcoming (not suspended/N/A), max 15
-    active_divs = [d for d in dividends if d.get("exDate") not in ("N/A", "Suspended")][:15]
+    upcoming = [d for d in dividends if d.get("exStatus") == "upcoming"]
+    recent   = [d for d in dividends if d.get("exStatus") == "recent"]
+    # Show upcoming first; if none, show recent (correctly labeled)
+    if upcoming:
+        active_divs  = upcoming[:15]
+        div_label    = "Upcoming ex-dividend dates"
+    else:
+        active_divs  = recent[:15]
+        div_label    = "Recent ex-dividend dates (no future dates announced yet)"
     if active_divs:
         div_rows = ""
         for i, d in enumerate(active_divs):
@@ -217,7 +225,7 @@ def build_key_dates_section(kd):
 
     return squeeze_note + f'''
   <div style="margin-bottom:18px">
-    <div style="font-size:13px;font-weight:600;margin-bottom:8px;color:#f59e0b">Upcoming ex-dividend dates</div>
+    <div style="font-size:13px;font-weight:600;margin-bottom:8px;color:#f59e0b">{div_label}</div>
     <div style="background:#111720;border:1px solid #1e2a3a;border-radius:8px;overflow:hidden">
       <table width="100%" cellspacing="0" cellpadding="0" style="font-size:13px">
         <thead><tr>{th('Ticker')}{th('Company')}{th('Ex-Date')}{th('Annual Div')}{th('Yield')}{th('Price')}</tr></thead>
