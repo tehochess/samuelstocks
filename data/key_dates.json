@@ -1,16 +1,61 @@
 {
-  "updated": "Apr 28, 2026 02:25 AM PST",
-  "updated_iso": "2026-04-28T02:25:07.542752-07:00",
+  "updated": "Apr 28, 2026 02:38 PM PST",
+  "updated_iso": "2026-04-28T14:38:36.192156-07:00",
   "hasUpcoming": true,
   "dividends": [
+    {
+      "ticker": "MS",
+      "company": "Morgan Stanley",
+      "exDate": "2026-04-30",
+      "exStatus": "upcoming",
+      "dividendRate": 4.0,
+      "dividendYield": 2.1,
+      "price": 190.36
+    },
+    {
+      "ticker": "C",
+      "company": "Citigroup",
+      "exDate": "2026-05-04",
+      "exStatus": "upcoming",
+      "dividendRate": 2.4,
+      "dividendYield": 1.87,
+      "price": 128.53
+    },
+    {
+      "ticker": "TXN",
+      "company": "Texas Instruments",
+      "exDate": "2026-05-05",
+      "exStatus": "upcoming",
+      "dividendRate": 5.68,
+      "dividendYield": 2.14,
+      "price": 265.0
+    },
     {
       "ticker": "IBM",
       "company": "IBM",
       "exDate": "2026-05-08",
       "exStatus": "upcoming",
       "dividendRate": 6.76,
-      "dividendYield": 2.96,
-      "price": 228.05
+      "dividendYield": 2.9,
+      "price": 233.04
+    },
+    {
+      "ticker": "PFE",
+      "company": "Pfizer",
+      "exDate": "2026-05-08",
+      "exStatus": "upcoming",
+      "dividendRate": 1.72,
+      "dividendYield": 6.5,
+      "price": 26.48
+    },
+    {
+      "ticker": "SCHW",
+      "company": "Charles Schwab",
+      "exDate": "2026-05-08",
+      "exStatus": "upcoming",
+      "dividendRate": 1.28,
+      "dividendYield": 1.41,
+      "price": 90.83
     },
     {
       "ticker": "WMT",
@@ -22,13 +67,22 @@
       "price": 127.59
     },
     {
+      "ticker": "TGT",
+      "company": "Target",
+      "exDate": "2026-05-13",
+      "exStatus": "upcoming",
+      "dividendRate": 4.56,
+      "dividendYield": 3.59,
+      "price": 127.14
+    },
+    {
       "ticker": "AMGN",
       "company": "Amgen",
       "exDate": "2026-05-15",
       "exStatus": "upcoming",
       "dividendRate": 10.08,
-      "dividendYield": 2.96,
-      "price": 340.18
+      "dividendYield": 2.97,
+      "price": 339.57
     },
     {
       "ticker": "HON",
@@ -37,7 +91,25 @@
       "exStatus": "upcoming",
       "dividendRate": 4.76,
       "dividendYield": 2.24,
-      "price": 212.05
+      "price": 212.93
+    },
+    {
+      "ticker": "SBUX",
+      "company": "Starbucks",
+      "exDate": "2026-05-15",
+      "exStatus": "upcoming",
+      "dividendRate": 2.48,
+      "dividendYield": 2.55,
+      "price": 97.28
+    },
+    {
+      "ticker": "SO",
+      "company": "Southern Company",
+      "exDate": "2026-05-18",
+      "exStatus": "upcoming",
+      "dividendRate": 3.04,
+      "dividendYield": 3.22,
+      "price": 94.41
     },
     {
       "ticker": "MSFT",
@@ -45,8 +117,17 @@
       "exDate": "2026-05-21",
       "exStatus": "upcoming",
       "dividendRate": 3.64,
-      "dividendYield": 0.86,
-      "price": 424.82
+      "dividendYield": 0.85,
+      "price": 429.25
+    },
+    {
+      "ticker": "SHW",
+      "company": "Sherwin-Williams",
+      "exDate": "2026-05-22",
+      "exStatus": "upcoming",
+      "dividendRate": 3.2,
+      "dividendYield": 0.99,
+      "price": 324.27
     },
     {
       "ticker": "JNJ",
@@ -54,8 +135,8 @@
       "exDate": "2026-05-26",
       "exStatus": "upcoming",
       "dividendRate": 5.36,
-      "dividendYield": 2.38,
-      "price": 225.34
+      "dividendYield": 2.35,
+      "price": 227.79
     },
     {
       "ticker": "DOW",
@@ -63,8 +144,8 @@
       "exDate": "2026-05-29",
       "exStatus": "upcoming",
       "dividendRate": 1.4,
-      "dividendYield": 3.67,
-      "price": 38.1
+      "dividendYield": 3.68,
+      "price": 38.01
     },
     {
       "ticker": "GS",
@@ -72,8 +153,35 @@
       "exDate": "2026-06-01",
       "exStatus": "upcoming",
       "dividendRate": 18.0,
-      "dividendYield": 1.92,
-      "price": 937.81
+      "dividendYield": 1.94,
+      "price": 926.55
+    },
+    {
+      "ticker": "LIN",
+      "company": "Linde",
+      "exDate": "2026-06-04",
+      "exStatus": "upcoming",
+      "dividendRate": 6.4,
+      "dividendYield": 1.25,
+      "price": 510.29
+    },
+    {
+      "ticker": "QCOM",
+      "company": "Qualcomm",
+      "exDate": "2026-06-04",
+      "exStatus": "upcoming",
+      "dividendRate": 3.68,
+      "dividendYield": 2.45,
+      "price": 150.0
+    },
+    {
+      "ticker": "BAC",
+      "company": "Bank of America",
+      "exDate": "2026-06-05",
+      "exStatus": "upcoming",
+      "dividendRate": 1.12,
+      "dividendYield": 2.13,
+      "price": 52.66
     },
     {
       "ticker": "TRV",
@@ -81,8 +189,8 @@
       "exDate": "2026-06-10",
       "exStatus": "upcoming",
       "dividendRate": 5.0,
-      "dividendYield": 1.65,
-      "price": 303.74
+      "dividendYield": 1.61,
+      "price": 310.02
     },
     {
       "ticker": "DIS",
@@ -90,8 +198,26 @@
       "exDate": "2026-06-30",
       "exStatus": "upcoming",
       "dividendRate": 1.5,
-      "dividendYield": 1.47,
-      "price": 102.35
+      "dividendYield": 1.48,
+      "price": 101.47
+    },
+    {
+      "ticker": "MET",
+      "company": "MetLife",
+      "exDate": "2026-02-03",
+      "exStatus": "recent",
+      "dividendRate": 2.27,
+      "dividendYield": 2.9,
+      "price": 78.28
+    },
+    {
+      "ticker": "WFC",
+      "company": "Wells Fargo",
+      "exDate": "2026-02-06",
+      "exStatus": "recent",
+      "dividendRate": 1.8,
+      "dividendYield": 2.21,
+      "price": 81.5
     },
     {
       "ticker": "AAPL",
@@ -99,8 +225,8 @@
       "exDate": "2026-02-09",
       "exStatus": "recent",
       "dividendRate": 1.04,
-      "dividendYield": 0.39,
-      "price": 267.61
+      "dividendYield": 0.38,
+      "price": 270.71
     },
     {
       "ticker": "V",
@@ -109,7 +235,52 @@
       "exStatus": "recent",
       "dividendRate": 2.68,
       "dividendYield": 0.87,
-      "price": 309.65
+      "price": 309.3
+    },
+    {
+      "ticker": "XOM",
+      "company": "ExxonMobil",
+      "exDate": "2026-02-12",
+      "exStatus": "recent",
+      "dividendRate": 4.12,
+      "dividendYield": 2.74,
+      "price": 150.56
+    },
+    {
+      "ticker": "DUK",
+      "company": "Duke Energy",
+      "exDate": "2026-02-13",
+      "exStatus": "recent",
+      "dividendRate": 4.26,
+      "dividendYield": 3.33,
+      "price": 127.8
+    },
+    {
+      "ticker": "EMR",
+      "company": "Emerson Electric",
+      "exDate": "2026-02-13",
+      "exStatus": "recent",
+      "dividendRate": 2.22,
+      "dividendYield": 1.6,
+      "price": 138.42
+    },
+    {
+      "ticker": "F",
+      "company": "Ford",
+      "exDate": "2026-02-13",
+      "exStatus": "recent",
+      "dividendRate": 0.6,
+      "dividendYield": 4.84,
+      "price": 12.4
+    },
+    {
+      "ticker": "LLY",
+      "company": "Eli Lilly",
+      "exDate": "2026-02-13",
+      "exStatus": "recent",
+      "dividendRate": 6.23,
+      "dividendYield": 0.71,
+      "price": 874.0
     },
     {
       "ticker": "MMM",
@@ -118,7 +289,7 @@
       "exStatus": "recent",
       "dividendRate": 3.12,
       "dividendYield": 2.14,
-      "price": 145.77
+      "price": 146.03
     },
     {
       "ticker": "CVX",
@@ -126,8 +297,80 @@
       "exDate": "2026-02-17",
       "exStatus": "recent",
       "dividendRate": 7.12,
-      "dividendYield": 3.85,
-      "price": 184.78
+      "dividendYield": 3.78,
+      "price": 188.36
+    },
+    {
+      "ticker": "UPS",
+      "company": "UPS",
+      "exDate": "2026-02-17",
+      "exStatus": "recent",
+      "dividendRate": 6.56,
+      "dividendYield": 6.31,
+      "price": 103.94
+    },
+    {
+      "ticker": "COP",
+      "company": "ConocoPhillips",
+      "exDate": "2026-02-18",
+      "exStatus": "recent",
+      "dividendRate": 3.36,
+      "dividendYield": 2.7,
+      "price": 124.32
+    },
+    {
+      "ticker": "COF",
+      "company": "Capital One",
+      "exDate": "2026-02-19",
+      "exStatus": "recent",
+      "dividendRate": 3.2,
+      "dividendYield": 1.67,
+      "price": 192.1
+    },
+    {
+      "ticker": "RTX",
+      "company": "RTX Corp",
+      "exDate": "2026-02-20",
+      "exStatus": "recent",
+      "dividendRate": 2.72,
+      "dividendYield": 1.55,
+      "price": 175.68
+    },
+    {
+      "ticker": "NEE",
+      "company": "NextEra Energy",
+      "exDate": "2026-02-27",
+      "exStatus": "recent",
+      "dividendRate": 2.49,
+      "dividendYield": 2.58,
+      "price": 96.51
+    },
+    {
+      "ticker": "UNP",
+      "company": "Union Pacific",
+      "exDate": "2026-02-27",
+      "exStatus": "recent",
+      "dividendRate": 5.52,
+      "dividendYield": 2.06,
+      "price": 267.74
+    },
+    {
+      "ticker": "EXC",
+      "company": "Exelon",
+      "exDate": "2026-03-02",
+      "exStatus": "recent",
+      "dividendRate": 1.68,
+      "dividendYield": 3.57,
+      "price": 47.04
+    },
+    {
+      "ticker": "LMT",
+      "company": "Lockheed Martin",
+      "exDate": "2026-03-02",
+      "exStatus": "recent",
+      "dividendRate": 13.5,
+      "dividendYield": 2.64,
+      "price": 512.29
     },
     {
       "ticker": "NKE",
@@ -135,8 +378,8 @@
       "exDate": "2026-03-02",
       "exStatus": "recent",
       "dividendRate": 1.64,
-      "dividendYield": 3.63,
-      "price": 45.14
+      "dividendYield": 3.64,
+      "price": 45.03
     },
     {
       "ticker": "MCD",
@@ -144,8 +387,89 @@
       "exDate": "2026-03-03",
       "exStatus": "recent",
       "dividendRate": 7.44,
-      "dividendYield": 2.56,
-      "price": 290.21
+      "dividendYield": 2.54,
+      "price": 292.39
+    },
+    {
+      "ticker": "PYPL",
+      "company": "PayPal",
+      "exDate": "2026-03-04",
+      "exStatus": "recent",
+      "dividendRate": 0.56,
+      "dividendYield": 1.13,
+      "price": 49.64
+    },
+    {
+      "ticker": "BLK",
+      "company": "BlackRock",
+      "exDate": "2026-03-06",
+      "exStatus": "recent",
+      "dividendRate": 22.92,
+      "dividendYield": 2.18,
+      "price": 1049.76
+    },
+    {
+      "ticker": "GM",
+      "company": "General Motors",
+      "exDate": "2026-03-06",
+      "exStatus": "recent",
+      "dividendRate": 0.72,
+      "dividendYield": 0.91,
+      "price": 78.95
+    },
+    {
+      "ticker": "KHC",
+      "company": "Kraft Heinz",
+      "exDate": "2026-03-06",
+      "exStatus": "recent",
+      "dividendRate": 1.6,
+      "dividendYield": 7.12,
+      "price": 22.47
+    },
+    {
+      "ticker": "PEP",
+      "company": "PepsiCo",
+      "exDate": "2026-03-06",
+      "exStatus": "recent",
+      "dividendRate": 5.69,
+      "dividendYield": 3.64,
+      "price": 156.29
+    },
+    {
+      "ticker": "FDX",
+      "company": "FedEx",
+      "exDate": "2026-03-09",
+      "exStatus": "recent",
+      "dividendRate": 5.8,
+      "dividendYield": 1.49,
+      "price": 390.21
+    },
+    {
+      "ticker": "GE",
+      "company": "GE Aerospace",
+      "exDate": "2026-03-09",
+      "exStatus": "recent",
+      "dividendRate": 1.88,
+      "dividendYield": 0.65,
+      "price": 289.2
+    },
+    {
+      "ticker": "GOOG",
+      "company": "Alphabet C",
+      "exDate": "2026-03-09",
+      "exStatus": "recent",
+      "dividendRate": 0.84,
+      "dividendYield": 0.24,
+      "price": 347.5
+    },
+    {
+      "ticker": "GOOGL",
+      "company": "Alphabet A",
+      "exDate": "2026-03-09",
+      "exStatus": "recent",
+      "dividendRate": 0.84,
+      "dividendYield": 0.24,
+      "price": 349.78
     },
     {
       "ticker": "UNH",
@@ -153,8 +477,35 @@
       "exDate": "2026-03-09",
       "exStatus": "recent",
       "dividendRate": 8.84,
-      "dividendYield": 2.49,
-      "price": 354.69
+      "dividendYield": 2.41,
+      "price": 366.77
+    },
+    {
+      "ticker": "OXY",
+      "company": "Occidental Petroleum",
+      "exDate": "2026-03-10",
+      "exStatus": "recent",
+      "dividendRate": 1.04,
+      "dividendYield": 1.77,
+      "price": 58.61
+    },
+    {
+      "ticker": "SPG",
+      "company": "Simon Property",
+      "exDate": "2026-03-10",
+      "exStatus": "recent",
+      "dividendRate": 8.65,
+      "dividendYield": 4.27,
+      "price": 202.75
+    },
+    {
+      "ticker": "NVDA",
+      "company": "Nvidia",
+      "exDate": "2026-03-11",
+      "exStatus": "recent",
+      "dividendRate": 0.04,
+      "dividendYield": 0.02,
+      "price": 213.17
     },
     {
       "ticker": "HD",
@@ -162,8 +513,17 @@
       "exDate": "2026-03-12",
       "exStatus": "recent",
       "dividendRate": 9.32,
-      "dividendYield": 2.8,
-      "price": 332.3
+      "dividendYield": 2.83,
+      "price": 329.06
+    },
+    {
+      "ticker": "GILD",
+      "company": "Gilead Sciences",
+      "exDate": "2026-03-13",
+      "exStatus": "recent",
+      "dividendRate": 3.28,
+      "dividendYield": 2.54,
+      "price": 129.26
     },
     {
       "ticker": "KO",
@@ -171,8 +531,35 @@
       "exDate": "2026-03-13",
       "exStatus": "recent",
       "dividendRate": 2.06,
-      "dividendYield": 2.73,
-      "price": 75.44
+      "dividendYield": 2.63,
+      "price": 78.35
+    },
+    {
+      "ticker": "TMO",
+      "company": "Thermo Fisher",
+      "exDate": "2026-03-13",
+      "exStatus": "recent",
+      "dividendRate": 1.76,
+      "dividendYield": 0.37,
+      "price": 470.22
+    },
+    {
+      "ticker": "AIG",
+      "company": "AIG",
+      "exDate": "2026-03-16",
+      "exStatus": "recent",
+      "dividendRate": 1.8,
+      "dividendYield": 2.43,
+      "price": 74.16
+    },
+    {
+      "ticker": "META",
+      "company": "Meta",
+      "exDate": "2026-03-16",
+      "exStatus": "recent",
+      "dividendRate": 2.1,
+      "dividendYield": 0.31,
+      "price": 671.34
     },
     {
       "ticker": "MRK",
@@ -180,8 +567,71 @@
       "exDate": "2026-03-16",
       "exStatus": "recent",
       "dividendRate": 3.4,
-      "dividendYield": 3.08,
-      "price": 110.23
+      "dividendYield": 3.09,
+      "price": 110.03
+    },
+    {
+      "ticker": "PM",
+      "company": "Philip Morris",
+      "exDate": "2026-03-19",
+      "exStatus": "recent",
+      "dividendRate": 5.88,
+      "dividendYield": 3.54,
+      "price": 165.89
+    },
+    {
+      "ticker": "MO",
+      "company": "Altria",
+      "exDate": "2026-03-25",
+      "exStatus": "recent",
+      "dividendRate": 4.24,
+      "dividendYield": 6.25,
+      "price": 67.8
+    },
+    {
+      "ticker": "MDT",
+      "company": "Medtronic",
+      "exDate": "2026-03-27",
+      "exStatus": "recent",
+      "dividendRate": 2.84,
+      "dividendYield": 3.47,
+      "price": 81.9
+    },
+    {
+      "ticker": "DE",
+      "company": "Deere & Co",
+      "exDate": "2026-03-31",
+      "exStatus": "recent",
+      "dividendRate": 6.48,
+      "dividendYield": 1.15,
+      "price": 563.86
+    },
+    {
+      "ticker": "MDLZ",
+      "company": "Mondelez",
+      "exDate": "2026-03-31",
+      "exStatus": "recent",
+      "dividendRate": 2.0,
+      "dividendYield": 3.42,
+      "price": 58.54
+    },
+    {
+      "ticker": "USB",
+      "company": "U.S. Bancorp",
+      "exDate": "2026-03-31",
+      "exStatus": "recent",
+      "dividendRate": 2.06,
+      "dividendYield": 3.66,
+      "price": 56.21
+    },
+    {
+      "ticker": "CMCSA",
+      "company": "Comcast",
+      "exDate": "2026-04-01",
+      "exStatus": "recent",
+      "dividendRate": 1.32,
+      "dividendYield": 4.78,
+      "price": 27.64
     },
     {
       "ticker": "AXP",
@@ -189,8 +639,17 @@
       "exDate": "2026-04-02",
       "exStatus": "recent",
       "dividendRate": 3.8,
-      "dividendYield": 1.19,
-      "price": 318.84
+      "dividendYield": 1.2,
+      "price": 315.9
+    },
+    {
+      "ticker": "BMY",
+      "company": "Bristol-Myers Squibb",
+      "exDate": "2026-04-02",
+      "exStatus": "recent",
+      "dividendRate": 2.52,
+      "dividendYield": 4.33,
+      "price": 58.26
     },
     {
       "ticker": "CSCO",
@@ -198,8 +657,8 @@
       "exDate": "2026-04-02",
       "exStatus": "recent",
       "dividendRate": 1.68,
-      "dividendYield": 1.9,
-      "price": 88.26
+      "dividendYield": 1.93,
+      "price": 86.86
     },
     {
       "ticker": "JPM",
@@ -208,7 +667,16 @@
       "exStatus": "recent",
       "dividendRate": 6.0,
       "dividendYield": 1.93,
-      "price": 311.63
+      "price": 311.45
+    },
+    {
+      "ticker": "ACN",
+      "company": "Accenture",
+      "exDate": "2026-04-09",
+      "exStatus": "recent",
+      "dividendRate": 6.52,
+      "dividendYield": 3.67,
+      "price": 177.75
     },
     {
       "ticker": "CRM",
@@ -216,8 +684,53 @@
       "exDate": "2026-04-09",
       "exStatus": "recent",
       "dividendRate": 1.76,
-      "dividendYield": 0.98,
-      "price": 180.18
+      "dividendYield": 0.97,
+      "price": 181.32
+    },
+    {
+      "ticker": "INTU",
+      "company": "Intuit",
+      "exDate": "2026-04-09",
+      "exStatus": "recent",
+      "dividendRate": 4.64,
+      "dividendYield": 1.16,
+      "price": 400.38
+    },
+    {
+      "ticker": "MA",
+      "company": "Mastercard",
+      "exDate": "2026-04-09",
+      "exStatus": "recent",
+      "dividendRate": 3.48,
+      "dividendYield": 0.69,
+      "price": 507.62
+    },
+    {
+      "ticker": "ORCL",
+      "company": "Oracle",
+      "exDate": "2026-04-09",
+      "exStatus": "recent",
+      "dividendRate": 2.0,
+      "dividendYield": 1.21,
+      "price": 165.96
+    },
+    {
+      "ticker": "GD",
+      "company": "General Dynamics",
+      "exDate": "2026-04-10",
+      "exStatus": "recent",
+      "dividendRate": 6.09,
+      "dividendYield": 1.94,
+      "price": 313.68
+    },
+    {
+      "ticker": "T",
+      "company": "AT&T",
+      "exDate": "2026-04-10",
+      "exStatus": "recent",
+      "dividendRate": 1.11,
+      "dividendYield": 4.26,
+      "price": 26.06
     },
     {
       "ticker": "VZ",
@@ -225,8 +738,35 @@
       "exDate": "2026-04-10",
       "exStatus": "recent",
       "dividendRate": 2.83,
-      "dividendYield": 6.01,
-      "price": 47.1
+      "dividendYield": 5.99,
+      "price": 47.24
+    },
+    {
+      "ticker": "AMT",
+      "company": "American Tower",
+      "exDate": "2026-04-14",
+      "exStatus": "recent",
+      "dividendRate": 6.89,
+      "dividendYield": 3.86,
+      "price": 178.4
+    },
+    {
+      "ticker": "ABBV",
+      "company": "AbbVie",
+      "exDate": "2026-04-15",
+      "exStatus": "recent",
+      "dividendRate": 6.92,
+      "dividendYield": 3.5,
+      "price": 197.69
+    },
+    {
+      "ticker": "ABT",
+      "company": "Abbott",
+      "exDate": "2026-04-15",
+      "exStatus": "recent",
+      "dividendRate": 2.52,
+      "dividendYield": 2.68,
+      "price": 93.86
     },
     {
       "ticker": "CAT",
@@ -234,8 +774,44 @@
       "exDate": "2026-04-20",
       "exStatus": "recent",
       "dividendRate": 6.04,
-      "dividendYield": 0.73,
-      "price": 828.79
+      "dividendYield": 0.74,
+      "price": 817.87
+    },
+    {
+      "ticker": "CL",
+      "company": "Colgate-Palmolive",
+      "exDate": "2026-04-20",
+      "exStatus": "recent",
+      "dividendRate": 2.12,
+      "dividendYield": 2.47,
+      "price": 85.67
+    },
+    {
+      "ticker": "ZTS",
+      "company": "Zoetis",
+      "exDate": "2026-04-20",
+      "exStatus": "recent",
+      "dividendRate": 2.12,
+      "dividendYield": 1.82,
+      "price": 116.65
+    },
+    {
+      "ticker": "LOW",
+      "company": "Lowe's",
+      "exDate": "2026-04-22",
+      "exStatus": "recent",
+      "dividendRate": 4.8,
+      "dividendYield": 2.0,
+      "price": 240.32
+    },
+    {
+      "ticker": "CVS",
+      "company": "CVS Health",
+      "exDate": "2026-04-23",
+      "exStatus": "recent",
+      "dividendRate": 2.66,
+      "dividendYield": 3.28,
+      "price": 80.98
     },
     {
       "ticker": "PG",
@@ -243,8 +819,35 @@
       "exDate": "2026-04-24",
       "exStatus": "recent",
       "dividendRate": 4.26,
-      "dividendYield": 2.87,
-      "price": 148.4
+      "dividendYield": 2.86,
+      "price": 149.17
+    },
+    {
+      "ticker": "BK",
+      "company": "BNY Mellon",
+      "exDate": "2026-04-27",
+      "exStatus": "recent",
+      "dividendRate": 2.12,
+      "dividendYield": 1.59,
+      "price": 133.54
+    },
+    {
+      "ticker": "ADBE",
+      "company": "Adobe",
+      "exDate": "Suspended",
+      "exStatus": "suspended",
+      "dividendRate": 0.0,
+      "dividendYield": 0.0,
+      "price": 243.2
+    },
+    {
+      "ticker": "AMD",
+      "company": "AMD",
+      "exDate": "Suspended",
+      "exStatus": "suspended",
+      "dividendRate": 0.0,
+      "dividendYield": 0.0,
+      "price": 323.21
     },
     {
       "ticker": "BA",
@@ -253,7 +856,7 @@
       "exStatus": "suspended",
       "dividendRate": 0.0,
       "dividendYield": 0.0,
-      "price": 231.33
+      "price": 230.72
     },
     {
       "ticker": "INTC",
@@ -262,10 +865,78 @@
       "exStatus": "suspended",
       "dividendRate": 0.0,
       "dividendYield": 0.0,
-      "price": 84.99
+      "price": 84.52
+    },
+    {
+      "ticker": "AMZN",
+      "company": "Amazon",
+      "exDate": "N/A",
+      "exStatus": "none",
+      "dividendRate": 0.0,
+      "dividendYield": 0.0,
+      "price": 259.7
+    },
+    {
+      "ticker": "BRK-B",
+      "company": "Berkshire Hathaway",
+      "exDate": "N/A",
+      "exStatus": "none",
+      "dividendRate": 0.0,
+      "dividendYield": 0.0,
+      "price": 478.16
+    },
+    {
+      "ticker": "CHTR",
+      "company": "Charter Communications",
+      "exDate": "N/A",
+      "exStatus": "none",
+      "dividendRate": 0.0,
+      "dividendYield": 0.0,
+      "price": 173.11
+    },
+    {
+      "ticker": "NFLX",
+      "company": "Netflix",
+      "exDate": "N/A",
+      "exStatus": "none",
+      "dividendRate": 0.0,
+      "dividendYield": 0.0,
+      "price": 92.27
     }
   ],
   "earnings": [
+    {
+      "ticker": "CHTR",
+      "company": "Charter Communications",
+      "earningsDate": "N/A",
+      "shortRatio": 10.5,
+      "shortPct": 35.8,
+      "squeezeFlag": true
+    },
+    {
+      "ticker": "UNP",
+      "company": "Union Pacific",
+      "earningsDate": "N/A",
+      "shortRatio": 9.7,
+      "shortPct": 5.0,
+      "squeezeFlag": true
+    },
+    {
+      "ticker": "SBUX",
+      "company": "Starbucks",
+      "earningsDate": "N/A",
+      "shortRatio": 6.1,
+      "shortPct": 4.4,
+      "squeezeFlag": true
+    },
+    {
+      "ticker": "EXC",
+      "company": "Exelon",
+      "earningsDate": "N/A",
+      "shortRatio": 5.7,
+      "shortPct": 4.8,
+      "squeezeFlag": true
+    },
     {
       "ticker": "CRM",
       "company": "Salesforce",
@@ -273,6 +944,22 @@
       "shortRatio": 5.5,
       "shortPct": 10.5,
       "squeezeFlag": true
+    },
+    {
+      "ticker": "SO",
+      "company": "Southern Company",
+      "earningsDate": "N/A",
+      "shortRatio": 5.2,
+      "shortPct": 2.2,
+      "squeezeFlag": true
+    },
+    {
+      "ticker": "KHC",
+      "company": "Kraft Heinz",
+      "earningsDate": "N/A",
+      "shortRatio": 4.8,
+      "shortPct": 8.7,
+      "squeezeFlag": false
     },
     {
       "ticker": "AMGN",
@@ -291,11 +978,83 @@
       "squeezeFlag": false
     },
     {
+      "ticker": "LOW",
+      "company": "Lowe's",
+      "earningsDate": "N/A",
+      "shortRatio": 4.7,
+      "shortPct": 2.4,
+      "squeezeFlag": false
+    },
+    {
+      "ticker": "MO",
+      "company": "Altria",
+      "earningsDate": "N/A",
+      "shortRatio": 4.6,
+      "shortPct": 2.8,
+      "squeezeFlag": false
+    },
+    {
+      "ticker": "EMR",
+      "company": "Emerson Electric",
+      "earningsDate": "N/A",
+      "shortRatio": 4.2,
+      "shortPct": 2.2,
+      "squeezeFlag": false
+    },
+    {
+      "ticker": "DUK",
+      "company": "Duke Energy",
+      "earningsDate": "N/A",
+      "shortRatio": 4.0,
+      "shortPct": 2.2,
+      "squeezeFlag": false
+    },
+    {
+      "ticker": "GILD",
+      "company": "Gilead Sciences",
+      "earningsDate": "N/A",
+      "shortRatio": 3.9,
+      "shortPct": 1.8,
+      "squeezeFlag": false
+    },
+    {
+      "ticker": "MDLZ",
+      "company": "Mondelez",
+      "earningsDate": "N/A",
+      "shortRatio": 3.8,
+      "shortPct": 3.2,
+      "squeezeFlag": false
+    },
+    {
+      "ticker": "QCOM",
+      "company": "Qualcomm",
+      "earningsDate": "N/A",
+      "shortRatio": 3.8,
+      "shortPct": 5.1,
+      "squeezeFlag": false
+    },
+    {
       "ticker": "WMT",
       "company": "Walmart",
       "earningsDate": "N/A",
       "shortRatio": 3.7,
       "shortPct": 1.6,
+      "squeezeFlag": false
+    },
+    {
+      "ticker": "ZTS",
+      "company": "Zoetis",
+      "earningsDate": "N/A",
+      "shortRatio": 3.7,
+      "shortPct": 3.6,
+      "squeezeFlag": false
+    },
+    {
+      "ticker": "PM",
+      "company": "Philip Morris",
+      "earningsDate": "N/A",
+      "shortRatio": 3.6,
+      "shortPct": 1.1,
       "squeezeFlag": false
     },
     {
@@ -307,11 +1066,43 @@
       "squeezeFlag": false
     },
     {
+      "ticker": "DE",
+      "company": "Deere & Co",
+      "earningsDate": "N/A",
+      "shortRatio": 3.5,
+      "shortPct": 1.7,
+      "squeezeFlag": false
+    },
+    {
+      "ticker": "MET",
+      "company": "MetLife",
+      "earningsDate": "N/A",
+      "shortRatio": 3.5,
+      "shortPct": 2.3,
+      "squeezeFlag": false
+    },
+    {
+      "ticker": "PFE",
+      "company": "Pfizer",
+      "earningsDate": "N/A",
+      "shortRatio": 3.5,
+      "shortPct": 2.4,
+      "squeezeFlag": false
+    },
+    {
       "ticker": "CAT",
       "company": "Caterpillar",
       "earningsDate": "N/A",
       "shortRatio": 3.3,
       "shortPct": 1.6,
+      "squeezeFlag": false
+    },
+    {
+      "ticker": "PEP",
+      "company": "PepsiCo",
+      "earningsDate": "N/A",
+      "shortRatio": 3.3,
+      "shortPct": 1.7,
       "squeezeFlag": false
     },
     {
@@ -347,6 +1138,38 @@
       "squeezeFlag": false
     },
     {
+      "ticker": "ABBV",
+      "company": "AbbVie",
+      "earningsDate": "N/A",
+      "shortRatio": 3.1,
+      "shortPct": 1.4,
+      "squeezeFlag": false
+    },
+    {
+      "ticker": "CL",
+      "company": "Colgate-Palmolive",
+      "earningsDate": "N/A",
+      "shortRatio": 3.1,
+      "shortPct": 2.7,
+      "squeezeFlag": false
+    },
+    {
+      "ticker": "RTX",
+      "company": "RTX Corp",
+      "earningsDate": "N/A",
+      "shortRatio": 3.1,
+      "shortPct": 1.0,
+      "squeezeFlag": false
+    },
+    {
+      "ticker": "SHW",
+      "company": "Sherwin-Williams",
+      "earningsDate": "N/A",
+      "shortRatio": 3.1,
+      "shortPct": 2.2,
+      "squeezeFlag": false
+    },
+    {
       "ticker": "HD",
       "company": "Home Depot",
       "earningsDate": "N/A",
@@ -371,11 +1194,51 @@
       "squeezeFlag": false
     },
     {
+      "ticker": "TXN",
+      "company": "Texas Instruments",
+      "earningsDate": "N/A",
+      "shortRatio": 3.0,
+      "shortPct": 2.1,
+      "squeezeFlag": false
+    },
+    {
+      "ticker": "TGT",
+      "company": "Target",
+      "earningsDate": "N/A",
+      "shortRatio": 2.9,
+      "shortPct": 3.6,
+      "squeezeFlag": false
+    },
+    {
+      "ticker": "GM",
+      "company": "General Motors",
+      "earningsDate": "N/A",
+      "shortRatio": 2.8,
+      "shortPct": 2.1,
+      "squeezeFlag": false
+    },
+    {
+      "ticker": "INTU",
+      "company": "Intuit",
+      "earningsDate": "N/A",
+      "shortRatio": 2.8,
+      "shortPct": 3.9,
+      "squeezeFlag": false
+    },
+    {
       "ticker": "KO",
       "company": "Coca-Cola",
       "earningsDate": "N/A",
       "shortRatio": 2.8,
       "shortPct": 1.0,
+      "squeezeFlag": false
+    },
+    {
+      "ticker": "LIN",
+      "company": "Linde",
+      "earningsDate": "N/A",
+      "shortRatio": 2.8,
+      "shortPct": 1.5,
       "squeezeFlag": false
     },
     {
@@ -387,8 +1250,48 @@
       "squeezeFlag": false
     },
     {
+      "ticker": "PYPL",
+      "company": "PayPal",
+      "earningsDate": "N/A",
+      "shortRatio": 2.8,
+      "shortPct": 5.6,
+      "squeezeFlag": false
+    },
+    {
+      "ticker": "T",
+      "company": "AT&T",
+      "earningsDate": "N/A",
+      "shortRatio": 2.8,
+      "shortPct": 1.7,
+      "squeezeFlag": false
+    },
+    {
+      "ticker": "ADBE",
+      "company": "Adobe",
+      "earningsDate": "N/A",
+      "shortRatio": 2.7,
+      "shortPct": 4.1,
+      "squeezeFlag": false
+    },
+    {
+      "ticker": "GOOGL",
+      "company": "Alphabet A",
+      "earningsDate": "N/A",
+      "shortRatio": 2.7,
+      "shortPct": 1.3,
+      "squeezeFlag": false
+    },
+    {
       "ticker": "JPM",
       "company": "JPMorgan Chase",
+      "earningsDate": "N/A",
+      "shortRatio": 2.7,
+      "shortPct": 1.0,
+      "squeezeFlag": false
+    },
+    {
+      "ticker": "LLY",
+      "company": "Eli Lilly",
       "earningsDate": "N/A",
       "shortRatio": 2.7,
       "shortPct": 1.0,
@@ -419,6 +1322,22 @@
       "squeezeFlag": false
     },
     {
+      "ticker": "UPS",
+      "company": "UPS",
+      "earningsDate": "N/A",
+      "shortRatio": 2.6,
+      "shortPct": 2.2,
+      "squeezeFlag": false
+    },
+    {
+      "ticker": "BMY",
+      "company": "Bristol-Myers Squibb",
+      "earningsDate": "N/A",
+      "shortRatio": 2.5,
+      "shortPct": 1.6,
+      "squeezeFlag": false
+    },
+    {
       "ticker": "MSFT",
       "company": "Microsoft",
       "earningsDate": "N/A",
@@ -435,11 +1354,67 @@
       "squeezeFlag": false
     },
     {
+      "ticker": "ACN",
+      "company": "Accenture",
+      "earningsDate": "N/A",
+      "shortRatio": 2.4,
+      "shortPct": 3.3,
+      "squeezeFlag": false
+    },
+    {
+      "ticker": "CVS",
+      "company": "CVS Health",
+      "earningsDate": "N/A",
+      "shortRatio": 2.4,
+      "shortPct": 1.4,
+      "squeezeFlag": false
+    },
+    {
       "ticker": "MMM",
       "company": "3M",
       "earningsDate": "N/A",
       "shortRatio": 2.4,
       "shortPct": 1.5,
+      "squeezeFlag": false
+    },
+    {
+      "ticker": "TMO",
+      "company": "Thermo Fisher",
+      "earningsDate": "N/A",
+      "shortRatio": 2.4,
+      "shortPct": 1.2,
+      "squeezeFlag": false
+    },
+    {
+      "ticker": "BRK-B",
+      "company": "Berkshire Hathaway",
+      "earningsDate": "N/A",
+      "shortRatio": 2.3,
+      "shortPct": 1.0,
+      "squeezeFlag": false
+    },
+    {
+      "ticker": "GE",
+      "company": "GE Aerospace",
+      "earningsDate": "N/A",
+      "shortRatio": 2.3,
+      "shortPct": 1.2,
+      "squeezeFlag": false
+    },
+    {
+      "ticker": "BLK",
+      "company": "BlackRock",
+      "earningsDate": "N/A",
+      "shortRatio": 2.2,
+      "shortPct": 1.3,
+      "squeezeFlag": false
+    },
+    {
+      "ticker": "CMCSA",
+      "company": "Comcast",
+      "earningsDate": "N/A",
+      "shortRatio": 2.1,
+      "shortPct": 2.1,
       "squeezeFlag": false
     },
     {
@@ -451,11 +1426,107 @@
       "squeezeFlag": false
     },
     {
+      "ticker": "GOOG",
+      "company": "Alphabet C",
+      "earningsDate": "N/A",
+      "shortRatio": 2.1,
+      "shortPct": 0.0,
+      "squeezeFlag": false
+    },
+    {
+      "ticker": "NFLX",
+      "company": "Netflix",
+      "earningsDate": "N/A",
+      "shortRatio": 2.1,
+      "shortPct": 1.9,
+      "squeezeFlag": false
+    },
+    {
       "ticker": "NKE",
       "company": "Nike",
       "earningsDate": "N/A",
       "shortRatio": 2.1,
       "shortPct": 5.9,
+      "squeezeFlag": false
+    },
+    {
+      "ticker": "AIG",
+      "company": "AIG",
+      "earningsDate": "N/A",
+      "shortRatio": 2.0,
+      "shortPct": 1.6,
+      "squeezeFlag": false
+    },
+    {
+      "ticker": "AMT",
+      "company": "American Tower",
+      "earningsDate": "N/A",
+      "shortRatio": 2.0,
+      "shortPct": 1.7,
+      "squeezeFlag": false
+    },
+    {
+      "ticker": "AMZN",
+      "company": "Amazon",
+      "earningsDate": "N/A",
+      "shortRatio": 2.0,
+      "shortPct": 0.9,
+      "squeezeFlag": false
+    },
+    {
+      "ticker": "GD",
+      "company": "General Dynamics",
+      "earningsDate": "N/A",
+      "shortRatio": 2.0,
+      "shortPct": 1.1,
+      "squeezeFlag": false
+    },
+    {
+      "ticker": "MDT",
+      "company": "Medtronic",
+      "earningsDate": "N/A",
+      "shortRatio": 2.0,
+      "shortPct": 1.2,
+      "squeezeFlag": false
+    },
+    {
+      "ticker": "COP",
+      "company": "ConocoPhillips",
+      "earningsDate": "N/A",
+      "shortRatio": 1.9,
+      "shortPct": 1.6,
+      "squeezeFlag": false
+    },
+    {
+      "ticker": "MA",
+      "company": "Mastercard",
+      "earningsDate": "N/A",
+      "shortRatio": 1.9,
+      "shortPct": 0.7,
+      "squeezeFlag": false
+    },
+    {
+      "ticker": "LMT",
+      "company": "Lockheed Martin",
+      "earningsDate": "N/A",
+      "shortRatio": 1.8,
+      "shortPct": 1.3,
+      "squeezeFlag": false
+    },
+    {
+      "ticker": "ABT",
+      "company": "Abbott",
+      "earningsDate": "N/A",
+      "shortRatio": 1.7,
+      "shortPct": 1.4,
+      "squeezeFlag": false
+    },
+    {
+      "ticker": "NVDA",
+      "company": "Nvidia",
+      "earningsDate": "N/A",
+      "shortRatio": 1.7,
+      "shortPct": 1.2,
       "squeezeFlag": false
     },
     {
@@ -467,11 +1538,43 @@
       "squeezeFlag": false
     },
     {
+      "ticker": "XOM",
+      "company": "ExxonMobil",
+      "earningsDate": "N/A",
+      "shortRatio": 1.7,
+      "shortPct": 1.2,
+      "squeezeFlag": false
+    },
+    {
+      "ticker": "COF",
+      "company": "Capital One",
+      "earningsDate": "N/A",
+      "shortRatio": 1.6,
+      "shortPct": 1.4,
+      "squeezeFlag": false
+    },
+    {
+      "ticker": "FDX",
+      "company": "FedEx",
+      "earningsDate": "N/A",
+      "shortRatio": 1.6,
+      "shortPct": 1.4,
+      "squeezeFlag": false
+    },
+    {
       "ticker": "DOW",
       "company": "Dow Inc",
       "earningsDate": "N/A",
       "shortRatio": 1.5,
       "shortPct": 3.5,
+      "squeezeFlag": false
+    },
+    {
+      "ticker": "META",
+      "company": "Meta",
+      "earningsDate": "N/A",
+      "shortRatio": 1.5,
+      "shortPct": 1.2,
       "squeezeFlag": false
     },
     {
@@ -491,11 +1594,115 @@
       "squeezeFlag": false
     },
     {
+      "ticker": "AMD",
+      "company": "AMD",
+      "earningsDate": "N/A",
+      "shortRatio": 1.1,
+      "shortPct": 2.2,
+      "squeezeFlag": false
+    },
+    {
+      "ticker": "ORCL",
+      "company": "Oracle",
+      "earningsDate": "N/A",
+      "shortRatio": 1.1,
+      "shortPct": 1.7,
+      "squeezeFlag": false
+    },
+    {
       "ticker": "BA",
       "company": "Boeing",
       "earningsDate": "N/A",
       "shortRatio": 0.2,
       "shortPct": 0.2,
+      "squeezeFlag": false
+    },
+    {
+      "ticker": "BAC",
+      "company": "Bank of America",
+      "earningsDate": "N/A",
+      "shortRatio": 0.0,
+      "shortPct": 0.0,
+      "squeezeFlag": false
+    },
+    {
+      "ticker": "BK",
+      "company": "BNY Mellon",
+      "earningsDate": "N/A",
+      "shortRatio": 0.0,
+      "shortPct": 0.0,
+      "squeezeFlag": false
+    },
+    {
+      "ticker": "C",
+      "company": "Citigroup",
+      "earningsDate": "N/A",
+      "shortRatio": 0.0,
+      "shortPct": 0.0,
+      "squeezeFlag": false
+    },
+    {
+      "ticker": "F",
+      "company": "Ford",
+      "earningsDate": "N/A",
+      "shortRatio": 0.0,
+      "shortPct": 0.0,
+      "squeezeFlag": false
+    },
+    {
+      "ticker": "MS",
+      "company": "Morgan Stanley",
+      "earningsDate": "N/A",
+      "shortRatio": 0.0,
+      "shortPct": 0.0,
+      "squeezeFlag": false
+    },
+    {
+      "ticker": "NEE",
+      "company": "NextEra Energy",
+      "earningsDate": "N/A",
+      "shortRatio": 0.0,
+      "shortPct": 0.0,
+      "squeezeFlag": false
+    },
+    {
+      "ticker": "OXY",
+      "company": "Occidental Petroleum",
+      "earningsDate": "N/A",
+      "shortRatio": 0.0,
+      "shortPct": 0.0,
+      "squeezeFlag": false
+    },
+    {
+      "ticker": "SCHW",
+      "company": "Charles Schwab",
+      "earningsDate": "N/A",
+      "shortRatio": 0.0,
+      "shortPct": 0.0,
+      "squeezeFlag": false
+    },
+    {
+      "ticker": "SPG",
+      "company": "Simon Property",
+      "earningsDate": "N/A",
+      "shortRatio": 0.0,
+      "shortPct": 0.0,
+      "squeezeFlag": false
+    },
+    {
+      "ticker": "USB",
+      "company": "U.S. Bancorp",
+      "earningsDate": "N/A",
+      "shortRatio": 0.0,
+      "shortPct": 0.0,
+      "squeezeFlag": false
+    },
+    {
+      "ticker": "WFC",
+      "company": "Wells Fargo",
+      "earningsDate": "N/A",
+      "shortRatio": 0.0,
+      "shortPct": 0.0,
       "squeezeFlag": false
     }
   ]
