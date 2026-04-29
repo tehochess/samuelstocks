@@ -1,6 +1,6 @@
 {
-  "updated": "Apr 28, 2026 02:39 PM PST",
-  "updated_iso": "2026-04-28T14:39:53.713760-07:00",
+  "updated": "Apr 29, 2026 02:14 AM PST",
+  "updated_iso": "2026-04-29T02:14:39.772388-07:00",
   "downStreaks": [
     {
       "ticker": "CHTR",
@@ -26,12 +26,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": -0.86,
-        "vol": 4681507
+        "vol": 4769000
       },
       "totalMove": -29.42,
-      "volVsAvg": 59.1,
+      "volVsAvg": 61.8,
       "volSignal": "heavy",
-      "avgVolume20d": 2942205,
+      "avgVolume20d": 2946580,
       "allDown": true,
       "allUp": false,
       "signal": {
@@ -66,12 +66,52 @@
       "day3": {
         "date": "2026-04-28",
         "pct": -0.62,
-        "vol": 9646143
+        "vol": 10307900
       },
       "totalMove": -2.29,
-      "volVsAvg": 49.6,
+      "volVsAvg": 59.0,
       "volSignal": "heavy",
-      "avgVolume20d": 6448852,
+      "avgVolume20d": 6481940,
+      "allDown": true,
+      "allUp": false,
+      "signal": {
+        "name": "Breakdown",
+        "strength": 3,
+        "color": "red",
+        "icon": "\ud83d\udd34",
+        "reason": "Down streak + heavy volume = institutional selling. Floor may be lower."
+      }
+    },
+    {
+      "ticker": "MDT",
+      "company": "Medtronic",
+      "price": 81.9,
+      "ma200": 93.03,
+      "vs200dPct": -12.0,
+      "rsi": 32.6,
+      "rsiLabel": {
+        "label": "32.6",
+        "level": "weak"
+      },
+      "day1": {
+        "date": "2026-04-24",
+        "pct": -0.56,
+        "vol": 6570000
+      },
+      "day2": {
+        "date": "2026-04-27",
+        "pct": -0.48,
+        "vol": 6635000
+      },
+      "day3": {
+        "date": "2026-04-28",
+        "pct": -1.23,
+        "vol": 9888700
+      },
+      "totalMove": -2.27,
+      "volVsAvg": 21.7,
+      "volSignal": "heavy",
+      "avgVolume20d": 8125725,
       "allDown": true,
       "allUp": false,
       "signal": {
@@ -106,12 +146,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": -1.67,
-        "vol": 8362741
+        "vol": 8365900
       },
       "totalMove": -6.23,
-      "volVsAvg": 9.3,
+      "volVsAvg": 9.4,
       "volSignal": "normal",
-      "avgVolume20d": 7648407,
+      "avgVolume20d": 7648565,
       "allDown": true,
       "allUp": false,
       "signal": {
@@ -146,12 +186,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": -4.05,
-        "vol": 33510741
+        "vol": 33674600
       },
       "totalMove": -5.93,
-      "volVsAvg": 5.7,
+      "volVsAvg": 6.2,
       "volSignal": "normal",
-      "avgVolume20d": 31709797,
+      "avgVolume20d": 31717990,
       "allDown": true,
       "allUp": false,
       "signal": {
@@ -186,12 +226,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": -0.18,
-        "vol": 7146473
+        "vol": 7156200
       },
       "totalMove": -4.05,
-      "volVsAvg": -20.5,
+      "volVsAvg": -20.4,
       "volSignal": "light",
-      "avgVolume20d": 8990298,
+      "avgVolume20d": 8990785,
       "allDown": true,
       "allUp": false,
       "signal": {
@@ -226,12 +266,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": -0.21,
-        "vol": 1450401
+        "vol": 1454600
       },
       "totalMove": -3.31,
-      "volVsAvg": 0.1,
+      "volVsAvg": 0.3,
       "volSignal": "normal",
-      "avgVolume20d": 1449445,
+      "avgVolume20d": 1449655,
       "allDown": true,
       "allUp": false,
       "signal": {
@@ -266,20 +306,20 @@
       "day3": {
         "date": "2026-04-28",
         "pct": -0.98,
-        "vol": 2772177
+        "vol": 4275600
       },
       "totalMove": -3.3,
-      "volVsAvg": -20.6,
-      "volSignal": "light",
-      "avgVolume20d": 3489773,
+      "volVsAvg": 19.9,
+      "volSignal": "normal",
+      "avgVolume20d": 3564945,
       "allDown": true,
       "allUp": false,
       "signal": {
-        "name": "Possible Bottom",
+        "name": "Downtrend",
         "strength": 1,
-        "color": "amber",
-        "icon": "\u26a0\ufe0f",
-        "reason": "Down streak + light volume. RSI not yet oversold \u2014 confirm before acting."
+        "color": "muted",
+        "icon": "\u2014",
+        "reason": "Down streak with normal volume. No reversal signal yet."
       }
     },
     {
@@ -306,12 +346,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": -0.18,
-        "vol": 2375218
+        "vol": 2375900
       },
       "totalMove": -2.62,
       "volVsAvg": -3.6,
       "volSignal": "normal",
-      "avgVolume20d": 2464250,
+      "avgVolume20d": 2464285,
       "allDown": true,
       "allUp": false,
       "signal": {
@@ -346,52 +386,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": -0.92,
-        "vol": 1698914
+        "vol": 1698900
       },
       "totalMove": -2.54,
       "volVsAvg": -29.6,
       "volSignal": "light",
       "avgVolume20d": 2414410,
-      "allDown": true,
-      "allUp": false,
-      "signal": {
-        "name": "Possible Bottom",
-        "strength": 1,
-        "color": "amber",
-        "icon": "\u26a0\ufe0f",
-        "reason": "Down streak + light volume. RSI not yet oversold \u2014 confirm before acting."
-      }
-    },
-    {
-      "ticker": "MDT",
-      "company": "Medtronic",
-      "price": 81.9,
-      "ma200": 93.03,
-      "vs200dPct": -12.0,
-      "rsi": 32.6,
-      "rsiLabel": {
-        "label": "32.6",
-        "level": "weak"
-      },
-      "day1": {
-        "date": "2026-04-24",
-        "pct": -0.56,
-        "vol": 6570000
-      },
-      "day2": {
-        "date": "2026-04-27",
-        "pct": -0.48,
-        "vol": 6635000
-      },
-      "day3": {
-        "date": "2026-04-28",
-        "pct": -1.23,
-        "vol": 6221304
-      },
-      "totalMove": -2.27,
-      "volVsAvg": -21.7,
-      "volSignal": "light",
-      "avgVolume20d": 7942355,
       "allDown": true,
       "allUp": false,
       "signal": {
@@ -426,20 +426,20 @@
       "day3": {
         "date": "2026-04-28",
         "pct": -0.86,
-        "vol": 5373383
+        "vol": 6406900
       },
       "totalMove": -2.12,
-      "volVsAvg": -30.0,
-      "volSignal": "light",
-      "avgVolume20d": 7678039,
+      "volVsAvg": -17.1,
+      "volSignal": "normal",
+      "avgVolume20d": 7729715,
       "allDown": true,
       "allUp": false,
       "signal": {
-        "name": "Possible Bottom",
+        "name": "Downtrend",
         "strength": 1,
-        "color": "amber",
-        "icon": "\u26a0\ufe0f",
-        "reason": "Down streak + light volume. RSI not yet oversold \u2014 confirm before acting."
+        "color": "muted",
+        "icon": "\u2014",
+        "reason": "Down streak with normal volume. No reversal signal yet."
       }
     },
     {
@@ -466,12 +466,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": -1.32,
-        "vol": 1832033
+        "vol": 1873500
       },
       "totalMove": -2.09,
-      "volVsAvg": -14.8,
+      "volVsAvg": -13.0,
       "volSignal": "normal",
-      "avgVolume20d": 2150561,
+      "avgVolume20d": 2152635,
       "allDown": true,
       "allUp": false,
       "signal": {
@@ -506,12 +506,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": -0.26,
-        "vol": 3691442
+        "vol": 3803000
       },
       "totalMove": -1.47,
-      "volVsAvg": -43.1,
+      "volVsAvg": -41.4,
       "volSignal": "light",
-      "avgVolume20d": 6487402,
+      "avgVolume20d": 6492980,
       "allDown": true,
       "allUp": false,
       "signal": {
@@ -548,12 +548,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": 0.63,
-        "vol": 7287177
+        "vol": 8706900
       },
       "totalMove": 4.57,
-      "volVsAvg": -47.2,
+      "volVsAvg": -37.3,
       "volSignal": "light",
-      "avgVolume20d": 13811383,
+      "avgVolume20d": 13882370,
       "allDown": false,
       "allUp": true,
       "signal": {
@@ -588,12 +588,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": 1.04,
-        "vol": 30312242
+        "vol": 30373200
       },
       "totalMove": 3.22,
-      "volVsAvg": -7.1,
+      "volVsAvg": -6.9,
       "volSignal": "normal",
-      "avgVolume20d": 32621997,
+      "avgVolume20d": 32625045,
       "allDown": false,
       "allUp": true,
       "signal": {
@@ -628,12 +628,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": 0.52,
-        "vol": 7961540
+        "vol": 7964900
       },
       "totalMove": 3.13,
       "volVsAvg": -8.4,
       "volSignal": "normal",
-      "avgVolume20d": 8693587,
+      "avgVolume20d": 8693755,
       "allDown": false,
       "allUp": true,
       "signal": {
@@ -668,20 +668,20 @@
       "day3": {
         "date": "2026-04-28",
         "pct": 0.23,
-        "vol": 2797498
+        "vol": 3891300
       },
       "totalMove": 1.04,
-      "volVsAvg": -10.2,
-      "volSignal": "normal",
-      "avgVolume20d": 3114174,
+      "volVsAvg": 22.8,
+      "volSignal": "heavy",
+      "avgVolume20d": 3168865,
       "allDown": false,
       "allUp": true,
       "signal": {
-        "name": "Uptrend",
+        "name": "Momentum",
         "strength": 1,
-        "color": "muted",
-        "icon": "\u2014",
-        "reason": "Up streak with normal volume. No strong signal yet."
+        "color": "green",
+        "icon": "\ud83d\udcc8",
+        "reason": "Up streak + heavy volume. Strong buying interest \u2014 RSI not yet overbought."
       }
     }
   ],
@@ -710,12 +710,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": 1.16,
-        "vol": 32820055
+        "vol": 39978600
       },
       "totalMove": -0.98,
-      "volVsAvg": -20.7,
-      "volSignal": "light",
-      "avgVolume20d": 41402082,
+      "volVsAvg": -4.3,
+      "volSignal": "normal",
+      "avgVolume20d": 41760010,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -750,12 +750,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": 0.16,
-        "vol": 4872069
+        "vol": 6295400
       },
       "totalMove": -1.63,
-      "volVsAvg": -24.9,
-      "volSignal": "light",
-      "avgVolume20d": 6491498,
+      "volVsAvg": -4.1,
+      "volSignal": "normal",
+      "avgVolume20d": 6562665,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -790,12 +790,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": 1.14,
-        "vol": 11533585
+        "vol": 11541900
       },
       "totalMove": 1.52,
-      "volVsAvg": -6.0,
+      "volVsAvg": -5.9,
       "volSignal": "normal",
-      "avgVolume20d": 12265689,
+      "avgVolume20d": 12266105,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -830,12 +830,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": 0.44,
-        "vol": 4424237
+        "vol": 4426600
       },
       "totalMove": -0.29,
       "volVsAvg": -14.6,
       "volSignal": "normal",
-      "avgVolume20d": 5180911,
+      "avgVolume20d": 5181030,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -870,12 +870,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": 1.63,
-        "vol": 4526094
+        "vol": 4637600
       },
       "totalMove": 1.83,
-      "volVsAvg": -15.5,
+      "volVsAvg": -13.5,
       "volSignal": "normal",
-      "avgVolume20d": 5358639,
+      "avgVolume20d": 5364215,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -910,12 +910,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": 0.04,
-        "vol": 7889864
+        "vol": 9273100
       },
       "totalMove": -2.86,
-      "volVsAvg": 112.7,
+      "volVsAvg": 145.4,
       "volSignal": "heavy",
-      "avgVolume20d": 3709728,
+      "avgVolume20d": 3778890,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -950,12 +950,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": -3.41,
-        "vol": 42029312
+        "vol": 42910500
       },
       "totalMove": 6.71,
-      "volVsAvg": 5.8,
+      "volVsAvg": 7.9,
       "volSignal": "normal",
-      "avgVolume20d": 39712905,
+      "avgVolume20d": 39756965,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -990,12 +990,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": -0.18,
-        "vol": 2375218
+        "vol": 2375900
       },
       "totalMove": -2.62,
       "volVsAvg": -3.6,
       "volSignal": "normal",
-      "avgVolume20d": 2464250,
+      "avgVolume20d": 2464285,
       "allDown": true,
       "allUp": false,
       "signal": {
@@ -1030,12 +1030,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": 1.77,
-        "vol": 4387781
+        "vol": 4484600
       },
       "totalMove": -0.31,
-      "volVsAvg": 38.9,
+      "volVsAvg": 41.7,
       "volSignal": "heavy",
-      "avgVolume20d": 3159849,
+      "avgVolume20d": 3164690,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -1070,12 +1070,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": -0.54,
-        "vol": 42065244
+        "vol": 42130700
       },
       "totalMove": 1.86,
-      "volVsAvg": -7.9,
+      "volVsAvg": -7.8,
       "volSignal": "normal",
-      "avgVolume20d": 45675057,
+      "avgVolume20d": 45678330,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -1110,12 +1110,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": -0.92,
-        "vol": 6089682
+        "vol": 6097900
       },
       "totalMove": -0.81,
-      "volVsAvg": 99.5,
+      "volVsAvg": 99.7,
       "volSignal": "heavy",
-      "avgVolume20d": 3052669,
+      "avgVolume20d": 3053080,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -1150,12 +1150,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": -0.26,
-        "vol": 3691442
+        "vol": 3803000
       },
       "totalMove": -1.47,
-      "volVsAvg": -43.1,
+      "volVsAvg": -41.4,
       "volSignal": "light",
-      "avgVolume20d": 6487402,
+      "avgVolume20d": 6492980,
       "allDown": true,
       "allUp": false,
       "signal": {
@@ -1190,12 +1190,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": 0.06,
-        "vol": 16173355
+        "vol": 21152200
       },
       "totalMove": 0.37,
-      "volVsAvg": -52.4,
+      "volVsAvg": -38.2,
       "volSignal": "light",
-      "avgVolume20d": 33979412,
+      "avgVolume20d": 34228355,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -1230,12 +1230,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": -0.69,
-        "vol": 2061115
+        "vol": 2886700
       },
       "totalMove": -0.99,
-      "volVsAvg": -47.4,
+      "volVsAvg": -27.1,
       "volSignal": "light",
-      "avgVolume20d": 3916355,
+      "avgVolume20d": 3957635,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -1270,12 +1270,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": -0.67,
-        "vol": 337962
+        "vol": 424500
       },
       "totalMove": -0.34,
-      "volVsAvg": -53.3,
+      "volVsAvg": -41.8,
       "volSignal": "light",
-      "avgVolume20d": 724438,
+      "avgVolume20d": 728765,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -1310,12 +1310,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": 0.83,
-        "vol": 6269303
+        "vol": 6270800
       },
       "totalMove": -1.28,
       "volVsAvg": -31.0,
       "volSignal": "light",
-      "avgVolume20d": 9084725,
+      "avgVolume20d": 9084800,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -1350,12 +1350,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": 1.13,
-        "vol": 4859524
+        "vol": 4897700
       },
       "totalMove": 1.61,
-      "volVsAvg": 5.9,
+      "volVsAvg": 6.7,
       "volSignal": "normal",
-      "avgVolume20d": 4586936,
+      "avgVolume20d": 4588845,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -1390,12 +1390,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": -0.47,
-        "vol": 9583397
+        "vol": 9585300
       },
       "totalMove": 0.02,
       "volVsAvg": -16.3,
       "volSignal": "normal",
-      "avgVolume20d": 11449589,
+      "avgVolume20d": 11449685,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -1430,12 +1430,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": -1.32,
-        "vol": 1832033
+        "vol": 1873500
       },
       "totalMove": -2.09,
-      "volVsAvg": -14.8,
+      "volVsAvg": -13.0,
       "volSignal": "normal",
-      "avgVolume20d": 2150561,
+      "avgVolume20d": 2152635,
       "allDown": true,
       "allUp": false,
       "signal": {
@@ -1470,12 +1470,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": -0.86,
-        "vol": 4681507
+        "vol": 4769000
       },
       "totalMove": -29.42,
-      "volVsAvg": 59.1,
+      "volVsAvg": 61.8,
       "volSignal": "heavy",
-      "avgVolume20d": 2942205,
+      "avgVolume20d": 2946580,
       "allDown": true,
       "allUp": false,
       "signal": {
@@ -1510,12 +1510,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": 1.78,
-        "vol": 4512134
+        "vol": 5568800
       },
       "totalMove": 2.33,
-      "volVsAvg": -13.6,
+      "volVsAvg": 5.5,
       "volSignal": "normal",
-      "avgVolume20d": 5224151,
+      "avgVolume20d": 5276985,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -1550,12 +1550,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": 0.47,
-        "vol": 23416304
+        "vol": 23541100
       },
       "totalMove": -12.6,
-      "volVsAvg": -17.9,
+      "volVsAvg": -17.5,
       "volSignal": "normal",
-      "avgVolume20d": 28523690,
+      "avgVolume20d": 28529930,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -1590,12 +1590,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": -1.04,
-        "vol": 2342925
+        "vol": 2794400
       },
       "totalMove": -2.28,
-      "volVsAvg": -44.3,
+      "volVsAvg": -33.9,
       "volSignal": "light",
-      "avgVolume20d": 4206061,
+      "avgVolume20d": 4228635,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -1630,12 +1630,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": 2.17,
-        "vol": 7237693
+        "vol": 7239000
       },
       "totalMove": 0.01,
       "volVsAvg": -19.6,
       "volSignal": "normal",
-      "avgVolume20d": 9000754,
+      "avgVolume20d": 9000820,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -1670,12 +1670,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": 0.63,
-        "vol": 7287177
+        "vol": 8706900
       },
       "totalMove": 4.57,
-      "volVsAvg": -47.2,
+      "volVsAvg": -37.3,
       "volSignal": "light",
-      "avgVolume20d": 13811383,
+      "avgVolume20d": 13882370,
       "allDown": false,
       "allUp": true,
       "signal": {
@@ -1710,12 +1710,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": -1.59,
-        "vol": 16873986
+        "vol": 16885900
       },
       "totalMove": -1.95,
       "volVsAvg": -4.8,
       "volSignal": "normal",
-      "avgVolume20d": 17733439,
+      "avgVolume20d": 17734035,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -1750,12 +1750,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": 3.34,
-        "vol": 6121466
+        "vol": 8304300
       },
       "totalMove": 2.72,
-      "volVsAvg": -17.3,
+      "volVsAvg": 10.6,
       "volSignal": "normal",
-      "avgVolume20d": 7401918,
+      "avgVolume20d": 7511060,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -1790,12 +1790,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": 1.94,
-        "vol": 10735587
+        "vol": 10738800
       },
       "totalMove": 0.43,
       "volVsAvg": -8.4,
       "volSignal": "normal",
-      "avgVolume20d": 11722074,
+      "avgVolume20d": 11722235,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -1830,12 +1830,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": -0.67,
-        "vol": 894163
+        "vol": 894800
       },
       "totalMove": -4.73,
       "volVsAvg": -21.2,
       "volSignal": "light",
-      "avgVolume20d": 1135058,
+      "avgVolume20d": 1135090,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -1870,20 +1870,20 @@
       "day3": {
         "date": "2026-04-28",
         "pct": -0.86,
-        "vol": 5373383
+        "vol": 6406900
       },
       "totalMove": -2.12,
-      "volVsAvg": -30.0,
-      "volSignal": "light",
-      "avgVolume20d": 7678039,
+      "volVsAvg": -17.1,
+      "volSignal": "normal",
+      "avgVolume20d": 7729715,
       "allDown": true,
       "allUp": false,
       "signal": {
-        "name": "Possible Bottom",
+        "name": "Downtrend",
         "strength": 1,
-        "color": "amber",
-        "icon": "\u26a0\ufe0f",
-        "reason": "Down streak + light volume. RSI not yet oversold \u2014 confirm before acting."
+        "color": "muted",
+        "icon": "\u2014",
+        "reason": "Down streak with normal volume. No reversal signal yet."
       }
     },
     {
@@ -1910,12 +1910,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": -0.24,
-        "vol": 8980675
+        "vol": 9265400
       },
       "totalMove": -1.35,
-      "volVsAvg": -41.6,
+      "volVsAvg": -39.8,
       "volSignal": "light",
-      "avgVolume20d": 15366918,
+      "avgVolume20d": 15381155,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -1950,12 +1950,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": 0.56,
-        "vol": 1562629
+        "vol": 2167000
       },
       "totalMove": -0.18,
-      "volVsAvg": -49.2,
+      "volVsAvg": -30.2,
       "volSignal": "light",
-      "avgVolume20d": 3073021,
+      "avgVolume20d": 3103240,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -1990,12 +1990,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": -2.16,
-        "vol": 1777907
+        "vol": 1778100
       },
       "totalMove": -2.84,
       "volVsAvg": -36.0,
       "volSignal": "light",
-      "avgVolume20d": 2779055,
+      "avgVolume20d": 2779065,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -2030,12 +2030,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": 0.97,
-        "vol": 3972583
+        "vol": 4205000
       },
       "totalMove": 0.63,
-      "volVsAvg": -46.2,
+      "volVsAvg": -43.2,
       "volSignal": "light",
-      "avgVolume20d": 7385054,
+      "avgVolume20d": 7396675,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -2070,12 +2070,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": -0.72,
-        "vol": 40568603
+        "vol": 44242700
       },
       "totalMove": -0.63,
-      "volVsAvg": 12.9,
-      "volSignal": "normal",
-      "avgVolume20d": 35928795,
+      "volVsAvg": 22.5,
+      "volSignal": "heavy",
+      "avgVolume20d": 36112500,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -2110,12 +2110,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": 0.6,
-        "vol": 1049501
+        "vol": 1210100
       },
       "totalMove": -0.62,
-      "volVsAvg": -29.4,
-      "volSignal": "light",
-      "avgVolume20d": 1487000,
+      "volVsAvg": -19.1,
+      "volSignal": "normal",
+      "avgVolume20d": 1495030,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -2150,12 +2150,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": 0.37,
-        "vol": 1692858
+        "vol": 2168100
       },
       "totalMove": -1.57,
-      "volVsAvg": 24.3,
+      "volVsAvg": 56.5,
       "volSignal": "heavy",
-      "avgVolume20d": 1361977,
+      "avgVolume20d": 1385740,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -2190,12 +2190,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": 1.63,
-        "vol": 6795314
+        "vol": 8414200
       },
       "totalMove": 2.42,
-      "volVsAvg": 2.9,
-      "volSignal": "normal",
-      "avgVolume20d": 6601220,
+      "volVsAvg": 25.9,
+      "volSignal": "heavy",
+      "avgVolume20d": 6682165,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -2230,12 +2230,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": 1.18,
-        "vol": 5802425
+        "vol": 5939400
       },
       "totalMove": -3.27,
-      "volVsAvg": 7.9,
+      "volVsAvg": 10.3,
       "volSignal": "normal",
-      "avgVolume20d": 5379836,
+      "avgVolume20d": 5386685,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -2270,12 +2270,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": 1.27,
-        "vol": 15030138
+        "vol": 15038900
       },
       "totalMove": 0.56,
-      "volVsAvg": 142.4,
+      "volVsAvg": 142.6,
       "volSignal": "heavy",
-      "avgVolume20d": 6199636,
+      "avgVolume20d": 6200075,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -2310,12 +2310,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": -0.29,
-        "vol": 17042700
+        "vol": 18460400
       },
       "totalMove": 2.87,
-      "volVsAvg": 3.1,
+      "volVsAvg": 11.2,
       "volSignal": "normal",
-      "avgVolume20d": 16528260,
+      "avgVolume20d": 16599145,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -2350,12 +2350,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": -0.16,
-        "vol": 27244680
+        "vol": 27776500
       },
       "totalMove": 3.19,
-      "volVsAvg": 8.9,
+      "volVsAvg": 10.9,
       "volSignal": "normal",
-      "avgVolume20d": 25027259,
+      "avgVolume20d": 25053850,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -2390,12 +2390,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": -1.2,
-        "vol": 1500188
+        "vol": 1500700
       },
       "totalMove": -0.5,
       "volVsAvg": -25.4,
       "volSignal": "light",
-      "avgVolume20d": 2010359,
+      "avgVolume20d": 2010385,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -2430,20 +2430,20 @@
       "day3": {
         "date": "2026-04-28",
         "pct": -0.98,
-        "vol": 2772177
+        "vol": 4275600
       },
       "totalMove": -3.3,
-      "volVsAvg": -20.6,
-      "volSignal": "light",
-      "avgVolume20d": 3489773,
+      "volVsAvg": 19.9,
+      "volSignal": "normal",
+      "avgVolume20d": 3564945,
       "allDown": true,
       "allUp": false,
       "signal": {
-        "name": "Possible Bottom",
+        "name": "Downtrend",
         "strength": 1,
-        "color": "amber",
-        "icon": "\u26a0\ufe0f",
-        "reason": "Down streak + light volume. RSI not yet oversold \u2014 confirm before acting."
+        "color": "muted",
+        "icon": "\u2014",
+        "reason": "Down streak with normal volume. No reversal signal yet."
       }
     },
     {
@@ -2470,12 +2470,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": 0.41,
-        "vol": 3745303
+        "vol": 3795700
       },
       "totalMove": -0.66,
-      "volVsAvg": -0.1,
+      "volVsAvg": 1.2,
       "volSignal": "normal",
-      "avgVolume20d": 3748260,
+      "avgVolume20d": 3750780,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -2510,12 +2510,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": 2.19,
-        "vol": 5065819
+        "vol": 5160100
       },
       "totalMove": 0.88,
-      "volVsAvg": -19.2,
+      "volVsAvg": -17.8,
       "volSignal": "normal",
-      "avgVolume20d": 6272545,
+      "avgVolume20d": 6277260,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -2550,12 +2550,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": -0.55,
-        "vol": 143020562
+        "vol": 147018800
       },
       "totalMove": 26.02,
-      "volVsAvg": 11.2,
+      "volVsAvg": 14.2,
       "volSignal": "normal",
-      "avgVolume20d": 128570563,
+      "avgVolume20d": 128770475,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -2590,12 +2590,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": 2.68,
-        "vol": 2222595
+        "vol": 2224300
       },
       "totalMove": 4.46,
-      "volVsAvg": -34.9,
+      "volVsAvg": -34.8,
       "volSignal": "light",
-      "avgVolume20d": 3411764,
+      "avgVolume20d": 3411850,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -2630,12 +2630,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": 1.09,
-        "vol": 5428778
+        "vol": 7174800
       },
       "totalMove": -1.23,
-      "volVsAvg": -28.0,
-      "volSignal": "light",
-      "avgVolume20d": 7541043,
+      "volVsAvg": -5.9,
+      "volSignal": "normal",
+      "avgVolume20d": 7628345,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -2670,12 +2670,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": -0.06,
-        "vol": 4082722
+        "vol": 7397000
       },
       "totalMove": -0.07,
-      "volVsAvg": -50.7,
-      "volSignal": "light",
-      "avgVolume20d": 8283866,
+      "volVsAvg": -12.5,
+      "volSignal": "normal",
+      "avgVolume20d": 8449580,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -2710,12 +2710,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": 2.51,
-        "vol": 10252729
+        "vol": 10539500
       },
       "totalMove": 2.28,
-      "volVsAvg": -22.0,
-      "volSignal": "light",
-      "avgVolume20d": 13145301,
+      "volVsAvg": -19.9,
+      "volSignal": "normal",
+      "avgVolume20d": 13159640,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -2750,12 +2750,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": 3.86,
-        "vol": 30686038
+        "vol": 30693900
       },
       "totalMove": 2.76,
-      "volVsAvg": 121.4,
+      "volVsAvg": 121.5,
       "volSignal": "heavy",
-      "avgVolume20d": 13858611,
+      "avgVolume20d": 13859005,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -2790,12 +2790,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": -0.09,
-        "vol": 2742118
+        "vol": 2743200
       },
       "totalMove": 0.44,
-      "volVsAvg": 40.2,
+      "volVsAvg": 40.3,
       "volSignal": "heavy",
-      "avgVolume20d": 1955285,
+      "avgVolume20d": 1955340,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -2830,12 +2830,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": 0.66,
-        "vol": 2540173
+        "vol": 2557600
       },
       "totalMove": -4.79,
-      "volVsAvg": -13.1,
+      "volVsAvg": -12.5,
       "volSignal": "normal",
-      "avgVolume20d": 2922918,
+      "avgVolume20d": 2923790,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -2870,12 +2870,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": -0.21,
-        "vol": 1450401
+        "vol": 1454600
       },
       "totalMove": -3.31,
-      "volVsAvg": 0.1,
+      "volVsAvg": 0.3,
       "volSignal": "normal",
-      "avgVolume20d": 1449445,
+      "avgVolume20d": 1449655,
       "allDown": true,
       "allUp": false,
       "signal": {
@@ -2910,7 +2910,7 @@
       "day3": {
         "date": "2026-04-28",
         "pct": -0.92,
-        "vol": 1698914
+        "vol": 1698900
       },
       "totalMove": -2.54,
       "volVsAvg": -29.6,
@@ -2950,20 +2950,20 @@
       "day3": {
         "date": "2026-04-28",
         "pct": 0.23,
-        "vol": 2797498
+        "vol": 3891300
       },
       "totalMove": 1.04,
-      "volVsAvg": -10.2,
-      "volSignal": "normal",
-      "avgVolume20d": 3114174,
+      "volVsAvg": 22.8,
+      "volSignal": "heavy",
+      "avgVolume20d": 3168865,
       "allDown": false,
       "allUp": true,
       "signal": {
-        "name": "Uptrend",
+        "name": "Momentum",
         "strength": 1,
-        "color": "muted",
-        "icon": "\u2014",
-        "reason": "Up streak with normal volume. No strong signal yet."
+        "color": "green",
+        "icon": "\ud83d\udcc8",
+        "reason": "Up streak + heavy volume. Strong buying interest \u2014 RSI not yet overbought."
       }
     },
     {
@@ -2990,12 +2990,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": 0.75,
-        "vol": 3662500
+        "vol": 4085600
       },
       "totalMove": -3.35,
-      "volVsAvg": 20.4,
+      "volVsAvg": 33.4,
       "volSignal": "heavy",
-      "avgVolume20d": 3041145,
+      "avgVolume20d": 3062300,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -3030,12 +3030,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": 1.95,
-        "vol": 11532302
+        "vol": 11611500
       },
       "totalMove": 1.45,
-      "volVsAvg": 46.6,
+      "volVsAvg": 47.6,
       "volSignal": "heavy",
-      "avgVolume20d": 7864770,
+      "avgVolume20d": 7868730,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -3070,20 +3070,20 @@
       "day3": {
         "date": "2026-04-28",
         "pct": -1.23,
-        "vol": 6221304
+        "vol": 9888700
       },
       "totalMove": -2.27,
-      "volVsAvg": -21.7,
-      "volSignal": "light",
-      "avgVolume20d": 7942355,
+      "volVsAvg": 21.7,
+      "volSignal": "heavy",
+      "avgVolume20d": 8125725,
       "allDown": true,
       "allUp": false,
       "signal": {
-        "name": "Possible Bottom",
-        "strength": 1,
-        "color": "amber",
-        "icon": "\u26a0\ufe0f",
-        "reason": "Down streak + light volume. RSI not yet oversold \u2014 confirm before acting."
+        "name": "Breakdown",
+        "strength": 3,
+        "color": "red",
+        "icon": "\ud83d\udd34",
+        "reason": "Down streak + heavy volume = institutional selling. Floor may be lower."
       }
     },
     {
@@ -3110,12 +3110,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": 0.79,
-        "vol": 2978677
+        "vol": 2978700
       },
       "totalMove": 2.9,
       "volVsAvg": -11.5,
       "volSignal": "normal",
-      "avgVolume20d": 3364363,
+      "avgVolume20d": 3364365,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -3150,12 +3150,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": -1.07,
-        "vol": 10276663
+        "vol": 10584300
       },
       "totalMove": 1.87,
-      "volVsAvg": -31.5,
+      "volVsAvg": -29.5,
       "volSignal": "light",
-      "avgVolume20d": 15005518,
+      "avgVolume20d": 15020900,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -3190,12 +3190,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": 0.18,
-        "vol": 3195093
+        "vol": 3726200
       },
       "totalMove": 0.82,
-      "volVsAvg": -8.6,
+      "volVsAvg": 5.8,
       "volSignal": "normal",
-      "avgVolume20d": 3494964,
+      "avgVolume20d": 3521520,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -3230,12 +3230,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": 2.73,
-        "vol": 8829347
+        "vol": 10250500
       },
       "totalMove": 1.01,
-      "volVsAvg": 7.4,
-      "volSignal": "normal",
-      "avgVolume20d": 8220802,
+      "volVsAvg": 23.6,
+      "volSignal": "heavy",
+      "avgVolume20d": 8291860,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -3270,12 +3270,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": -0.18,
-        "vol": 7146473
+        "vol": 7156200
       },
       "totalMove": -4.05,
-      "volVsAvg": -20.5,
+      "volVsAvg": -20.4,
       "volSignal": "light",
-      "avgVolume20d": 8990298,
+      "avgVolume20d": 8990785,
       "allDown": true,
       "allUp": false,
       "signal": {
@@ -3310,12 +3310,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": 0.09,
-        "vol": 4104767
+        "vol": 4107100
       },
       "totalMove": 0.91,
       "volVsAvg": -31.2,
       "volSignal": "light",
-      "avgVolume20d": 5965453,
+      "avgVolume20d": 5965570,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -3350,12 +3350,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": 1.04,
-        "vol": 30312242
+        "vol": 30373200
       },
       "totalMove": 3.22,
-      "volVsAvg": -7.1,
+      "volVsAvg": -6.9,
       "volSignal": "normal",
-      "avgVolume20d": 32621997,
+      "avgVolume20d": 32625045,
       "allDown": false,
       "allUp": true,
       "signal": {
@@ -3390,12 +3390,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": 1.77,
-        "vol": 5632758
+        "vol": 7241400
       },
       "totalMove": 0.29,
-      "volVsAvg": -33.6,
-      "volSignal": "light",
-      "avgVolume20d": 8482817,
+      "volVsAvg": -15.4,
+      "volSignal": "normal",
+      "avgVolume20d": 8563250,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -3430,12 +3430,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": 0.98,
-        "vol": 32002694
+        "vol": 33367200
       },
       "totalMove": -0.58,
-      "volVsAvg": -25.7,
+      "volVsAvg": -22.6,
       "volSignal": "light",
-      "avgVolume20d": 43059844,
+      "avgVolume20d": 43128070,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -3470,12 +3470,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": -0.24,
-        "vol": 10655197
+        "vol": 12392600
       },
       "totalMove": 0.56,
-      "volVsAvg": -64.8,
+      "volVsAvg": -59.1,
       "volSignal": "light",
-      "avgVolume20d": 30249144,
+      "avgVolume20d": 30336015,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -3510,12 +3510,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": -1.59,
-        "vol": 179415428
+        "vol": 179828800
       },
       "totalMove": 6.74,
-      "volVsAvg": 19.4,
+      "volVsAvg": 19.6,
       "volSignal": "normal",
-      "avgVolume20d": 150295951,
+      "avgVolume20d": 150316620,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -3550,12 +3550,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": -4.05,
-        "vol": 33510741
+        "vol": 33674600
       },
       "totalMove": -5.93,
-      "volVsAvg": 5.7,
+      "volVsAvg": 6.2,
       "volSignal": "normal",
-      "avgVolume20d": 31709797,
+      "avgVolume20d": 31717990,
       "allDown": true,
       "allUp": false,
       "signal": {
@@ -3590,12 +3590,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": 2.34,
-        "vol": 10417943
+        "vol": 12729200
       },
       "totalMove": 1.37,
-      "volVsAvg": -33.2,
-      "volSignal": "light",
-      "avgVolume20d": 15593867,
+      "volVsAvg": -19.0,
+      "volSignal": "normal",
+      "avgVolume20d": 15709430,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -3630,12 +3630,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": 1.42,
-        "vol": 5085838
+        "vol": 5173200
       },
       "totalMove": 0.39,
-      "volVsAvg": -14.7,
+      "volVsAvg": -13.3,
       "volSignal": "normal",
-      "avgVolume20d": 5960296,
+      "avgVolume20d": 5964665,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -3670,12 +3670,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": -1.16,
-        "vol": 57978636
+        "vol": 58049200
       },
       "totalMove": -0.7,
-      "volVsAvg": 66.9,
+      "volVsAvg": 67.1,
       "volSignal": "heavy",
-      "avgVolume20d": 34744671,
+      "avgVolume20d": 34748200,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -3710,12 +3710,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": 0.52,
-        "vol": 7961540
+        "vol": 7964900
       },
       "totalMove": 3.13,
       "volVsAvg": -8.4,
       "volSignal": "normal",
-      "avgVolume20d": 8693587,
+      "avgVolume20d": 8693755,
       "allDown": false,
       "allUp": true,
       "signal": {
@@ -3750,12 +3750,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": 3.1,
-        "vol": 3204979
+        "vol": 4067100
       },
       "totalMove": -1.86,
-      "volVsAvg": -34.2,
-      "volSignal": "light",
-      "avgVolume20d": 4870023,
+      "volVsAvg": -17.2,
+      "volSignal": "normal",
+      "avgVolume20d": 4913130,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -3790,12 +3790,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": -0.26,
-        "vol": 9440466
+        "vol": 9757400
       },
       "totalMove": -0.2,
-      "volVsAvg": -23.7,
+      "volVsAvg": -21.3,
       "volSignal": "light",
-      "avgVolume20d": 12380658,
+      "avgVolume20d": 12396505,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -3830,12 +3830,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": -0.17,
-        "vol": 22646483
+        "vol": 22885600
       },
       "totalMove": 11.9,
-      "volVsAvg": 77.5,
+      "volVsAvg": 79.2,
       "volSignal": "heavy",
-      "avgVolume20d": 12760644,
+      "avgVolume20d": 12772600,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -3870,12 +3870,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": 1.33,
-        "vol": 4696400
+        "vol": 6111600
       },
       "totalMove": -1.99,
-      "volVsAvg": -4.4,
-      "volSignal": "normal",
-      "avgVolume20d": 4911880,
+      "volVsAvg": 22.7,
+      "volSignal": "heavy",
+      "avgVolume20d": 4982640,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -3910,12 +3910,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": -0.62,
-        "vol": 9646143
+        "vol": 10307900
       },
       "totalMove": -2.29,
-      "volVsAvg": 49.6,
+      "volVsAvg": 59.0,
       "volSignal": "heavy",
-      "avgVolume20d": 6448852,
+      "avgVolume20d": 6481940,
       "allDown": true,
       "allUp": false,
       "signal": {
@@ -3950,12 +3950,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": 0.08,
-        "vol": 9139230
+        "vol": 9258200
       },
       "totalMove": 2.16,
-      "volVsAvg": -24.9,
+      "volVsAvg": -23.9,
       "volSignal": "light",
-      "avgVolume20d": 12161356,
+      "avgVolume20d": 12167305,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -3990,12 +3990,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": -3.52,
-        "vol": 1825617
+        "vol": 2439800
       },
       "totalMove": -3.98,
-      "volVsAvg": 14.8,
-      "volSignal": "normal",
-      "avgVolume20d": 1590265,
+      "volVsAvg": 50.5,
+      "volSignal": "heavy",
+      "avgVolume20d": 1620975,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -4030,12 +4030,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": 0.68,
-        "vol": 3059179
+        "vol": 3949900
       },
       "totalMove": 0.53,
-      "volVsAvg": -26.3,
-      "volSignal": "light",
-      "avgVolume20d": 4151743,
+      "volVsAvg": -5.9,
+      "volSignal": "normal",
+      "avgVolume20d": 4196280,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -4070,12 +4070,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": 0.73,
-        "vol": 974368
+        "vol": 1410100
       },
       "totalMove": -0.44,
-      "volVsAvg": -27.4,
-      "volSignal": "light",
-      "avgVolume20d": 1341848,
+      "volVsAvg": 3.4,
+      "volSignal": "normal",
+      "avgVolume20d": 1363635,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -4110,12 +4110,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": 2.12,
-        "vol": 29434860
+        "vol": 30375300
       },
       "totalMove": -2.02,
-      "volVsAvg": -23.8,
+      "volVsAvg": -21.5,
       "volSignal": "light",
-      "avgVolume20d": 38623953,
+      "avgVolume20d": 38670975,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -4150,12 +4150,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": -1.99,
-        "vol": 3690557
+        "vol": 3728100
       },
       "totalMove": -2.33,
-      "volVsAvg": -20.5,
-      "volSignal": "light",
-      "avgVolume20d": 4642637,
+      "volVsAvg": -19.7,
+      "volSignal": "normal",
+      "avgVolume20d": 4644515,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -4190,12 +4190,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": 0.47,
-        "vol": 1686204
+        "vol": 2243000
       },
       "totalMove": 0.76,
-      "volVsAvg": -15.8,
+      "volVsAvg": 10.4,
       "volSignal": "normal",
-      "avgVolume20d": 2003530,
+      "avgVolume20d": 2031370,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -4230,12 +4230,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": 2.07,
-        "vol": 968783
+        "vol": 1200300
       },
       "totalMove": 0.9,
-      "volVsAvg": -30.6,
-      "volSignal": "light",
-      "avgVolume20d": 1395739,
+      "volVsAvg": -14.7,
+      "volSignal": "normal",
+      "avgVolume20d": 1407315,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -4270,12 +4270,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": -1.67,
-        "vol": 8362741
+        "vol": 8365900
       },
       "totalMove": -6.23,
-      "volVsAvg": 9.3,
+      "volVsAvg": 9.4,
       "volSignal": "normal",
-      "avgVolume20d": 7648407,
+      "avgVolume20d": 7648565,
       "allDown": true,
       "allUp": false,
       "signal": {
@@ -4310,12 +4310,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": 3.41,
-        "vol": 10317985
+        "vol": 10594800
       },
       "totalMove": 3.44,
-      "volVsAvg": 11.7,
+      "volVsAvg": 14.6,
       "volSignal": "normal",
-      "avgVolume20d": 9234289,
+      "avgVolume20d": 9248130,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -4350,12 +4350,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": -0.44,
-        "vol": 2054158
+        "vol": 2703900
       },
       "totalMove": -1.3,
-      "volVsAvg": -34.4,
-      "volSignal": "light",
-      "avgVolume20d": 3129867,
+      "volVsAvg": -14.5,
+      "volSignal": "normal",
+      "avgVolume20d": 3162355,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -4390,12 +4390,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": -3.97,
-        "vol": 12531742
+        "vol": 12536300
       },
       "totalMove": -3.48,
-      "volVsAvg": 142.1,
+      "volVsAvg": 142.2,
       "volSignal": "heavy",
-      "avgVolume20d": 5176472,
+      "avgVolume20d": 5176700,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -4430,12 +4430,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": 0.43,
-        "vol": 5562143
+        "vol": 7394700
       },
       "totalMove": -0.72,
-      "volVsAvg": -38.5,
-      "volSignal": "light",
-      "avgVolume20d": 9038932,
+      "volVsAvg": -19.0,
+      "volSignal": "normal",
+      "avgVolume20d": 9130560,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -4470,12 +4470,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": -0.11,
-        "vol": 7601295
+        "vol": 8799200
       },
       "totalMove": 0.14,
-      "volVsAvg": 21.8,
+      "volVsAvg": 39.6,
       "volSignal": "heavy",
-      "avgVolume20d": 6241444,
+      "avgVolume20d": 6301340,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -4510,12 +4510,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": 0.3,
-        "vol": 27887680
+        "vol": 28364000
       },
       "totalMove": 0.07,
-      "volVsAvg": 5.4,
+      "volVsAvg": 7.1,
       "volSignal": "normal",
-      "avgVolume20d": 26456629,
+      "avgVolume20d": 26480445,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -4550,12 +4550,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": 1.17,
-        "vol": 14582343
+        "vol": 14826200
       },
       "totalMove": 1.25,
-      "volVsAvg": -10.7,
+      "volVsAvg": -9.3,
       "volSignal": "normal",
-      "avgVolume20d": 16325487,
+      "avgVolume20d": 16337680,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -4590,12 +4590,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": 0.0,
-        "vol": 16319296
+        "vol": 16336000
       },
       "totalMove": -3.39,
-      "volVsAvg": -2.5,
+      "volVsAvg": -2.4,
       "volSignal": "normal",
-      "avgVolume20d": 16733444,
+      "avgVolume20d": 16734280,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -4630,12 +4630,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": 1.6,
-        "vol": 14703645
+        "vol": 15162400
       },
       "totalMove": 0.04,
-      "volVsAvg": -29.2,
+      "volVsAvg": -27.0,
       "volSignal": "light",
-      "avgVolume20d": 20753342,
+      "avgVolume20d": 20776280,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -4670,12 +4670,12 @@
       "day3": {
         "date": "2026-04-28",
         "pct": -1.04,
-        "vol": 2972262
+        "vol": 2972500
       },
       "totalMove": 0.52,
       "volVsAvg": -7.6,
       "volSignal": "normal",
-      "avgVolume20d": 3216818,
+      "avgVolume20d": 3216830,
       "allDown": false,
       "allUp": false,
       "signal": {
