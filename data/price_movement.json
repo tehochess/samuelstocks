@@ -1,77 +1,37 @@
 {
-  "updated": "Apr 30, 2026 02:16 AM PST",
-  "updated_iso": "2026-04-30T02:16:39.852320-07:00",
+  "updated": "May 01, 2026 02:05 AM PST",
+  "updated_iso": "2026-05-01T02:05:47.440539-07:00",
   "downStreaks": [
     {
-      "ticker": "CHTR",
-      "company": "Charter Communications",
-      "price": 158.65,
-      "ma200": 238.12,
-      "vs200dPct": -33.4,
-      "rsi": 23.9,
+      "ticker": "META",
+      "company": "Meta",
+      "price": 611.91,
+      "ma200": 677.83,
+      "vs200dPct": -9.7,
+      "rsi": 41.4,
       "rsiLabel": {
-        "label": "23.9",
-        "level": "oversold"
-      },
-      "day1": {
-        "date": "2026-04-27",
-        "pct": -3.06,
-        "vol": 6206800
-      },
-      "day2": {
-        "date": "2026-04-28",
-        "pct": -0.86,
-        "vol": 4775700
-      },
-      "day3": {
-        "date": "2026-04-29",
-        "pct": -8.35,
-        "vol": 5600000
-      },
-      "totalMove": -12.28,
-      "volVsAvg": 90.5,
-      "volSignal": "heavy",
-      "avgVolume20d": 2940230,
-      "allDown": true,
-      "allUp": false,
-      "signal": {
-        "name": "Breakdown",
-        "strength": 3,
-        "color": "red",
-        "icon": "\ud83d\udd34",
-        "reason": "Down streak + heavy volume = institutional selling. Floor may be lower."
-      }
-    },
-    {
-      "ticker": "SHW",
-      "company": "Sherwin-Williams",
-      "price": 317.85,
-      "ma200": 341.21,
-      "vs200dPct": -6.8,
-      "rsi": 39.3,
-      "rsiLabel": {
-        "label": "39.3",
+        "label": "41.4",
         "level": "weak"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": -0.47,
-        "vol": 1836900
+        "date": "2026-04-28",
+        "pct": -1.07,
+        "vol": 10606800
       },
       "day2": {
-        "date": "2026-04-28",
-        "pct": -3.52,
-        "vol": 2439800
+        "date": "2026-04-29",
+        "pct": -0.33,
+        "vol": 18947500
       },
       "day3": {
-        "date": "2026-04-29",
-        "pct": -1.98,
-        "vol": 2094000
+        "date": "2026-04-30",
+        "pct": -8.55,
+        "vol": 52674900
       },
-      "totalMove": -5.97,
-      "volVsAvg": 27.9,
+      "totalMove": -9.95,
+      "volVsAvg": 233.9,
       "volSignal": "heavy",
-      "avgVolume20d": 1637220,
+      "avgVolume20d": 15777825,
       "allDown": true,
       "allUp": false,
       "signal": {
@@ -83,35 +43,35 @@
       }
     },
     {
-      "ticker": "MDT",
-      "company": "Medtronic",
-      "price": 79.37,
-      "ma200": 92.99,
-      "vs200dPct": -14.6,
-      "rsi": 27.0,
+      "ticker": "NVDA",
+      "company": "Nvidia",
+      "price": 199.57,
+      "ma200": 183.71,
+      "vs200dPct": 8.6,
+      "rsi": 54.1,
       "rsiLabel": {
-        "label": "27.0",
-        "level": "oversold"
+        "label": "54.1",
+        "level": "neutral"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": -0.48,
-        "vol": 6635000
+        "date": "2026-04-28",
+        "pct": -1.59,
+        "vol": 180275400
       },
       "day2": {
-        "date": "2026-04-28",
-        "pct": -1.23,
-        "vol": 9889200
+        "date": "2026-04-29",
+        "pct": -1.84,
+        "vol": 123711800
       },
       "day3": {
-        "date": "2026-04-29",
-        "pct": -3.09,
-        "vol": 10809300
+        "date": "2026-04-30",
+        "pct": -4.63,
+        "vol": 224690300
       },
-      "totalMove": -4.8,
-      "volVsAvg": 30.2,
+      "totalMove": -8.05,
+      "volVsAvg": 51.8,
       "volSignal": "heavy",
-      "avgVolume20d": 8299105,
+      "avgVolume20d": 148043390,
       "allDown": true,
       "allUp": false,
       "signal": {
@@ -123,35 +83,35 @@
       }
     },
     {
-      "ticker": "LOW",
-      "company": "Lowe's",
-      "price": 233.5,
-      "ma200": 246.81,
-      "vs200dPct": -5.4,
-      "rsi": 39.8,
+      "ticker": "F",
+      "company": "Ford",
+      "price": 12.08,
+      "ma200": 12.37,
+      "vs200dPct": -2.3,
+      "rsi": 44.1,
       "rsiLabel": {
-        "label": "39.8",
+        "label": "44.1",
         "level": "weak"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": -0.78,
-        "vol": 2854400
+        "date": "2026-04-28",
+        "pct": -0.72,
+        "vol": 44278000
       },
       "day2": {
-        "date": "2026-04-28",
-        "pct": -0.92,
-        "vol": 1701000
+        "date": "2026-04-29",
+        "pct": -1.29,
+        "vol": 48672800
       },
       "day3": {
-        "date": "2026-04-29",
-        "pct": -2.84,
-        "vol": 3204900
+        "date": "2026-04-30",
+        "pct": -1.31,
+        "vol": 80448300
       },
-      "totalMove": -4.53,
-      "volVsAvg": 31.2,
+      "totalMove": -3.32,
+      "volVsAvg": 106.5,
       "volSignal": "heavy",
-      "avgVolume20d": 2442940,
+      "avgVolume20d": 38956340,
       "allDown": true,
       "allUp": false,
       "signal": {
@@ -163,35 +123,35 @@
       }
     },
     {
-      "ticker": "CAT",
-      "company": "Caterpillar",
-      "price": 810.05,
-      "ma200": 583.93,
-      "vs200dPct": 38.7,
-      "rsi": 61.8,
+      "ticker": "LIN",
+      "company": "Linde",
+      "price": 501.14,
+      "ma200": 459.25,
+      "vs200dPct": 9.1,
+      "rsi": 51.7,
       "rsiLabel": {
-        "label": "61.8",
-        "level": "strong"
+        "label": "51.7",
+        "level": "neutral"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": -0.24,
-        "vol": 1986700
+        "date": "2026-04-28",
+        "pct": -0.09,
+        "vol": 2743200
       },
       "day2": {
-        "date": "2026-04-28",
-        "pct": -1.32,
-        "vol": 1875600
+        "date": "2026-04-29",
+        "pct": -1.09,
+        "vol": 1440000
       },
       "day3": {
-        "date": "2026-04-29",
-        "pct": -0.96,
-        "vol": 2561800
+        "date": "2026-04-30",
+        "pct": -0.71,
+        "vol": 3036200
       },
-      "totalMove": -2.51,
-      "volVsAvg": 20.2,
+      "totalMove": -1.89,
+      "volVsAvg": 58.3,
       "volSignal": "heavy",
-      "avgVolume20d": 2130720,
+      "avgVolume20d": 1917465,
       "allDown": true,
       "allUp": false,
       "signal": {
@@ -205,33 +165,33 @@
     {
       "ticker": "ORCL",
       "company": "Oracle",
-      "price": 163.83,
-      "ma200": 211.81,
-      "vs200dPct": -22.7,
-      "rsi": 50.8,
+      "price": 161.39,
+      "ma200": 211.45,
+      "vs200dPct": -23.7,
+      "rsi": 48.8,
       "rsiLabel": {
-        "label": "50.8",
+        "label": "48.8",
         "level": "neutral"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": -0.18,
-        "vol": 21616600
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": -4.05,
         "vol": 33716500
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": -1.28,
-        "vol": 20395600
+        "vol": 20587500
       },
-      "totalMove": -5.52,
-      "volVsAvg": -35.3,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": -1.49,
+        "vol": 20968900
+      },
+      "totalMove": -6.82,
+      "volVsAvg": -33.5,
       "volSignal": "light",
-      "avgVolume20d": 31515265,
+      "avgVolume20d": 31548510,
       "allDown": true,
       "allUp": false,
       "signal": {
@@ -243,235 +203,35 @@
       }
     },
     {
-      "ticker": "HD",
-      "company": "Home Depot",
-      "price": 322.81,
-      "ma200": 367.36,
-      "vs200dPct": -12.1,
-      "rsi": 37.7,
+      "ticker": "NKE",
+      "company": "Nike",
+      "price": 44.36,
+      "ma200": 63.54,
+      "vs200dPct": -30.2,
+      "rsi": 35.0,
       "rsiLabel": {
-        "label": "37.7",
+        "label": "35.0",
         "level": "weak"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": -1.07,
-        "vol": 3282900
-      },
-      "day2": {
         "date": "2026-04-28",
-        "pct": -0.98,
-        "vol": 4279300
-      },
-      "day3": {
-        "date": "2026-04-29",
-        "pct": -1.9,
-        "vol": 4146800
-      },
-      "totalMove": -3.94,
-      "volVsAvg": 19.0,
-      "volSignal": "normal",
-      "avgVolume20d": 3485015,
-      "allDown": true,
-      "allUp": false,
-      "signal": {
-        "name": "Downtrend",
-        "strength": 1,
-        "color": "muted",
-        "icon": "\u2014",
-        "reason": "Down streak with normal volume. No reversal signal yet."
-      }
-    },
-    {
-      "ticker": "BA",
-      "company": "Boeing",
-      "price": 224.11,
-      "ma200": 219.66,
-      "vs200dPct": 2.0,
-      "rsi": 53.0,
-      "rsiLabel": {
-        "label": "53.0",
-        "level": "neutral"
-      },
-      "day1": {
-        "date": "2026-04-27",
-        "pct": -0.48,
-        "vol": 4402600
-      },
-      "day2": {
-        "date": "2026-04-28",
-        "pct": -0.26,
-        "vol": 3807800
-      },
-      "day3": {
-        "date": "2026-04-29",
-        "pct": -2.86,
-        "vol": 6369100
-      },
-      "totalMove": -3.61,
-      "volVsAvg": 0.6,
-      "volSignal": "normal",
-      "avgVolume20d": 6328260,
-      "allDown": true,
-      "allUp": false,
-      "signal": {
-        "name": "Downtrend",
-        "strength": 1,
-        "color": "muted",
-        "icon": "\u2014",
-        "reason": "Down streak with normal volume. No reversal signal yet."
-      }
-    },
-    {
-      "ticker": "PFE",
-      "company": "Pfizer",
-      "price": 26.26,
-      "ma200": 25.2,
-      "vs200dPct": 4.2,
-      "rsi": 39.1,
-      "rsiLabel": {
-        "label": "39.1",
-        "level": "weak"
-      },
-      "day1": {
-        "date": "2026-04-27",
-        "pct": -0.78,
-        "vol": 34764200
-      },
-      "day2": {
-        "date": "2026-04-28",
-        "pct": -1.16,
-        "vol": 58079000
-      },
-      "day3": {
-        "date": "2026-04-29",
-        "pct": -0.83,
-        "vol": 29904300
-      },
-      "totalMove": -2.77,
-      "volVsAvg": -12.1,
-      "volSignal": "normal",
-      "avgVolume20d": 34002830,
-      "allDown": true,
-      "allUp": false,
-      "signal": {
-        "name": "Downtrend",
-        "strength": 1,
-        "color": "muted",
-        "icon": "\u2014",
-        "reason": "Down streak with normal volume. No reversal signal yet."
-      }
-    },
-    {
-      "ticker": "AMGN",
-      "company": "Amgen",
-      "price": 338.02,
-      "ma200": 321.57,
-      "vs200dPct": 5.1,
-      "rsi": 37.5,
-      "rsiLabel": {
-        "label": "37.5",
-        "level": "weak"
-      },
-      "day1": {
-        "date": "2026-04-27",
-        "pct": -1.27,
-        "vol": 2653800
-      },
-      "day2": {
-        "date": "2026-04-28",
-        "pct": -0.18,
-        "vol": 2376400
-      },
-      "day3": {
-        "date": "2026-04-29",
-        "pct": -0.46,
-        "vol": 2515300
-      },
-      "totalMove": -1.9,
-      "volVsAvg": 4.7,
-      "volSignal": "normal",
-      "avgVolume20d": 2402720,
-      "allDown": true,
-      "allUp": false,
-      "signal": {
-        "name": "Downtrend",
-        "strength": 1,
-        "color": "muted",
-        "icon": "\u2014",
-        "reason": "Down streak with normal volume. No reversal signal yet."
-      }
-    },
-    {
-      "ticker": "DIS",
-      "company": "Disney",
-      "price": 101.3,
-      "ma200": 109.41,
-      "vs200dPct": -7.4,
-      "rsi": 48.9,
-      "rsiLabel": {
-        "label": "48.9",
-        "level": "neutral"
-      },
-      "day1": {
-        "date": "2026-04-27",
         "pct": -0.24,
-        "vol": 6524300
+        "vol": 12426000
       },
       "day2": {
-        "date": "2026-04-28",
-        "pct": -0.86,
-        "vol": 6409300
+        "date": "2026-04-29",
+        "pct": -1.42,
+        "vol": 13329700
       },
       "day3": {
-        "date": "2026-04-29",
-        "pct": -0.17,
-        "vol": 5527700
+        "date": "2026-04-30",
+        "pct": -0.07,
+        "vol": 21651600
       },
-      "totalMove": -1.27,
-      "volVsAvg": -25.8,
-      "volSignal": "light",
-      "avgVolume20d": 7447210,
-      "allDown": true,
-      "allUp": false,
-      "signal": {
-        "name": "Possible Bottom",
-        "strength": 1,
-        "color": "amber",
-        "icon": "\u26a0\ufe0f",
-        "reason": "Down streak + light volume. RSI not yet oversold \u2014 confirm before acting."
-      }
-    },
-    {
-      "ticker": "LMT",
-      "company": "Lockheed Martin",
-      "price": 509.81,
-      "ma200": 519.47,
-      "vs200dPct": -1.9,
-      "rsi": 18.6,
-      "rsiLabel": {
-        "label": "18.6",
-        "level": "oversold"
-      },
-      "day1": {
-        "date": "2026-04-27",
-        "pct": -0.02,
-        "vol": 2111400
-      },
-      "day2": {
-        "date": "2026-04-28",
-        "pct": -0.21,
-        "vol": 1456100
-      },
-      "day3": {
-        "date": "2026-04-29",
-        "pct": -0.48,
-        "vol": 1617600
-      },
-      "totalMove": -0.71,
-      "volVsAvg": 10.5,
+      "totalMove": -1.73,
+      "volVsAvg": -11.8,
       "volSignal": "normal",
-      "avgVolume20d": 1464220,
+      "avgVolume20d": 24554325,
       "allDown": true,
       "allUp": false,
       "signal": {
@@ -485,115 +245,75 @@
   ],
   "upStreaks": [
     {
-      "ticker": "CVS",
-      "company": "CVS Health",
-      "price": 83.9,
-      "ma200": 74.15,
-      "vs200dPct": 13.1,
-      "rsi": 70.1,
+      "ticker": "MO",
+      "company": "Altria",
+      "price": 72.65,
+      "ma200": 61.52,
+      "vs200dPct": 18.1,
+      "rsi": 73.7,
       "rsiLabel": {
-        "label": "70.1",
+        "label": "73.7",
         "level": "overbought"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": 0.54,
-        "vol": 5735100
+        "date": "2026-04-28",
+        "pct": 2.73,
+        "vol": 10257600
       },
       "day2": {
-        "date": "2026-04-28",
-        "pct": 3.34,
-        "vol": 8307000
+        "date": "2026-04-29",
+        "pct": 0.59,
+        "vol": 12059600
       },
       "day3": {
-        "date": "2026-04-29",
-        "pct": 3.61,
-        "vol": 7606000
+        "date": "2026-04-30",
+        "pct": 6.52,
+        "vol": 24764200
       },
-      "totalMove": 7.49,
-      "volVsAvg": 1.3,
-      "volSignal": "normal",
-      "avgVolume20d": 7505565,
-      "allDown": false,
-      "allUp": true,
-      "signal": {
-        "name": "Uptrend",
-        "strength": 1,
-        "color": "muted",
-        "icon": "\u2014",
-        "reason": "Up streak with normal volume. No strong signal yet."
-      }
-    },
-    {
-      "ticker": "OXY",
-      "company": "Occidental Petroleum",
-      "price": 60.76,
-      "ma200": 46.62,
-      "vs200dPct": 30.3,
-      "rsi": 59.5,
-      "rsiLabel": {
-        "label": "59.5",
-        "level": "strong"
-      },
-      "day1": {
-        "date": "2026-04-27",
-        "pct": 0.26,
-        "vol": 7552000
-      },
-      "day2": {
-        "date": "2026-04-28",
-        "pct": 2.34,
-        "vol": 12734600
-      },
-      "day3": {
-        "date": "2026-04-29",
-        "pct": 3.67,
-        "vol": 13750600
-      },
-      "totalMove": 6.27,
-      "volVsAvg": -6.1,
-      "volSignal": "normal",
-      "avgVolume20d": 14649435,
-      "allDown": false,
-      "allUp": true,
-      "signal": {
-        "name": "Uptrend",
-        "strength": 1,
-        "color": "muted",
-        "icon": "\u2014",
-        "reason": "Up streak with normal volume. No strong signal yet."
-      }
-    },
-    {
-      "ticker": "MA",
-      "company": "Mastercard",
-      "price": 525.23,
-      "ma200": 547.18,
-      "vs200dPct": -4.0,
-      "rsi": 61.3,
-      "rsiLabel": {
-        "label": "61.3",
-        "level": "strong"
-      },
-      "day1": {
-        "date": "2026-04-27",
-        "pct": 0.45,
-        "vol": 2531300
-      },
-      "day2": {
-        "date": "2026-04-28",
-        "pct": 0.23,
-        "vol": 3892500
-      },
-      "day3": {
-        "date": "2026-04-29",
-        "pct": 3.47,
-        "vol": 5871700
-      },
-      "totalMove": 4.15,
-      "volVsAvg": 81.1,
+      "totalMove": 9.84,
+      "volVsAvg": 174.3,
       "volSignal": "heavy",
-      "avgVolume20d": 3241630,
+      "avgVolume20d": 9027295,
+      "allDown": false,
+      "allUp": true,
+      "signal": {
+        "name": "Strong Peak",
+        "strength": 3,
+        "color": "red",
+        "icon": "\ud83d\udd34",
+        "reason": "Up streak + heavy volume + RSI overbought + extended above 200d MA. High risk of reversal."
+      }
+    },
+    {
+      "ticker": "GD",
+      "company": "General Dynamics",
+      "price": 344.3,
+      "ma200": 335.7,
+      "vs200dPct": 2.6,
+      "rsi": 56.9,
+      "rsiLabel": {
+        "label": "56.9",
+        "level": "strong"
+      },
+      "day1": {
+        "date": "2026-04-28",
+        "pct": 0.37,
+        "vol": 2169700
+      },
+      "day2": {
+        "date": "2026-04-29",
+        "pct": 7.99,
+        "vol": 3587700
+      },
+      "day3": {
+        "date": "2026-04-30",
+        "pct": 1.64,
+        "vol": 2029800
+      },
+      "totalMove": 10.0,
+      "volVsAvg": 33.5,
+      "volSignal": "heavy",
+      "avgVolume20d": 1520465,
       "allDown": false,
       "allUp": true,
       "signal": {
@@ -605,123 +325,323 @@
       }
     },
     {
-      "ticker": "SCHW",
-      "company": "Charles Schwab",
-      "price": 91.16,
-      "ma200": 95.46,
-      "vs200dPct": -4.5,
-      "rsi": 44.4,
+      "ticker": "ABBV",
+      "company": "AbbVie",
+      "price": 211.32,
+      "ma200": 214.58,
+      "vs200dPct": -1.5,
+      "rsi": 56.0,
       "rsiLabel": {
-        "label": "44.4",
-        "level": "weak"
+        "label": "56.0",
+        "level": "strong"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": 2.55,
-        "vol": 8399200
+        "date": "2026-04-28",
+        "pct": 0.16,
+        "vol": 6313100
       },
       "day2": {
-        "date": "2026-04-28",
-        "pct": 0.08,
-        "vol": 9259100
+        "date": "2026-04-29",
+        "pct": 3.14,
+        "vol": 10406300
       },
       "day3": {
-        "date": "2026-04-29",
-        "pct": 0.36,
-        "vol": 8323000
+        "date": "2026-04-30",
+        "pct": 3.64,
+        "vol": 10318200
       },
-      "totalMove": 2.99,
-      "volVsAvg": -31.2,
-      "volSignal": "light",
-      "avgVolume20d": 12096950,
+      "totalMove": 6.94,
+      "volVsAvg": 49.6,
+      "volSignal": "heavy",
+      "avgVolume20d": 6899050,
       "allDown": false,
       "allUp": true,
       "signal": {
-        "name": "Weak Rally",
+        "name": "Momentum",
+        "strength": 1,
+        "color": "green",
+        "icon": "\ud83d\udcc8",
+        "reason": "Up streak + heavy volume. Strong buying interest \u2014 RSI not yet overbought."
+      }
+    },
+    {
+      "ticker": "MDLZ",
+      "company": "Mondelez",
+      "price": 61.44,
+      "ma200": 58.5,
+      "vs200dPct": 5.0,
+      "rsi": 68.0,
+      "rsiLabel": {
+        "label": "68.0",
+        "level": "strong"
+      },
+      "day1": {
+        "date": "2026-04-28",
+        "pct": 1.95,
+        "vol": 11613700
+      },
+      "day2": {
+        "date": "2026-04-29",
+        "pct": 4.27,
+        "vol": 14591800
+      },
+      "day3": {
+        "date": "2026-04-30",
+        "pct": 0.66,
+        "vol": 10111200
+      },
+      "totalMove": 6.88,
+      "volVsAvg": 25.7,
+      "volSignal": "heavy",
+      "avgVolume20d": 8044780,
+      "allDown": false,
+      "allUp": true,
+      "signal": {
+        "name": "Momentum",
+        "strength": 1,
+        "color": "green",
+        "icon": "\ud83d\udcc8",
+        "reason": "Up streak + heavy volume. Strong buying interest \u2014 RSI not yet overbought."
+      }
+    },
+    {
+      "ticker": "CVX",
+      "company": "Chevron",
+      "price": 193.31,
+      "ma200": 164.26,
+      "vs200dPct": 17.7,
+      "rsi": 54.1,
+      "rsiLabel": {
+        "label": "54.1",
+        "level": "neutral"
+      },
+      "day1": {
+        "date": "2026-04-28",
+        "pct": 1.94,
+        "vol": 10754900
+      },
+      "day2": {
+        "date": "2026-04-29",
+        "pct": 2.05,
+        "vol": 8644600
+      },
+      "day3": {
+        "date": "2026-04-30",
+        "pct": 0.57,
+        "vol": 11726100
+      },
+      "totalMove": 4.55,
+      "volVsAvg": 9.4,
+      "volSignal": "normal",
+      "avgVolume20d": 10718785,
+      "allDown": false,
+      "allUp": true,
+      "signal": {
+        "name": "Uptrend",
         "strength": 1,
         "color": "muted",
         "icon": "\u2014",
-        "reason": "Up streak on light volume. Low conviction \u2014 may stall or reverse."
+        "reason": "Up streak with normal volume. No strong signal yet."
+      }
+    },
+    {
+      "ticker": "MET",
+      "company": "MetLife",
+      "price": 80.1,
+      "ma200": 76.71,
+      "vs200dPct": 4.4,
+      "rsi": 71.0,
+      "rsiLabel": {
+        "label": "71.0",
+        "level": "overbought"
+      },
+      "day1": {
+        "date": "2026-04-28",
+        "pct": 0.79,
+        "vol": 2978700
+      },
+      "day2": {
+        "date": "2026-04-29",
+        "pct": 0.87,
+        "vol": 3065300
+      },
+      "day3": {
+        "date": "2026-04-30",
+        "pct": 1.44,
+        "vol": 3670200
+      },
+      "totalMove": 3.1,
+      "volVsAvg": 11.7,
+      "volSignal": "normal",
+      "avgVolume20d": 3286360,
+      "allDown": false,
+      "allUp": true,
+      "signal": {
+        "name": "Uptrend",
+        "strength": 1,
+        "color": "muted",
+        "icon": "\u2014",
+        "reason": "Up streak with normal volume. No strong signal yet."
+      }
+    },
+    {
+      "ticker": "ADBE",
+      "company": "Adobe",
+      "price": 246.1,
+      "ma200": 314.8,
+      "vs200dPct": -21.8,
+      "rsi": 50.3,
+      "rsiLabel": {
+        "label": "50.3",
+        "level": "neutral"
+      },
+      "day1": {
+        "date": "2026-04-28",
+        "pct": 1.63,
+        "vol": 4641700
+      },
+      "day2": {
+        "date": "2026-04-29",
+        "pct": 0.15,
+        "vol": 2664500
+      },
+      "day3": {
+        "date": "2026-04-30",
+        "pct": 1.04,
+        "vol": 5122800
+      },
+      "totalMove": 2.82,
+      "volVsAvg": -4.0,
+      "volSignal": "normal",
+      "avgVolume20d": 5337655,
+      "allDown": false,
+      "allUp": true,
+      "signal": {
+        "name": "Uptrend",
+        "strength": 1,
+        "color": "muted",
+        "icon": "\u2014",
+        "reason": "Up streak with normal volume. No strong signal yet."
       }
     },
     {
       "ticker": "WFC",
       "company": "Wells Fargo",
-      "price": 81.51,
-      "ma200": 83.9,
-      "vs200dPct": -2.8,
-      "rsi": 50.7,
+      "price": 82.23,
+      "ma200": 83.93,
+      "vs200dPct": -2.0,
+      "rsi": 53.2,
       "rsiLabel": {
-        "label": "50.7",
+        "label": "53.2",
         "level": "neutral"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": 1.44,
-        "vol": 20114400
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": 1.17,
         "vol": 14826700
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": 0.01,
-        "vol": 19926000
+        "vol": 19930700
       },
-      "totalMove": 2.61,
-      "volVsAvg": 21.7,
-      "volSignal": "heavy",
-      "avgVolume20d": 16379125,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": 0.88,
+        "vol": 13535200
+      },
+      "totalMove": 2.06,
+      "volVsAvg": -17.0,
+      "volSignal": "normal",
+      "avgVolume20d": 16307150,
       "allDown": false,
       "allUp": true,
       "signal": {
-        "name": "Momentum",
+        "name": "Uptrend",
         "strength": 1,
-        "color": "green",
-        "icon": "\ud83d\udcc8",
-        "reason": "Up streak + heavy volume. Strong buying interest \u2014 RSI not yet overbought."
+        "color": "muted",
+        "icon": "\u2014",
+        "reason": "Up streak with normal volume. No strong signal yet."
       }
     },
     {
       "ticker": "BAC",
       "company": "Bank of America",
-      "price": 52.88,
-      "ma200": 50.94,
-      "vs200dPct": 3.8,
-      "rsi": 58.4,
+      "price": 53.46,
+      "ma200": 50.98,
+      "vs200dPct": 4.9,
+      "rsi": 61.8,
       "rsiLabel": {
-        "label": "58.4",
+        "label": "61.8",
         "level": "strong"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": 1.11,
-        "vol": 28043700
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": 0.06,
         "vol": 21164100
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": 0.42,
-        "vol": 26240600
+        "vol": 26250700
       },
-      "totalMove": 1.59,
-      "volVsAvg": -20.7,
-      "volSignal": "light",
-      "avgVolume20d": 33087950,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": 1.1,
+        "vol": 27084600
+      },
+      "totalMove": 1.57,
+      "volVsAvg": -17.4,
+      "volSignal": "normal",
+      "avgVolume20d": 32795335,
       "allDown": false,
       "allUp": true,
       "signal": {
-        "name": "Weak Rally",
+        "name": "Uptrend",
         "strength": 1,
         "color": "muted",
         "icon": "\u2014",
-        "reason": "Up streak on light volume. Low conviction \u2014 may stall or reverse."
+        "reason": "Up streak with normal volume. No strong signal yet."
+      }
+    },
+    {
+      "ticker": "SCHW",
+      "company": "Charles Schwab",
+      "price": 91.64,
+      "ma200": 95.47,
+      "vs200dPct": -4.0,
+      "rsi": 45.9,
+      "rsiLabel": {
+        "label": "45.9",
+        "level": "neutral"
+      },
+      "day1": {
+        "date": "2026-04-28",
+        "pct": 0.08,
+        "vol": 9259100
+      },
+      "day2": {
+        "date": "2026-04-29",
+        "pct": 0.36,
+        "vol": 8328300
+      },
+      "day3": {
+        "date": "2026-04-30",
+        "pct": 0.53,
+        "vol": 12559300
+      },
+      "totalMove": 0.97,
+      "volVsAvg": 5.3,
+      "volSignal": "normal",
+      "avgVolume20d": 11925745,
+      "allDown": false,
+      "allUp": true,
+      "signal": {
+        "name": "Uptrend",
+        "strength": 1,
+        "color": "muted",
+        "icon": "\u2014",
+        "reason": "Up streak with normal volume. No strong signal yet."
       }
     }
   ],
@@ -729,33 +649,33 @@
     {
       "ticker": "AAPL",
       "company": "Apple",
-      "price": 270.17,
-      "ma200": 254.23,
-      "vs200dPct": 6.3,
-      "rsi": 57.5,
+      "price": 271.35,
+      "ma200": 254.55,
+      "vs200dPct": 6.6,
+      "rsi": 58.7,
       "rsiLabel": {
-        "label": "57.5",
+        "label": "58.7",
         "level": "strong"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": -1.27,
-        "vol": 41466800
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": 1.16,
         "vol": 40018900
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": -0.2,
-        "vol": 29830500
+        "vol": 30047900
       },
-      "totalMove": -0.31,
-      "volVsAvg": -26.8,
-      "volSignal": "light",
-      "avgVolume20d": 40773645,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": 0.44,
+        "vol": 90134300
+      },
+      "totalMove": 1.4,
+      "volVsAvg": 108.2,
+      "volSignal": "heavy",
+      "avgVolume20d": 43288260,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -769,73 +689,73 @@
     {
       "ticker": "ABBV",
       "company": "AbbVie",
-      "price": 203.89,
-      "ma200": 214.44,
-      "vs200dPct": -4.9,
-      "rsi": 46.0,
+      "price": 211.32,
+      "ma200": 214.58,
+      "vs200dPct": -1.5,
+      "rsi": 56.0,
       "rsiLabel": {
-        "label": "46.0",
-        "level": "neutral"
+        "label": "56.0",
+        "level": "strong"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": -0.67,
-        "vol": 7467600
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": 0.16,
         "vol": 6313100
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": 3.14,
-        "vol": 10401300
+        "vol": 10406300
       },
-      "totalMove": 2.62,
-      "volVsAvg": 56.0,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": 3.64,
+        "vol": 10318200
+      },
+      "totalMove": 6.94,
+      "volVsAvg": 49.6,
       "volSignal": "heavy",
-      "avgVolume20d": 6668030,
+      "avgVolume20d": 6899050,
       "allDown": false,
-      "allUp": false,
+      "allUp": true,
       "signal": {
-        "name": "\u2014",
-        "strength": 0,
-        "color": "muted",
-        "icon": "\u2014",
-        "reason": ""
+        "name": "Momentum",
+        "strength": 1,
+        "color": "green",
+        "icon": "\ud83d\udcc8",
+        "reason": "Up streak + heavy volume. Strong buying interest \u2014 RSI not yet overbought."
       }
     },
     {
       "ticker": "ABT",
       "company": "Abbott",
-      "price": 91.33,
-      "ma200": 119.64,
-      "vs200dPct": -23.7,
-      "rsi": 31.5,
+      "price": 90.79,
+      "ma200": 119.45,
+      "vs200dPct": -24.0,
+      "rsi": 30.6,
       "rsiLabel": {
-        "label": "31.5",
+        "label": "30.6",
         "level": "weak"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": 1.83,
-        "vol": 15203900
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": 1.14,
         "vol": 11550800
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": -2.7,
-        "vol": 8998900
+        "vol": 9010500
       },
-      "totalMove": 0.28,
-      "volVsAvg": -25.6,
-      "volSignal": "light",
-      "avgVolume20d": 12094390,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": -0.59,
+        "vol": 19652800
+      },
+      "totalMove": -2.14,
+      "volVsAvg": 54.7,
+      "volSignal": "heavy",
+      "avgVolume20d": 12704985,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -849,33 +769,33 @@
     {
       "ticker": "ACN",
       "company": "Accenture",
-      "price": 180.26,
-      "ma200": 239.55,
-      "vs200dPct": -24.8,
-      "rsi": 38.3,
+      "price": 178.71,
+      "ma200": 239.08,
+      "vs200dPct": -25.3,
+      "rsi": 37.0,
       "rsiLabel": {
-        "label": "38.3",
+        "label": "37.0",
         "level": "weak"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": -0.78,
-        "vol": 4411700
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": 0.44,
         "vol": 4426600
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": 1.41,
-        "vol": 5170400
+        "vol": 5171900
       },
-      "totalMove": 1.07,
-      "volVsAvg": 1.5,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": -0.86,
+        "vol": 6033100
+      },
+      "totalMove": 0.99,
+      "volVsAvg": 17.0,
       "volSignal": "normal",
-      "avgVolume20d": 5094185,
+      "avgVolume20d": 5155405,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -889,73 +809,73 @@
     {
       "ticker": "ADBE",
       "company": "Adobe",
-      "price": 243.57,
-      "ma200": 315.39,
-      "vs200dPct": -22.8,
-      "rsi": 48.5,
+      "price": 246.1,
+      "ma200": 314.8,
+      "vs200dPct": -21.8,
+      "rsi": 50.3,
       "rsiLabel": {
-        "label": "48.5",
+        "label": "50.3",
         "level": "neutral"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": -2.5,
-        "vol": 5067700
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": 1.63,
         "vol": 4641700
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": 0.15,
-        "vol": 2650900
+        "vol": 2664500
       },
-      "totalMove": -0.72,
-      "volVsAvg": -49.7,
-      "volSignal": "light",
-      "avgVolume20d": 5268170,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": 1.04,
+        "vol": 5122800
+      },
+      "totalMove": 2.82,
+      "volVsAvg": -4.0,
+      "volSignal": "normal",
+      "avgVolume20d": 5337655,
       "allDown": false,
-      "allUp": false,
+      "allUp": true,
       "signal": {
-        "name": "\u2014",
-        "strength": 0,
+        "name": "Uptrend",
+        "strength": 1,
         "color": "muted",
         "icon": "\u2014",
-        "reason": ""
+        "reason": "Up streak with normal volume. No strong signal yet."
       }
     },
     {
       "ticker": "AIG",
       "company": "AIG",
-      "price": 73.79,
-      "ma200": 77.72,
-      "vs200dPct": -5.1,
-      "rsi": 37.3,
+      "price": 74.8,
+      "ma200": 77.7,
+      "vs200dPct": -3.7,
+      "rsi": 43.4,
       "rsiLabel": {
-        "label": "37.3",
+        "label": "43.4",
         "level": "weak"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": -1.34,
-        "vol": 9758300
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": 0.04,
         "vol": 9273100
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": -0.5,
         "vol": 5473700
       },
-      "totalMove": -1.8,
-      "volVsAvg": 41.6,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": 1.37,
+        "vol": 10782200
+      },
+      "totalMove": 0.91,
+      "volVsAvg": 153.1,
       "volSignal": "heavy",
-      "avgVolume20d": 3864720,
+      "avgVolume20d": 4259845,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -969,33 +889,33 @@
     {
       "ticker": "AMD",
       "company": "AMD",
-      "price": 337.11,
-      "ma200": 209.39,
-      "vs200dPct": 61.0,
-      "rsi": 76.2,
+      "price": 354.49,
+      "ma200": 210.38,
+      "vs200dPct": 68.5,
+      "rsi": 79.0,
       "rsiLabel": {
-        "label": "76.2",
+        "label": "79.0",
         "level": "overbought"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": -3.79,
-        "vol": 50585300
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": -3.41,
         "vol": 43002500
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": 4.3,
-        "vol": 43973200
+        "vol": 44704400
       },
-      "totalMove": -2.9,
-      "volVsAvg": 10.4,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": 5.16,
+        "vol": 42000100
+      },
+      "totalMove": 6.04,
+      "volVsAvg": 5.2,
       "volSignal": "normal",
-      "avgVolume20d": 39844290,
+      "avgVolume20d": 39939065,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -1009,73 +929,73 @@
     {
       "ticker": "AMGN",
       "company": "Amgen",
-      "price": 338.02,
-      "ma200": 321.57,
-      "vs200dPct": 5.1,
-      "rsi": 37.5,
+      "price": 346.25,
+      "ma200": 321.87,
+      "vs200dPct": 7.6,
+      "rsi": 47.3,
       "rsiLabel": {
-        "label": "37.5",
-        "level": "weak"
+        "label": "47.3",
+        "level": "neutral"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": -1.27,
-        "vol": 2653800
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": -0.18,
         "vol": 2376400
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": -0.46,
-        "vol": 2515300
+        "vol": 2516500
       },
-      "totalMove": -1.9,
-      "volVsAvg": 4.7,
-      "volSignal": "normal",
-      "avgVolume20d": 2402720,
-      "allDown": true,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": 2.43,
+        "vol": 3591200
+      },
+      "totalMove": 1.8,
+      "volVsAvg": 46.8,
+      "volSignal": "heavy",
+      "avgVolume20d": 2446010,
+      "allDown": false,
       "allUp": false,
       "signal": {
-        "name": "Downtrend",
-        "strength": 1,
+        "name": "\u2014",
+        "strength": 0,
         "color": "muted",
         "icon": "\u2014",
-        "reason": "Down streak with normal volume. No reversal signal yet."
+        "reason": ""
       }
     },
     {
       "ticker": "AMT",
       "company": "American Tower",
-      "price": 178.19,
-      "ma200": 184.25,
-      "vs200dPct": -3.3,
-      "rsi": 51.8,
+      "price": 182.71,
+      "ma200": 184.1,
+      "vs200dPct": -0.8,
+      "rsi": 58.2,
       "rsiLabel": {
-        "label": "51.8",
-        "level": "neutral"
+        "label": "58.2",
+        "level": "strong"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": -1.63,
-        "vol": 3046500
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": 1.77,
         "vol": 4484600
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": -0.12,
-        "vol": 2774000
+        "vol": 2775000
       },
-      "totalMove": 0.02,
-      "volVsAvg": -10.0,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": 2.54,
+        "vol": 3006400
+      },
+      "totalMove": 4.19,
+      "volVsAvg": -3.5,
       "volSignal": "normal",
-      "avgVolume20d": 3082100,
+      "avgVolume20d": 3116920,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -1089,33 +1009,33 @@
     {
       "ticker": "AMZN",
       "company": "Amazon",
-      "price": 263.04,
-      "ma200": 226.96,
-      "vs200dPct": 15.9,
-      "rsi": 75.5,
+      "price": 265.06,
+      "ma200": 227.15,
+      "vs200dPct": 16.7,
+      "rsi": 76.5,
       "rsiLabel": {
-        "label": "75.5",
+        "label": "76.5",
         "level": "overbought"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": -1.09,
-        "vol": 44906800
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": -0.54,
         "vol": 42204400
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": 1.29,
-        "vol": 70236500
+        "vol": 72367900
       },
-      "totalMove": -0.34,
-      "volVsAvg": 51.8,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": 0.77,
+        "vol": 100869700
+      },
+      "totalMove": 1.51,
+      "volVsAvg": 105.3,
       "volSignal": "heavy",
-      "avgVolume20d": 46270335,
+      "avgVolume20d": 49122620,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -1129,33 +1049,33 @@
     {
       "ticker": "AXP",
       "company": "American Express",
-      "price": 315.65,
-      "ma200": 334.28,
-      "vs200dPct": -5.6,
-      "rsi": 48.4,
+      "price": 323.05,
+      "ma200": 334.36,
+      "vs200dPct": -3.4,
+      "rsi": 54.7,
       "rsiLabel": {
-        "label": "48.4",
+        "label": "54.7",
         "level": "neutral"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": 1.52,
-        "vol": 2553000
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": -0.92,
         "vol": 6101400
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": -0.08,
-        "vol": 3133700
+        "vol": 3136000
       },
-      "totalMove": 0.51,
-      "volVsAvg": 3.3,
-      "volSignal": "normal",
-      "avgVolume20d": 3034110,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": 2.34,
+        "vol": 4586800
+      },
+      "totalMove": 1.34,
+      "volVsAvg": 48.3,
+      "volSignal": "heavy",
+      "avgVolume20d": 3093400,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -1169,113 +1089,113 @@
     {
       "ticker": "BA",
       "company": "Boeing",
-      "price": 224.11,
+      "price": 229.03,
       "ma200": 219.66,
-      "vs200dPct": 2.0,
-      "rsi": 53.0,
+      "vs200dPct": 4.3,
+      "rsi": 57.1,
       "rsiLabel": {
-        "label": "53.0",
-        "level": "neutral"
+        "label": "57.1",
+        "level": "strong"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": -0.48,
-        "vol": 4402600
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": -0.26,
         "vol": 3807800
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": -2.86,
-        "vol": 6369100
+        "vol": 6377700
       },
-      "totalMove": -3.61,
-      "volVsAvg": 0.6,
-      "volSignal": "normal",
-      "avgVolume20d": 6328260,
-      "allDown": true,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": 2.2,
+        "vol": 4833700
+      },
+      "totalMove": -0.93,
+      "volVsAvg": -20.6,
+      "volSignal": "light",
+      "avgVolume20d": 6087150,
+      "allDown": false,
       "allUp": false,
       "signal": {
-        "name": "Downtrend",
-        "strength": 1,
+        "name": "\u2014",
+        "strength": 0,
         "color": "muted",
         "icon": "\u2014",
-        "reason": "Down streak with normal volume. No reversal signal yet."
+        "reason": ""
       }
     },
     {
       "ticker": "BAC",
       "company": "Bank of America",
-      "price": 52.88,
-      "ma200": 50.94,
-      "vs200dPct": 3.8,
-      "rsi": 58.4,
+      "price": 53.46,
+      "ma200": 50.98,
+      "vs200dPct": 4.9,
+      "rsi": 61.8,
       "rsiLabel": {
-        "label": "58.4",
+        "label": "61.8",
         "level": "strong"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": 1.11,
-        "vol": 28043700
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": 0.06,
         "vol": 21164100
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": 0.42,
-        "vol": 26240600
+        "vol": 26250700
       },
-      "totalMove": 1.59,
-      "volVsAvg": -20.7,
-      "volSignal": "light",
-      "avgVolume20d": 33087950,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": 1.1,
+        "vol": 27084600
+      },
+      "totalMove": 1.57,
+      "volVsAvg": -17.4,
+      "volSignal": "normal",
+      "avgVolume20d": 32795335,
       "allDown": false,
       "allUp": true,
       "signal": {
-        "name": "Weak Rally",
+        "name": "Uptrend",
         "strength": 1,
         "color": "muted",
         "icon": "\u2014",
-        "reason": "Up streak on light volume. Low conviction \u2014 may stall or reverse."
+        "reason": "Up streak with normal volume. No strong signal yet."
       }
     },
     {
       "ticker": "BK",
       "company": "BNY Mellon",
-      "price": 132.27,
-      "ma200": 112.25,
-      "vs200dPct": 17.8,
-      "rsi": 61.1,
+      "price": 134.37,
+      "ma200": 112.45,
+      "vs200dPct": 19.5,
+      "rsi": 65.3,
       "rsiLabel": {
-        "label": "61.1",
+        "label": "65.3",
         "level": "strong"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": 0.71,
-        "vol": 3965400
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": -0.69,
         "vol": 2886700
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": -0.95,
         "vol": 3495000
       },
-      "totalMove": -0.93,
-      "volVsAvg": -10.1,
-      "volSignal": "normal",
-      "avgVolume20d": 3886545,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": 1.59,
+        "vol": 6068000
+      },
+      "totalMove": -0.05,
+      "volVsAvg": 51.8,
+      "volSignal": "heavy",
+      "avgVolume20d": 3997230,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -1289,33 +1209,33 @@
     {
       "ticker": "BLK",
       "company": "BlackRock",
-      "price": 1039.38,
-      "ma200": 1073.26,
-      "vs200dPct": -3.2,
-      "rsi": 54.8,
+      "price": 1065.6,
+      "ma200": 1073.43,
+      "vs200dPct": -0.7,
+      "rsi": 60.9,
       "rsiLabel": {
-        "label": "54.8",
-        "level": "neutral"
+        "label": "60.9",
+        "level": "strong"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": 1.14,
-        "vol": 532500
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": -0.67,
         "vol": 424500
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": -0.99,
-        "vol": 397600
+        "vol": 398100
       },
-      "totalMove": -0.52,
-      "volVsAvg": -43.9,
-      "volSignal": "light",
-      "avgVolume20d": 708635,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": 2.52,
+        "vol": 573100
+      },
+      "totalMove": 0.86,
+      "volVsAvg": -18.8,
+      "volSignal": "normal",
+      "avgVolume20d": 706095,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -1329,33 +1249,33 @@
     {
       "ticker": "BMY",
       "company": "Bristol-Myers Squibb",
-      "price": 57.59,
-      "ma200": 50.9,
-      "vs200dPct": 13.1,
-      "rsi": 43.9,
+      "price": 60.59,
+      "ma200": 50.98,
+      "vs200dPct": 18.9,
+      "rsi": 58.1,
       "rsiLabel": {
-        "label": "43.9",
-        "level": "weak"
+        "label": "58.1",
+        "level": "strong"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": -1.58,
-        "vol": 10700300
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": 0.83,
         "vol": 6270800
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": -1.15,
-        "vol": 9455800
+        "vol": 9462800
       },
-      "totalMove": -1.9,
-      "volVsAvg": 6.0,
-      "volSignal": "normal",
-      "avgVolume20d": 8917730,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": 5.21,
+        "vol": 24878000
+      },
+      "totalMove": 4.89,
+      "volVsAvg": 157.3,
+      "volSignal": "heavy",
+      "avgVolume20d": 9667885,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -1369,33 +1289,33 @@
     {
       "ticker": "BRK-B",
       "company": "Berkshire Hathaway",
-      "price": 475.38,
-      "ma200": 489.87,
-      "vs200dPct": -3.0,
-      "rsi": 48.1,
+      "price": 473.6,
+      "ma200": 489.89,
+      "vs200dPct": -3.3,
+      "rsi": 46.0,
       "rsiLabel": {
-        "label": "48.1",
+        "label": "46.0",
         "level": "neutral"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": 0.74,
-        "vol": 4888000
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": 1.13,
         "vol": 4902400
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": -0.58,
-        "vol": 3159300
+        "vol": 3175600
       },
-      "totalMove": 1.29,
-      "volVsAvg": -30.0,
-      "volSignal": "light",
-      "avgVolume20d": 4510780,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": -0.37,
+        "vol": 5102200
+      },
+      "totalMove": 0.18,
+      "volVsAvg": 11.2,
+      "volSignal": "normal",
+      "avgVolume20d": 4586665,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -1409,33 +1329,33 @@
     {
       "ticker": "C",
       "company": "Citigroup",
-      "price": 127.61,
-      "ma200": 106.4,
-      "vs200dPct": 19.9,
-      "rsi": 58.8,
+      "price": 127.98,
+      "ma200": 106.59,
+      "vs200dPct": 20.1,
+      "rsi": 59.5,
       "rsiLabel": {
-        "label": "58.8",
+        "label": "59.5",
         "level": "strong"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": 0.91,
-        "vol": 6155900
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": -0.47,
         "vol": 9585300
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": -0.72,
-        "vol": 12790100
+        "vol": 12796000
       },
-      "totalMove": -0.28,
-      "volVsAvg": 14.4,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": 0.29,
+        "vol": 12124800
+      },
+      "totalMove": -0.9,
+      "volVsAvg": 9.0,
       "volSignal": "normal",
-      "avgVolume20d": 11175805,
+      "avgVolume20d": 11118655,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -1449,113 +1369,113 @@
     {
       "ticker": "CAT",
       "company": "Caterpillar",
-      "price": 810.05,
-      "ma200": 583.93,
-      "vs200dPct": 38.7,
-      "rsi": 61.8,
+      "price": 890.11,
+      "ma200": 586.38,
+      "vs200dPct": 51.8,
+      "rsi": 75.2,
       "rsiLabel": {
-        "label": "61.8",
-        "level": "strong"
+        "label": "75.2",
+        "level": "overbought"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": -0.24,
-        "vol": 1986700
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": -1.32,
         "vol": 1875600
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": -0.96,
-        "vol": 2561800
+        "vol": 2566300
       },
-      "totalMove": -2.51,
-      "volVsAvg": 20.2,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": 9.88,
+        "vol": 5201400
+      },
+      "totalMove": 7.61,
+      "volVsAvg": 129.2,
       "volSignal": "heavy",
-      "avgVolume20d": 2130720,
-      "allDown": true,
+      "avgVolume20d": 2269225,
+      "allDown": false,
       "allUp": false,
       "signal": {
-        "name": "Breakdown",
-        "strength": 3,
-        "color": "red",
-        "icon": "\ud83d\udd34",
-        "reason": "Down streak + heavy volume = institutional selling. Floor may be lower."
+        "name": "\u2014",
+        "strength": 0,
+        "color": "muted",
+        "icon": "\u2014",
+        "reason": ""
       }
     },
     {
       "ticker": "CHTR",
       "company": "Charter Communications",
-      "price": 158.65,
-      "ma200": 238.12,
-      "vs200dPct": -33.4,
-      "rsi": 23.9,
+      "price": 165.17,
+      "ma200": 237.03,
+      "vs200dPct": -30.3,
+      "rsi": 28.4,
       "rsiLabel": {
-        "label": "23.9",
+        "label": "28.4",
         "level": "oversold"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": -3.06,
-        "vol": 6206800
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": -0.86,
         "vol": 4775700
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": -8.35,
-        "vol": 5600000
+        "vol": 5616000
       },
-      "totalMove": -12.28,
-      "volVsAvg": 90.5,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": 4.11,
+        "vol": 6129900
+      },
+      "totalMove": -5.1,
+      "volVsAvg": 94.7,
       "volSignal": "heavy",
-      "avgVolume20d": 2940230,
-      "allDown": true,
+      "avgVolume20d": 3148440,
+      "allDown": false,
       "allUp": false,
       "signal": {
-        "name": "Breakdown",
-        "strength": 3,
-        "color": "red",
-        "icon": "\ud83d\udd34",
-        "reason": "Down streak + heavy volume = institutional selling. Floor may be lower."
+        "name": "\u2014",
+        "strength": 0,
+        "color": "muted",
+        "icon": "\u2014",
+        "reason": ""
       }
     },
     {
       "ticker": "CL",
       "company": "Colgate-Palmolive",
-      "price": 84.49,
+      "price": 85.36,
       "ma200": 82.87,
-      "vs200dPct": 2.0,
-      "rsi": 48.6,
+      "vs200dPct": 3.0,
+      "rsi": 51.6,
       "rsiLabel": {
-        "label": "48.6",
+        "label": "51.6",
         "level": "neutral"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": -0.57,
-        "vol": 4414200
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": 1.78,
         "vol": 5568800
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": -1.38,
-        "vol": 4279000
+        "vol": 4280500
       },
-      "totalMove": -0.16,
-      "volVsAvg": -17.0,
-      "volSignal": "normal",
-      "avgVolume20d": 5152355,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": 1.03,
+        "vol": 7493200
+      },
+      "totalMove": 1.43,
+      "volVsAvg": 42.3,
+      "volSignal": "heavy",
+      "avgVolume20d": 5265230,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -1569,33 +1489,33 @@
     {
       "ticker": "CMCSA",
       "company": "Comcast",
-      "price": 26.76,
-      "ma200": 28.47,
-      "vs200dPct": -6.0,
-      "rsi": 39.0,
+      "price": 27.04,
+      "ma200": 28.44,
+      "vs200dPct": -4.9,
+      "rsi": 40.9,
       "rsiLabel": {
-        "label": "39.0",
+        "label": "40.9",
         "level": "weak"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": -0.18,
-        "vol": 31684600
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": 0.47,
         "vol": 23549000
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": -3.18,
-        "vol": 31872300
+        "vol": 31883500
       },
-      "totalMove": -2.89,
-      "volVsAvg": 11.1,
-      "volSignal": "normal",
-      "avgVolume20d": 28687235,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": 1.05,
+        "vol": 41994100
+      },
+      "totalMove": -1.66,
+      "volVsAvg": 42.7,
+      "volSignal": "heavy",
+      "avgVolume20d": 29429325,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -1609,33 +1529,33 @@
     {
       "ticker": "COF",
       "company": "Capital One",
-      "price": 190.84,
-      "ma200": 213.63,
-      "vs200dPct": -10.7,
-      "rsi": 46.1,
+      "price": 191.3,
+      "ma200": 213.52,
+      "vs200dPct": -10.4,
+      "rsi": 46.7,
       "rsiLabel": {
-        "label": "46.1",
+        "label": "46.7",
         "level": "neutral"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": 1.42,
-        "vol": 3580200
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": -1.04,
         "vol": 2796700
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": -0.66,
-        "vol": 3309300
+        "vol": 3310300
       },
-      "totalMove": -0.27,
-      "volVsAvg": -21.0,
-      "volSignal": "light",
-      "avgVolume20d": 4189195,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": 0.24,
+        "vol": 4900200
+      },
+      "totalMove": -1.45,
+      "volVsAvg": 16.4,
+      "volSignal": "normal",
+      "avgVolume20d": 4210850,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -1649,33 +1569,33 @@
     {
       "ticker": "COP",
       "company": "ConocoPhillips",
-      "price": 128.25,
-      "ma200": 100.08,
-      "vs200dPct": 28.1,
-      "rsi": 59.4,
+      "price": 125.78,
+      "ma200": 100.26,
+      "vs200dPct": 25.5,
+      "rsi": 54.7,
       "rsiLabel": {
-        "label": "59.4",
-        "level": "strong"
+        "label": "54.7",
+        "level": "neutral"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": -0.07,
-        "vol": 12215400
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": 2.17,
         "vol": 7241100
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": 3.16,
-        "vol": 9669100
+        "vol": 9676900
       },
-      "totalMove": 5.27,
-      "volVsAvg": 9.8,
-      "volSignal": "normal",
-      "avgVolume20d": 8808415,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": -1.93,
+        "vol": 11943900
+      },
+      "totalMove": 3.4,
+      "volVsAvg": 36.4,
+      "volSignal": "heavy",
+      "avgVolume20d": 8757005,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -1689,33 +1609,33 @@
     {
       "ticker": "CRM",
       "company": "Salesforce",
-      "price": 181.22,
-      "ma200": 228.5,
-      "vs200dPct": -20.7,
-      "rsi": 48.4,
+      "price": 176.53,
+      "ma200": 228.1,
+      "vs200dPct": -22.6,
+      "rsi": 44.2,
       "rsiLabel": {
-        "label": "48.4",
-        "level": "neutral"
+        "label": "44.2",
+        "level": "weak"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": 1.13,
-        "vol": 11907000
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": 0.63,
         "vol": 8711700
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": -0.06,
-        "vol": 6870700
+        "vol": 6882800
       },
-      "totalMove": 1.71,
-      "volVsAvg": -49.8,
-      "volSignal": "light",
-      "avgVolume20d": 13674075,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": -2.59,
+        "vol": 14393900
+      },
+      "totalMove": -2.01,
+      "volVsAvg": 4.2,
+      "volSignal": "normal",
+      "avgVolume20d": 13810490,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -1729,33 +1649,33 @@
     {
       "ticker": "CSCO",
       "company": "Cisco",
-      "price": 89.57,
-      "ma200": 74.11,
-      "vs200dPct": 20.9,
-      "rsi": 66.6,
+      "price": 91.5,
+      "ma200": 74.24,
+      "vs200dPct": 23.2,
+      "rsi": 70.3,
       "rsiLabel": {
-        "label": "66.6",
-        "level": "strong"
+        "label": "70.3",
+        "level": "overbought"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": -0.84,
-        "vol": 13810500
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": -1.59,
         "vol": 16889300
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": 3.12,
-        "vol": 15405000
+        "vol": 15427900
       },
-      "totalMove": 0.69,
-      "volVsAvg": -10.7,
-      "volSignal": "normal",
-      "avgVolume20d": 17249170,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": 2.15,
+        "vol": 21680300
+      },
+      "totalMove": 3.69,
+      "volVsAvg": 25.5,
+      "volSignal": "heavy",
+      "avgVolume20d": 17268880,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -1769,73 +1689,33 @@
     {
       "ticker": "CVS",
       "company": "CVS Health",
-      "price": 83.9,
-      "ma200": 74.15,
-      "vs200dPct": 13.1,
-      "rsi": 70.1,
+      "price": 83.29,
+      "ma200": 74.26,
+      "vs200dPct": 12.2,
+      "rsi": 67.8,
       "rsiLabel": {
-        "label": "70.1",
-        "level": "overbought"
+        "label": "67.8",
+        "level": "strong"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": 0.54,
-        "vol": 5735100
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": 3.34,
         "vol": 8307000
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": 3.61,
-        "vol": 7606000
-      },
-      "totalMove": 7.49,
-      "volVsAvg": 1.3,
-      "volSignal": "normal",
-      "avgVolume20d": 7505565,
-      "allDown": false,
-      "allUp": true,
-      "signal": {
-        "name": "Uptrend",
-        "strength": 1,
-        "color": "muted",
-        "icon": "\u2014",
-        "reason": "Up streak with normal volume. No strong signal yet."
-      }
-    },
-    {
-      "ticker": "CVX",
-      "company": "Chevron",
-      "price": 192.22,
-      "ma200": 164.02,
-      "vs200dPct": 17.2,
-      "rsi": 52.6,
-      "rsiLabel": {
-        "label": "52.6",
-        "level": "neutral"
-      },
-      "day1": {
-        "date": "2026-04-27",
-        "pct": -0.23,
-        "vol": 10836600
-      },
-      "day2": {
-        "date": "2026-04-28",
-        "pct": 1.94,
-        "vol": 10754900
+        "vol": 7609600
       },
       "day3": {
-        "date": "2026-04-29",
-        "pct": 2.05,
-        "vol": 8632900
+        "date": "2026-04-30",
+        "pct": -0.73,
+        "vol": 8330800
       },
-      "totalMove": 3.75,
-      "volVsAvg": -23.5,
-      "volSignal": "light",
-      "avgVolume20d": 11284490,
+      "totalMove": 6.22,
+      "volVsAvg": 8.7,
+      "volSignal": "normal",
+      "avgVolume20d": 7667305,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -1847,35 +1727,75 @@
       }
     },
     {
-      "ticker": "DE",
-      "company": "Deere & Co",
-      "price": 560.02,
-      "ma200": 512.61,
-      "vs200dPct": 9.2,
-      "rsi": 41.4,
+      "ticker": "CVX",
+      "company": "Chevron",
+      "price": 193.31,
+      "ma200": 164.26,
+      "vs200dPct": 17.7,
+      "rsi": 54.1,
       "rsiLabel": {
-        "label": "41.4",
-        "level": "weak"
+        "label": "54.1",
+        "level": "neutral"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": 0.9,
-        "vol": 1035200
+        "date": "2026-04-28",
+        "pct": 1.94,
+        "vol": 10754900
       },
       "day2": {
+        "date": "2026-04-29",
+        "pct": 2.05,
+        "vol": 8644600
+      },
+      "day3": {
+        "date": "2026-04-30",
+        "pct": 0.57,
+        "vol": 11726100
+      },
+      "totalMove": 4.55,
+      "volVsAvg": 9.4,
+      "volSignal": "normal",
+      "avgVolume20d": 10718785,
+      "allDown": false,
+      "allUp": true,
+      "signal": {
+        "name": "Uptrend",
+        "strength": 1,
+        "color": "muted",
+        "icon": "\u2014",
+        "reason": "Up streak with normal volume. No strong signal yet."
+      }
+    },
+    {
+      "ticker": "DE",
+      "company": "Deere & Co",
+      "price": 589.87,
+      "ma200": 513.06,
+      "vs200dPct": 15.0,
+      "rsi": 53.3,
+      "rsiLabel": {
+        "label": "53.3",
+        "level": "neutral"
+      },
+      "day1": {
         "date": "2026-04-28",
         "pct": -0.67,
         "vol": 894800
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": -0.68,
-        "vol": 871800
+        "vol": 872400
       },
-      "totalMove": -0.46,
-      "volVsAvg": -21.2,
-      "volSignal": "light",
-      "avgVolume20d": 1106410,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": 5.33,
+        "vol": 1561800
+      },
+      "totalMove": 3.97,
+      "volVsAvg": 41.2,
+      "volSignal": "heavy",
+      "avgVolume20d": 1105860,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -1889,73 +1809,73 @@
     {
       "ticker": "DIS",
       "company": "Disney",
-      "price": 101.3,
-      "ma200": 109.41,
-      "vs200dPct": -7.4,
-      "rsi": 48.9,
+      "price": 103.75,
+      "ma200": 109.33,
+      "vs200dPct": -5.1,
+      "rsi": 57.1,
       "rsiLabel": {
-        "label": "48.9",
-        "level": "neutral"
+        "label": "57.1",
+        "level": "strong"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": -0.24,
-        "vol": 6524300
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": -0.86,
         "vol": 6409300
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": -0.17,
-        "vol": 5527700
+        "vol": 5533700
       },
-      "totalMove": -1.27,
-      "volVsAvg": -25.8,
-      "volSignal": "light",
-      "avgVolume20d": 7447210,
-      "allDown": true,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": 2.42,
+        "vol": 9194800
+      },
+      "totalMove": 1.39,
+      "volVsAvg": 22.9,
+      "volSignal": "heavy",
+      "avgVolume20d": 7481320,
+      "allDown": false,
       "allUp": false,
       "signal": {
-        "name": "Possible Bottom",
-        "strength": 1,
-        "color": "amber",
-        "icon": "\u26a0\ufe0f",
-        "reason": "Down streak + light volume. RSI not yet oversold \u2014 confirm before acting."
+        "name": "\u2014",
+        "strength": 0,
+        "color": "muted",
+        "icon": "\u2014",
+        "reason": ""
       }
     },
     {
       "ticker": "DOW",
       "company": "Dow Inc",
-      "price": 39.55,
-      "ma200": 27.16,
-      "vs200dPct": 45.6,
-      "rsi": 55.5,
+      "price": 40.49,
+      "ma200": 27.23,
+      "vs200dPct": 48.7,
+      "rsi": 58.6,
       "rsiLabel": {
-        "label": "55.5",
+        "label": "58.6",
         "level": "strong"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": -1.45,
-        "vol": 11226400
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": -0.24,
         "vol": 9268100
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": 4.05,
-        "vol": 11651800
+        "vol": 11659400
       },
-      "totalMove": 2.37,
-      "volVsAvg": -21.9,
-      "volSignal": "light",
-      "avgVolume20d": 14909550,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": 2.38,
+        "vol": 15930900
+      },
+      "totalMove": 6.19,
+      "volVsAvg": 9.0,
+      "volSignal": "normal",
+      "avgVolume20d": 14610375,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -1969,33 +1889,33 @@
     {
       "ticker": "DUK",
       "company": "Duke Energy",
-      "price": 126.51,
-      "ma200": 122.33,
-      "vs200dPct": 3.4,
-      "rsi": 42.2,
+      "price": 129.55,
+      "ma200": 122.41,
+      "vs200dPct": 5.8,
+      "rsi": 53.2,
       "rsiLabel": {
-        "label": "42.2",
-        "level": "weak"
+        "label": "53.2",
+        "level": "neutral"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": -0.14,
-        "vol": 2322600
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": 0.56,
         "vol": 2167000
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": -1.01,
-        "vol": 2320600
+        "vol": 2322100
       },
-      "totalMove": -0.59,
-      "volVsAvg": -21.3,
-      "volSignal": "light",
-      "avgVolume20d": 2950465,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": 2.4,
+        "vol": 3798900
+      },
+      "totalMove": 1.95,
+      "volVsAvg": 29.9,
+      "volSignal": "heavy",
+      "avgVolume20d": 2924740,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -2009,33 +1929,33 @@
     {
       "ticker": "EMR",
       "company": "Emerson Electric",
-      "price": 136.56,
-      "ma200": 137.05,
-      "vs200dPct": -0.4,
-      "rsi": 43.7,
+      "price": 140.44,
+      "ma200": 137.06,
+      "vs200dPct": 2.5,
+      "rsi": 51.1,
       "rsiLabel": {
-        "label": "43.7",
-        "level": "weak"
+        "label": "51.1",
+        "level": "neutral"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": 0.08,
-        "vol": 2595300
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": -2.16,
         "vol": 1779300
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": -1.34,
-        "vol": 2865400
+        "vol": 2866400
       },
-      "totalMove": -3.41,
-      "volVsAvg": 7.2,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": 2.84,
+        "vol": 2736900
+      },
+      "totalMove": -0.66,
+      "volVsAvg": 2.7,
       "volSignal": "normal",
-      "avgVolume20d": 2672175,
+      "avgVolume20d": 2664165,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -2049,33 +1969,33 @@
     {
       "ticker": "EXC",
       "company": "Exelon",
-      "price": 47.02,
-      "ma200": 45.18,
-      "vs200dPct": 4.1,
-      "rsi": 45.1,
+      "price": 45.99,
+      "ma200": 45.2,
+      "vs200dPct": 1.7,
+      "rsi": 37.9,
       "rsiLabel": {
-        "label": "45.1",
-        "level": "neutral"
+        "label": "37.9",
+        "level": "weak"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": -0.7,
-        "vol": 5252000
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": 0.97,
         "vol": 4205700
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": -0.04,
-        "vol": 10639100
+        "vol": 10641500
       },
-      "totalMove": 0.22,
-      "volVsAvg": 42.6,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": -2.19,
+        "vol": 19252700
+      },
+      "totalMove": -1.27,
+      "volVsAvg": 137.9,
       "volSignal": "heavy",
-      "avgVolume20d": 7462410,
+      "avgVolume20d": 8092440,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -2089,73 +2009,73 @@
     {
       "ticker": "F",
       "company": "Ford",
-      "price": 12.24,
-      "ma200": 12.36,
-      "vs200dPct": -1.0,
-      "rsi": 47.4,
+      "price": 12.08,
+      "ma200": 12.37,
+      "vs200dPct": -2.3,
+      "rsi": 44.1,
       "rsiLabel": {
-        "label": "47.4",
-        "level": "neutral"
+        "label": "44.1",
+        "level": "weak"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": 0.89,
-        "vol": 35098200
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": -0.72,
         "vol": 44278000
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": -1.29,
-        "vol": 48139100
+        "vol": 48672800
       },
-      "totalMove": -1.12,
-      "volVsAvg": 31.5,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": -1.31,
+        "vol": 80448300
+      },
+      "totalMove": -3.32,
+      "volVsAvg": 106.5,
       "volSignal": "heavy",
-      "avgVolume20d": 36606825,
-      "allDown": false,
+      "avgVolume20d": 38956340,
+      "allDown": true,
       "allUp": false,
       "signal": {
-        "name": "\u2014",
-        "strength": 0,
-        "color": "muted",
-        "icon": "\u2014",
-        "reason": ""
+        "name": "Breakdown",
+        "strength": 3,
+        "color": "red",
+        "icon": "\ud83d\udd34",
+        "reason": "Down streak + heavy volume = institutional selling. Floor may be lower."
       }
     },
     {
       "ticker": "FDX",
       "company": "FedEx",
-      "price": 388.59,
-      "ma200": 289.0,
-      "vs200dPct": 34.5,
-      "rsi": 60.1,
+      "price": 403.31,
+      "ma200": 289.88,
+      "vs200dPct": 39.1,
+      "rsi": 67.9,
       "rsiLabel": {
-        "label": "60.1",
+        "label": "67.9",
         "level": "strong"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": -0.02,
-        "vol": 1061600
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": 0.6,
         "vol": 1210100
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": -0.42,
         "vol": 1316500
       },
-      "totalMove": 0.16,
-      "volVsAvg": -9.8,
-      "volSignal": "normal",
-      "avgVolume20d": 1460205,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": 3.79,
+        "vol": 1941000
+      },
+      "totalMove": 3.97,
+      "volVsAvg": 32.8,
+      "volSignal": "heavy",
+      "avgVolume20d": 1461940,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -2169,73 +2089,73 @@
     {
       "ticker": "GD",
       "company": "General Dynamics",
-      "price": 338.73,
-      "ma200": 335.46,
-      "vs200dPct": 1.0,
-      "rsi": 53.3,
+      "price": 344.3,
+      "ma200": 335.7,
+      "vs200dPct": 2.6,
+      "rsi": 56.9,
       "rsiLabel": {
-        "label": "53.3",
-        "level": "neutral"
+        "label": "56.9",
+        "level": "strong"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": -0.22,
-        "vol": 1411900
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": 0.37,
         "vol": 2169700
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": 7.99,
-        "vol": 3587000
+        "vol": 3587700
       },
-      "totalMove": 8.14,
-      "volVsAvg": 143.2,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": 1.64,
+        "vol": 2029800
+      },
+      "totalMove": 10.0,
+      "volVsAvg": 33.5,
       "volSignal": "heavy",
-      "avgVolume20d": 1474840,
+      "avgVolume20d": 1520465,
       "allDown": false,
-      "allUp": false,
+      "allUp": true,
       "signal": {
-        "name": "\u2014",
-        "strength": 0,
-        "color": "muted",
-        "icon": "\u2014",
-        "reason": ""
+        "name": "Momentum",
+        "strength": 1,
+        "color": "green",
+        "icon": "\ud83d\udcc8",
+        "reason": "Up streak + heavy volume. Strong buying interest \u2014 RSI not yet overbought."
       }
     },
     {
       "ticker": "GE",
       "company": "GE Aerospace",
-      "price": 283.57,
-      "ma200": 297.36,
-      "vs200dPct": -4.6,
-      "rsi": 42.6,
+      "price": 289.93,
+      "ma200": 297.49,
+      "vs200dPct": -2.5,
+      "rsi": 46.8,
       "rsiLabel": {
-        "label": "42.6",
-        "level": "weak"
+        "label": "46.8",
+        "level": "neutral"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": -0.01,
-        "vol": 5213300
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": 1.63,
         "vol": 8417200
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": -1.95,
-        "vol": 9800000
+        "vol": 9819400
       },
-      "totalMove": -0.33,
-      "volVsAvg": 44.5,
-      "volSignal": "heavy",
-      "avgVolume20d": 6780875,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": 2.24,
+        "vol": 7601100
+      },
+      "totalMove": 1.93,
+      "volVsAvg": 10.2,
+      "volSignal": "normal",
+      "avgVolume20d": 6899775,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -2249,33 +2169,33 @@
     {
       "ticker": "GILD",
       "company": "Gilead Sciences",
-      "price": 128.84,
-      "ma200": 125.42,
-      "vs200dPct": 2.7,
-      "rsi": 31.5,
+      "price": 130.84,
+      "ma200": 125.54,
+      "vs200dPct": 4.2,
+      "rsi": 37.8,
       "rsiLabel": {
-        "label": "31.5",
+        "label": "37.8",
         "level": "weak"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": -2.03,
-        "vol": 8170300
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": 1.18,
         "vol": 5940300
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": -0.32,
-        "vol": 5045100
+        "vol": 5048300
       },
-      "totalMove": -1.18,
-      "volVsAvg": -3.8,
-      "volSignal": "normal",
-      "avgVolume20d": 5245045,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": 1.55,
+        "vol": 6660000
+      },
+      "totalMove": 2.41,
+      "volVsAvg": 25.3,
+      "volSignal": "heavy",
+      "avgVolume20d": 5313880,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -2289,33 +2209,33 @@
     {
       "ticker": "GM",
       "company": "General Motors",
-      "price": 76.62,
-      "ma200": 69.79,
-      "vs200dPct": 9.8,
-      "rsi": 47.4,
+      "price": 76.89,
+      "ma200": 69.91,
+      "vs200dPct": 10.0,
+      "rsi": 48.3,
       "rsiLabel": {
-        "label": "47.4",
+        "label": "48.3",
         "level": "neutral"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": -0.12,
-        "vol": 8322700
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": 1.27,
         "vol": 15041700
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": -2.95,
-        "vol": 9247500
+        "vol": 9250200
       },
-      "totalMove": -1.8,
-      "volVsAvg": 45.1,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": 0.35,
+        "vol": 11020300
+      },
+      "totalMove": -1.33,
+      "volVsAvg": 65.3,
       "volSignal": "heavy",
-      "avgVolume20d": 6373680,
+      "avgVolume20d": 6667445,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -2329,33 +2249,33 @@
     {
       "ticker": "GOOG",
       "company": "Alphabet C",
-      "price": 347.31,
-      "ma200": 279.03,
-      "vs200dPct": 24.5,
-      "rsi": 71.1,
+      "price": 381.94,
+      "ma200": 280.03,
+      "vs200dPct": 36.4,
+      "rsi": 82.5,
       "rsiLabel": {
-        "label": "71.1",
+        "label": "82.5",
         "level": "overbought"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": 1.81,
-        "vol": 17443000
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": -0.29,
         "vol": 18502300
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": -0.05,
-        "vol": 21860600
+        "vol": 22232200
       },
-      "totalMove": 1.46,
-      "volVsAvg": 35.7,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": 9.97,
+        "vol": 44509500
+      },
+      "totalMove": 9.62,
+      "volVsAvg": 159.7,
       "volSignal": "heavy",
-      "avgVolume20d": 16113015,
+      "avgVolume20d": 17136890,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -2369,33 +2289,33 @@
     {
       "ticker": "GOOGL",
       "company": "Alphabet A",
-      "price": 349.94,
-      "ma200": 278.83,
-      "vs200dPct": 25.5,
-      "rsi": 71.2,
+      "price": 384.8,
+      "ma200": 279.85,
+      "vs200dPct": 37.5,
+      "rsi": 82.4,
       "rsiLabel": {
-        "label": "71.2",
+        "label": "82.4",
         "level": "overbought"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": 1.72,
-        "vol": 28576900
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": -0.16,
         "vol": 27824100
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": 0.05,
-        "vol": 34856900
+        "vol": 35376300
       },
-      "totalMove": 1.61,
-      "volVsAvg": 41.7,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": 9.96,
+        "vol": 71949900
+      },
+      "totalMove": 9.85,
+      "volVsAvg": 173.1,
       "volSignal": "heavy",
-      "avgVolume20d": 24605305,
+      "avgVolume20d": 26344545,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -2409,33 +2329,33 @@
     {
       "ticker": "GS",
       "company": "Goldman Sachs",
-      "price": 905.6,
-      "ma200": 823.21,
-      "vs200dPct": 10.0,
-      "rsi": 52.6,
+      "price": 923.77,
+      "ma200": 824.37,
+      "vs200dPct": 12.1,
+      "rsi": 57.4,
       "rsiLabel": {
-        "label": "52.6",
-        "level": "neutral"
+        "label": "57.4",
+        "level": "strong"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": 1.18,
-        "vol": 1223000
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": -1.2,
         "vol": 1501600
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": -2.26,
-        "vol": 1722200
+        "vol": 1725900
       },
-      "totalMove": -2.29,
-      "volVsAvg": -12.2,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": 2.01,
+        "vol": 1879300
+      },
+      "totalMove": -1.46,
+      "volVsAvg": -4.4,
       "volSignal": "normal",
-      "avgVolume20d": 1962050,
+      "avgVolume20d": 1966020,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -2449,73 +2369,73 @@
     {
       "ticker": "HD",
       "company": "Home Depot",
-      "price": 322.81,
-      "ma200": 367.36,
-      "vs200dPct": -12.1,
-      "rsi": 37.7,
+      "price": 328.8,
+      "ma200": 367.24,
+      "vs200dPct": -10.5,
+      "rsi": 43.3,
       "rsiLabel": {
-        "label": "37.7",
+        "label": "43.3",
         "level": "weak"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": -1.07,
-        "vol": 3282900
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": -0.98,
         "vol": 4279300
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": -1.9,
-        "vol": 4146800
+        "vol": 4150000
       },
-      "totalMove": -3.94,
-      "volVsAvg": 19.0,
-      "volSignal": "normal",
-      "avgVolume20d": 3485015,
-      "allDown": true,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": 1.86,
+        "vol": 4316500
+      },
+      "totalMove": -1.02,
+      "volVsAvg": 22.2,
+      "volSignal": "heavy",
+      "avgVolume20d": 3531690,
+      "allDown": false,
       "allUp": false,
       "signal": {
-        "name": "Downtrend",
-        "strength": 1,
+        "name": "\u2014",
+        "strength": 0,
         "color": "muted",
         "icon": "\u2014",
-        "reason": "Down streak with normal volume. No reversal signal yet."
+        "reason": ""
       }
     },
     {
       "ticker": "HON",
       "company": "Honeywell",
-      "price": 210.3,
-      "ma200": 210.12,
-      "vs200dPct": 0.1,
-      "rsi": 30.2,
+      "price": 214.33,
+      "ma200": 210.1,
+      "vs200dPct": 2.0,
+      "rsi": 37.4,
       "rsiLabel": {
-        "label": "30.2",
+        "label": "37.4",
         "level": "weak"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": -0.53,
-        "vol": 3615500
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": 0.41,
         "vol": 3796900
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": -1.24,
-        "vol": 4500400
+        "vol": 4502600
       },
-      "totalMove": -1.35,
-      "volVsAvg": 18.4,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": 1.92,
+        "vol": 4126100
+      },
+      "totalMove": 1.1,
+      "volVsAvg": 8.1,
       "volSignal": "normal",
-      "avgVolume20d": 3801910,
+      "avgVolume20d": 3816440,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -2529,33 +2449,33 @@
     {
       "ticker": "IBM",
       "company": "IBM",
-      "price": 227.1,
-      "ma200": 271.36,
-      "vs200dPct": -16.3,
-      "rsi": 37.8,
+      "price": 230.98,
+      "ma200": 271.13,
+      "vs200dPct": -14.8,
+      "rsi": 41.4,
       "rsiLabel": {
-        "label": "37.8",
+        "label": "41.4",
         "level": "weak"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": -1.69,
-        "vol": 8060700
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": 2.19,
         "vol": 5162900
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": -2.55,
-        "vol": 6432200
+        "vol": 6443700
       },
-      "totalMove": -2.05,
-      "volVsAvg": 1.1,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": 1.71,
+        "vol": 6279800
+      },
+      "totalMove": 1.35,
+      "volVsAvg": -2.9,
       "volSignal": "normal",
-      "avgVolume20d": 6361495,
+      "avgVolume20d": 6464625,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -2569,33 +2489,33 @@
     {
       "ticker": "INTC",
       "company": "Intel",
-      "price": 94.75,
-      "ma200": 39.42,
-      "vs200dPct": 140.4,
-      "rsi": 86.4,
+      "price": 94.48,
+      "ma200": 39.77,
+      "vs200dPct": 137.6,
+      "rsi": 85.8,
       "rsiLabel": {
-        "label": "86.4",
+        "label": "85.8",
         "level": "overbought"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": 2.97,
-        "vol": 178820200
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": -0.55,
         "vol": 147773500
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": 12.1,
-        "vol": 229205400
+        "vol": 235070900
       },
-      "totalMove": 14.52,
-      "volVsAvg": 69.2,
-      "volSignal": "heavy",
-      "avgVolume20d": 135503735,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": -0.28,
+        "vol": 160000600
+      },
+      "totalMove": 11.27,
+      "volVsAvg": 16.5,
+      "volSignal": "normal",
+      "avgVolume20d": 137317115,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -2609,33 +2529,33 @@
     {
       "ticker": "INTU",
       "company": "Intuit",
-      "price": 395.08,
-      "ma200": 589.46,
-      "vs200dPct": -33.0,
-      "rsi": 46.8,
+      "price": 388.5,
+      "ma200": 587.7,
+      "vs200dPct": -33.9,
+      "rsi": 44.5,
       "rsiLabel": {
-        "label": "46.8",
-        "level": "neutral"
+        "label": "44.5",
+        "level": "weak"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": -1.52,
-        "vol": 2380800
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": 2.68,
         "vol": 2225100
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": -1.32,
-        "vol": 1883500
+        "vol": 1885000
       },
-      "totalMove": -0.16,
-      "volVsAvg": -43.6,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": -1.67,
+        "vol": 2450000
+      },
+      "totalMove": -0.31,
+      "volVsAvg": -26.4,
       "volSignal": "light",
-      "avgVolume20d": 3341400,
+      "avgVolume20d": 3326795,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -2649,33 +2569,33 @@
     {
       "ticker": "JNJ",
       "company": "Johnson & Johnson",
-      "price": 227.35,
-      "ma200": 204.07,
-      "vs200dPct": 11.4,
-      "rsi": 37.8,
+      "price": 229.85,
+      "ma200": 204.46,
+      "vs200dPct": 12.4,
+      "rsi": 43.1,
       "rsiLabel": {
-        "label": "37.8",
+        "label": "43.1",
         "level": "weak"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": -0.95,
-        "vol": 7897800
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": 1.09,
         "vol": 7179800
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": -0.19,
-        "vol": 7065400
+        "vol": 7071100
       },
-      "totalMove": -0.06,
-      "volVsAvg": -7.1,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": 1.1,
+        "vol": 8155800
+      },
+      "totalMove": 1.99,
+      "volVsAvg": 6.0,
       "volSignal": "normal",
-      "avgVolume20d": 7604155,
+      "avgVolume20d": 7696500,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -2689,33 +2609,33 @@
     {
       "ticker": "JPM",
       "company": "JPMorgan Chase",
-      "price": 309.25,
-      "ma200": 301.94,
-      "vs200dPct": 2.4,
-      "rsi": 55.3,
+      "price": 313.23,
+      "ma200": 302.1,
+      "vs200dPct": 3.7,
+      "rsi": 59.5,
       "rsiLabel": {
-        "label": "55.3",
+        "label": "59.5",
         "level": "strong"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": 1.09,
-        "vol": 7925300
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": -0.06,
         "vol": 7398600
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": -0.71,
-        "vol": 8025100
+        "vol": 8031800
       },
-      "totalMove": 0.32,
-      "volVsAvg": -2.2,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": 1.29,
+        "vol": 8863400
+      },
+      "totalMove": 0.52,
+      "volVsAvg": 9.7,
       "volSignal": "normal",
-      "avgVolume20d": 8203070,
+      "avgVolume20d": 8083215,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -2729,33 +2649,33 @@
     {
       "ticker": "KHC",
       "company": "Kraft Heinz",
-      "price": 22.42,
-      "ma200": 24.27,
-      "vs200dPct": -7.6,
-      "rsi": 50.0,
+      "price": 22.66,
+      "ma200": 24.26,
+      "vs200dPct": -6.6,
+      "rsi": 53.4,
       "rsiLabel": {
-        "label": "50.0",
+        "label": "53.4",
         "level": "neutral"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": -0.09,
-        "vol": 9124200
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": 2.51,
         "vol": 10544500
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": -0.22,
-        "vol": 13321000
+        "vol": 13324900
       },
-      "totalMove": 2.2,
-      "volVsAvg": 2.1,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": 1.07,
+        "vol": 13009900
+      },
+      "totalMove": 3.36,
+      "volVsAvg": -1.2,
       "volSignal": "normal",
-      "avgVolume20d": 13049065,
+      "avgVolume20d": 13168860,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -2769,33 +2689,33 @@
     {
       "ticker": "KO",
       "company": "Coca-Cola",
-      "price": 78.87,
-      "ma200": 71.11,
-      "vs200dPct": 10.9,
-      "rsi": 61.6,
+      "price": 78.76,
+      "ma200": 71.17,
+      "vs200dPct": 10.7,
+      "rsi": 61.0,
       "rsiLabel": {
-        "label": "61.6",
+        "label": "61.0",
         "level": "strong"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": -1.55,
-        "vol": 15812200
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": 3.86,
         "vol": 30710700
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": 0.66,
-        "vol": 18283100
+        "vol": 18294700
       },
-      "totalMove": 2.97,
-      "volVsAvg": 31.9,
-      "volSignal": "heavy",
-      "avgVolume20d": 13858910,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": -0.14,
+        "vol": 15139400
+      },
+      "totalMove": 4.38,
+      "volVsAvg": 9.5,
+      "volSignal": "normal",
+      "avgVolume20d": 13824745,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -2809,73 +2729,73 @@
     {
       "ticker": "LIN",
       "company": "Linde",
-      "price": 504.71,
-      "ma200": 459.02,
-      "vs200dPct": 10.0,
-      "rsi": 55.0,
+      "price": 501.14,
+      "ma200": 459.25,
+      "vs200dPct": 9.1,
+      "rsi": 51.7,
       "rsiLabel": {
-        "label": "55.0",
+        "label": "51.7",
         "level": "neutral"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": 0.09,
-        "vol": 1773700
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": -0.09,
         "vol": 2743200
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": -1.09,
-        "vol": 1438400
+        "vol": 1440000
       },
-      "totalMove": -1.1,
-      "volVsAvg": -23.9,
-      "volSignal": "light",
-      "avgVolume20d": 1889195,
-      "allDown": false,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": -0.71,
+        "vol": 3036200
+      },
+      "totalMove": -1.89,
+      "volVsAvg": 58.3,
+      "volSignal": "heavy",
+      "avgVolume20d": 1917465,
+      "allDown": true,
       "allUp": false,
       "signal": {
-        "name": "\u2014",
-        "strength": 0,
-        "color": "muted",
-        "icon": "\u2014",
-        "reason": ""
+        "name": "Breakdown",
+        "strength": 3,
+        "color": "red",
+        "icon": "\ud83d\udd34",
+        "reason": "Down streak + heavy volume = institutional selling. Floor may be lower."
       }
     },
     {
       "ticker": "LLY",
       "company": "Eli Lilly",
-      "price": 851.21,
-      "ma200": 907.87,
-      "vs200dPct": -6.2,
-      "rsi": 33.3,
+      "price": 934.6,
+      "ma200": 908.7,
+      "vs200dPct": 2.9,
+      "rsi": 53.2,
       "rsiLabel": {
-        "label": "33.3",
-        "level": "weak"
+        "label": "53.2",
+        "level": "neutral"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": -1.77,
-        "vol": 2700300
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": 0.66,
         "vol": 2561300
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": -2.61,
-        "vol": 3891600
+        "vol": 3904600
       },
-      "totalMove": -3.72,
-      "volVsAvg": 32.1,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": 9.8,
+        "vol": 8228800
+      },
+      "totalMove": 7.85,
+      "volVsAvg": 170.3,
       "volSignal": "heavy",
-      "avgVolume20d": 2945345,
+      "avgVolume20d": 3044040,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -2889,153 +2809,153 @@
     {
       "ticker": "LMT",
       "company": "Lockheed Martin",
-      "price": 509.81,
-      "ma200": 519.47,
-      "vs200dPct": -1.9,
-      "rsi": 18.6,
+      "price": 517.97,
+      "ma200": 519.76,
+      "vs200dPct": -0.3,
+      "rsi": 24.1,
       "rsiLabel": {
-        "label": "18.6",
+        "label": "24.1",
         "level": "oversold"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": -0.02,
-        "vol": 2111400
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": -0.21,
         "vol": 1456100
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": -0.48,
-        "vol": 1617600
+        "vol": 1619200
       },
-      "totalMove": -0.71,
-      "volVsAvg": 10.5,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": 1.6,
+        "vol": 1586600
+      },
+      "totalMove": 0.91,
+      "volVsAvg": 6.6,
       "volSignal": "normal",
-      "avgVolume20d": 1464220,
-      "allDown": true,
+      "avgVolume20d": 1487725,
+      "allDown": false,
       "allUp": false,
       "signal": {
-        "name": "Downtrend",
-        "strength": 1,
+        "name": "\u2014",
+        "strength": 0,
         "color": "muted",
         "icon": "\u2014",
-        "reason": "Down streak with normal volume. No reversal signal yet."
+        "reason": ""
       }
     },
     {
       "ticker": "LOW",
       "company": "Lowe's",
-      "price": 233.5,
-      "ma200": 246.81,
-      "vs200dPct": -5.4,
-      "rsi": 39.8,
+      "price": 238.79,
+      "ma200": 246.95,
+      "vs200dPct": -3.3,
+      "rsi": 45.9,
       "rsiLabel": {
-        "label": "39.8",
-        "level": "weak"
+        "label": "45.9",
+        "level": "neutral"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": -0.78,
-        "vol": 2854400
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": -0.92,
         "vol": 1701000
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": -2.84,
-        "vol": 3204900
+        "vol": 3205400
       },
-      "totalMove": -4.53,
-      "volVsAvg": 31.2,
-      "volSignal": "heavy",
-      "avgVolume20d": 2442940,
-      "allDown": true,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": 2.27,
+        "vol": 2958900
+      },
+      "totalMove": -1.49,
+      "volVsAvg": 19.7,
+      "volSignal": "normal",
+      "avgVolume20d": 2471985,
+      "allDown": false,
       "allUp": false,
       "signal": {
-        "name": "Breakdown",
-        "strength": 3,
-        "color": "red",
-        "icon": "\ud83d\udd34",
-        "reason": "Down streak + heavy volume = institutional selling. Floor may be lower."
+        "name": "\u2014",
+        "strength": 0,
+        "color": "muted",
+        "icon": "\u2014",
+        "reason": ""
       }
     },
     {
       "ticker": "MA",
       "company": "Mastercard",
-      "price": 525.23,
-      "ma200": 547.18,
-      "vs200dPct": -4.0,
-      "rsi": 61.3,
+      "price": 502.92,
+      "ma200": 546.96,
+      "vs200dPct": -8.1,
+      "rsi": 46.9,
       "rsiLabel": {
-        "label": "61.3",
-        "level": "strong"
+        "label": "46.9",
+        "level": "neutral"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": 0.45,
-        "vol": 2531300
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": 0.23,
         "vol": 3892500
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": 3.47,
-        "vol": 5871700
+        "vol": 5876700
       },
-      "totalMove": 4.15,
-      "volVsAvg": 81.1,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": -4.25,
+        "vol": 5971600
+      },
+      "totalMove": -0.54,
+      "volVsAvg": 80.4,
       "volSignal": "heavy",
-      "avgVolume20d": 3241630,
+      "avgVolume20d": 3310105,
       "allDown": false,
-      "allUp": true,
+      "allUp": false,
       "signal": {
-        "name": "Momentum",
-        "strength": 1,
-        "color": "green",
-        "icon": "\ud83d\udcc8",
-        "reason": "Up streak + heavy volume. Strong buying interest \u2014 RSI not yet overbought."
+        "name": "\u2014",
+        "strength": 0,
+        "color": "muted",
+        "icon": "\u2014",
+        "reason": ""
       }
     },
     {
       "ticker": "MCD",
       "company": "McDonald's",
-      "price": 290.08,
+      "price": 293.59,
       "ma200": 307.05,
-      "vs200dPct": -5.5,
-      "rsi": 31.7,
+      "vs200dPct": -4.4,
+      "rsi": 37.2,
       "rsiLabel": {
-        "label": "31.7",
+        "label": "37.2",
         "level": "weak"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": -3.06,
-        "vol": 4985000
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": 0.75,
         "vol": 4087100
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": -0.79,
-        "vol": 3487100
+        "vol": 3493000
       },
-      "totalMove": -3.1,
-      "volVsAvg": 13.0,
-      "volSignal": "normal",
-      "avgVolume20d": 3085665,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": 1.21,
+        "vol": 4136600
+      },
+      "totalMove": 1.17,
+      "volVsAvg": 33.5,
+      "volSignal": "heavy",
+      "avgVolume20d": 3098425,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -3049,33 +2969,73 @@
     {
       "ticker": "MDLZ",
       "company": "Mondelez",
-      "price": 61.04,
-      "ma200": 58.52,
-      "vs200dPct": 4.3,
-      "rsi": 66.7,
+      "price": 61.44,
+      "ma200": 58.5,
+      "vs200dPct": 5.0,
+      "rsi": 68.0,
       "rsiLabel": {
-        "label": "66.7",
+        "label": "68.0",
         "level": "strong"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": -0.33,
-        "vol": 6593200
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": 1.95,
         "vol": 11613700
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": 4.27,
-        "vol": 14586800
+        "vol": 14591800
       },
-      "totalMove": 5.89,
-      "volVsAvg": 81.5,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": 0.66,
+        "vol": 10111200
+      },
+      "totalMove": 6.88,
+      "volVsAvg": 25.7,
       "volSignal": "heavy",
-      "avgVolume20d": 8037890,
+      "avgVolume20d": 8044780,
+      "allDown": false,
+      "allUp": true,
+      "signal": {
+        "name": "Momentum",
+        "strength": 1,
+        "color": "green",
+        "icon": "\ud83d\udcc8",
+        "reason": "Up streak + heavy volume. Strong buying interest \u2014 RSI not yet overbought."
+      }
+    },
+    {
+      "ticker": "MDT",
+      "company": "Medtronic",
+      "price": 80.97,
+      "ma200": 92.96,
+      "vs200dPct": -12.9,
+      "rsi": 34.7,
+      "rsiLabel": {
+        "label": "34.7",
+        "level": "weak"
+      },
+      "day1": {
+        "date": "2026-04-28",
+        "pct": -1.23,
+        "vol": 9889200
+      },
+      "day2": {
+        "date": "2026-04-29",
+        "pct": -3.09,
+        "vol": 10814100
+      },
+      "day3": {
+        "date": "2026-04-30",
+        "pct": 2.02,
+        "vol": 15780300
+      },
+      "totalMove": -2.3,
+      "volVsAvg": 81.0,
+      "volSignal": "heavy",
+      "avgVolume20d": 8717940,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -3087,35 +3047,75 @@
       }
     },
     {
-      "ticker": "MDT",
-      "company": "Medtronic",
-      "price": 79.37,
-      "ma200": 92.99,
-      "vs200dPct": -14.6,
-      "rsi": 27.0,
+      "ticker": "MET",
+      "company": "MetLife",
+      "price": 80.1,
+      "ma200": 76.71,
+      "vs200dPct": 4.4,
+      "rsi": 71.0,
       "rsiLabel": {
-        "label": "27.0",
-        "level": "oversold"
+        "label": "71.0",
+        "level": "overbought"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": -0.48,
-        "vol": 6635000
+        "date": "2026-04-28",
+        "pct": 0.79,
+        "vol": 2978700
       },
       "day2": {
-        "date": "2026-04-28",
-        "pct": -1.23,
-        "vol": 9889200
+        "date": "2026-04-29",
+        "pct": 0.87,
+        "vol": 3065300
       },
       "day3": {
-        "date": "2026-04-29",
-        "pct": -3.09,
-        "vol": 10809300
+        "date": "2026-04-30",
+        "pct": 1.44,
+        "vol": 3670200
       },
-      "totalMove": -4.8,
-      "volVsAvg": 30.2,
+      "totalMove": 3.1,
+      "volVsAvg": 11.7,
+      "volSignal": "normal",
+      "avgVolume20d": 3286360,
+      "allDown": false,
+      "allUp": true,
+      "signal": {
+        "name": "Uptrend",
+        "strength": 1,
+        "color": "muted",
+        "icon": "\u2014",
+        "reason": "Up streak with normal volume. No strong signal yet."
+      }
+    },
+    {
+      "ticker": "META",
+      "company": "Meta",
+      "price": 611.91,
+      "ma200": 677.83,
+      "vs200dPct": -9.7,
+      "rsi": 41.4,
+      "rsiLabel": {
+        "label": "41.4",
+        "level": "weak"
+      },
+      "day1": {
+        "date": "2026-04-28",
+        "pct": -1.07,
+        "vol": 10606800
+      },
+      "day2": {
+        "date": "2026-04-29",
+        "pct": -0.33,
+        "vol": 18947500
+      },
+      "day3": {
+        "date": "2026-04-30",
+        "pct": -8.55,
+        "vol": 52674900
+      },
+      "totalMove": -9.95,
+      "volVsAvg": 233.9,
       "volSignal": "heavy",
-      "avgVolume20d": 8299105,
+      "avgVolume20d": 15777825,
       "allDown": true,
       "allUp": false,
       "signal": {
@@ -3127,115 +3127,35 @@
       }
     },
     {
-      "ticker": "MET",
-      "company": "MetLife",
-      "price": 78.96,
-      "ma200": 76.68,
-      "vs200dPct": 3.0,
-      "rsi": 67.8,
-      "rsiLabel": {
-        "label": "67.8",
-        "level": "strong"
-      },
-      "day1": {
-        "date": "2026-04-27",
-        "pct": -0.04,
-        "vol": 2927400
-      },
-      "day2": {
-        "date": "2026-04-28",
-        "pct": 0.79,
-        "vol": 2978700
-      },
-      "day3": {
-        "date": "2026-04-29",
-        "pct": 0.87,
-        "vol": 3065300
-      },
-      "totalMove": 1.62,
-      "volVsAvg": -6.2,
-      "volSignal": "normal",
-      "avgVolume20d": 3268150,
-      "allDown": false,
-      "allUp": false,
-      "signal": {
-        "name": "\u2014",
-        "strength": 0,
-        "color": "muted",
-        "icon": "\u2014",
-        "reason": ""
-      }
-    },
-    {
-      "ticker": "META",
-      "company": "Meta",
-      "price": 669.12,
-      "ma200": 678.32,
-      "vs200dPct": -1.4,
-      "rsi": 58.6,
-      "rsiLabel": {
-        "label": "58.6",
-        "level": "strong"
-      },
-      "day1": {
-        "date": "2026-04-27",
-        "pct": 0.53,
-        "vol": 12805200
-      },
-      "day2": {
-        "date": "2026-04-28",
-        "pct": -1.07,
-        "vol": 10606800
-      },
-      "day3": {
-        "date": "2026-04-29",
-        "pct": -0.33,
-        "vol": 18186900
-      },
-      "totalMove": -0.87,
-      "volVsAvg": 27.3,
-      "volSignal": "heavy",
-      "avgVolume20d": 14286455,
-      "allDown": false,
-      "allUp": false,
-      "signal": {
-        "name": "\u2014",
-        "strength": 0,
-        "color": "muted",
-        "icon": "\u2014",
-        "reason": ""
-      }
-    },
-    {
       "ticker": "MMM",
       "company": "3M",
-      "price": 143.87,
-      "ma200": 157.16,
-      "vs200dPct": -8.5,
-      "rsi": 39.4,
+      "price": 146.52,
+      "ma200": 157.12,
+      "vs200dPct": -6.7,
+      "rsi": 45.9,
       "rsiLabel": {
-        "label": "39.4",
-        "level": "weak"
+        "label": "45.9",
+        "level": "neutral"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": -0.15,
-        "vol": 2991000
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": 0.18,
         "vol": 3726200
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": -1.48,
-        "vol": 3756500
+        "vol": 3757600
       },
-      "totalMove": -1.45,
-      "volVsAvg": 6.1,
-      "volSignal": "normal",
-      "avgVolume20d": 3540100,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": 1.84,
+        "vol": 5017900
+      },
+      "totalMove": 0.54,
+      "volVsAvg": 36.7,
+      "volSignal": "heavy",
+      "avgVolume20d": 3670065,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -3249,73 +3169,73 @@
     {
       "ticker": "MO",
       "company": "Altria",
-      "price": 68.2,
-      "ma200": 61.44,
-      "vs200dPct": 11.0,
-      "rsi": 61.5,
+      "price": 72.65,
+      "ma200": 61.52,
+      "vs200dPct": 18.1,
+      "rsi": 73.7,
       "rsiLabel": {
-        "label": "61.5",
-        "level": "strong"
+        "label": "73.7",
+        "level": "overbought"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": -1.32,
-        "vol": 7924900
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": 2.73,
         "vol": 10257600
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": 0.59,
-        "vol": 12053600
+        "vol": 12059600
       },
-      "totalMove": 2.0,
-      "volVsAvg": 44.1,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": 6.52,
+        "vol": 24764200
+      },
+      "totalMove": 9.84,
+      "volVsAvg": 174.3,
       "volSignal": "heavy",
-      "avgVolume20d": 8364550,
+      "avgVolume20d": 9027295,
       "allDown": false,
-      "allUp": false,
+      "allUp": true,
       "signal": {
-        "name": "\u2014",
-        "strength": 0,
-        "color": "muted",
-        "icon": "\u2014",
-        "reason": ""
+        "name": "Strong Peak",
+        "strength": 3,
+        "color": "red",
+        "icon": "\ud83d\udd34",
+        "reason": "Up streak + heavy volume + RSI overbought + extended above 200d MA. High risk of reversal."
       }
     },
     {
       "ticker": "MRK",
       "company": "Merck",
-      "price": 110.95,
-      "ma200": 98.45,
-      "vs200dPct": 12.7,
-      "rsi": 37.9,
+      "price": 109.18,
+      "ma200": 98.6,
+      "vs200dPct": 10.7,
+      "rsi": 34.9,
       "rsiLabel": {
-        "label": "37.9",
+        "label": "34.9",
         "level": "weak"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": -1.49,
-        "vol": 9133600
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": -0.18,
         "vol": 7157600
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": 0.84,
-        "vol": 9765600
+        "vol": 9769900
       },
-      "totalMove": -0.84,
-      "volVsAvg": 9.2,
-      "volSignal": "normal",
-      "avgVolume20d": 8943470,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": -1.6,
+        "vol": 17100600
+      },
+      "totalMove": -0.94,
+      "volVsAvg": 80.4,
+      "volSignal": "heavy",
+      "avgVolume20d": 9481130,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -3329,33 +3249,33 @@
     {
       "ticker": "MS",
       "company": "Morgan Stanley",
-      "price": 187.08,
-      "ma200": 164.22,
-      "vs200dPct": 13.9,
-      "rsi": 60.9,
+      "price": 190.59,
+      "ma200": 163.61,
+      "vs200dPct": 16.5,
+      "rsi": 65.9,
       "rsiLabel": {
-        "label": "60.9",
+        "label": "65.9",
         "level": "strong"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": 1.12,
-        "vol": 4163600
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": 0.09,
         "vol": 4107100
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": -1.72,
-        "vol": 5103600
+        "vol": 5107600
       },
-      "totalMove": -0.51,
-      "volVsAvg": -12.3,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": 2.42,
+        "vol": 5662700
+      },
+      "totalMove": 0.8,
+      "volVsAvg": -1.4,
       "volSignal": "normal",
-      "avgVolume20d": 5816665,
+      "avgVolume20d": 5744150,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -3369,33 +3289,33 @@
     {
       "ticker": "MSFT",
       "company": "Microsoft",
-      "price": 424.46,
-      "ma200": 467.55,
-      "vs200dPct": -9.2,
-      "rsi": 61.8,
+      "price": 407.78,
+      "ma200": 467.08,
+      "vs200dPct": -12.7,
+      "rsi": 51.1,
       "rsiLabel": {
-        "label": "61.8",
-        "level": "strong"
+        "label": "51.1",
+        "level": "neutral"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": 0.05,
-        "vol": 30867300
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": 1.04,
         "vol": 30438100
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": -1.12,
-        "vol": 36777600
+        "vol": 38288300
       },
-      "totalMove": -0.03,
-      "volVsAvg": 14.2,
-      "volSignal": "normal",
-      "avgVolume20d": 32204950,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": -3.93,
+        "vol": 70783800
+      },
+      "totalMove": -4.0,
+      "volVsAvg": 106.1,
+      "volSignal": "heavy",
+      "avgVolume20d": 34348815,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -3409,33 +3329,33 @@
     {
       "ticker": "NEE",
       "company": "NextEra Energy",
-      "price": 94.17,
-      "ma200": 82.24,
-      "vs200dPct": 14.5,
-      "rsi": 54.1,
+      "price": 97.88,
+      "ma200": 82.36,
+      "vs200dPct": 18.8,
+      "rsi": 63.2,
       "rsiLabel": {
-        "label": "54.1",
-        "level": "neutral"
+        "label": "63.2",
+        "level": "strong"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": -0.47,
-        "vol": 7773800
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": 1.77,
         "vol": 7245100
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": -2.42,
-        "vol": 9083000
+        "vol": 9091700
       },
-      "totalMove": -1.13,
-      "volVsAvg": 9.1,
-      "volSignal": "normal",
-      "avgVolume20d": 8321875,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": 3.94,
+        "vol": 17547800
+      },
+      "totalMove": 3.29,
+      "volVsAvg": 99.1,
+      "volSignal": "heavy",
+      "avgVolume20d": 8811730,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -3449,33 +3369,33 @@
     {
       "ticker": "NFLX",
       "company": "Netflix",
-      "price": 92.12,
-      "ma200": 104.49,
-      "vs200dPct": -11.8,
-      "rsi": 41.0,
+      "price": 93.61,
+      "ma200": 104.33,
+      "vs200dPct": -10.3,
+      "rsi": 45.2,
       "rsiLabel": {
-        "label": "41.0",
-        "level": "weak"
+        "label": "45.2",
+        "level": "neutral"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": -1.16,
-        "vol": 29707400
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": 0.98,
         "vol": 33418100
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": -0.16,
-        "vol": 25982500
+        "vol": 26122100
       },
-      "totalMove": -0.34,
-      "volVsAvg": -37.7,
-      "volSignal": "light",
-      "avgVolume20d": 41716240,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": 1.62,
+        "vol": 40818400
+      },
+      "totalMove": 2.44,
+      "volVsAvg": -3.4,
+      "volSignal": "normal",
+      "avgVolume20d": 42242175,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -3489,113 +3409,113 @@
     {
       "ticker": "NKE",
       "company": "Nike",
-      "price": 44.39,
-      "ma200": 63.67,
-      "vs200dPct": -30.3,
-      "rsi": 35.1,
+      "price": 44.36,
+      "ma200": 63.54,
+      "vs200dPct": -30.2,
+      "rsi": 35.0,
       "rsiLabel": {
-        "label": "35.1",
+        "label": "35.0",
         "level": "weak"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": 1.01,
-        "vol": 14583100
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": -0.24,
         "vol": 12426000
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": -1.42,
-        "vol": 13261200
+        "vol": 13329700
       },
-      "totalMove": -0.66,
-      "volVsAvg": -54.6,
-      "volSignal": "light",
-      "avgVolume20d": 29179605,
-      "allDown": false,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": -0.07,
+        "vol": 21651600
+      },
+      "totalMove": -1.73,
+      "volVsAvg": -11.8,
+      "volSignal": "normal",
+      "avgVolume20d": 24554325,
+      "allDown": true,
       "allUp": false,
       "signal": {
-        "name": "\u2014",
-        "strength": 0,
+        "name": "Downtrend",
+        "strength": 1,
         "color": "muted",
         "icon": "\u2014",
-        "reason": ""
+        "reason": "Down streak with normal volume. No reversal signal yet."
       }
     },
     {
       "ticker": "NVDA",
       "company": "Nvidia",
-      "price": 209.25,
-      "ma200": 183.56,
-      "vs200dPct": 14.0,
-      "rsi": 65.4,
+      "price": 199.57,
+      "ma200": 183.71,
+      "vs200dPct": 8.6,
+      "rsi": 54.1,
       "rsiLabel": {
-        "label": "65.4",
-        "level": "strong"
+        "label": "54.1",
+        "level": "neutral"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": 4.0,
-        "vol": 187172400
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": -1.59,
         "vol": 180275400
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": -1.84,
-        "vol": 121737500
+        "vol": 123711800
       },
-      "totalMove": 0.58,
-      "volVsAvg": -16.1,
-      "volSignal": "normal",
-      "avgVolume20d": 145116760,
-      "allDown": false,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": -4.63,
+        "vol": 224690300
+      },
+      "totalMove": -8.05,
+      "volVsAvg": 51.8,
+      "volSignal": "heavy",
+      "avgVolume20d": 148043390,
+      "allDown": true,
       "allUp": false,
       "signal": {
-        "name": "\u2014",
-        "strength": 0,
-        "color": "muted",
-        "icon": "\u2014",
-        "reason": ""
+        "name": "Breakdown",
+        "strength": 3,
+        "color": "red",
+        "icon": "\ud83d\udd34",
+        "reason": "Down streak + heavy volume = institutional selling. Floor may be lower."
       }
     },
     {
       "ticker": "ORCL",
       "company": "Oracle",
-      "price": 163.83,
-      "ma200": 211.81,
-      "vs200dPct": -22.7,
-      "rsi": 50.8,
+      "price": 161.39,
+      "ma200": 211.45,
+      "vs200dPct": -23.7,
+      "rsi": 48.8,
       "rsiLabel": {
-        "label": "50.8",
+        "label": "48.8",
         "level": "neutral"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": -0.18,
-        "vol": 21616600
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": -4.05,
         "vol": 33716500
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": -1.28,
-        "vol": 20395600
+        "vol": 20587500
       },
-      "totalMove": -5.52,
-      "volVsAvg": -35.3,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": -1.49,
+        "vol": 20968900
+      },
+      "totalMove": -6.82,
+      "volVsAvg": -33.5,
       "volSignal": "light",
-      "avgVolume20d": 31515265,
+      "avgVolume20d": 31548510,
       "allDown": true,
       "allUp": false,
       "signal": {
@@ -3609,73 +3529,73 @@
     {
       "ticker": "OXY",
       "company": "Occidental Petroleum",
-      "price": 60.76,
-      "ma200": 46.62,
-      "vs200dPct": 30.3,
-      "rsi": 59.5,
+      "price": 60.58,
+      "ma200": 46.72,
+      "vs200dPct": 29.7,
+      "rsi": 58.8,
       "rsiLabel": {
-        "label": "59.5",
+        "label": "58.8",
         "level": "strong"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": 0.26,
-        "vol": 7552000
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": 2.34,
         "vol": 12734600
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": 3.67,
-        "vol": 13750600
+        "vol": 13771800
       },
-      "totalMove": 6.27,
-      "volVsAvg": -6.1,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": -0.3,
+        "vol": 12963700
+      },
+      "totalMove": 5.71,
+      "volVsAvg": -6.6,
       "volSignal": "normal",
-      "avgVolume20d": 14649435,
+      "avgVolume20d": 13882205,
       "allDown": false,
-      "allUp": true,
+      "allUp": false,
       "signal": {
-        "name": "Uptrend",
-        "strength": 1,
+        "name": "\u2014",
+        "strength": 0,
         "color": "muted",
         "icon": "\u2014",
-        "reason": "Up streak with normal volume. No strong signal yet."
+        "reason": ""
       }
     },
     {
       "ticker": "PEP",
       "company": "PepsiCo",
-      "price": 155.29,
-      "ma200": 147.71,
-      "vs200dPct": 5.1,
-      "rsi": 48.6,
+      "price": 158.49,
+      "ma200": 147.85,
+      "vs200dPct": 7.2,
+      "rsi": 56.0,
       "rsiLabel": {
-        "label": "48.6",
-        "level": "neutral"
+        "label": "56.0",
+        "level": "strong"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": -0.86,
-        "vol": 4077000
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": 1.42,
         "vol": 5174300
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": -0.64,
-        "vol": 4043400
+        "vol": 4047600
       },
-      "totalMove": -0.08,
-      "volVsAvg": -29.9,
-      "volSignal": "light",
-      "avgVolume20d": 5765200,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": 2.06,
+        "vol": 7065100
+      },
+      "totalMove": 2.84,
+      "volVsAvg": 20.8,
+      "volSignal": "heavy",
+      "avgVolume20d": 5848035,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -3689,73 +3609,73 @@
     {
       "ticker": "PFE",
       "company": "Pfizer",
-      "price": 26.26,
-      "ma200": 25.2,
-      "vs200dPct": 4.2,
-      "rsi": 39.1,
+      "price": 26.7,
+      "ma200": 25.22,
+      "vs200dPct": 5.9,
+      "rsi": 45.5,
       "rsiLabel": {
-        "label": "39.1",
-        "level": "weak"
+        "label": "45.5",
+        "level": "neutral"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": -0.78,
-        "vol": 34764200
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": -1.16,
         "vol": 58079000
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": -0.83,
-        "vol": 29904300
+        "vol": 29969700
       },
-      "totalMove": -2.77,
-      "volVsAvg": -12.1,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": 1.68,
+        "vol": 39041000
+      },
+      "totalMove": -0.31,
+      "volVsAvg": 15.7,
       "volSignal": "normal",
-      "avgVolume20d": 34002830,
-      "allDown": true,
+      "avgVolume20d": 33747725,
+      "allDown": false,
       "allUp": false,
       "signal": {
-        "name": "Downtrend",
-        "strength": 1,
+        "name": "\u2014",
+        "strength": 0,
         "color": "muted",
         "icon": "\u2014",
-        "reason": "Down streak with normal volume. No reversal signal yet."
+        "reason": ""
       }
     },
     {
       "ticker": "PG",
       "company": "Procter & Gamble",
-      "price": 146.46,
+      "price": 147.09,
       "ma200": 148.54,
-      "vs200dPct": -1.4,
-      "rsi": 52.2,
+      "vs200dPct": -1.0,
+      "rsi": 53.5,
       "rsiLabel": {
-        "label": "52.2",
+        "label": "53.5",
         "level": "neutral"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": 0.15,
-        "vol": 9166400
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": 0.52,
         "vol": 7965700
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": -1.82,
-        "vol": 8997800
+        "vol": 9002400
       },
-      "totalMove": -1.15,
-      "volVsAvg": 4.3,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": 0.43,
+        "vol": 9490700
+      },
+      "totalMove": -0.87,
+      "volVsAvg": 9.2,
       "volSignal": "normal",
-      "avgVolume20d": 8623310,
+      "avgVolume20d": 8694990,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -3769,33 +3689,33 @@
     {
       "ticker": "PM",
       "company": "Philip Morris",
-      "price": 162.71,
-      "ma200": 161.89,
-      "vs200dPct": 0.5,
-      "rsi": 49.7,
+      "price": 165.07,
+      "ma200": 161.84,
+      "vs200dPct": 2.0,
+      "rsi": 52.4,
       "rsiLabel": {
-        "label": "49.7",
+        "label": "52.4",
         "level": "neutral"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": -2.01,
-        "vol": 4617200
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": 3.1,
         "vol": 4067100
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": -1.92,
-        "vol": 3777300
+        "vol": 3779300
       },
-      "totalMove": -0.83,
-      "volVsAvg": -23.4,
-      "volSignal": "light",
-      "avgVolume20d": 4930560,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": 1.45,
+        "vol": 4813500
+      },
+      "totalMove": 2.63,
+      "volVsAvg": 3.2,
+      "volSignal": "normal",
+      "avgVolume20d": 4665055,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -3809,33 +3729,33 @@
     {
       "ticker": "PYPL",
       "company": "PayPal",
-      "price": 50.94,
-      "ma200": 59.29,
-      "vs200dPct": -14.1,
-      "rsi": 62.5,
+      "price": 50.14,
+      "ma200": 59.18,
+      "vs200dPct": -15.3,
+      "rsi": 58.1,
       "rsiLabel": {
-        "label": "62.5",
+        "label": "58.1",
         "level": "strong"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": -1.41,
-        "vol": 7992800
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": -0.26,
         "vol": 9761400
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": 2.62,
-        "vol": 18518800
+        "vol": 18531700
       },
-      "totalMove": 0.95,
-      "volVsAvg": 46.0,
-      "volSignal": "heavy",
-      "avgVolume20d": 12687895,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": -1.57,
+        "vol": 12509500
+      },
+      "totalMove": 0.79,
+      "volVsAvg": -0.3,
+      "volSignal": "normal",
+      "avgVolume20d": 12548020,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -3849,33 +3769,33 @@
     {
       "ticker": "QCOM",
       "company": "Qualcomm",
-      "price": 156.0,
-      "ma200": 155.08,
-      "vs200dPct": 0.6,
-      "rsi": 78.4,
+      "price": 179.58,
+      "ma200": 155.22,
+      "vs200dPct": 15.7,
+      "rsi": 87.5,
       "rsiLabel": {
-        "label": "78.4",
+        "label": "87.5",
         "level": "overbought"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": 0.95,
-        "vol": 41744000
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": -0.17,
         "vol": 22921300
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": 4.0,
-        "vol": 36619400
+        "vol": 37571200
       },
-      "totalMove": 4.77,
-      "volVsAvg": 161.7,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": 15.12,
+        "vol": 61082400
+      },
+      "totalMove": 18.94,
+      "volVsAvg": 268.3,
       "volSignal": "heavy",
-      "avgVolume20d": 13994365,
+      "avgVolume20d": 16585540,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -3889,33 +3809,33 @@
     {
       "ticker": "RTX",
       "company": "RTX Corp",
-      "price": 172.79,
-      "ma200": 177.67,
-      "vs200dPct": -2.7,
-      "rsi": 26.2,
+      "price": 176.07,
+      "ma200": 177.82,
+      "vs200dPct": -1.0,
+      "rsi": 32.4,
       "rsiLabel": {
-        "label": "26.2",
-        "level": "oversold"
+        "label": "32.4",
+        "level": "weak"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": -0.5,
-        "vol": 6511700
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": 1.33,
         "vol": 6115800
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": -1.65,
-        "vol": 5033300
+        "vol": 5037900
       },
-      "totalMove": -0.82,
-      "volVsAvg": 1.3,
-      "volSignal": "normal",
-      "avgVolume20d": 4968590,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": 1.9,
+        "vol": 6221900
+      },
+      "totalMove": 1.58,
+      "volVsAvg": 22.6,
+      "volSignal": "heavy",
+      "avgVolume20d": 5073555,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -3929,33 +3849,33 @@
     {
       "ticker": "SBUX",
       "company": "Starbucks",
-      "price": 105.5,
-      "ma200": 89.23,
-      "vs200dPct": 18.2,
-      "rsi": 69.5,
+      "price": 105.33,
+      "ma200": 89.3,
+      "vs200dPct": 18.0,
+      "rsi": 68.9,
       "rsiLabel": {
-        "label": "69.5",
+        "label": "68.9",
         "level": "strong"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": -0.79,
-        "vol": 5311600
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": -0.62,
         "vol": 10383500
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": 8.45,
-        "vol": 25430000
+        "vol": 25449200
       },
-      "totalMove": 7.04,
-      "volVsAvg": 249.4,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": -0.16,
+        "vol": 9484100
+      },
+      "totalMove": 7.67,
+      "volVsAvg": 29.0,
       "volSignal": "heavy",
-      "avgVolume20d": 7279010,
+      "avgVolume20d": 7351950,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -3969,113 +3889,113 @@
     {
       "ticker": "SCHW",
       "company": "Charles Schwab",
-      "price": 91.16,
-      "ma200": 95.46,
-      "vs200dPct": -4.5,
-      "rsi": 44.4,
+      "price": 91.64,
+      "ma200": 95.47,
+      "vs200dPct": -4.0,
+      "rsi": 45.9,
       "rsiLabel": {
-        "label": "44.4",
-        "level": "weak"
+        "label": "45.9",
+        "level": "neutral"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": 2.55,
-        "vol": 8399200
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": 0.08,
         "vol": 9259100
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": 0.36,
-        "vol": 8323000
+        "vol": 8328300
       },
-      "totalMove": 2.99,
-      "volVsAvg": -31.2,
-      "volSignal": "light",
-      "avgVolume20d": 12096950,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": 0.53,
+        "vol": 12559300
+      },
+      "totalMove": 0.97,
+      "volVsAvg": 5.3,
+      "volSignal": "normal",
+      "avgVolume20d": 11925745,
       "allDown": false,
       "allUp": true,
       "signal": {
-        "name": "Weak Rally",
+        "name": "Uptrend",
         "strength": 1,
         "color": "muted",
         "icon": "\u2014",
-        "reason": "Up streak on light volume. Low conviction \u2014 may stall or reverse."
+        "reason": "Up streak with normal volume. No strong signal yet."
       }
     },
     {
       "ticker": "SHW",
       "company": "Sherwin-Williams",
-      "price": 317.85,
-      "ma200": 341.21,
-      "vs200dPct": -6.8,
-      "rsi": 39.3,
+      "price": 321.61,
+      "ma200": 341.13,
+      "vs200dPct": -5.7,
+      "rsi": 42.8,
       "rsiLabel": {
-        "label": "39.3",
+        "label": "42.8",
         "level": "weak"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": -0.47,
-        "vol": 1836900
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": -3.52,
         "vol": 2439800
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": -1.98,
-        "vol": 2094000
+        "vol": 2095400
       },
-      "totalMove": -5.97,
-      "volVsAvg": 27.9,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": 1.18,
+        "vol": 2165700
+      },
+      "totalMove": -4.32,
+      "volVsAvg": 31.0,
       "volSignal": "heavy",
-      "avgVolume20d": 1637220,
-      "allDown": true,
+      "avgVolume20d": 1653780,
+      "allDown": false,
       "allUp": false,
       "signal": {
-        "name": "Breakdown",
-        "strength": 3,
-        "color": "red",
-        "icon": "\ud83d\udd34",
-        "reason": "Down streak + heavy volume = institutional selling. Floor may be lower."
+        "name": "\u2014",
+        "strength": 0,
+        "color": "muted",
+        "icon": "\u2014",
+        "reason": ""
       }
     },
     {
       "ticker": "SO",
       "company": "Southern Company",
-      "price": 93.51,
-      "ma200": 91.72,
-      "vs200dPct": 2.0,
-      "rsi": 43.6,
+      "price": 96.7,
+      "ma200": 91.75,
+      "vs200dPct": 5.4,
+      "rsi": 57.9,
       "rsiLabel": {
-        "label": "43.6",
-        "level": "weak"
+        "label": "57.9",
+        "level": "strong"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": 0.3,
-        "vol": 4224000
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": 0.68,
         "vol": 3949900
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": -0.95,
-        "vol": 4645900
+        "vol": 4647500
       },
-      "totalMove": 0.03,
-      "volVsAvg": 13.5,
-      "volSignal": "normal",
-      "avgVolume20d": 4092775,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": 3.41,
+        "vol": 8323500
+      },
+      "totalMove": 3.14,
+      "volVsAvg": 95.2,
+      "volSignal": "heavy",
+      "avgVolume20d": 4263115,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -4089,33 +4009,33 @@
     {
       "ticker": "SPG",
       "company": "Simon Property",
-      "price": 200.09,
-      "ma200": 180.91,
-      "vs200dPct": 10.6,
-      "rsi": 54.1,
+      "price": 203.71,
+      "ma200": 181.15,
+      "vs200dPct": 12.5,
+      "rsi": 59.6,
       "rsiLabel": {
-        "label": "54.1",
-        "level": "neutral"
+        "label": "59.6",
+        "level": "strong"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": 0.06,
-        "vol": 1399000
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": 0.73,
         "vol": 1410100
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": -1.31,
-        "vol": 1049300
+        "vol": 1049800
       },
-      "totalMove": -0.52,
-      "volVsAvg": -19.4,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": 1.81,
+        "vol": 1394400
+      },
+      "totalMove": 1.22,
+      "volVsAvg": 9.7,
       "volSignal": "normal",
-      "avgVolume20d": 1301300,
+      "avgVolume20d": 1271610,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -4129,33 +4049,33 @@
     {
       "ticker": "T",
       "company": "AT&T",
-      "price": 25.75,
+      "price": 26.13,
       "ma200": 26.19,
-      "vs200dPct": -1.7,
-      "rsi": 41.1,
+      "vs200dPct": -0.2,
+      "rsi": 45.4,
       "rsiLabel": {
-        "label": "41.1",
-        "level": "weak"
+        "label": "45.4",
+        "level": "neutral"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": -2.6,
-        "vol": 32633700
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": 2.12,
         "vol": 30377600
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": -1.19,
-        "vol": 22755600
+        "vol": 22790600
       },
-      "totalMove": -1.67,
-      "volVsAvg": -39.1,
-      "volSignal": "light",
-      "avgVolume20d": 37377255,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": 1.48,
+        "vol": 44636700
+      },
+      "totalMove": 2.4,
+      "volVsAvg": 19.2,
+      "volSignal": "normal",
+      "avgVolume20d": 37455215,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -4169,33 +4089,33 @@
     {
       "ticker": "TGT",
       "company": "Target",
-      "price": 127.87,
-      "ma200": 101.9,
-      "vs200dPct": 25.5,
-      "rsi": 58.6,
+      "price": 129.75,
+      "ma200": 102.05,
+      "vs200dPct": 27.1,
+      "rsi": 61.9,
       "rsiLabel": {
-        "label": "58.6",
+        "label": "61.9",
         "level": "strong"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": 0.36,
-        "vol": 5824300
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": -1.99,
         "vol": 3728100
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": 0.57,
-        "vol": 3759100
+        "vol": 3760100
       },
-      "totalMove": -1.06,
-      "volVsAvg": -18.3,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": 1.47,
+        "vol": 5435800
+      },
+      "totalMove": 0.06,
+      "volVsAvg": 16.7,
       "volSignal": "normal",
-      "avgVolume20d": 4599365,
+      "avgVolume20d": 4658675,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -4209,33 +4129,33 @@
     {
       "ticker": "TMO",
       "company": "Thermo Fisher",
-      "price": 466.26,
-      "ma200": 525.45,
-      "vs200dPct": -11.3,
-      "rsi": 36.5,
+      "price": 478.96,
+      "ma200": 525.76,
+      "vs200dPct": -8.9,
+      "rsi": 43.2,
       "rsiLabel": {
-        "label": "36.5",
+        "label": "43.2",
         "level": "weak"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": -0.36,
-        "vol": 2280000
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": 0.47,
         "vol": 2243000
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": -0.84,
-        "vol": 1386500
+        "vol": 1387200
       },
-      "totalMove": -0.73,
-      "volVsAvg": -30.2,
-      "volSignal": "light",
-      "avgVolume20d": 1987095,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": 2.72,
+        "vol": 2161200
+      },
+      "totalMove": 2.35,
+      "volVsAvg": 7.0,
+      "volSignal": "normal",
+      "avgVolume20d": 2019935,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -4249,33 +4169,33 @@
     {
       "ticker": "TRV",
       "company": "Travelers",
-      "price": 302.25,
-      "ma200": 281.91,
-      "vs200dPct": 7.2,
-      "rsi": 52.2,
+      "price": 305.14,
+      "ma200": 282.19,
+      "vs200dPct": 8.1,
+      "rsi": 55.5,
       "rsiLabel": {
-        "label": "52.2",
-        "level": "neutral"
+        "label": "55.5",
+        "level": "strong"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": 0.33,
-        "vol": 1422000
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": 2.07,
         "vol": 1200300
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": -2.51,
         "vol": 1826200
       },
-      "totalMove": -0.11,
-      "volVsAvg": 27.3,
-      "volSignal": "heavy",
-      "avgVolume20d": 1434530,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": 0.96,
+        "vol": 1560200
+      },
+      "totalMove": 0.52,
+      "volVsAvg": 8.4,
+      "volSignal": "normal",
+      "avgVolume20d": 1439345,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -4289,33 +4209,33 @@
     {
       "ticker": "TXN",
       "company": "Texas Instruments",
-      "price": 269.22,
-      "ma200": 190.83,
-      "vs200dPct": 41.1,
-      "rsi": 74.0,
+      "price": 281.08,
+      "ma200": 191.17,
+      "vs200dPct": 47.0,
+      "rsi": 77.3,
       "rsiLabel": {
-        "label": "74.0",
+        "label": "77.3",
         "level": "overbought"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": -2.76,
-        "vol": 9962700
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": -1.67,
         "vol": 8369400
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": 1.59,
-        "vol": 7815800
+        "vol": 7821400
       },
-      "totalMove": -2.83,
-      "volVsAvg": 1.8,
-      "volSignal": "normal",
-      "avgVolume20d": 7675635,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": 4.41,
+        "vol": 11063500
+      },
+      "totalMove": 4.33,
+      "volVsAvg": 39.0,
+      "volSignal": "heavy",
+      "avgVolume20d": 7957490,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -4329,33 +4249,33 @@
     {
       "ticker": "UNH",
       "company": "UnitedHealth",
-      "price": 370.74,
-      "ma200": 311.11,
-      "vs200dPct": 19.2,
-      "rsi": 85.4,
+      "price": 370.48,
+      "ma200": 311.53,
+      "vs200dPct": 18.9,
+      "rsi": 85.1,
       "rsiLabel": {
-        "label": "85.4",
+        "label": "85.1",
         "level": "overbought"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": -0.06,
-        "vol": 7256100
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": 3.41,
         "vol": 10604100
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": 1.08,
-        "vol": 9032700
+        "vol": 9046600
+      },
+      "day3": {
+        "date": "2026-04-30",
+        "pct": -0.07,
+        "vol": 6874300
       },
       "totalMove": 4.42,
-      "volVsAvg": -2.3,
-      "volSignal": "normal",
-      "avgVolume20d": 9241690,
+      "volVsAvg": -26.2,
+      "volSignal": "light",
+      "avgVolume20d": 9312430,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -4369,33 +4289,33 @@
     {
       "ticker": "UNP",
       "company": "Union Pacific",
-      "price": 264.78,
-      "ma200": 232.8,
-      "vs200dPct": 13.7,
-      "rsi": 64.4,
+      "price": 269.48,
+      "ma200": 233.01,
+      "vs200dPct": 15.7,
+      "rsi": 68.5,
       "rsiLabel": {
-        "label": "64.4",
+        "label": "68.5",
         "level": "strong"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": 0.08,
-        "vol": 2829300
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": -0.44,
         "vol": 2703900
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": -1.11,
-        "vol": 3243000
+        "vol": 3243900
       },
-      "totalMove": -1.46,
-      "volVsAvg": 4.1,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": 1.78,
+        "vol": 3317000
+      },
+      "totalMove": 0.23,
+      "volVsAvg": 5.0,
       "volSignal": "normal",
-      "avgVolume20d": 3115645,
+      "avgVolume20d": 3159315,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -4409,33 +4329,33 @@
     {
       "ticker": "UPS",
       "company": "UPS",
-      "price": 106.61,
-      "ma200": 95.51,
-      "vs200dPct": 11.6,
-      "rsi": 57.3,
+      "price": 108.8,
+      "ma200": 95.58,
+      "vs200dPct": 13.8,
+      "rsi": 61.7,
       "rsiLabel": {
-        "label": "57.3",
+        "label": "61.7",
         "level": "strong"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": 1.14,
-        "vol": 6570600
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": -3.97,
         "vol": 12540100
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": 2.57,
-        "vol": 6213300
+        "vol": 6216600
       },
-      "totalMove": -0.26,
-      "volVsAvg": 20.8,
-      "volSignal": "heavy",
-      "avgVolume20d": 5144140,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": 2.05,
+        "vol": 6089700
+      },
+      "totalMove": 0.65,
+      "volVsAvg": 17.3,
+      "volSignal": "normal",
+      "avgVolume20d": 5193710,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -4449,33 +4369,33 @@
     {
       "ticker": "USB",
       "company": "U.S. Bancorp",
-      "price": 56.17,
-      "ma200": 50.2,
-      "vs200dPct": 11.9,
-      "rsi": 58.0,
+      "price": 56.66,
+      "ma200": 50.26,
+      "vs200dPct": 12.7,
+      "rsi": 60.9,
       "rsiLabel": {
-        "label": "58.0",
+        "label": "60.9",
         "level": "strong"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": 0.7,
-        "vol": 6763700
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": 0.43,
         "vol": 7394700
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": -0.07,
-        "vol": 9613300
+        "vol": 9615600
       },
-      "totalMove": 1.06,
-      "volVsAvg": 8.9,
-      "volSignal": "normal",
-      "avgVolume20d": 8825735,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": 0.87,
+        "vol": 10918700
+      },
+      "totalMove": 1.23,
+      "volVsAvg": 21.7,
+      "volSignal": "heavy",
+      "avgVolume20d": 8972500,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -4489,33 +4409,33 @@
     {
       "ticker": "V",
       "company": "Visa",
-      "price": 334.86,
-      "ma200": 332.05,
-      "vs200dPct": 0.8,
-      "rsi": 72.4,
+      "price": 329.84,
+      "ma200": 331.97,
+      "vs200dPct": -0.6,
+      "rsi": 66.0,
       "rsiLabel": {
-        "label": "72.4",
-        "level": "overbought"
+        "label": "66.0",
+        "level": "strong"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": 0.07,
-        "vol": 6261500
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": -0.11,
         "vol": 8839900
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": 8.26,
-        "vol": 16648700
+        "vol": 16658600
       },
-      "totalMove": 8.23,
-      "volVsAvg": 151.4,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": -1.5,
+        "vol": 11237900
+      },
+      "totalMove": 6.65,
+      "volVsAvg": 65.3,
       "volSignal": "heavy",
-      "avgVolume20d": 6623465,
+      "avgVolume20d": 6800475,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -4529,33 +4449,33 @@
     {
       "ticker": "VZ",
       "company": "Verizon",
-      "price": 46.61,
-      "ma200": 42.49,
-      "vs200dPct": 9.7,
-      "rsi": 45.5,
+      "price": 48.03,
+      "ma200": 42.53,
+      "vs200dPct": 12.9,
+      "rsi": 55.0,
       "rsiLabel": {
-        "label": "45.5",
+        "label": "55.0",
         "level": "neutral"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": 1.55,
-        "vol": 37920100
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": 0.3,
         "vol": 28369800
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": -1.33,
-        "vol": 24177900
+        "vol": 24195700
       },
-      "totalMove": 0.52,
-      "volVsAvg": -7.6,
-      "volSignal": "normal",
-      "avgVolume20d": 26163885,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": 3.05,
+        "vol": 34705000
+      },
+      "totalMove": 2.01,
+      "volVsAvg": 31.1,
+      "volSignal": "heavy",
+      "avgVolume20d": 26480080,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -4569,73 +4489,73 @@
     {
       "ticker": "WFC",
       "company": "Wells Fargo",
-      "price": 81.51,
-      "ma200": 83.9,
-      "vs200dPct": -2.8,
-      "rsi": 50.7,
+      "price": 82.23,
+      "ma200": 83.93,
+      "vs200dPct": -2.0,
+      "rsi": 53.2,
       "rsiLabel": {
-        "label": "50.7",
+        "label": "53.2",
         "level": "neutral"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": 1.44,
-        "vol": 20114400
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": 1.17,
         "vol": 14826700
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": 0.01,
-        "vol": 19926000
+        "vol": 19930700
       },
-      "totalMove": 2.61,
-      "volVsAvg": 21.7,
-      "volSignal": "heavy",
-      "avgVolume20d": 16379125,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": 0.88,
+        "vol": 13535200
+      },
+      "totalMove": 2.06,
+      "volVsAvg": -17.0,
+      "volSignal": "normal",
+      "avgVolume20d": 16307150,
       "allDown": false,
       "allUp": true,
       "signal": {
-        "name": "Momentum",
+        "name": "Uptrend",
         "strength": 1,
-        "color": "green",
-        "icon": "\ud83d\udcc8",
-        "reason": "Up streak + heavy volume. Strong buying interest \u2014 RSI not yet overbought."
+        "color": "muted",
+        "icon": "\u2014",
+        "reason": "Up streak with normal volume. No strong signal yet."
       }
     },
     {
       "ticker": "WMT",
       "company": "Walmart",
-      "price": 128.01,
-      "ma200": 111.68,
-      "vs200dPct": 14.6,
-      "rsi": 53.6,
+      "price": 131.93,
+      "ma200": 111.87,
+      "vs200dPct": 17.9,
+      "rsi": 61.9,
       "rsiLabel": {
-        "label": "53.6",
-        "level": "neutral"
+        "label": "61.9",
+        "level": "strong"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": -1.79,
-        "vol": 17029500
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": 0.0,
         "vol": 16341800
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": 0.33,
-        "vol": 16511600
+        "vol": 16538800
       },
-      "totalMove": -1.46,
-      "volVsAvg": 0.1,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": 3.06,
+        "vol": 19860100
+      },
+      "totalMove": 3.39,
+      "volVsAvg": 19.4,
       "volSignal": "normal",
-      "avgVolume20d": 16493630,
+      "avgVolume20d": 16636010,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -4649,33 +4569,33 @@
     {
       "ticker": "XOM",
       "company": "ExxonMobil",
-      "price": 154.67,
-      "ma200": 126.31,
-      "vs200dPct": 22.5,
-      "rsi": 52.8,
+      "price": 154.33,
+      "ma200": 126.53,
+      "vs200dPct": 22.0,
+      "rsi": 52.2,
       "rsiLabel": {
-        "label": "52.8",
+        "label": "52.2",
         "level": "neutral"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": -0.48,
-        "vol": 13940800
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": 1.6,
         "vol": 15173600
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": 2.73,
-        "vol": 14635200
+        "vol": 14669100
       },
-      "totalMove": 3.85,
-      "volVsAvg": -26.5,
-      "volSignal": "light",
-      "avgVolume20d": 19908265,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": -0.22,
+        "vol": 22852600
+      },
+      "totalMove": 4.11,
+      "volVsAvg": 19.3,
+      "volSignal": "normal",
+      "avgVolume20d": 19156210,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -4689,33 +4609,33 @@
     {
       "ticker": "ZTS",
       "company": "Zoetis",
-      "price": 113.83,
-      "ma200": 131.44,
-      "vs200dPct": -13.4,
-      "rsi": 39.7,
+      "price": 114.97,
+      "ma200": 131.26,
+      "vs200dPct": -12.4,
+      "rsi": 42.8,
       "rsiLabel": {
-        "label": "39.7",
+        "label": "42.8",
         "level": "weak"
       },
       "day1": {
-        "date": "2026-04-27",
-        "pct": 0.86,
-        "vol": 3160300
-      },
-      "day2": {
         "date": "2026-04-28",
         "pct": -1.04,
         "vol": 2972500
       },
-      "day3": {
+      "day2": {
         "date": "2026-04-29",
         "pct": -2.42,
-        "vol": 3395200
+        "vol": 3395900
       },
-      "totalMove": -2.6,
-      "volVsAvg": 6.4,
-      "volSignal": "normal",
-      "avgVolume20d": 3190125,
+      "day3": {
+        "date": "2026-04-30",
+        "pct": 1.0,
+        "vol": 4297200
+      },
+      "totalMove": -2.45,
+      "volVsAvg": 30.4,
+      "volSignal": "heavy",
+      "avgVolume20d": 3294440,
       "allDown": false,
       "allUp": false,
       "signal": {

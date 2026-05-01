@@ -1,6 +1,6 @@
 {
-  "updated": "Apr 30, 2026 02:14 AM PST",
-  "updated_iso": "2026-04-30T02:14:22.799931-07:00",
+  "updated": "May 01, 2026 02:03 AM PST",
+  "updated_iso": "2026-05-01T02:03:30.435808-07:00",
   "buys": [
     {
       "ticker": "CHTR",
@@ -41,6 +41,16 @@
       "filing_url": "https://finance.yahoo.com/quote/NKE/insider-transactions/",
       "shares": 23660,
       "value": 1000000
+    },
+    {
+      "ticker": "CHTR",
+      "company": "Charter Communications",
+      "insider": "DAVIS WADE",
+      "role": "Director",
+      "date": "2026-04-28",
+      "filing_url": "https://finance.yahoo.com/quote/CHTR/insider-transactions/",
+      "shares": 5728,
+      "value": 995068
     },
     {
       "ticker": "ABT",
@@ -91,106 +101,6 @@
       "filing_url": "https://finance.yahoo.com/quote/NKE/insider-transactions/",
       "shares": 4000,
       "value": 173360
-    },
-    {
-      "ticker": "SPG",
-      "company": "Simon Property",
-      "insider": "LEIBOWITZ REUBEN S",
-      "role": "Director",
-      "date": "2026-03-31",
-      "filing_url": "https://finance.yahoo.com/quote/SPG/insider-transactions/",
-      "shares": 491,
-      "value": 90246
-    },
-    {
-      "ticker": "SPG",
-      "company": "Simon Property",
-      "insider": "GLASSCOCK LARRY C",
-      "role": "Director",
-      "date": "2026-03-31",
-      "filing_url": "https://finance.yahoo.com/quote/SPG/insider-transactions/",
-      "shares": 373,
-      "value": 68557
-    },
-    {
-      "ticker": "SPG",
-      "company": "Simon Property",
-      "insider": "SMITH DANIEL C.",
-      "role": "Director",
-      "date": "2026-03-31",
-      "filing_url": "https://finance.yahoo.com/quote/SPG/insider-transactions/",
-      "shares": 355,
-      "value": 65249
-    },
-    {
-      "ticker": "SPG",
-      "company": "Simon Property",
-      "insider": "RODKIN GARY M",
-      "role": "Director",
-      "date": "2026-03-31",
-      "filing_url": "https://finance.yahoo.com/quote/SPG/insider-transactions/",
-      "shares": 232,
-      "value": 42642
-    },
-    {
-      "ticker": "SPG",
-      "company": "Simon Property",
-      "insider": "AEPPEL GLYN F",
-      "role": "Director",
-      "date": "2026-03-31",
-      "filing_url": "https://finance.yahoo.com/quote/SPG/insider-transactions/",
-      "shares": 221,
-      "value": 40620
-    },
-    {
-      "ticker": "SPG",
-      "company": "Simon Property",
-      "insider": "SELIG STEFAN M",
-      "role": "Director",
-      "date": "2026-03-31",
-      "filing_url": "https://finance.yahoo.com/quote/SPG/insider-transactions/",
-      "shares": 206,
-      "value": 37863
-    },
-    {
-      "ticker": "SPG",
-      "company": "Simon Property",
-      "insider": "STEWART MARTA R",
-      "role": "Director",
-      "date": "2026-03-31",
-      "filing_url": "https://finance.yahoo.com/quote/SPG/insider-transactions/",
-      "shares": 196,
-      "value": 36025
-    },
-    {
-      "ticker": "SPG",
-      "company": "Simon Property",
-      "insider": "ROE PEGGY FANG",
-      "role": "Director",
-      "date": "2026-03-31",
-      "filing_url": "https://finance.yahoo.com/quote/SPG/insider-transactions/",
-      "shares": 81,
-      "value": 14888
-    },
-    {
-      "ticker": "SPG",
-      "company": "Simon Property",
-      "insider": "LEWIS RANDALL J.",
-      "role": "Director",
-      "date": "2026-03-31",
-      "filing_url": "https://finance.yahoo.com/quote/SPG/insider-transactions/",
-      "shares": 56,
-      "value": 10293
-    },
-    {
-      "ticker": "SPG",
-      "company": "Simon Property",
-      "insider": "JONES NINA P.",
-      "role": "Director",
-      "date": "2026-03-31",
-      "filing_url": "https://finance.yahoo.com/quote/SPG/insider-transactions/",
-      "shares": 36,
-      "value": 6617
     }
   ],
   "sells": [
@@ -219,6 +129,18 @@
       "value": 40002010
     },
     {
+      "ticker": "BLK",
+      "company": "BlackRock",
+      "insider": "FINK LAURENCE D",
+      "role": "Chief Executive Officer",
+      "date": "2026-04-28",
+      "filing_url": "https://finance.yahoo.com/quote/BLK/insider-transactions/",
+      "shares_sold": 33900,
+      "shares_remaining": 0,
+      "expiry": null,
+      "value": 35613717
+    },
+    {
       "ticker": "AAPL",
       "company": "Apple",
       "insider": "COOK TIMOTHY D",
@@ -229,18 +151,6 @@
       "shares_remaining": 0,
       "expiry": null,
       "value": 16512198
-    },
-    {
-      "ticker": "COP",
-      "company": "ConocoPhillips",
-      "insider": "LANCE RYAN MICHAEL",
-      "role": "Chief Executive Officer",
-      "date": "2026-03-31",
-      "filing_url": "https://finance.yahoo.com/quote/COP/insider-transactions/",
-      "shares_sold": 113221,
-      "shares_remaining": 0,
-      "expiry": null,
-      "value": 15025389
     },
     {
       "ticker": "TXN",
@@ -627,6 +537,18 @@
       "value": 2120758
     },
     {
+      "ticker": "TRV",
+      "company": "Travelers",
+      "insider": "KESS AVROHOM J",
+      "role": "Officer",
+      "date": "2026-04-28",
+      "filing_url": "https://finance.yahoo.com/quote/TRV/insider-transactions/",
+      "shares_sold": 6735,
+      "shares_remaining": 0,
+      "expiry": null,
+      "value": 2079640
+    },
+    {
       "ticker": "JPM",
       "company": "JPMorgan Chase",
       "insider": "LAKE MARIANNE",
@@ -759,6 +681,18 @@
       "value": 1572479
     },
     {
+      "ticker": "GILD",
+      "company": "Gilead Sciences",
+      "insider": "O'DAY DANIEL PATRICK",
+      "role": "Chief Executive Officer",
+      "date": "2026-04-28",
+      "filing_url": "https://finance.yahoo.com/quote/GILD/insider-transactions/",
+      "shares_sold": 10000,
+      "shares_remaining": 0,
+      "expiry": null,
+      "value": 1291608
+    },
+    {
       "ticker": "TXN",
       "company": "Texas Instruments",
       "insider": "PATSLEY PAMELA H",
@@ -805,6 +739,18 @@
       "shares_remaining": 0,
       "expiry": null,
       "value": 1044782
+    },
+    {
+      "ticker": "META",
+      "company": "Meta",
+      "insider": "OLIVAN JAVIER",
+      "role": "Chief Operating Officer",
+      "date": "2026-04-27",
+      "filing_url": "https://finance.yahoo.com/quote/META/insider-transactions/",
+      "shares_sold": 1555,
+      "shares_remaining": 0,
+      "expiry": null,
+      "value": 1043156
     },
     {
       "ticker": "GS",
@@ -939,6 +885,18 @@
       "value": 549400
     },
     {
+      "ticker": "TRV",
+      "company": "Travelers",
+      "insider": "HEYMAN WILLIAM H",
+      "role": "Officer",
+      "date": "2026-04-28",
+      "filing_url": "https://finance.yahoo.com/quote/TRV/insider-transactions/",
+      "shares_sold": 1557,
+      "shares_remaining": 0,
+      "expiry": null,
+      "value": 483670
+    },
+    {
       "ticker": "GILD",
       "company": "Gilead Sciences",
       "insider": "DICKINSON ANDREW D",
@@ -1059,6 +1017,18 @@
       "value": 284000
     },
     {
+      "ticker": "SCHW",
+      "company": "Charles Schwab",
+      "insider": "HERRINGER FRANK C",
+      "role": "Director",
+      "date": "2026-04-28",
+      "filing_url": "https://finance.yahoo.com/quote/SCHW/insider-transactions/",
+      "shares_sold": 2520,
+      "shares_remaining": 0,
+      "expiry": null,
+      "value": 228314
+    },
+    {
       "ticker": "AMZN",
       "company": "Amazon",
       "insider": "HERRINGTON DOUGLAS J",
@@ -1081,6 +1051,18 @@
       "shares_remaining": 0,
       "expiry": null,
       "value": 203985
+    },
+    {
+      "ticker": "TMO",
+      "company": "Thermo Fisher",
+      "insider": "PETTITI GIANLUCA",
+      "role": "President",
+      "date": "2026-04-27",
+      "filing_url": "https://finance.yahoo.com/quote/TMO/insider-transactions/",
+      "shares_sold": 400,
+      "shares_remaining": 0,
+      "expiry": null,
+      "value": 185064
     },
     {
       "ticker": "GOOG",
