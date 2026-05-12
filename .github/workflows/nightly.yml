@@ -10,6 +10,10 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
@@ -25,10 +29,11 @@ jobs:
         run: |
           git config user.name "samuelstocks-bot"
           git config user.email "actions@github.com"
-          git pull --rebase origin main
           git add data/insider.json data/key_dates.json data/price_movement.json
-          git diff --staged --quiet || git commit -m "data: nightly update"
-          git push
+          git diff --staged --quiet && echo "No changes to commit" && exit 0
+          git commit -m "data: nightly update"
+          git pull origin main --rebase --autostash
+          git push origin main
       - name: Send email digest
         env:
           SENDER_GMAIL: ${{ secrets.SENDER_GMAIL }}
