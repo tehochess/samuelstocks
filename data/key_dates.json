@@ -1,44 +1,8 @@
 {
-  "updated": "May 12, 2026 01:47 PM PST",
-  "updated_iso": "2026-05-12T13:47:49.461659-07:00",
+  "updated": "May 13, 2026 03:00 AM PST",
+  "updated_iso": "2026-05-13T03:00:02.451602-07:00",
   "hasUpcoming": true,
   "dividends": [
-    {
-      "ticker": "AWK",
-      "company": "American Water Works",
-      "exDate": "2026-05-12",
-      "exStatus": "upcoming",
-      "dividendRate": 3.58,
-      "dividendYield": 2.8,
-      "price": 127.65
-    },
-    {
-      "ticker": "F",
-      "company": "Ford",
-      "exDate": "2026-05-12",
-      "exStatus": "upcoming",
-      "dividendRate": 0.6,
-      "dividendYield": 5.0,
-      "price": 11.99
-    },
-    {
-      "ticker": "MET",
-      "company": "MetLife",
-      "exDate": "2026-05-12",
-      "exStatus": "upcoming",
-      "dividendRate": 2.37,
-      "dividendYield": 3.01,
-      "price": 78.64
-    },
-    {
-      "ticker": "V",
-      "company": "Visa",
-      "exDate": "2026-05-12",
-      "exStatus": "upcoming",
-      "dividendRate": 2.68,
-      "dividendYield": 0.82,
-      "price": 326.42
-    },
     {
       "ticker": "ED",
       "company": "Consolidated Edison",
@@ -643,6 +607,15 @@
       "price": 350.23
     },
     {
+      "ticker": "MAS",
+      "company": "Masco",
+      "exDate": "2026-05-22",
+      "exStatus": "upcoming",
+      "dividendRate": 1.28,
+      "dividendYield": 1.83,
+      "price": 69.8
+    },
+    {
       "ticker": "MCHP",
       "company": "Microchip Technology",
       "exDate": "2026-05-22",
@@ -953,8 +926,8 @@
       "company": "Jack Henry & Associates",
       "exDate": "2026-06-01",
       "exStatus": "upcoming",
-      "dividendRate": 2.35,
-      "dividendYield": 1.62,
+      "dividendRate": 2.38,
+      "dividendYield": 1.64,
       "price": 144.73
     },
     {
@@ -1210,6 +1183,15 @@
       "price": 488.74
     },
     {
+      "ticker": "WM",
+      "company": "Waste Management",
+      "exDate": "2026-06-05",
+      "exStatus": "upcoming",
+      "dividendRate": 3.54,
+      "dividendYield": 1.63,
+      "price": 217.65
+    },
+    {
       "ticker": "GOOG",
       "company": "Alphabet C",
       "exDate": "2026-06-08",
@@ -1271,6 +1253,15 @@
       "dividendRate": 2.68,
       "dividendYield": 3.41,
       "price": 78.62
+    },
+    {
+      "ticker": "SPG",
+      "company": "Simon Property",
+      "exDate": "2026-06-09",
+      "exStatus": "upcoming",
+      "dividendRate": 8.8,
+      "dividendYield": 4.28,
+      "price": 205.66
     },
     {
       "ticker": "OMC",
@@ -1732,6 +1723,15 @@
       "price": 75.26
     },
     {
+      "ticker": "NI",
+      "company": "NiSource",
+      "exDate": "2026-07-31",
+      "exStatus": "upcoming",
+      "dividendRate": 1.2,
+      "dividendYield": 2.54,
+      "price": 47.19
+    },
+    {
       "ticker": "WMT",
       "company": "Walmart",
       "exDate": "2026-08-21",
@@ -1838,15 +1838,6 @@
       "dividendRate": 7.82,
       "dividendYield": 1.11,
       "price": 704.56
-    },
-    {
-      "ticker": "MAS",
-      "company": "Masco",
-      "exDate": "2026-02-20",
-      "exStatus": "recent",
-      "dividendRate": 1.28,
-      "dividendYield": 1.83,
-      "price": 69.8
     },
     {
       "ticker": "YUM",
@@ -1988,8 +1979,8 @@
       "company": "Lockheed Martin",
       "exDate": "2026-03-02",
       "exStatus": "recent",
-      "dividendRate": 13.5,
-      "dividendYield": 2.59,
+      "dividendRate": 13.8,
+      "dividendYield": 2.65,
       "price": 521.0
     },
     {
@@ -2173,15 +2164,6 @@
       "price": 36.35
     },
     {
-      "ticker": "SPG",
-      "company": "Simon Property",
-      "exDate": "2026-03-10",
-      "exStatus": "recent",
-      "dividendRate": 8.65,
-      "dividendYield": 4.21,
-      "price": 205.66
-    },
-    {
       "ticker": "VFC",
       "company": "VF Corp",
       "exDate": "2026-03-10",
@@ -2324,15 +2306,6 @@
       "dividendRate": 1.76,
       "dividendYield": 0.38,
       "price": 459.3
-    },
-    {
-      "ticker": "WM",
-      "company": "Waste Management",
-      "exDate": "2026-03-13",
-      "exStatus": "recent",
-      "dividendRate": 3.42,
-      "dividendYield": 1.57,
-      "price": 217.65
     },
     {
       "ticker": "XEL",
@@ -3154,15 +3127,6 @@
       "price": 191.88
     },
     {
-      "ticker": "NI",
-      "company": "NiSource",
-      "exDate": "2026-04-30",
-      "exStatus": "recent",
-      "dividendRate": 1.2,
-      "dividendYield": 2.54,
-      "price": 47.19
-    },
-    {
       "ticker": "O",
       "company": "Realty Income",
       "exDate": "2026-04-30",
@@ -3521,6 +3485,42 @@
       "dividendRate": 0.73,
       "dividendYield": 1.38,
       "price": 52.98
+    },
+    {
+      "ticker": "AWK",
+      "company": "American Water Works",
+      "exDate": "2026-05-12",
+      "exStatus": "recent",
+      "dividendRate": 3.58,
+      "dividendYield": 2.8,
+      "price": 127.65
+    },
+    {
+      "ticker": "F",
+      "company": "Ford",
+      "exDate": "2026-05-12",
+      "exStatus": "recent",
+      "dividendRate": 0.6,
+      "dividendYield": 5.0,
+      "price": 11.99
+    },
+    {
+      "ticker": "MET",
+      "company": "MetLife",
+      "exDate": "2026-05-12",
+      "exStatus": "recent",
+      "dividendRate": 2.37,
+      "dividendYield": 3.01,
+      "price": 78.64
+    },
+    {
+      "ticker": "V",
+      "company": "Visa",
+      "exDate": "2026-05-12",
+      "exStatus": "recent",
+      "dividendRate": 2.68,
+      "dividendYield": 0.82,
+      "price": 326.42
     },
     {
       "ticker": "AAL",
