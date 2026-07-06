@@ -1,6 +1,6 @@
 {
-  "updated": "Jul 03, 2026 03:23 AM PST",
-  "updated_iso": "2026-07-03T03:23:38.305258-07:00",
+  "updated": "Jul 06, 2026 04:56 AM PST",
+  "updated_iso": "2026-07-06T04:56:04.609213-07:00",
   "downStreaks": [
     {
       "ticker": "STX",
@@ -166,11 +166,11 @@
       "ticker": "HAS",
       "company": "Hasbro",
       "price": 80.15,
-      "ma200": 85.33,
-      "vs200dPct": -6.1,
-      "rsi": 33.5,
+      "ma200": 85.95,
+      "vs200dPct": -6.7,
+      "rsi": 33.2,
       "rsiLabel": {
-        "label": "33.5",
+        "label": "33.2",
         "level": "weak"
       },
       "day1": {
@@ -286,11 +286,11 @@
       "ticker": "HAL",
       "company": "Halliburton",
       "price": 32.96,
-      "ma200": 32.5,
-      "vs200dPct": 1.4,
-      "rsi": 26.8,
+      "ma200": 32.62,
+      "vs200dPct": 1.0,
+      "rsi": 26.5,
       "rsiLabel": {
-        "label": "26.8",
+        "label": "26.5",
         "level": "oversold"
       },
       "day1": {
@@ -486,11 +486,11 @@
       "ticker": "RCL",
       "company": "Royal Caribbean",
       "price": 296.3,
-      "ma200": 286.22,
-      "vs200dPct": 3.5,
-      "rsi": 49.0,
+      "ma200": 287.54,
+      "vs200dPct": 3.0,
+      "rsi": 48.8,
       "rsiLabel": {
-        "label": "49.0",
+        "label": "48.8",
         "level": "neutral"
       },
       "day1": {
@@ -1248,11 +1248,11 @@
       "ticker": "NOC",
       "company": "Northrop Grumman",
       "price": 549.01,
-      "ma200": 608.79,
-      "vs200dPct": -9.8,
-      "rsi": 56.4,
+      "ma200": 611.2,
+      "vs200dPct": -10.2,
+      "rsi": 56.2,
       "rsiLabel": {
-        "label": "56.4",
+        "label": "56.2",
         "level": "strong"
       },
       "day1": {
@@ -1728,11 +1728,11 @@
       "ticker": "LMT",
       "company": "Lockheed Martin",
       "price": 545.91,
-      "ma200": 534.88,
-      "vs200dPct": 2.1,
-      "rsi": 60.0,
+      "ma200": 537.99,
+      "vs200dPct": 1.5,
+      "rsi": 59.7,
       "rsiLabel": {
-        "label": "60.0",
+        "label": "59.7",
         "level": "strong"
       },
       "day1": {
@@ -2168,11 +2168,11 @@
       "ticker": "JKHY",
       "company": "Jack Henry & Associates",
       "price": 146.87,
-      "ma200": 158.23,
-      "vs200dPct": -7.2,
-      "rsi": 68.6,
+      "ma200": 158.87,
+      "vs200dPct": -7.6,
+      "rsi": 68.5,
       "rsiLabel": {
-        "label": "68.6",
+        "label": "68.5",
         "level": "strong"
       },
       "day1": {
@@ -2848,7 +2848,7 @@
       "ticker": "MCK",
       "company": "McKesson",
       "price": 786.3,
-      "ma200": 825.53,
+      "ma200": 826.34,
       "vs200dPct": -4.8,
       "rsi": 56.8,
       "rsiLabel": {
@@ -3408,11 +3408,11 @@
       "ticker": "EXPD",
       "company": "Expeditors Intl",
       "price": 167.57,
-      "ma200": 145.4,
-      "vs200dPct": 15.2,
-      "rsi": 64.1,
+      "ma200": 146.06,
+      "vs200dPct": 14.7,
+      "rsi": 63.8,
       "rsiLabel": {
-        "label": "64.1",
+        "label": "63.8",
         "level": "strong"
       },
       "day1": {
@@ -4045,6 +4045,46 @@
       }
     },
     {
+      "ticker": "BK",
+      "company": "BNY Mellon",
+      "price": 146.62,
+      "ma200": 120.85,
+      "vs200dPct": 21.3,
+      "rsi": 59.6,
+      "rsiLabel": {
+        "label": "59.6",
+        "level": "strong"
+      },
+      "day1": {
+        "date": "2026-06-30",
+        "pct": 0.56,
+        "vol": 3966228
+      },
+      "day2": {
+        "date": "2026-07-01",
+        "pct": 0.98,
+        "vol": 2899253
+      },
+      "day3": {
+        "date": "2026-07-02",
+        "pct": 0.41,
+        "vol": 2622878
+      },
+      "totalMove": 1.95,
+      "volVsAvg": -36.4,
+      "volSignal": "light",
+      "avgVolume20d": 4123041,
+      "allDown": false,
+      "allUp": true,
+      "signal": {
+        "name": "Weak Rally",
+        "strength": 1,
+        "color": "muted",
+        "icon": "\u2014",
+        "reason": "Up streak on light volume. Low conviction \u2014 may stall or reverse."
+      }
+    },
+    {
       "ticker": "CAH",
       "company": "Cardinal Health",
       "price": 238.94,
@@ -4450,11 +4490,11 @@
       "ticker": "ADI",
       "company": "Analog Devices",
       "price": 377.16,
-      "ma200": 316.06,
-      "vs200dPct": 19.3,
-      "rsi": 40.6,
+      "ma200": 316.8,
+      "vs200dPct": 19.1,
+      "rsi": 40.5,
       "rsiLabel": {
-        "label": "40.6",
+        "label": "40.5",
         "level": "weak"
       },
       "day1": {
@@ -5050,11 +5090,11 @@
       "ticker": "ALL",
       "company": "Allstate",
       "price": 250.33,
-      "ma200": 207.47,
-      "vs200dPct": 20.7,
-      "rsi": 75.0,
+      "ma200": 208.43,
+      "vs200dPct": 20.1,
+      "rsi": 74.9,
       "rsiLabel": {
-        "label": "75.0",
+        "label": "74.9",
         "level": "overbought"
       },
       "day1": {
@@ -5890,11 +5930,11 @@
       "ticker": "AVY",
       "company": "Avery Dennison",
       "price": 166.97,
-      "ma200": 170.68,
-      "vs200dPct": -2.2,
-      "rsi": 61.8,
+      "ma200": 171.67,
+      "vs200dPct": -2.7,
+      "rsi": 61.3,
       "rsiLabel": {
-        "label": "61.8",
+        "label": "61.3",
         "level": "strong"
       },
       "day1": {
@@ -6130,11 +6170,11 @@
       "ticker": "BALL",
       "company": "Ball Corp",
       "price": 63.39,
-      "ma200": 55.53,
-      "vs200dPct": 14.2,
-      "rsi": 74.2,
+      "ma200": 55.71,
+      "vs200dPct": 13.8,
+      "rsi": 73.9,
       "rsiLabel": {
-        "label": "74.2",
+        "label": "73.9",
         "level": "overbought"
       },
       "day1": {
@@ -6489,41 +6529,41 @@
     {
       "ticker": "BK",
       "company": "BNY Mellon",
-      "price": 143.56,
-      "ma200": 120.03,
-      "vs200dPct": 19.6,
-      "rsi": 53.8,
+      "price": 146.62,
+      "ma200": 120.85,
+      "vs200dPct": 21.3,
+      "rsi": 59.6,
       "rsiLabel": {
-        "label": "53.8",
-        "level": "neutral"
+        "label": "59.6",
+        "level": "strong"
       },
       "day1": {
-        "date": "2026-06-24",
-        "pct": -2.53,
-        "vol": 4603534
+        "date": "2026-06-30",
+        "pct": 0.56,
+        "vol": 3966228
       },
       "day2": {
-        "date": "2026-06-25",
-        "pct": 1.3,
-        "vol": 2757147
+        "date": "2026-07-01",
+        "pct": 0.98,
+        "vol": 2899253
       },
       "day3": {
-        "date": "2026-06-26",
-        "pct": -1.29,
-        "vol": 15520161
+        "date": "2026-07-02",
+        "pct": 0.41,
+        "vol": 2622878
       },
-      "totalMove": -2.52,
-      "volVsAvg": 255.9,
-      "volSignal": "heavy",
-      "avgVolume20d": 4360359,
+      "totalMove": 1.95,
+      "volVsAvg": -36.4,
+      "volSignal": "light",
+      "avgVolume20d": 4123041,
       "allDown": false,
-      "allUp": false,
+      "allUp": true,
       "signal": {
-        "name": "\u2014",
-        "strength": 0,
+        "name": "Weak Rally",
+        "strength": 1,
         "color": "muted",
         "icon": "\u2014",
-        "reason": ""
+        "reason": "Up streak on light volume. Low conviction \u2014 may stall or reverse."
       }
     },
     {
@@ -6850,8 +6890,8 @@
       "ticker": "BWA",
       "company": "BorgWarner",
       "price": 63.52,
-      "ma200": 52.55,
-      "vs200dPct": 20.9,
+      "ma200": 52.65,
+      "vs200dPct": 20.6,
       "rsi": 38.2,
       "rsiLabel": {
         "label": "38.2",
@@ -8607,46 +8647,6 @@
       }
     },
     {
-      "ticker": "CTRA",
-      "company": "Coterra Energy",
-      "price": 32.56,
-      "ma200": 27.21,
-      "vs200dPct": 19.7,
-      "rsi": 43.6,
-      "rsiLabel": {
-        "label": "43.6",
-        "level": "weak"
-      },
-      "day1": {
-        "date": "2026-05-05",
-        "pct": -0.64,
-        "vol": 8705563
-      },
-      "day2": {
-        "date": "2026-05-06",
-        "pct": -8.62,
-        "vol": 73319496
-      },
-      "day3": {
-        "date": "2026-05-07",
-        "pct": 0.0,
-        "vol": 0
-      },
-      "totalMove": -9.26,
-      "volVsAvg": -100.0,
-      "volSignal": "light",
-      "avgVolume20d": 9914622,
-      "allDown": false,
-      "allUp": false,
-      "signal": {
-        "name": "\u2014",
-        "strength": 0,
-        "color": "muted",
-        "icon": "\u2014",
-        "reason": ""
-      }
-    },
-    {
       "ticker": "CTSH",
       "company": "Cognizant",
       "price": 41.99,
@@ -8690,11 +8690,11 @@
       "ticker": "CTVA",
       "company": "Corteva",
       "price": 85.8,
-      "ma200": 72.93,
-      "vs200dPct": 17.6,
-      "rsi": 72.2,
+      "ma200": 73.08,
+      "vs200dPct": 17.4,
+      "rsi": 72.0,
       "rsiLabel": {
-        "label": "72.2",
+        "label": "72.0",
         "level": "overbought"
       },
       "day1": {
@@ -10650,11 +10650,11 @@
       "ticker": "EXPD",
       "company": "Expeditors Intl",
       "price": 167.57,
-      "ma200": 145.4,
-      "vs200dPct": 15.2,
-      "rsi": 64.1,
+      "ma200": 146.06,
+      "vs200dPct": 14.7,
+      "rsi": 63.8,
       "rsiLabel": {
-        "label": "64.1",
+        "label": "63.8",
         "level": "strong"
       },
       "day1": {
@@ -12010,11 +12010,11 @@
       "ticker": "GS",
       "company": "Goldman Sachs",
       "price": 1021.0,
-      "ma200": 882.65,
-      "vs200dPct": 15.7,
-      "rsi": 47.0,
+      "ma200": 886.0,
+      "vs200dPct": 15.2,
+      "rsi": 46.8,
       "rsiLabel": {
-        "label": "47.0",
+        "label": "46.8",
         "level": "neutral"
       },
       "day1": {
@@ -12090,11 +12090,11 @@
       "ticker": "HAL",
       "company": "Halliburton",
       "price": 32.96,
-      "ma200": 32.5,
-      "vs200dPct": 1.4,
-      "rsi": 26.8,
+      "ma200": 32.62,
+      "vs200dPct": 1.0,
+      "rsi": 26.5,
       "rsiLabel": {
-        "label": "26.8",
+        "label": "26.5",
         "level": "oversold"
       },
       "day1": {
@@ -12130,11 +12130,11 @@
       "ticker": "HAS",
       "company": "Hasbro",
       "price": 80.15,
-      "ma200": 85.33,
-      "vs200dPct": -6.1,
-      "rsi": 33.5,
+      "ma200": 85.95,
+      "vs200dPct": -6.7,
+      "rsi": 33.2,
       "rsiLabel": {
-        "label": "33.5",
+        "label": "33.2",
         "level": "weak"
       },
       "day1": {
@@ -12290,11 +12290,11 @@
       "ticker": "HIG",
       "company": "Hartford Financial",
       "price": 137.85,
-      "ma200": 132.87,
-      "vs200dPct": 3.7,
-      "rsi": 64.1,
+      "ma200": 133.43,
+      "vs200dPct": 3.3,
+      "rsi": 63.8,
       "rsiLabel": {
-        "label": "64.1",
+        "label": "63.8",
         "level": "strong"
       },
       "day1": {
@@ -12410,11 +12410,11 @@
       "ticker": "HON",
       "company": "Honeywell",
       "price": 229.86,
-      "ma200": 212.69,
-      "vs200dPct": 8.1,
-      "rsi": 54.9,
+      "ma200": 222.94,
+      "vs200dPct": 3.1,
+      "rsi": 47.4,
       "rsiLabel": {
-        "label": "54.9",
+        "label": "47.4",
         "level": "neutral"
       },
       "day1": {
@@ -12433,9 +12433,9 @@
         "vol": 5659100
       },
       "totalMove": 0.98,
-      "volVsAvg": -9.4,
+      "volVsAvg": -6.0,
       "volSignal": "normal",
-      "avgVolume20d": 6248955,
+      "avgVolume20d": 6018084,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -12710,12 +12710,12 @@
       "day3": {
         "date": "2026-07-02",
         "pct": -0.62,
-        "vol": 1017089
+        "vol": 1017988
       },
       "totalMove": -5.29,
-      "volVsAvg": 46.5,
+      "volVsAvg": 46.6,
       "volSignal": "heavy",
-      "avgVolume20d": 694375,
+      "avgVolume20d": 694420,
       "allDown": false,
       "allUp": false,
       "signal": {
@@ -13650,11 +13650,11 @@
       "ticker": "JKHY",
       "company": "Jack Henry & Associates",
       "price": 146.87,
-      "ma200": 158.23,
-      "vs200dPct": -7.2,
-      "rsi": 68.6,
+      "ma200": 158.87,
+      "vs200dPct": -7.6,
+      "rsi": 68.5,
       "rsiLabel": {
-        "label": "68.6",
+        "label": "68.5",
         "level": "strong"
       },
       "day1": {
@@ -13810,11 +13810,11 @@
       "ticker": "KEY",
       "company": "KeyCorp",
       "price": 23.02,
-      "ma200": 20.03,
-      "vs200dPct": 14.9,
-      "rsi": 60.5,
+      "ma200": 20.2,
+      "vs200dPct": 14.0,
+      "rsi": 59.9,
       "rsiLabel": {
-        "label": "60.5",
+        "label": "59.9",
         "level": "strong"
       },
       "day1": {
@@ -14530,11 +14530,11 @@
       "ticker": "LMT",
       "company": "Lockheed Martin",
       "price": 545.91,
-      "ma200": 534.88,
-      "vs200dPct": 2.1,
-      "rsi": 60.0,
+      "ma200": 537.99,
+      "vs200dPct": 1.5,
+      "rsi": 59.7,
       "rsiLabel": {
-        "label": "60.0",
+        "label": "59.7",
         "level": "strong"
       },
       "day1": {
@@ -14850,11 +14850,11 @@
       "ticker": "LYB",
       "company": "LyondellBasell",
       "price": 53.36,
-      "ma200": 56.12,
-      "vs200dPct": -4.9,
-      "rsi": 22.5,
+      "ma200": 56.63,
+      "vs200dPct": -5.8,
+      "rsi": 21.8,
       "rsiLabel": {
-        "label": "22.5",
+        "label": "21.8",
         "level": "oversold"
       },
       "day1": {
@@ -15090,11 +15090,11 @@
       "ticker": "MCD",
       "company": "McDonald's",
       "price": 280.63,
-      "ma200": 300.21,
-      "vs200dPct": -6.5,
-      "rsi": 53.9,
+      "ma200": 302.04,
+      "vs200dPct": -7.1,
+      "rsi": 53.6,
       "rsiLabel": {
-        "label": "53.9",
+        "label": "53.6",
         "level": "neutral"
       },
       "day1": {
@@ -15170,7 +15170,7 @@
       "ticker": "MCK",
       "company": "McKesson",
       "price": 786.3,
-      "ma200": 825.53,
+      "ma200": 826.34,
       "vs200dPct": -4.8,
       "rsi": 56.8,
       "rsiLabel": {
@@ -15570,11 +15570,11 @@
       "ticker": "MLM",
       "company": "Martin Marietta",
       "price": 599.42,
-      "ma200": 615.8,
-      "vs200dPct": -2.7,
-      "rsi": 53.2,
+      "ma200": 616.59,
+      "vs200dPct": -2.8,
+      "rsi": 53.1,
       "rsiLabel": {
-        "label": "53.2",
+        "label": "53.1",
         "level": "neutral"
       },
       "day1": {
@@ -16130,11 +16130,11 @@
       "ticker": "MTB",
       "company": "M&T Bank",
       "price": 238.88,
-      "ma200": 205.48,
-      "vs200dPct": 16.3,
-      "rsi": 66.5,
+      "ma200": 206.74,
+      "vs200dPct": 15.5,
+      "rsi": 66.0,
       "rsiLabel": {
-        "label": "66.5",
+        "label": "66.0",
         "level": "strong"
       },
       "day1": {
@@ -16490,11 +16490,11 @@
       "ticker": "NKE",
       "company": "Nike",
       "price": 44.09,
-      "ma200": 56.5,
-      "vs200dPct": -22.0,
-      "rsi": 53.3,
+      "ma200": 56.96,
+      "vs200dPct": -22.6,
+      "rsi": 52.9,
       "rsiLabel": {
-        "label": "53.3",
+        "label": "52.9",
         "level": "neutral"
       },
       "day1": {
@@ -16530,11 +16530,11 @@
       "ticker": "NOC",
       "company": "Northrop Grumman",
       "price": 549.01,
-      "ma200": 608.79,
-      "vs200dPct": -9.8,
-      "rsi": 56.4,
+      "ma200": 611.2,
+      "vs200dPct": -10.2,
+      "rsi": 56.2,
       "rsiLabel": {
-        "label": "56.4",
+        "label": "56.2",
         "level": "strong"
       },
       "day1": {
@@ -17090,12 +17090,12 @@
       "ticker": "ODFL",
       "company": "Old Dominion Freight",
       "price": 217.65,
-      "ma200": 179.23,
-      "vs200dPct": 21.4,
-      "rsi": 45.0,
+      "ma200": 179.43,
+      "vs200dPct": 21.3,
+      "rsi": 44.9,
       "rsiLabel": {
-        "label": "45.0",
-        "level": "neutral"
+        "label": "44.9",
+        "level": "weak"
       },
       "day1": {
         "date": "2026-06-30",
@@ -17650,11 +17650,11 @@
       "ticker": "PFG",
       "company": "Principal Financial",
       "price": 110.87,
-      "ma200": 90.66,
-      "vs200dPct": 22.3,
-      "rsi": 61.1,
+      "ma200": 91.28,
+      "vs200dPct": 21.5,
+      "rsi": 60.6,
       "rsiLabel": {
-        "label": "61.1",
+        "label": "60.6",
         "level": "strong"
       },
       "day1": {
@@ -18530,11 +18530,11 @@
       "ticker": "RCL",
       "company": "Royal Caribbean",
       "price": 296.3,
-      "ma200": 286.22,
-      "vs200dPct": 3.5,
-      "rsi": 49.0,
+      "ma200": 287.54,
+      "vs200dPct": 3.0,
+      "rsi": 48.8,
       "rsiLabel": {
-        "label": "49.0",
+        "label": "48.8",
         "level": "neutral"
       },
       "day1": {
@@ -18650,11 +18650,11 @@
       "ticker": "RF",
       "company": "Regions Financial",
       "price": 30.28,
-      "ma200": 26.73,
-      "vs200dPct": 13.3,
-      "rsi": 64.7,
+      "ma200": 26.95,
+      "vs200dPct": 12.4,
+      "rsi": 64.0,
       "rsiLabel": {
-        "label": "64.7",
+        "label": "64.0",
         "level": "strong"
       },
       "day1": {
@@ -19250,11 +19250,11 @@
       "ticker": "SLB",
       "company": "SLB (Schlumberger)",
       "price": 45.13,
-      "ma200": 44.98,
-      "vs200dPct": 0.3,
-      "rsi": 26.0,
+      "ma200": 45.19,
+      "vs200dPct": -0.1,
+      "rsi": 25.6,
       "rsiLabel": {
-        "label": "26.0",
+        "label": "25.6",
         "level": "oversold"
       },
       "day1": {
@@ -20690,11 +20690,11 @@
       "ticker": "TSN",
       "company": "Tyson Foods",
       "price": 58.89,
-      "ma200": 58.65,
-      "vs200dPct": 0.4,
-      "rsi": 50.3,
+      "ma200": 59.09,
+      "vs200dPct": -0.3,
+      "rsi": 49.8,
       "rsiLabel": {
-        "label": "50.3",
+        "label": "49.8",
         "level": "neutral"
       },
       "day1": {
