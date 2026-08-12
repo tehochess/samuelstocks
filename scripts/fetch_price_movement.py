@@ -1,4 +1,4 @@
-import json, os, time
+import json, os, time, math
 from datetime import datetime, timedelta, date
 from zoneinfo import ZoneInfo
 import yfinance as yf
@@ -84,6 +84,11 @@ def analyze_ticker(ticker):
         else:
             ma200 = round(float(np.mean(closes)), 2)
         current_price = round(float(closes[-1]), 2)
+
+        if math.isnan(current_price) or math.isnan(ma200):
+            print("  " + ticker + ": price/ma200 is NaN (bad data from source), skipping")
+            return None
+
         vs_200d_pct   = round(((current_price - ma200) / ma200) * 100, 1)
 
         avg_volume_20d = float(np.mean(volumes[-20:]))
@@ -155,8 +160,7 @@ def main():
             "updated_iso": now.isoformat(),
             "downStreaks": down_streaks,
             "upStreaks":   up_streaks,
-            "allStocks":   all_results,
-        }, f, indent=2)
+        }, f, indent=2, allow_nan=False)
 
     print("Done: " + str(len(down_streaks)) + " down streaks, " + str(len(up_streaks)) + " up streaks")
 
