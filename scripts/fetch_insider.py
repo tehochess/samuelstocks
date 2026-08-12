@@ -108,8 +108,8 @@ def main():
 
     def sort_key(x):
         r = (x.get("role") or "").upper()
-        if "CEO" in r: return (0, -x.get("value", 0))
-        if "CFO" in r: return (1, -x.get("value", 0))
+        if "CHIEF EXECUTIVE" in r or "CEO" in r: return (0, -x.get("value", 0))
+        if "CHIEF FINANCIAL" in r or "CFO" in r: return (1, -x.get("value", 0))
         return             (2, -x.get("value", 0))
 
     all_buys.sort(key=sort_key)
