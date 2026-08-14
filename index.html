@@ -211,8 +211,18 @@ function showTab(name, btn) {
 }
 
 // ── Formatters ─────────────────────────────────────────────────
-function isCEO(role) { const r=(role||'').toUpperCase(); return r.includes('CHIEF EXECUTIVE') || /\bCEO\b/.test(r); }
-function isCFO(role) { const r=(role||'').toUpperCase(); return r.includes('CHIEF FINANCIAL') || /\bCFO\b/.test(r); }
+// Fallback only — overwritten by role_patterns.json at load time (see loadRolePatterns()).
+// This is the single source of truth shared with scripts/roles.py; do not hand-edit
+// patterns here — edit role_patterns.json at the repo root instead.
+let ROLE_PATTERNS = { ceo: ['CHIEF EXECUTIVE','CEO'], cfo: ['CHIEF FINANCIAL','CFO'] };
+async function loadRolePatterns() {
+  try {
+    const res = await fetch('role_patterns.json?t='+Date.now());
+    if (res.ok) ROLE_PATTERNS = await res.json();
+  } catch(e) { /* keep built-in fallback above */ }
+}
+function isCEO(role) { const r=(role||'').toUpperCase(); return ROLE_PATTERNS.ceo.some(p=>r.includes(p)); }
+function isCFO(role) { const r=(role||'').toUpperCase(); return ROLE_PATTERNS.cfo.some(p=>r.includes(p)); }
 function roleBadge(role) {
   if (isCEO(role)) return '<span class="badge badge-ceo">CEO</span>';
   if (isCFO(role)) return '<span class="badge badge-cfo">CFO</span>';
@@ -258,6 +268,7 @@ function signalBadge(sig) {
 // ── Insider Trading ────────────────────────────────────────────
 async function loadData() {
   try {
+    await loadRolePatterns();
     const res = await fetch('data/insider.json?t='+Date.now());
     if (!res.ok) throw new Error();
     const d = await res.json();
