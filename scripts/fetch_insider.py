@@ -106,11 +106,13 @@ def main():
         all_sells.extend(s)
         time.sleep(0.5)
 
+    from roles import is_ceo, is_cfo
+
     def sort_key(x):
-        r = (x.get("role") or "").upper()
-        if "CHIEF EXECUTIVE" in r or "CEO" in r: return (0, -x.get("value", 0))
-        if "CHIEF FINANCIAL" in r or "CFO" in r: return (1, -x.get("value", 0))
-        return             (2, -x.get("value", 0))
+        r = x.get("role")
+        if is_ceo(r): return (0, -x.get("value", 0))
+        if is_cfo(r): return (1, -x.get("value", 0))
+        return          (2, -x.get("value", 0))
 
     all_buys.sort(key=sort_key)
     all_sells.sort(key=sort_key)
