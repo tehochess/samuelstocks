@@ -3,6 +3,7 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from datetime import datetime
 from zoneinfo import ZoneInfo
+from roles import is_ceo, is_cfo
 
 PST        = ZoneInfo("America/Los_Angeles")
 SENDER     = os.environ["SENDER_GMAIL"]
@@ -34,10 +35,9 @@ def pct_color(p):
     except: return "#6b7a94"
 
 def role_badge(role):
-    r = (role or "").upper()
-    if "CEO" in r:
+    if is_ceo(role):
         return '<span style="background:#1e3a5f;color:#60a5fa;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold">CEO</span>'
-    if "CFO" in r:
+    if is_cfo(role):
         return '<span style="background:#2e1a4f;color:#c084fc;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:bold">CFO</span>'
     return f'<span style="background:#1a1f2e;color:#6b7a94;padding:2px 8px;border-radius:4px;font-size:11px">{role or "Insider"}</span>'
 
@@ -68,7 +68,7 @@ def signal_color(sig_name):
 def build_insider_section(d):
     buys    = d.get("buys", [])
     sells   = d.get("sells", [])
-    ceo_cfo = [b for b in buys if any(x in (b.get("role") or "").upper() for x in ["CEO","CFO"])]
+    ceo_cfo = [b for b in buys if is_ceo(b.get("role")) or is_cfo(b.get("role"))]
 
     summary = f'''
   <table width="100%" cellspacing="0" cellpadding="0" style="margin-bottom:20px"><tr>
