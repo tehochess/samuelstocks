@@ -1,6 +1,6 @@
 {
-  "updated": "Sep 14, 2026 06:51 AM PST",
-  "updated_iso": "2026-09-14T06:51:55.317910-07:00",
+  "updated": "Sep 15, 2026 05:37 AM PST",
+  "updated_iso": "2026-09-15T05:37:42.516940-07:00",
   "buys": [
     {
       "ticker": "TSN",
@@ -23,6 +23,16 @@
       "value": 1001510
     },
     {
+      "ticker": "DVN",
+      "company": "Devon Energy",
+      "insider": "GASPAR CLAY M.",
+      "role": "Chief Executive Officer",
+      "date": "2026-09-14",
+      "filing_url": "https://finance.yahoo.com/quote/DVN/insider-transactions/",
+      "shares": 3913,
+      "value": 199876
+    },
+    {
       "ticker": "RSG",
       "company": "Republic Services",
       "insider": "CASCADE INVESTMENT, L.L.C.",
@@ -41,6 +51,16 @@
       "filing_url": "https://finance.yahoo.com/quote/RSG/insider-transactions/",
       "shares": 720804,
       "value": 159593041
+    },
+    {
+      "ticker": "RSG",
+      "company": "Republic Services",
+      "insider": "CASCADE INVESTMENT, L.L.C.",
+      "role": "Beneficial Owner of more than 10% of a Class of Security",
+      "date": "2026-09-11",
+      "filing_url": "https://finance.yahoo.com/quote/RSG/insider-transactions/",
+      "shares": 580810,
+      "value": 129305617
     },
     {
       "ticker": "RSG",
@@ -131,6 +151,16 @@
       "filing_url": "https://finance.yahoo.com/quote/WELL/insider-transactions/",
       "shares": 10000,
       "value": 2407650
+    },
+    {
+      "ticker": "ECL",
+      "company": "Ecolab",
+      "insider": "GREEN ERIC MARK",
+      "role": "Director",
+      "date": "2026-09-11",
+      "filing_url": "https://finance.yahoo.com/quote/ECL/insider-transactions/",
+      "shares": 3690,
+      "value": 1020798
     },
     {
       "ticker": "MSCI",
@@ -253,6 +283,16 @@
       "value": 2975
     },
     {
+      "ticker": "PPG",
+      "company": "PPG Industries",
+      "insider": "HEFEL JULIANE M",
+      "role": "Officer",
+      "date": "2026-09-11",
+      "filing_url": "https://finance.yahoo.com/quote/PPG/insider-transactions/",
+      "shares": 13,
+      "value": 1409
+    },
+    {
       "ticker": "SYF",
       "company": "Synchrony Financial",
       "insider": "COVIELLO ARTHUR W JR",
@@ -264,6 +304,18 @@
     }
   ],
   "sells": [
+    {
+      "ticker": "AMD",
+      "company": "AMD",
+      "insider": "SU LISA T",
+      "role": "Chief Executive Officer",
+      "date": "2026-09-10",
+      "filing_url": "https://finance.yahoo.com/quote/AMD/insider-transactions/",
+      "shares_sold": 95000,
+      "shares_remaining": 0,
+      "expiry": null,
+      "value": 48145666
+    },
     {
       "ticker": "ABT",
       "company": "Abbott",
@@ -985,6 +1037,18 @@
       "value": 5063389
     },
     {
+      "ticker": "MRNA",
+      "company": "Moderna",
+      "insider": "MOCK JAMES M",
+      "role": "Chief Financial Officer",
+      "date": "2026-09-10",
+      "filing_url": "https://finance.yahoo.com/quote/MRNA/insider-transactions/",
+      "shares_sold": 34836,
+      "shares_remaining": 0,
+      "expiry": null,
+      "value": 4685094
+    },
+    {
       "ticker": "AMAT",
       "company": "Applied Materials",
       "insider": "HILL BRICE",
@@ -1177,6 +1241,18 @@
       "value": 309716
     },
     {
+      "ticker": "DXCM",
+      "company": "Dexcom",
+      "insider": "SYLVAIN JEREME M",
+      "role": "Chief Financial Officer",
+      "date": "2026-09-10",
+      "filing_url": "https://finance.yahoo.com/quote/DXCM/insider-transactions/",
+      "shares_sold": 3638,
+      "shares_remaining": 0,
+      "expiry": null,
+      "value": 302936
+    },
+    {
       "ticker": "TTWO",
       "company": "Take-Two Interactive",
       "insider": "GOLDSTEIN LAINIE",
@@ -1199,6 +1275,18 @@
       "shares_remaining": 0,
       "expiry": null,
       "value": 256237
+    },
+    {
+      "ticker": "CSCO",
+      "company": "Cisco",
+      "insider": "PATTERSON MARK",
+      "role": "Chief Financial Officer",
+      "date": "2026-09-11",
+      "filing_url": "https://finance.yahoo.com/quote/CSCO/insider-transactions/",
+      "shares_sold": 1795,
+      "shares_remaining": 0,
+      "expiry": null,
+      "value": 195422
     },
     {
       "ticker": "ANET",
@@ -1379,6 +1467,18 @@
       "shares_remaining": 0,
       "expiry": null,
       "value": 17406370
+    },
+    {
+      "ticker": "FANG",
+      "company": "Diamondback Energy",
+      "insider": "STICE TRAVIS D",
+      "role": "Director",
+      "date": "2026-09-11",
+      "filing_url": "https://finance.yahoo.com/quote/FANG/insider-transactions/",
+      "shares_sold": 75000,
+      "shares_remaining": 0,
+      "expiry": null,
+      "value": 15323272
     },
     {
       "ticker": "DE",
@@ -2067,6 +2167,18 @@
     {
       "ticker": "HSY",
       "company": "Hershey",
+      "insider": "MILTON HERSHEY SCHOOL TRUST",
+      "role": "Beneficial Owner of more than 10% of a Class of Security",
+      "date": "2026-09-11",
+      "filing_url": "https://finance.yahoo.com/quote/HSY/insider-transactions/",
+      "shares_sold": 20000,
+      "shares_remaining": 0,
+      "expiry": null,
+      "value": 3477533
+    },
+    {
+      "ticker": "HSY",
+      "company": "Hershey",
       "insider": "HERSHEY TRUST CO",
       "role": "Beneficial Owner of more than 10% of a Class of Security",
       "date": "2026-09-09",
@@ -2681,6 +2793,18 @@
       "company": "Aflac",
       "insider": "JAPAN POST HOLDINGS CO., LTD.",
       "role": "Beneficial Owner of more than 10% of a Class of Security",
+      "date": "2026-09-10",
+      "filing_url": "https://finance.yahoo.com/quote/AFL/insider-transactions/",
+      "shares_sold": 13300,
+      "shares_remaining": 0,
+      "expiry": null,
+      "value": 1520451
+    },
+    {
+      "ticker": "AFL",
+      "company": "Aflac",
+      "insider": "JAPAN POST HOLDINGS CO., LTD.",
+      "role": "Beneficial Owner of more than 10% of a Class of Security",
       "date": "2026-08-28",
       "filing_url": "https://finance.yahoo.com/quote/AFL/insider-transactions/",
       "shares_sold": 13000,
@@ -2953,6 +3077,18 @@
       "value": 1172178
     },
     {
+      "ticker": "NTAP",
+      "company": "NetApp",
+      "insider": "NEVENS THOMAS MICHAEL",
+      "role": "Director",
+      "date": "2026-09-11",
+      "filing_url": "https://finance.yahoo.com/quote/NTAP/insider-transactions/",
+      "shares_sold": 5940,
+      "shares_remaining": 0,
+      "expiry": null,
+      "value": 1159547
+    },
+    {
       "ticker": "TROW",
       "company": "T. Rowe Price",
       "insider": "NELSON JOSHUA B.",
@@ -2999,6 +3135,18 @@
       "shares_remaining": 0,
       "expiry": null,
       "value": 1096031
+    },
+    {
+      "ticker": "EOG",
+      "company": "EOG Resources",
+      "insider": "DONALDSON MICHAEL P",
+      "role": "Officer",
+      "date": "2026-09-11",
+      "filing_url": "https://finance.yahoo.com/quote/EOG/insider-transactions/",
+      "shares_sold": 7336,
+      "shares_remaining": 0,
+      "expiry": null,
+      "value": 1085728
     },
     {
       "ticker": "NOW",
@@ -4177,6 +4325,18 @@
       "value": 417339
     },
     {
+      "ticker": "CZR",
+      "company": "Caesars Entertainment",
+      "insider": "TOMICK DAVID P",
+      "role": "Director",
+      "date": "2026-09-11",
+      "filing_url": "https://finance.yahoo.com/quote/CZR/insider-transactions/",
+      "shares_sold": 14000,
+      "shares_remaining": 0,
+      "expiry": null,
+      "value": 415432
+    },
+    {
       "ticker": "WMT",
       "company": "Walmart",
       "insider": "BARTLETT DANIEL J",
@@ -4367,6 +4527,18 @@
       "shares_remaining": 0,
       "expiry": null,
       "value": 346428
+    },
+    {
+      "ticker": "DVN",
+      "company": "Devon Energy",
+      "insider": "LOWE ROBERT FERRALL III",
+      "role": "Officer",
+      "date": "2026-09-14",
+      "filing_url": "https://finance.yahoo.com/quote/DVN/insider-transactions/",
+      "shares_sold": 6756,
+      "shares_remaining": 0,
+      "expiry": null,
+      "value": 344218
     },
     {
       "ticker": "SCHW",
@@ -4957,6 +5129,30 @@
       "value": 188283
     },
     {
+      "ticker": "WBD",
+      "company": "Warner Bros Discovery",
+      "insider": "FISHER RICHARD W.",
+      "role": "Director",
+      "date": "2026-09-11",
+      "filing_url": "https://finance.yahoo.com/quote/WBD/insider-transactions/",
+      "shares_sold": 6700,
+      "shares_remaining": 0,
+      "expiry": null,
+      "value": 188002
+    },
+    {
+      "ticker": "NTAP",
+      "company": "NetApp",
+      "insider": "O'CALLAHAN ELIZABETH M",
+      "role": "Officer",
+      "date": "2026-09-10",
+      "filing_url": "https://finance.yahoo.com/quote/NTAP/insider-transactions/",
+      "shares_sold": 1000,
+      "shares_remaining": 0,
+      "expiry": null,
+      "value": 184740
+    },
+    {
       "ticker": "ADP",
       "company": "Automatic Data Processing",
       "insider": "DESILVA JOSEPH",
@@ -5137,6 +5333,18 @@
       "value": 140845
     },
     {
+      "ticker": "CME",
+      "company": "CME Group",
+      "insider": "COOK ELIZABETH A",
+      "role": "Director",
+      "date": "2026-09-14",
+      "filing_url": "https://finance.yahoo.com/quote/CME/insider-transactions/",
+      "shares_sold": 500,
+      "shares_remaining": 0,
+      "expiry": null,
+      "value": 140055
+    },
+    {
       "ticker": "NKE",
       "company": "Nike",
       "insider": "ALAGIRISAMY VENKATESH",
@@ -5159,6 +5367,18 @@
       "shares_remaining": 0,
       "expiry": null,
       "value": 137948
+    },
+    {
+      "ticker": "TMUS",
+      "company": "T-Mobile",
+      "insider": "DROBAC DANIEL JAMES",
+      "role": "Officer",
+      "date": "2026-09-10",
+      "filing_url": "https://finance.yahoo.com/quote/TMUS/insider-transactions/",
+      "shares_sold": 772,
+      "shares_remaining": 0,
+      "expiry": null,
+      "value": 137671
     },
     {
       "ticker": "NKE",
@@ -5245,6 +5465,18 @@
       "value": 106689
     },
     {
+      "ticker": "NDAQ",
+      "company": "Nasdaq",
+      "insider": "SKULE JEREMY",
+      "role": "Officer",
+      "date": "2026-09-10",
+      "filing_url": "https://finance.yahoo.com/quote/NDAQ/insider-transactions/",
+      "shares_sold": 1125,
+      "shares_remaining": 0,
+      "expiry": null,
+      "value": 105998
+    },
+    {
       "ticker": "EBAY",
       "company": "eBay",
       "insider": "SWEETNAM JORDAN DOUGLAS BRADLEY",
@@ -5279,6 +5511,18 @@
       "shares_remaining": 0,
       "expiry": null,
       "value": 98951
+    },
+    {
+      "ticker": "IVZ",
+      "company": "Invesco",
+      "insider": "WOOD PHOEBE A",
+      "role": "Director",
+      "date": "2026-09-11",
+      "filing_url": "https://finance.yahoo.com/quote/IVZ/insider-transactions/",
+      "shares_sold": 3000,
+      "shares_remaining": 0,
+      "expiry": null,
+      "value": 97320
     },
     {
       "ticker": "NKE",
@@ -5423,6 +5667,18 @@
       "shares_remaining": 0,
       "expiry": null,
       "value": 79057
+    },
+    {
+      "ticker": "CSCO",
+      "company": "Cisco",
+      "insider": "TUSZIK OLIVER",
+      "role": "Officer",
+      "date": "2026-09-14",
+      "filing_url": "https://finance.yahoo.com/quote/CSCO/insider-transactions/",
+      "shares_sold": 680,
+      "shares_remaining": 0,
+      "expiry": null,
+      "value": 74922
     },
     {
       "ticker": "BWA",
@@ -5581,6 +5837,18 @@
       "value": 52141
     },
     {
+      "ticker": "CDNS",
+      "company": "Cadence Design",
+      "insider": "BRENNAN ITA M",
+      "role": "Director",
+      "date": "2026-09-10",
+      "filing_url": "https://finance.yahoo.com/quote/CDNS/insider-transactions/",
+      "shares_sold": 180,
+      "shares_remaining": 0,
+      "expiry": null,
+      "value": 51392
+    },
+    {
       "ticker": "KMI",
       "company": "Kinder Morgan",
       "insider": "GARTHWAITE MICHAEL P",
@@ -5651,6 +5919,18 @@
       "shares_remaining": 0,
       "expiry": null,
       "value": 35372
+    },
+    {
+      "ticker": "CSCO",
+      "company": "Cisco",
+      "insider": "SUBAIYA THIMAYA K",
+      "role": "Officer",
+      "date": "2026-09-14",
+      "filing_url": "https://finance.yahoo.com/quote/CSCO/insider-transactions/",
+      "shares_sold": 312,
+      "shares_remaining": 0,
+      "expiry": null,
+      "value": 34376
     },
     {
       "ticker": "BMY",
@@ -5735,6 +6015,18 @@
       "shares_remaining": 0,
       "expiry": null,
       "value": 27692
+    },
+    {
+      "ticker": "AEE",
+      "company": "Ameren",
+      "insider": "FLORES RAFAEL",
+      "role": "Director",
+      "date": "2026-09-11",
+      "filing_url": "https://finance.yahoo.com/quote/AEE/insider-transactions/",
+      "shares_sold": 248,
+      "shares_remaining": 0,
+      "expiry": null,
+      "value": 26171
     },
     {
       "ticker": "ISRG",
