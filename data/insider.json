@@ -1,7 +1,17 @@
 {
-  "updated": "Nov 04, 2026 07:20 AM PST",
-  "updated_iso": "2026-11-04T07:20:07.823587-08:00",
+  "updated": "Nov 05, 2026 07:21 AM PST",
+  "updated_iso": "2026-11-05T07:21:18.611256-08:00",
   "buys": [
+    {
+      "ticker": "INTC",
+      "company": "Intel",
+      "insider": "TAN LIP-BU",
+      "role": "Chief Executive Officer",
+      "date": "2026-11-02",
+      "filing_url": "https://finance.yahoo.com/quote/INTC/insider-transactions/",
+      "shares": 150000,
+      "value": 9709680
+    },
     {
       "ticker": "ACN",
       "company": "Accenture",
@@ -111,16 +121,6 @@
       "filing_url": "https://finance.yahoo.com/quote/LKQ/insider-transactions/",
       "shares": 21800,
       "value": 400030
-    },
-    {
-      "ticker": "HRL",
-      "company": "Hormel Foods",
-      "insider": "NEWLANDS WILLIAM A",
-      "role": "Chairman of the Board",
-      "date": "2026-10-05",
-      "filing_url": "https://finance.yahoo.com/quote/HRL/insider-transactions/",
-      "shares": 10000,
-      "value": 201000
     },
     {
       "ticker": "ACN",
@@ -269,18 +269,6 @@
       "value": 18407891
     },
     {
-      "ticker": "HPE",
-      "company": "HP Enterprise",
-      "insider": "NERI ANTONIO F",
-      "role": "Chief Executive Officer",
-      "date": "2026-10-05",
-      "filing_url": "https://finance.yahoo.com/quote/HPE/insider-transactions/",
-      "shares_sold": 250000,
-      "shares_remaining": 0,
-      "expiry": null,
-      "value": 17077550
-    },
-    {
       "ticker": "STX",
       "company": "Seagate Technology",
       "insider": "MOSLEY WILLIAM D",
@@ -303,6 +291,18 @@
       "shares_remaining": 0,
       "expiry": null,
       "value": 10928695
+    },
+    {
+      "ticker": "CHD",
+      "company": "Church & Dwight",
+      "insider": "DIERKER RICHARD A",
+      "role": "Chief Executive Officer",
+      "date": "2026-11-03",
+      "filing_url": "https://finance.yahoo.com/quote/CHD/insider-transactions/",
+      "shares_sold": 83340,
+      "shares_remaining": 0,
+      "expiry": null,
+      "value": 9133047
     },
     {
       "ticker": "MDLZ",
@@ -513,6 +513,18 @@
       "company": "VeriSign",
       "insider": "BIDZOS DEMETRIOS JAMES",
       "role": "Chief Executive Officer",
+      "date": "2026-11-03",
+      "filing_url": "https://finance.yahoo.com/quote/VRSN/insider-transactions/",
+      "shares_sold": 3300,
+      "shares_remaining": 0,
+      "expiry": null,
+      "value": 1029561
+    },
+    {
+      "ticker": "VRSN",
+      "company": "VeriSign",
+      "insider": "BIDZOS DEMETRIOS JAMES",
+      "role": "Chief Executive Officer",
       "date": "2026-10-20",
       "filing_url": "https://finance.yahoo.com/quote/VRSN/insider-transactions/",
       "shares_sold": 3300,
@@ -581,6 +593,18 @@
       "value": 635355
     },
     {
+      "ticker": "WAB",
+      "company": "Wabtec",
+      "insider": "SANTANA RAFAEL",
+      "role": "Chief Executive Officer",
+      "date": "2026-11-03",
+      "filing_url": "https://finance.yahoo.com/quote/WAB/insider-transactions/",
+      "shares_sold": 2174,
+      "shares_remaining": 0,
+      "expiry": null,
+      "value": 629365
+    },
+    {
       "ticker": "NEM",
       "company": "Newmont",
       "insider": "VILJOEN NATASCHA",
@@ -603,6 +627,18 @@
       "shares_remaining": 0,
       "expiry": null,
       "value": 153312
+    },
+    {
+      "ticker": "YUM",
+      "company": "Yum! Brands",
+      "insider": "TURNER CHRISTOPHER LEE",
+      "role": "Chief Executive Officer",
+      "date": "2026-11-04",
+      "filing_url": "https://finance.yahoo.com/quote/YUM/insider-transactions/",
+      "shares_sold": 254,
+      "shares_remaining": 0,
+      "expiry": null,
+      "value": 40640
     },
     {
       "ticker": "YUM",
@@ -639,6 +675,18 @@
       "shares_remaining": 0,
       "expiry": null,
       "value": 5226354
+    },
+    {
+      "ticker": "HIG",
+      "company": "Hartford Financial",
+      "insider": "COSTELLO BETH ANN",
+      "role": "Chief Financial Officer",
+      "date": "2026-11-02",
+      "filing_url": "https://finance.yahoo.com/quote/HIG/insider-transactions/",
+      "shares_sold": 31597,
+      "shares_remaining": 0,
+      "expiry": null,
+      "value": 4289293
     },
     {
       "ticker": "MSFT",
@@ -711,18 +759,6 @@
       "shares_remaining": 0,
       "expiry": null,
       "value": 584190
-    },
-    {
-      "ticker": "PG",
-      "company": "Procter & Gamble",
-      "insider": "SCHULTEN ANDRE",
-      "role": "Chief Financial Officer",
-      "date": "2026-10-05",
-      "filing_url": "https://finance.yahoo.com/quote/PG/insider-transactions/",
-      "shares_sold": 3914,
-      "shares_remaining": 0,
-      "expiry": null,
-      "value": 568861
     },
     {
       "ticker": "AAPL",
@@ -833,6 +869,18 @@
       "value": 20494998
     },
     {
+      "ticker": "REGN",
+      "company": "Regeneron",
+      "insider": "SING GEORGE LOUIS",
+      "role": "Director",
+      "date": "2026-11-02",
+      "filing_url": "https://finance.yahoo.com/quote/REGN/insider-transactions/",
+      "shares_sold": 21129,
+      "shares_remaining": 0,
+      "expiry": null,
+      "value": 20376358
+    },
+    {
       "ticker": "SCHW",
       "company": "Charles Schwab",
       "insider": "SCHWAB CHARLES R JR.",
@@ -941,6 +989,18 @@
       "value": 7839496
     },
     {
+      "ticker": "REGN",
+      "company": "Regeneron",
+      "insider": "POON CHRISTINE A",
+      "role": "Director",
+      "date": "2026-11-02",
+      "filing_url": "https://finance.yahoo.com/quote/REGN/insider-transactions/",
+      "shares_sold": 7830,
+      "shares_remaining": 0,
+      "expiry": null,
+      "value": 7587958
+    },
+    {
       "ticker": "LLY",
       "company": "Eli Lilly",
       "insider": "HAKIM ANAT",
@@ -963,18 +1023,6 @@
       "shares_remaining": 0,
       "expiry": null,
       "value": 6311745
-    },
-    {
-      "ticker": "FANG",
-      "company": "Diamondback Energy",
-      "insider": "MELOY CHARLES ALVIN",
-      "role": "Director",
-      "date": "2026-10-05",
-      "filing_url": "https://finance.yahoo.com/quote/FANG/insider-transactions/",
-      "shares_sold": 33333,
-      "shares_remaining": 0,
-      "expiry": null,
-      "value": 6124676
     },
     {
       "ticker": "SNPS",
@@ -1001,6 +1049,66 @@
       "value": 6016506
     },
     {
+      "ticker": "CVX",
+      "company": "Chevron",
+      "insider": "GUSTAVSON JEFF B.",
+      "role": "Officer",
+      "date": "2026-11-02",
+      "filing_url": "https://finance.yahoo.com/quote/CVX/insider-transactions/",
+      "shares_sold": 24439,
+      "shares_remaining": 0,
+      "expiry": null,
+      "value": 5638275
+    },
+    {
+      "ticker": "HSY",
+      "company": "Hershey",
+      "insider": "HERSHEY TRUST CO",
+      "role": "Beneficial Owner of more than 10% of a Class of Security",
+      "date": "2026-11-04",
+      "filing_url": "https://finance.yahoo.com/quote/HSY/insider-transactions/",
+      "shares_sold": 30000,
+      "shares_remaining": 0,
+      "expiry": null,
+      "value": 5118848
+    },
+    {
+      "ticker": "HSY",
+      "company": "Hershey",
+      "insider": "HERSHEY TRUST CO",
+      "role": "Beneficial Owner of more than 10% of a Class of Security",
+      "date": "2026-10-21",
+      "filing_url": "https://finance.yahoo.com/quote/HSY/insider-transactions/",
+      "shares_sold": 30000,
+      "shares_remaining": 0,
+      "expiry": null,
+      "value": 5044533
+    },
+    {
+      "ticker": "HSY",
+      "company": "Hershey",
+      "insider": "HERSHEY TRUST CO",
+      "role": "Beneficial Owner of more than 10% of a Class of Security",
+      "date": "2026-10-28",
+      "filing_url": "https://finance.yahoo.com/quote/HSY/insider-transactions/",
+      "shares_sold": 30000,
+      "shares_remaining": 0,
+      "expiry": null,
+      "value": 4955173
+    },
+    {
+      "ticker": "HSY",
+      "company": "Hershey",
+      "insider": "HERSHEY TRUST CO",
+      "role": "Beneficial Owner of more than 10% of a Class of Security",
+      "date": "2026-10-14",
+      "filing_url": "https://finance.yahoo.com/quote/HSY/insider-transactions/",
+      "shares_sold": 30000,
+      "shares_remaining": 0,
+      "expiry": null,
+      "value": 4899327
+    },
+    {
       "ticker": "AFL",
       "company": "Aflac",
       "insider": "JAPAN POST HOLDINGS CO., LTD.",
@@ -1025,6 +1133,18 @@
       "value": 4850704
     },
     {
+      "ticker": "HSY",
+      "company": "Hershey",
+      "insider": "HERSHEY TRUST CO",
+      "role": "Beneficial Owner of more than 10% of a Class of Security",
+      "date": "2026-10-07",
+      "filing_url": "https://finance.yahoo.com/quote/HSY/insider-transactions/",
+      "shares_sold": 30000,
+      "shares_remaining": 0,
+      "expiry": null,
+      "value": 4826849
+    },
+    {
       "ticker": "TRV",
       "company": "Travelers",
       "insider": "LEFEBVRE MOJGAN M",
@@ -1035,6 +1155,18 @@
       "shares_remaining": 0,
       "expiry": null,
       "value": 4332284
+    },
+    {
+      "ticker": "REGN",
+      "company": "Regeneron",
+      "insider": "LAROSA JOSEPH J",
+      "role": "General Counsel",
+      "date": "2026-11-02",
+      "filing_url": "https://finance.yahoo.com/quote/REGN/insider-transactions/",
+      "shares_sold": 4466,
+      "shares_remaining": 0,
+      "expiry": null,
+      "value": 4311890
     },
     {
       "ticker": "UAL",
@@ -1073,6 +1205,18 @@
       "value": 3517462
     },
     {
+      "ticker": "HSY",
+      "company": "Hershey",
+      "insider": "HERSHEY TRUST CO",
+      "role": "Beneficial Owner of more than 10% of a Class of Security",
+      "date": "2026-10-23",
+      "filing_url": "https://finance.yahoo.com/quote/HSY/insider-transactions/",
+      "shares_sold": 20000,
+      "shares_remaining": 0,
+      "expiry": null,
+      "value": 3449176
+    },
+    {
       "ticker": "ADP",
       "company": "Automatic Data Processing",
       "insider": "RODRIGUEZ CARLOS ANTONIO",
@@ -1083,6 +1227,30 @@
       "shares_remaining": 0,
       "expiry": null,
       "value": 3392101
+    },
+    {
+      "ticker": "HSY",
+      "company": "Hershey",
+      "insider": "HERSHEY TRUST CO",
+      "role": "Beneficial Owner of more than 10% of a Class of Security",
+      "date": "2026-10-16",
+      "filing_url": "https://finance.yahoo.com/quote/HSY/insider-transactions/",
+      "shares_sold": 20000,
+      "shares_remaining": 0,
+      "expiry": null,
+      "value": 3391681
+    },
+    {
+      "ticker": "HSY",
+      "company": "Hershey",
+      "insider": "HERSHEY TRUST CO",
+      "role": "Beneficial Owner of more than 10% of a Class of Security",
+      "date": "2026-10-30",
+      "filing_url": "https://finance.yahoo.com/quote/HSY/insider-transactions/",
+      "shares_sold": 20000,
+      "shares_remaining": 0,
+      "expiry": null,
+      "value": 3264345
     },
     {
       "ticker": "NUE",
@@ -1121,6 +1289,18 @@
       "value": 3093336
     },
     {
+      "ticker": "CME",
+      "company": "CME Group",
+      "insider": "WINKLER JULIE",
+      "role": "Officer",
+      "date": "2026-11-02",
+      "filing_url": "https://finance.yahoo.com/quote/CME/insider-transactions/",
+      "shares_sold": 10079,
+      "shares_remaining": 0,
+      "expiry": null,
+      "value": 3075607
+    },
+    {
       "ticker": "TRV",
       "company": "Travelers",
       "insider": "KLEIN MICHAEL FREDERICK",
@@ -1131,6 +1311,30 @@
       "shares_remaining": 0,
       "expiry": null,
       "value": 2945933
+    },
+    {
+      "ticker": "MHK",
+      "company": "Mohawk Industries",
+      "insider": "LORBERBAUM JEFFREY S.",
+      "role": "Director and Beneficial Owner of more than 10% of a Class of Security",
+      "date": "2026-11-03",
+      "filing_url": "https://finance.yahoo.com/quote/MHK/insider-transactions/",
+      "shares_sold": 20000,
+      "shares_remaining": 0,
+      "expiry": null,
+      "value": 2940944
+    },
+    {
+      "ticker": "NUE",
+      "company": "Nucor",
+      "insider": "LAXTON STEPHEN D.",
+      "role": "President",
+      "date": "2026-11-03",
+      "filing_url": "https://finance.yahoo.com/quote/NUE/insider-transactions/",
+      "shares_sold": 10560,
+      "shares_remaining": 0,
+      "expiry": null,
+      "value": 2903800
     },
     {
       "ticker": "MAS",
@@ -1191,6 +1395,18 @@
       "shares_remaining": 0,
       "expiry": null,
       "value": 2246100
+    },
+    {
+      "ticker": "YUM",
+      "company": "Yum! Brands",
+      "insider": "SKEANS TRACY L",
+      "role": "Chief Operating Officer",
+      "date": "2026-11-04",
+      "filing_url": "https://finance.yahoo.com/quote/YUM/insider-transactions/",
+      "shares_sold": 13812,
+      "shares_remaining": 0,
+      "expiry": null,
+      "value": 2237544
     },
     {
       "ticker": "GL",
@@ -1349,6 +1565,18 @@
       "value": 1545077
     },
     {
+      "ticker": "CME",
+      "company": "CME Group",
+      "insider": "CUTINHO SUNIL KIRAN",
+      "role": "Officer",
+      "date": "2026-10-27",
+      "filing_url": "https://finance.yahoo.com/quote/CME/insider-transactions/",
+      "shares_sold": 5000,
+      "shares_remaining": 0,
+      "expiry": null,
+      "value": 1493500
+    },
+    {
       "ticker": "AFL",
       "company": "Aflac",
       "insider": "JAPAN POST HOLDINGS CO., LTD.",
@@ -1383,18 +1611,6 @@
       "shares_remaining": 0,
       "expiry": null,
       "value": 1481027
-    },
-    {
-      "ticker": "AFL",
-      "company": "Aflac",
-      "insider": "JAPAN POST HOLDINGS CO., LTD.",
-      "role": "Beneficial Owner of more than 10% of a Class of Security",
-      "date": "2026-10-05",
-      "filing_url": "https://finance.yahoo.com/quote/AFL/insider-transactions/",
-      "shares_sold": 13000,
-      "shares_remaining": 0,
-      "expiry": null,
-      "value": 1459250
     },
     {
       "ticker": "VMC",
@@ -1517,18 +1733,6 @@
       "value": 1146758
     },
     {
-      "ticker": "META",
-      "company": "Meta",
-      "insider": "OLIVAN JAVIER",
-      "role": "Chief Operating Officer",
-      "date": "2026-10-05",
-      "filing_url": "https://finance.yahoo.com/quote/META/insider-transactions/",
-      "shares_sold": 1575,
-      "shares_remaining": 0,
-      "expiry": null,
-      "value": 1146726
-    },
-    {
       "ticker": "ALLE",
       "company": "Allegion",
       "insider": "ECKERSLEY TIMOTHY P",
@@ -1637,6 +1841,18 @@
       "value": 984195
     },
     {
+      "ticker": "META",
+      "company": "Meta",
+      "insider": "OLIVAN JAVIER",
+      "role": "Chief Operating Officer",
+      "date": "2026-11-02",
+      "filing_url": "https://finance.yahoo.com/quote/META/insider-transactions/",
+      "shares_sold": 1575,
+      "shares_remaining": 0,
+      "expiry": null,
+      "value": 967286
+    },
+    {
       "ticker": "FDX",
       "company": "FedEx",
       "insider": "ADAMS GINA F",
@@ -1659,6 +1875,18 @@
       "shares_remaining": 0,
       "expiry": null,
       "value": 859660
+    },
+    {
+      "ticker": "RSG",
+      "company": "Republic Services",
+      "insider": "BALES BRIAN A",
+      "role": "Officer",
+      "date": "2026-11-02",
+      "filing_url": "https://finance.yahoo.com/quote/RSG/insider-transactions/",
+      "shares_sold": 3400,
+      "shares_remaining": 0,
+      "expiry": null,
+      "value": 829600
     },
     {
       "ticker": "KEY",
@@ -1817,6 +2045,18 @@
       "value": 618542
     },
     {
+      "ticker": "CME",
+      "company": "CME Group",
+      "insider": "SIEGEL HOWARD J",
+      "role": "Director",
+      "date": "2026-11-02",
+      "filing_url": "https://finance.yahoo.com/quote/CME/insider-transactions/",
+      "shares_sold": 2000,
+      "shares_remaining": 0,
+      "expiry": null,
+      "value": 606000
+    },
+    {
       "ticker": "IRM",
       "company": "Iron Mountain",
       "insider": "MCINTOSH GREG W",
@@ -1863,6 +2103,18 @@
       "shares_remaining": 0,
       "expiry": null,
       "value": 553200
+    },
+    {
+      "ticker": "WEC",
+      "company": "WEC Energy",
+      "insider": "MULROY MOLLY A",
+      "role": "Officer",
+      "date": "2026-11-04",
+      "filing_url": "https://finance.yahoo.com/quote/WEC/insider-transactions/",
+      "shares_sold": 4695,
+      "shares_remaining": 0,
+      "expiry": null,
+      "value": 549407
     },
     {
       "ticker": "SLB",
@@ -2057,6 +2309,18 @@
       "value": 404125
     },
     {
+      "ticker": "ICE",
+      "company": "Intercontinental Exchange",
+      "insider": "NAMKUNG JAMES WON",
+      "role": "Officer",
+      "date": "2026-10-29",
+      "filing_url": "https://finance.yahoo.com/quote/ICE/insider-transactions/",
+      "shares_sold": 2430,
+      "shares_remaining": 0,
+      "expiry": null,
+      "value": 400950
+    },
+    {
       "ticker": "LH",
       "company": "Labcorp",
       "insider": "PARHAM RICHELLE P",
@@ -2091,6 +2355,18 @@
       "shares_remaining": 0,
       "expiry": null,
       "value": 371200
+    },
+    {
+      "ticker": "NFLX",
+      "company": "Netflix",
+      "insider": "HYMAN DAVID A",
+      "role": "Officer",
+      "date": "2026-11-04",
+      "filing_url": "https://finance.yahoo.com/quote/NFLX/insider-transactions/",
+      "shares_sold": 5727,
+      "shares_remaining": 0,
+      "expiry": null,
+      "value": 369678
     },
     {
       "ticker": "COF",
@@ -2129,30 +2405,6 @@
       "value": 351411
     },
     {
-      "ticker": "PG",
-      "company": "Procter & Gamble",
-      "insider": "WHALEY SUSAN STREET",
-      "role": "Officer",
-      "date": "2026-10-05",
-      "filing_url": "https://finance.yahoo.com/quote/PG/insider-transactions/",
-      "shares_sold": 2369,
-      "shares_remaining": 0,
-      "expiry": null,
-      "value": 344310
-    },
-    {
-      "ticker": "PTC",
-      "company": "PTC Inc",
-      "insider": "LATHAN CORINNA",
-      "role": "Director",
-      "date": "2026-10-05",
-      "filing_url": "https://finance.yahoo.com/quote/PTC/insider-transactions/",
-      "shares_sold": 1750,
-      "shares_remaining": 0,
-      "expiry": null,
-      "value": 342562
-    },
-    {
       "ticker": "NEM",
       "company": "Newmont",
       "insider": "TOTH PETER",
@@ -2165,18 +2417,6 @@
       "value": 324120
     },
     {
-      "ticker": "PG",
-      "company": "Procter & Gamble",
-      "insider": "GAMA PAUL",
-      "role": "Officer",
-      "date": "2026-10-05",
-      "filing_url": "https://finance.yahoo.com/quote/PG/insider-transactions/",
-      "shares_sold": 2225,
-      "shares_remaining": 0,
-      "expiry": null,
-      "value": 323382
-    },
-    {
       "ticker": "DIS",
       "company": "Disney",
       "insider": "WOODFORD BRENT A",
@@ -2187,18 +2427,6 @@
       "shares_remaining": 0,
       "expiry": null,
       "value": 318958
-    },
-    {
-      "ticker": "ETSY",
-      "company": "Etsy",
-      "insider": "COLBURN RICHARD EDWARD III",
-      "role": "Officer",
-      "date": "2026-10-05",
-      "filing_url": "https://finance.yahoo.com/quote/ETSY/insider-transactions/",
-      "shares_sold": 4472,
-      "shares_remaining": 0,
-      "expiry": null,
-      "value": 318889
     },
     {
       "ticker": "NUE",
@@ -2237,18 +2465,6 @@
       "value": 306660
     },
     {
-      "ticker": "CRL",
-      "company": "Charles River Labs",
-      "insider": "PARISOTTO SHANNON M",
-      "role": "Officer",
-      "date": "2026-10-05",
-      "filing_url": "https://finance.yahoo.com/quote/CRL/insider-transactions/",
-      "shares_sold": 981,
-      "shares_remaining": 0,
-      "expiry": null,
-      "value": 302580
-    },
-    {
       "ticker": "INCY",
       "company": "Incyte",
       "insider": "CAGNONI PABLO J",
@@ -2283,6 +2499,18 @@
       "shares_remaining": 0,
       "expiry": null,
       "value": 288321
+    },
+    {
+      "ticker": "TYL",
+      "company": "Tyler Technologies",
+      "insider": "POPE DANIEL M",
+      "role": "Director",
+      "date": "2026-11-02",
+      "filing_url": "https://finance.yahoo.com/quote/TYL/insider-transactions/",
+      "shares_sold": 680,
+      "shares_remaining": 0,
+      "expiry": null,
+      "value": 277141
     },
     {
       "ticker": "PGR",
@@ -2331,6 +2559,18 @@
       "shares_remaining": 0,
       "expiry": null,
       "value": 249600
+    },
+    {
+      "ticker": "AMZN",
+      "company": "Amazon",
+      "insider": "HERRINGTON DOUGLAS J",
+      "role": "Officer",
+      "date": "2026-11-02",
+      "filing_url": "https://finance.yahoo.com/quote/AMZN/insider-transactions/",
+      "shares_sold": 1000,
+      "shares_remaining": 0,
+      "expiry": null,
+      "value": 243470
     },
     {
       "ticker": "NTAP",
@@ -2417,18 +2657,6 @@
       "value": 160940
     },
     {
-      "ticker": "SBUX",
-      "company": "Starbucks",
-      "insider": "BREWER BRADY",
-      "role": "Officer",
-      "date": "2026-10-05",
-      "filing_url": "https://finance.yahoo.com/quote/SBUX/insider-transactions/",
-      "shares_sold": 1641,
-      "shares_remaining": 0,
-      "expiry": null,
-      "value": 155501
-    },
-    {
       "ticker": "VRSN",
       "company": "VeriSign",
       "insider": "INDELICARTO THOMAS C",
@@ -2489,6 +2717,18 @@
       "value": 140000
     },
     {
+      "ticker": "CME",
+      "company": "CME Group",
+      "insider": "GEPSMAN MARTIN J",
+      "role": "Director",
+      "date": "2026-10-22",
+      "filing_url": "https://finance.yahoo.com/quote/CME/insider-transactions/",
+      "shares_sold": 400,
+      "shares_remaining": 0,
+      "expiry": null,
+      "value": 121000
+    },
+    {
       "ticker": "AMT",
       "company": "American Tower",
       "insider": "FONT JUAN HERNANDEZ",
@@ -2513,6 +2753,18 @@
       "value": 106875
     },
     {
+      "ticker": "YUM",
+      "company": "Yum! Brands",
+      "insider": "BURKHARDT ERIKA",
+      "role": "Officer",
+      "date": "2026-11-04",
+      "filing_url": "https://finance.yahoo.com/quote/YUM/insider-transactions/",
+      "shares_sold": 652,
+      "shares_remaining": 0,
+      "expiry": null,
+      "value": 106406
+    },
+    {
       "ticker": "NDAQ",
       "company": "Nasdaq",
       "insider": "SKULE JEREMY",
@@ -2535,18 +2787,6 @@
       "shares_remaining": 0,
       "expiry": null,
       "value": 102000
-    },
-    {
-      "ticker": "ETSY",
-      "company": "Etsy",
-      "insider": "BUCKLEY MERILEE",
-      "role": "Officer",
-      "date": "2026-10-05",
-      "filing_url": "https://finance.yahoo.com/quote/ETSY/insider-transactions/",
-      "shares_sold": 1396,
-      "shares_remaining": 0,
-      "expiry": null,
-      "value": 99605
     },
     {
       "ticker": "MCO",
@@ -2673,12 +2913,36 @@
       "company": "Verizon",
       "insider": "MALADY KYLE",
       "role": "Officer",
+      "date": "2026-11-03",
+      "filing_url": "https://finance.yahoo.com/quote/VZ/insider-transactions/",
+      "shares_sold": 1100,
+      "shares_remaining": 0,
+      "expiry": null,
+      "value": 49269
+    },
+    {
+      "ticker": "VZ",
+      "company": "Verizon",
+      "insider": "MALADY KYLE",
+      "role": "Officer",
       "date": "2026-10-20",
       "filing_url": "https://finance.yahoo.com/quote/VZ/insider-transactions/",
       "shares_sold": 1100,
       "shares_remaining": 0,
       "expiry": null,
       "value": 48928
+    },
+    {
+      "ticker": "HBAN",
+      "company": "Huntington Bancshares",
+      "insider": "WHITE DONNELL R",
+      "role": "Officer",
+      "date": "2026-11-03",
+      "filing_url": "https://finance.yahoo.com/quote/HBAN/insider-transactions/",
+      "shares_sold": 3000,
+      "shares_remaining": 0,
+      "expiry": null,
+      "value": 47595
     },
     {
       "ticker": "VZ",
@@ -2715,6 +2979,18 @@
       "shares_remaining": 0,
       "expiry": null,
       "value": 45723
+    },
+    {
+      "ticker": "YUM",
+      "company": "Yum! Brands",
+      "insider": "MEZVINSKY SCOTT",
+      "role": "Officer",
+      "date": "2026-11-04",
+      "filing_url": "https://finance.yahoo.com/quote/YUM/insider-transactions/",
+      "shares_sold": 273,
+      "shares_remaining": 0,
+      "expiry": null,
+      "value": 43680
     },
     {
       "ticker": "EIX",
